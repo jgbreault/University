@@ -1,0 +1,236 @@
+{
+  "city": "Vancouver",
+  "zone": "RS",
+  "source_document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+  "source_url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+  "input_mode": "native_rag_llm",
+  "schema_version": "1.1",
+  "deduplication": {
+    "input_verified_rule_count": 10,
+    "export_rule_count": 7,
+    "duplicate_merged_count": 3,
+    "duplicate_group_count": 3,
+    "duplicate_groups": [
+      {
+        "keeper_rule_id": "vancouver_rs_006",
+        "merged_rule_ids": [
+          "vancouver_rs_043"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "vancouver_rs_007",
+        "merged_rule_ids": [
+          "vancouver_rs_044"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "vancouver_rs_016",
+        "merged_rule_ids": [
+          "vancouver_rs_031"
+        ],
+        "count": 2
+      }
+    ],
+    "policy": "source_aware_exact_duplicate_merge_for_gis_exports_only"
+  },
+  "rules": [
+    {
+      "rule_id": "vancouver_rs_006",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "8.5",
+      "value_numeric": 8.5,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+        "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+        "page": 8,
+        "evidence_id": "m4_pack_0003_ev_001",
+        "quote": "The building height for a laneway house must not exceed 8.5 m"
+      }
+    },
+    {
+      "rule_id": "vancouver_rs_007",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+        "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+        "page": 8,
+        "evidence_id": "m4_pack_0003_ev_002",
+        "quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys."
+      }
+    },
+    {
+      "rule_id": "vancouver_rs_016",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "site with a laneway house",
+      "operator": "<=",
+      "value": "50",
+      "value_numeric": 50.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+        "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+        "page": 8,
+        "evidence_id": "m4_pack_0008_ev_001",
+        "quote": "the maximum site coverage is 50% of the site area"
+      }
+    },
+    {
+      "rule_id": "vancouver_rs_027",
+      "rule_object": "floor_area",
+      "constraint_type": "maximum",
+      "constraint_scope": "floor_area",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "186",
+      "value_numeric": 186.0,
+      "unit": "m2",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "floor_area_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+        "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+        "page": 8,
+        "evidence_id": "m4_pack_0004_v3_clause_ev_001",
+        "quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2"
+      }
+    },
+    {
+      "rule_id": "vancouver_rs_028",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "laneway house",
+      "operator": ">=",
+      "value": "4.9",
+      "value_numeric": 4.9,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+        "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+        "page": 8,
+        "evidence_id": "m4_pack_0007_v3_clause_ev_002",
+        "quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site"
+      }
+    },
+    {
+      "rule_id": "vancouver_rs_029",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "rear setback",
+      "applies_to": "laneway house",
+      "operator": ">=",
+      "value": "0.9",
+      "value_numeric": 0.9,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+        "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+        "page": 8,
+        "evidence_id": "m4_pack_0007_v3_clause_ev_003",
+        "quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and"
+      }
+    },
+    {
+      "rule_id": "vancouver_rs_030",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "side setback",
+      "applies_to": "laneway house",
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "condition": "",
+      "exception": "except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+        "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+        "page": 8,
+        "evidence_id": "m4_pack_0007_v3_clause_ev_004",
+        "quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width"
+      }
+    }
+  ]
+}

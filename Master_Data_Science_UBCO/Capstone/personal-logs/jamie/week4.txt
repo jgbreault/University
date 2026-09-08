@@ -1,0 +1,24 @@
+## Week 4
+
+Summary:
+Developed and implemented a GIS algorithm to label lot boundaries as front, side, or rear.
+
+Tasks:
+- Wrote reports to outline a robust lot line labelling algorithm that captures lots of any shape.
+- Implemented the lot line labelling algorithm in QGIS for 1000 Burnaby lots. 
+- Facilitated communication and planning for future capstone logistics.
+
+Time:
+- Writing Lot Line Labelling Reports: 10 hours
+- Developing QGIS Lot Line Labelling Solution: 25 hours
+- DATA 599 Presentation: 1 hour
+- Meetings: 2 hours
+Total: 38 hours
+
+Challenges:
+- It was difficult to develop a QGIS lot line labelling solution that can run fast enough to get a result for GMT to review by the end of the week. I ended up having to limit the implementation to 1000 lots, which is sufficient for review.
+- QGIS crashed on me twice, and progress was lost, so progress will be saved very frequently going forward.
+
+Next Steps:
+- Use labelled lot lines to define the legal buildable area.
+- Investigate how to take setback distances from other buildings into account.

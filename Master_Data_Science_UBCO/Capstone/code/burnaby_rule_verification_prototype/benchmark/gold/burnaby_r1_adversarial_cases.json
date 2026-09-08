@@ -1,0 +1,847 @@
+[
+ {
+  "case_id": "adv_unit_incompatible_height_percent",
+  "description": "A height rule with a percent value is physically meaningless and must never verify.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_001",
+   "page": 2,
+   "evidence_type": "clause",
+   "evidence_text": "Maximum height for rear principal buildings shall not exceed 60 %.",
+   "source_context": "Maximum height for rear principal buildings shall not exceed 60 %."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_001",
+   "evidence_id": "adv_ev_001",
+   "rule_object": "height",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 60,
+   "unit": "%",
+   "applies_to": "Rear Principal Buildings"
+  }
+ },
+ {
+  "case_id": "adv_value_not_in_evidence",
+  "description": "The proposed value does not appear in the cited evidence at all.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_002",
+   "page": 2,
+   "evidence_type": "clause",
+   "evidence_text": "The minimum lane yard setback is 1.5 m.",
+   "source_context": "The minimum lane yard setback is 1.5 m."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_002",
+   "evidence_id": "adv_ev_002",
+   "rule_object": "setback",
+   "constraint_scope": "lane_yard",
+   "constraint_type": "minimum",
+   "operator": ">=",
+   "value": 9.9,
+   "unit": "m",
+   "applies_to": "All Buildings"
+  }
+ },
+ {
+  "case_id": "adv_wrong_rule_object",
+  "description": "Candidate claims a height rule, but the cited evidence is about lot coverage.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_003",
+   "page": 1,
+   "evidence_type": "clause",
+   "evidence_text": "The maximum lot coverage is 40 %.",
+   "source_context": "The maximum lot coverage is 40 %."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_003",
+   "evidence_id": "adv_ev_003",
+   "rule_object": "height",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 40,
+   "unit": "%",
+   "applies_to": "All Buildings"
+  }
+ },
+ {
+  "case_id": "adv_wrong_scope_value_pickup",
+  "description": "Evidence lists two yards; the candidate pairs the front yard with the rear yard's value.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_004",
+   "page": 2,
+   "evidence_type": "clause",
+   "evidence_text": "The minimum front street yard setback is 3.0 m. The minimum interior rear yard setback is 7.5 m.",
+   "source_context": "The minimum front street yard setback is 3.0 m. The minimum interior rear yard setback is 7.5 m."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_004",
+   "evidence_id": "adv_ev_004",
+   "rule_object": "setback",
+   "constraint_scope": "street_yard_front",
+   "constraint_type": "minimum",
+   "operator": ">=",
+   "value": 7.5,
+   "unit": "m",
+   "applies_to": "All Buildings",
+   "condition": "front street yard"
+  }
+ },
+ {
+  "case_id": "adv_table_operator_flipped",
+  "description": "A 'Maximum Height' table cell extracted as a minimum (>=) must be refuted, not verified.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_005",
+   "page": 2,
+   "evidence_type": "table_cell",
+   "table_title": "Maximum Height",
+   "row_header": "Rear Principal Buildings",
+   "column_header": "Sloping Roof",
+   "cell_value": "7.5 m",
+   "evidence_text": "Maximum Height | Rear Principal Buildings | Sloping Roof | 7.5 m"
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_005",
+   "evidence_id": "adv_ev_005",
+   "rule_object": "height",
+   "constraint_scope": "building",
+   "constraint_type": "minimum",
+   "operator": ">=",
+   "value": 7.5,
+   "unit": "m",
+   "applies_to": "Rear Principal Buildings"
+  }
+ },
+ {
+  "case_id": "adv_missing_evidence_id",
+  "description": "Candidate cites an evidence id that does not exist.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": null,
+  "candidate": {
+   "candidate_id": "adv_cand_006",
+   "evidence_id": "adv_ev_does_not_exist",
+   "rule_object": "setback",
+   "constraint_scope": "lane_yard",
+   "constraint_type": "minimum",
+   "operator": ">=",
+   "value": 1.5,
+   "unit": "m",
+   "applies_to": "All Buildings"
+  }
+ },
+ {
+  "case_id": "adv_cross_family_impervious_60",
+  "description": "Shared cross-stream mislabel: an impervious_surface 60% that collides with a lot_coverage 60% on the same lot scope. Consensus cannot catch a value both streams agree on; the cross-family guard must hold it for review.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_007",
+   "page": 6,
+   "evidence_type": "table_cell",
+   "table_title": "Heritage Lot Coverage and Impervious Surfaces",
+   "row_header": "Community Heritage Register lots",
+   "column_header": "Impervious Surface",
+   "cell_value": "60 %",
+   "evidence_text": "Heritage | Community Heritage Register lots | Impervious Surface | 60 %"
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_007",
+   "evidence_id": "adv_ev_007",
+   "rule_object": "impervious_surface",
+   "constraint_scope": "lot",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 60,
+   "unit": "%",
+   "applies_to": "Community Heritage Register lots",
+   "source_stream": "gemini_text_block",
+   "extraction_method": "pipeline5_final_registry"
+  }
+ },
+ {
+  "case_id": "adv_cross_family_lot_coverage_60",
+  "description": "The sibling of adv_cross_family_impervious_60: a lot_coverage 60% on the same lot scope. Even though this one may be correct, the collision makes it ambiguous, so the guard holds both for review rather than verifying the wrong one.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_008",
+   "page": 6,
+   "evidence_type": "table_cell",
+   "table_title": "Heritage Lot Coverage and Impervious Surfaces",
+   "row_header": "Community Heritage Register lots",
+   "column_header": "Lot Coverage",
+   "cell_value": "60 %",
+   "evidence_text": "Heritage | Community Heritage Register lots | Lot Coverage | 60 %"
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_008",
+   "evidence_id": "adv_ev_008",
+   "rule_object": "lot_coverage",
+   "constraint_scope": "lot",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 60,
+   "unit": "%",
+   "applies_to": "Community Heritage Register lots",
+   "source_stream": "gemini_table_image",
+   "extraction_method": "pipeline5_final_registry"
+  }
+ },
+ {
+  "case_id": "adv_floor_area_percent_exclusion",
+  "description": "Floor-area EXCLUSION clauses ('balconies up to 8% of floor area') contain 'floor area' + 'not exceed' + a number, but the unit is %. floor_area is m2-only, so the unit-compatibility gate must hard-reject this — otherwise every exclusion clause becomes a fake floor-area cap.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_fa_001",
+   "page": 4,
+   "evidence_type": "clause",
+   "evidence_text": "Balconies and decks must not exceed 8 % of the floor area of the laneway house.",
+   "source_context": "Balconies and decks must not exceed 8 % of the floor area of the laneway house."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_fa_001",
+   "evidence_id": "adv_ev_fa_001",
+   "rule_object": "floor_area",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 8,
+   "unit": "%",
+   "applies_to": "laneway house",
+   "extraction_method": "pipeline5_final_registry",
+   "source_stream": "gemini_text_block"
+  }
+ },
+ {
+  "case_id": "adv_floor_area_direction_flip",
+  "description": "A 'must not exceed 186 sq. m' clause mis-extracted as a MINIMUM (>=). The operator wording check must refuse the flipped direction; the rule may stay in review but must never verify.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_fa_002",
+   "page": 4,
+   "evidence_type": "clause",
+   "evidence_text": "The floor area for a laneway house must not exceed 186 sq. m.",
+   "source_context": "The floor area for a laneway house must not exceed 186 sq. m."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_fa_002",
+   "evidence_id": "adv_ev_fa_002",
+   "rule_object": "floor_area",
+   "constraint_type": "minimum",
+   "operator": ">=",
+   "value": 186,
+   "unit": "sq. m",
+   "applies_to": "laneway house",
+   "extraction_method": "pipeline5_final_registry",
+   "source_stream": "gemini_text_block"
+  }
+ },
+ {
+  "case_id": "adv_fsr_value_not_in_evidence",
+  "description": "An FSR candidate claiming 0.45 whose cited evidence only contains '45 %'. Digit-boundary discipline must refuse to find 0.45 in 45, and no fsr alias appears in the evidence — hard reject.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_fsr_001",
+   "page": 6,
+   "evidence_type": "clause",
+   "evidence_text": "Maximum lot coverage shall not exceed 45 %.",
+   "source_context": "Maximum lot coverage shall not exceed 45 %."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_fsr_001",
+   "evidence_id": "adv_ev_fsr_001",
+   "rule_object": "floor_space_ratio",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 0.45,
+   "unit": "fsr",
+   "applies_to": "laneway house",
+   "extraction_method": "pipeline5_final_registry",
+   "source_stream": "gemini_text_block"
+  }
+ },
+ {
+  "case_id": "adv_fsr_direction_flip",
+  "description": "Evidence states a MINIMUM floor space ratio of 0.25; the candidate claims a maximum (<=). Operator wording check must refuse the flipped bound; family is also outside the Burnaby text contract. Must never verify.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_fsr_002",
+   "page": 6,
+   "evidence_type": "clause",
+   "evidence_text": "The floor space ratio must be at least 0.25.",
+   "source_context": "The floor space ratio must be at least 0.25."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_fsr_002",
+   "evidence_id": "adv_ev_fsr_002",
+   "rule_object": "floor_space_ratio",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 0.25,
+   "unit": "fsr",
+   "applies_to": "laneway house",
+   "extraction_method": "pipeline5_final_registry",
+   "source_stream": "gemini_text_block"
+  }
+ },
+ {
+  "case_id": "adv_fsr_city_phrasing_unit",
+  "description": "City-verbatim phrasing as the unit ('multiplied by the site area'). Shared vocabulary must NOT silently accept it: unit_key returns the raw phrase, which is not in floor_space_ratio's allowed {fsr} — hard reject. Activation requires a per-city unit_rewrite + contract line.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_fsr_003",
+   "page": 6,
+   "evidence_type": "clause",
+   "evidence_text": "The floor area for a laneway house must not exceed 0.25 multiplied by the site area.",
+   "source_context": "The floor area for a laneway house must not exceed 0.25 multiplied by the site area."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_fsr_003",
+   "evidence_id": "adv_ev_fsr_003",
+   "rule_object": "floor_space_ratio",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 0.25,
+   "unit": "multiplied by the site area",
+   "applies_to": "laneway house",
+   "extraction_method": "pipeline5_final_registry",
+   "source_stream": "gemini_text_block"
+  }
+ },
+ {
+  "case_id": "adv_fsr_clean_but_not_in_contract",
+  "description": "A fully-supported FSR text candidate (value, unit wording, operator, family all visible). Burnaby's gis_text_rule_contract does NOT list floor_space_ratio, so the text gate must hold it in review: capability present, nothing activated.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_fsr_004",
+   "page": 6,
+   "evidence_type": "clause",
+   "evidence_text": "The floor space ratio must not exceed 0.25 for a laneway house.",
+   "source_context": "The floor space ratio must not exceed 0.25 for a laneway house."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_fsr_004",
+   "evidence_id": "adv_ev_fsr_004",
+   "rule_object": "floor_space_ratio",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 0.25,
+   "unit": "fsr",
+   "applies_to": "laneway house",
+   "extraction_method": "pipeline5_final_registry",
+   "source_stream": "gemini_text_block"
+  }
+ },
+ {
+  "case_id": "adv_exclusion_criterion_as_height_cap",
+  "description": "Live P9-fed leak class (Vancouver 11.3.7.4): an eligibility test for a floor-area exclusion ('the ceiling height, excluding roof structure, of the total area being excluded does not exceed 3.1 m') reads like a height cap. The unresolved-exception hold must fire on the PROSE path; before it consulted the text-span trace this clause verified as height <= 3.1 m.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_excl_001",
+   "page": 12,
+   "evidence_type": "text",
+   "evidence_text": "(iii) the ceiling height, excluding roof structure, of the total area being excluded does not exceed 3.1 m, measured from the top of the floor to the highest point of the ceiling",
+   "source_context": "11.3.7.4 Computation of floor area must exclude: ... (iii) the ceiling height, excluding roof structure, of the total area being excluded does not exceed 3.1 m, measured from the top of the floor to the highest point of the ceiling"
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_excl_001",
+   "evidence_id": "adv_ev_excl_001",
+   "rule_object": "height",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 3.1,
+   "unit": "m",
+   "constraint_scope": "ceiling height",
+   "applies_to": "laneway house"
+  }
+ },
+ {
+  "case_id": "adv_definition_as_count_rule",
+  "description": "Live Calgary P9 leak class: a DEFINITION ('\"corner parcel\" means a parcel that abuts two streets which intersect at an angle not exceeding 135 degrees') proposed as dwelling_units <= 135 with no unit. Every per-field check passes; the sentence shape (defined-term) and the foreign measure glued to the number ('135 degrees') must both block.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_def_001",
+   "page": 62,
+   "evidence_type": "text",
+   "evidence_text": "(43) “corner parcel” means a parcel that abuts two streets which intersect at an angle not exceeding 135 degrees. (45) “cottage building” means a residential building that contains one, two or three Dwelling Units.",
+   "source_context": "PART 1 - DIVISION 2: DEFINITIONS AND METHODS"
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_def_001",
+   "evidence_id": "adv_ev_def_001",
+   "rule_object": "dwelling_units",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 135,
+   "unit": "",
+   "constraint_scope": "corner_parcel_intersection_angle",
+   "applies_to": "street intersection angle"
+  }
+ },
+ {
+  "case_id": "adv_allowance_trigger_as_setback",
+  "description": "Live Calgary P9 leak class: 'there is no maximum building depth where the minimum building setback ... is 3.0 metres' — the 3.0 m is the TRIGGER of an allowance (it unlocks no-max-depth), not a requirement. Reading it as a setback rule must be held for review.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_trig_001",
+   "page": 1039,
+   "evidence_type": "text",
+   "evidence_text": "(3) For a main residential building that is located on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building.",
+   "source_context": ""
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_trig_001",
+   "evidence_id": "adv_ev_trig_001",
+   "rule_object": "setback",
+   "constraint_type": "minimum",
+   "operator": ">=",
+   "value": 3.0,
+   "unit": "m",
+   "constraint_scope": "side_property_line",
+   "applies_to": "main residential building"
+  }
+ },
+ {
+  "case_id": "adv_retaining_wall_as_building_separation",
+  "description": "Live Calgary P9 leak class: 'A minimum horizontal separation of 1.0 metres must be maintained between retaining walls' proposed as building_separation >= 1.0 m. The word 'separation' alone must not prove the building_separation family — the subject is retaining walls, and a GIS consumer would read 'buildings must be 1.0 m apart'.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_sep_001",
+   "page": 825,
+   "evidence_type": "text",
+   "evidence_text": "1119 (2) A minimum horizontal separation of 1.0 metres must be maintained between retaining walls on a parcel.",
+   "source_context": ""
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_sep_001",
+   "evidence_id": "adv_ev_sep_001",
+   "rule_object": "building_separation",
+   "constraint_type": "minimum",
+   "operator": ">=",
+   "value": 1.0,
+   "unit": "m",
+   "constraint_scope": "retaining_wall_separation",
+   "applies_to": "horizontal separation",
+   "condition": "between retaining walls on a parcel"
+  }
+ },
+ {
+  "case_id": "adv_matrix_cross_column_value",
+  "description": "Matrix-column lie: 55% (the Rowhouse cell) claimed as the 5-6 unit column's coverage. The page text contains every column's words, so word overlap cannot refute this — only the geometry binding can: the claimed band's cell says 45%, the value lives in band 0.",
+  "expected_not_verified": true,
+  "expected_decision": "rejected",
+  "evidence": {
+   "evidence_id": "adv_ev_mx1",
+   "page": 2,
+   "evidence_type": "table_cell",
+   "evidence_text": "Maximum Lot Coverage | All Buildings | 55 %",
+   "source_context": "Maximum Lot Coverage All Buildings 55% Lots < 567 m2: 40% Lots > 567 m2: 30% 40% 45%",
+   "table_title": "Maximum Lot Coverage",
+   "row_header": "All Buildings",
+   "column_header": "Rowhouse",
+   "cell_value": "55 %",
+   "matrix_anchor": {
+    "page": 2,
+    "row_label": "Maximum Lot Coverage | All Buildings",
+    "bands": [
+     {
+      "key": 0,
+      "header_text": "Rowhouse | 1 to 3 | Units",
+      "text": "55%",
+      "numbers": [
+       55.0
+      ],
+      "branches": [],
+      "spans_all": false
+     },
+     {
+      "key": 1,
+      "header_text": "Small-Scale Multi-Unit | 1 to 2 | Units",
+      "text": "Lots < 567 m2: 40%\nLots > 567 m2: 30%",
+      "numbers": [
+       567.0,
+       40.0,
+       567.0,
+       30.0
+      ],
+      "branches": [
+       {
+        "condition_text": "Lots < 567 m2",
+        "comparator": "<=",
+        "threshold": 567.0,
+        "value_text": "40%",
+        "numbers": [
+         40.0
+        ]
+       },
+       {
+        "condition_text": "Lots > 567 m2",
+        "comparator": ">",
+        "threshold": 567.0,
+        "value_text": "30%",
+        "numbers": [
+         30.0
+        ]
+       }
+      ],
+      "spans_all": false
+     },
+     {
+      "key": 2,
+      "header_text": "Small-Scale Multi-Unit | 3 to 4 | Units",
+      "text": "40%",
+      "numbers": [
+       40.0
+      ],
+      "branches": [],
+      "spans_all": false
+     },
+     {
+      "key": 3,
+      "header_text": "Small-Scale Multi-Unit | 5 to 6 Units | Frequent Transit | Network Area Only",
+      "text": "45%",
+      "numbers": [
+       45.0
+      ],
+      "branches": [],
+      "spans_all": false
+     }
+    ]
+   }
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_mx1",
+   "evidence_id": "adv_ev_mx1",
+   "rule_object": "lot_coverage",
+   "constraint_type": "maximum",
+   "constraint_scope": "lot",
+   "applies_to": "Small-Scale Multi-Unit (5 to 6 Units)",
+   "condition": "Frequent Transit Network Area Only",
+   "operator": "<=",
+   "value": 55,
+   "unit": "%",
+   "extraction_method": "deterministic_table_evidence"
+  }
+ },
+ {
+  "case_id": "adv_matrix_ftn_condition_dropped",
+  "description": "45% really is the 5-6 column's coverage, but that column exists ONLY in the Frequent Transit Network Area. Claiming it without the condition reads a conditional permission as unconditional.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_mx2",
+   "page": 2,
+   "evidence_type": "table_cell",
+   "evidence_text": "Maximum Lot Coverage | All Buildings | 45 %",
+   "source_context": "Maximum Lot Coverage All Buildings 55% Lots < 567 m2: 40% Lots > 567 m2: 30% 40% 45%",
+   "table_title": "Maximum Lot Coverage",
+   "row_header": "All Buildings",
+   "column_header": "Rowhouse",
+   "cell_value": "45 %",
+   "matrix_anchor": {
+    "page": 2,
+    "row_label": "Maximum Lot Coverage | All Buildings",
+    "bands": [
+     {
+      "key": 0,
+      "header_text": "Rowhouse | 1 to 3 | Units",
+      "text": "55%",
+      "numbers": [
+       55.0
+      ],
+      "branches": [],
+      "spans_all": false
+     },
+     {
+      "key": 1,
+      "header_text": "Small-Scale Multi-Unit | 1 to 2 | Units",
+      "text": "Lots < 567 m2: 40%\nLots > 567 m2: 30%",
+      "numbers": [
+       567.0,
+       40.0,
+       567.0,
+       30.0
+      ],
+      "branches": [
+       {
+        "condition_text": "Lots < 567 m2",
+        "comparator": "<=",
+        "threshold": 567.0,
+        "value_text": "40%",
+        "numbers": [
+         40.0
+        ]
+       },
+       {
+        "condition_text": "Lots > 567 m2",
+        "comparator": ">",
+        "threshold": 567.0,
+        "value_text": "30%",
+        "numbers": [
+         30.0
+        ]
+       }
+      ],
+      "spans_all": false
+     },
+     {
+      "key": 2,
+      "header_text": "Small-Scale Multi-Unit | 3 to 4 | Units",
+      "text": "40%",
+      "numbers": [
+       40.0
+      ],
+      "branches": [],
+      "spans_all": false
+     },
+     {
+      "key": 3,
+      "header_text": "Small-Scale Multi-Unit | 5 to 6 Units | Frequent Transit | Network Area Only",
+      "text": "45%",
+      "numbers": [
+       45.0
+      ],
+      "branches": [],
+      "spans_all": false
+     }
+    ]
+   }
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_mx2",
+   "evidence_id": "adv_ev_mx2",
+   "rule_object": "lot_coverage",
+   "constraint_type": "maximum",
+   "constraint_scope": "lot",
+   "applies_to": "Small-Scale Multi-Unit (5 to 6 Units)",
+   "condition": "",
+   "operator": "<=",
+   "value": 45,
+   "unit": "%",
+   "extraction_method": "deterministic_table_evidence"
+  }
+ },
+ {
+  "case_id": "adv_matrix_conditional_cell_collapsed",
+  "description": "40% is one BRANCH of a lot-size-conditional cell (Lots <= 567 m2: 40% / Lots > 567 m2: 30%). Claiming 40% without the branch condition erases the 567 m2 split.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_mx3",
+   "page": 2,
+   "evidence_type": "table_cell",
+   "evidence_text": "Maximum Lot Coverage | All Buildings | 40 %",
+   "source_context": "Maximum Lot Coverage All Buildings 55% Lots < 567 m2: 40% Lots > 567 m2: 30% 40% 45%",
+   "table_title": "Maximum Lot Coverage",
+   "row_header": "All Buildings",
+   "column_header": "Rowhouse",
+   "cell_value": "40 %",
+   "matrix_anchor": {
+    "page": 2,
+    "row_label": "Maximum Lot Coverage | All Buildings",
+    "bands": [
+     {
+      "key": 0,
+      "header_text": "Rowhouse | 1 to 3 | Units",
+      "text": "55%",
+      "numbers": [
+       55.0
+      ],
+      "branches": [],
+      "spans_all": false
+     },
+     {
+      "key": 1,
+      "header_text": "Small-Scale Multi-Unit | 1 to 2 | Units",
+      "text": "Lots < 567 m2: 40%\nLots > 567 m2: 30%",
+      "numbers": [
+       567.0,
+       40.0,
+       567.0,
+       30.0
+      ],
+      "branches": [
+       {
+        "condition_text": "Lots < 567 m2",
+        "comparator": "<=",
+        "threshold": 567.0,
+        "value_text": "40%",
+        "numbers": [
+         40.0
+        ]
+       },
+       {
+        "condition_text": "Lots > 567 m2",
+        "comparator": ">",
+        "threshold": 567.0,
+        "value_text": "30%",
+        "numbers": [
+         30.0
+        ]
+       }
+      ],
+      "spans_all": false
+     },
+     {
+      "key": 2,
+      "header_text": "Small-Scale Multi-Unit | 3 to 4 | Units",
+      "text": "40%",
+      "numbers": [
+       40.0
+      ],
+      "branches": [],
+      "spans_all": false
+     },
+     {
+      "key": 3,
+      "header_text": "Small-Scale Multi-Unit | 5 to 6 Units | Frequent Transit | Network Area Only",
+      "text": "45%",
+      "numbers": [
+       45.0
+      ],
+      "branches": [],
+      "spans_all": false
+     }
+    ]
+   }
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_mx3",
+   "evidence_id": "adv_ev_mx3",
+   "rule_object": "lot_coverage",
+   "constraint_type": "maximum",
+   "constraint_scope": "lot",
+   "applies_to": "Small-Scale Multi-Unit (1 to 2 Units)",
+   "condition": "",
+   "operator": "<=",
+   "value": 40,
+   "unit": "%",
+   "extraction_method": "deterministic_table_evidence"
+  }
+ },
+ {
+  "case_id": "adv_matrix_row_family_mismatch",
+  "description": "The Impervious Surfaces sub-row extracted under its section banner's family (lot_coverage) WITH degraded evidence headers (row_header lost to 'All Buildings', no 'impervious' in the evidence text) — so context normalization cannot re-family the candidate. 70% is genuinely in the claimed band, but the GEOMETRY knows the row regulates impervious surface: the anchored row-family check must hold it. (When evidence headers are intact, normalization re-families the candidate and the TRUE impervious rule verifies instead — both outcomes are safe.)",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_mx4",
+   "page": 2,
+   "evidence_type": "table_cell",
+   "evidence_text": "Maximum Lot Coverage | All Buildings | 70 %",
+   "source_context": "Maximum Lot Coverage All Buildings 55% Lots < 567 m2: 40% Lots > 567 m2: 30% 40% 45%",
+   "table_title": "Maximum Lot Coverage",
+   "row_header": "All Buildings",
+   "column_header": "Rowhouse",
+   "cell_value": "70 %",
+   "matrix_anchor": {
+    "page": 2,
+    "row_label": "Maximum Lot Coverage | Impervious Surfaces",
+    "bands": [
+     {
+      "key": 0,
+      "header_text": "Rowhouse | 1 to 3 | Units",
+      "text": "70%",
+      "numbers": [
+       70.0
+      ],
+      "branches": [],
+      "spans_all": false
+     },
+     {
+      "key": 3,
+      "header_text": "Small-Scale Multi-Unit | 5 to 6 Units",
+      "text": "70%",
+      "numbers": [
+       70.0
+      ],
+      "branches": [],
+      "spans_all": false
+     }
+    ]
+   }
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_mx4",
+   "evidence_id": "adv_ev_mx4",
+   "rule_object": "lot_coverage",
+   "constraint_type": "maximum",
+   "constraint_scope": "lot",
+   "applies_to": "Rowhouse",
+   "condition": "",
+   "operator": "<=",
+   "value": 70,
+   "unit": "%",
+   "extraction_method": "deterministic_table_evidence"
+  }
+ },
+ {
+  "case_id": "adv_prose_branch_unconditioned",
+  "description": "Prose enumerated multi-branch clause: the 5.0 m SIDE-property-line branch claimed with NO condition. Without the branch discriminator the rule asserts an unconditional 5.0 m cap the bylaw never states (the unconditional max is 7.5 m). Must be held for review.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_pb1",
+   "page": 1,
+   "evidence_type": "clause",
+   "evidence_text": "(4.1) The maximum building height is: (a) 5.0 metres at a side property line; (b) 3.0 metres at a rear property line; and (c) increases at a 45 degree angle to a maximum of 7.5 metres.",
+   "source_context": "(4.1) The maximum building height is: (a) 5.0 metres at a side property line; (b) 3.0 metres at a rear property line; and (c) increases at a 45 degree angle to a maximum of 7.5 metres."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_pb1",
+   "evidence_id": "adv_ev_pb1",
+   "rule_object": "height",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 5.0,
+   "unit": "m",
+   "applies_to": "building",
+   "constraint_scope": "building height",
+   "condition": ""
+  }
+ },
+ {
+  "case_id": "adv_prose_branch_mispaired_condition",
+  "description": "Prose multi-branch MISPAIRING: 5.0 m (the side-line branch) claimed 'at a rear property line', where the source assigns 3.0 m. The condition echoes clause words but pairs the value with the WRONG branch. Must be held for review, never verified.",
+  "expected_not_verified": true,
+  "expected_decision": "review_needed",
+  "evidence": {
+   "evidence_id": "adv_ev_pb2",
+   "page": 1,
+   "evidence_type": "clause",
+   "evidence_text": "(4.1) The maximum building height is: (a) 5.0 metres at a side property line; (b) 3.0 metres at a rear property line; and (c) increases at a 45 degree angle to a maximum of 7.5 metres.",
+   "source_context": "(4.1) The maximum building height is: (a) 5.0 metres at a side property line; (b) 3.0 metres at a rear property line; and (c) increases at a 45 degree angle to a maximum of 7.5 metres."
+  },
+  "candidate": {
+   "candidate_id": "adv_cand_pb2",
+   "evidence_id": "adv_ev_pb2",
+   "rule_object": "height",
+   "constraint_type": "maximum",
+   "operator": "<=",
+   "value": 5.0,
+   "unit": "m",
+   "applies_to": "building",
+   "constraint_scope": "building height",
+   "condition": "at a rear property line"
+  }
+ }
+]

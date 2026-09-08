@@ -1,0 +1,98 @@
+[
+  {
+    "case_id": "adv_van_rs_height_min_inverted_by_operator_fill",
+    "description": "A MINIMUM ground-floor-height clause with a blank operator must not auto-verify as a maximum building-height cap. Family-direction fill (<= for height) plus a stray 'maximum' in a sibling qualifier must not ground the operator. Regression pin for the operator-fill inversion false-verify.",
+    "expected_not_verified": true,
+    "expected_decision": "review_needed",
+    "evidence": {
+      "evidence_id": "adv_van_ev_001",
+      "page": 9,
+      "evidence_type": "clause",
+      "evidence_text": "Subject to the maximum building height, the minimum ground floor height is 3.7 m.",
+      "source_context": "Subject to the maximum building height, the minimum ground floor height is 3.7 m."
+    },
+    "candidate": {
+      "candidate_id": "adv_van_cand_001",
+      "evidence_id": "adv_van_ev_001",
+      "rule_object": "height",
+      "constraint_scope": "building",
+      "constraint_type": "",
+      "operator": "",
+      "value": 3.7,
+      "unit": "m",
+      "applies_to": "laneway house"
+    }
+  },
+  {
+    "case_id": "adv_van_rs_setback_max_inverted_by_operator_fill",
+    "description": "A MAXIMUM balcony-projection clause with a blank operator must not auto-verify as a minimum side setback. Family-direction fill (>= for setback) plus a stray 'minimum' in a sibling qualifier must not ground the operator (symmetric inversion).",
+    "expected_not_verified": true,
+    "expected_decision": "review_needed",
+    "evidence": {
+      "evidence_id": "adv_van_ev_002",
+      "page": 9,
+      "evidence_type": "clause",
+      "evidence_text": "Notwithstanding the minimum side yard, the maximum permitted projection of a balcony into a required side yard is 0.6 m.",
+      "source_context": "Notwithstanding the minimum side yard, the maximum permitted projection of a balcony into a required side yard is 0.6 m."
+    },
+    "candidate": {
+      "candidate_id": "adv_van_cand_002",
+      "evidence_id": "adv_van_ev_002",
+      "rule_object": "setback",
+      "constraint_scope": "side_yard",
+      "constraint_type": "",
+      "operator": "",
+      "value": 0.6,
+      "unit": "m",
+      "applies_to": "laneway house"
+    }
+  },
+  {
+    "case_id": "adv_van_rs_value_not_in_evidence",
+    "description": "A setback value (9.9 m) absent from the cited clause must not verify.",
+    "expected_not_verified": true,
+    "expected_decision": "rejected",
+    "evidence": {
+      "evidence_id": "adv_van_ev_003",
+      "page": 9,
+      "evidence_type": "clause",
+      "evidence_text": "The minimum rear yard setback for a laneway house is 0.9 m.",
+      "source_context": "The minimum rear yard setback for a laneway house is 0.9 m."
+    },
+    "candidate": {
+      "candidate_id": "adv_van_cand_003",
+      "evidence_id": "adv_van_ev_003",
+      "rule_object": "setback",
+      "constraint_scope": "rear_yard",
+      "constraint_type": "minimum",
+      "operator": ">=",
+      "value": 9.9,
+      "unit": "m",
+      "applies_to": "laneway house"
+    }
+  },
+  {
+    "case_id": "adv_van_rs_height_percent_unit",
+    "description": "A building height with a percent unit is physically meaningless and must never verify.",
+    "expected_not_verified": true,
+    "expected_decision": "rejected",
+    "evidence": {
+      "evidence_id": "adv_van_ev_004",
+      "page": 9,
+      "evidence_type": "clause",
+      "evidence_text": "The maximum height of a laneway house is 8.5 m.",
+      "source_context": "The maximum height of a laneway house is 8.5 m."
+    },
+    "candidate": {
+      "candidate_id": "adv_van_cand_004",
+      "evidence_id": "adv_van_ev_004",
+      "rule_object": "height",
+      "constraint_scope": "building",
+      "constraint_type": "maximum",
+      "operator": "<=",
+      "value": 60,
+      "unit": "%",
+      "applies_to": "laneway house"
+    }
+  }
+]

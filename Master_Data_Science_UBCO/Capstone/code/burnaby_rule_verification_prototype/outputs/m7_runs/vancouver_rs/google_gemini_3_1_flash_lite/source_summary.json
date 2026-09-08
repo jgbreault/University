@@ -1,0 +1,43 @@
+{
+  "source_layer": "m4_exhaustive_bylaw_discovery",
+  "discovery_version": "m4_exhaustive_discovery_1",
+  "source_chunk_count": 251,
+  "evidence_pack_count": 178,
+  "page_count": 21,
+  "first_page": 1,
+  "last_page": 21,
+  "packed_page_count": 20,
+  "lane_counts": [
+    {
+      "name": "family_query",
+      "count": 13
+    },
+    {
+      "name": "section_neighbor",
+      "count": 54
+    },
+    {
+      "name": "seed_discovery",
+      "count": 63
+    },
+    {
+      "name": "target_section_expansion",
+      "count": 48
+    }
+  ],
+  "advisory_only": true,
+  "city": "vancouver_rs",
+  "discovery_mode": "m4",
+  "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/vancouver_rs/source.pdf",
+  "pdf_hash": "80f30e5782fe5a62b1a6a7f768713f93fdea120245739831394d6b14b0555111",
+  "config_hash": "29ab67d30e349b55eb7d056a8fa3d8cf61765b97244bfec49ae9faafe82c959a",
+  "discovery_hash": "174fb5b343e67e34794fa98d8197840a51312a51456c86fdca2e14873bd48bd2",
+  "cache_db": "outputs/m7_cache/vancouver_rs.sqlite",
+  "m4_source_corpus": {
+    "path": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/benchmark/source_corpus/vancouver_rs",
+    "corpus_version": "m4_source_corpus_1",
+    "numeric_clause_count": 40,
+    "rule_like_numeric_clause_count": 38,
+    "selected_rule_like_numeric_coverage": 1.0
+  }
+}

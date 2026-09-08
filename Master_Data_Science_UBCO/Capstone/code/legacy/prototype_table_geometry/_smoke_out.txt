@@ -1,0 +1,7 @@
+ALL CELLS RAN
+grid: 36 x 30
+row types: {'data_row': np.int64(27), 'section_header': np.int64(6), 'row_group_header': np.int64(2), 'column_header': np.int64(1)}
+column_hierarchy cols: 30
+candidate facts: 783
+reviewed facts: 783
+rule_ready: 783

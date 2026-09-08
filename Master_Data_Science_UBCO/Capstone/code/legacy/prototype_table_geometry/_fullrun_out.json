@@ -1,0 +1,168 @@
+{
+  "wall_clock_s": 1335.5,
+  "total_facts": 78,
+  "llm_reviewed": 70,
+  "final_status": {
+    "rejected": 58,
+    "accepted": 20
+  },
+  "llm_decisions": {
+    "blank": 58,
+    "data_value": 12
+  },
+  "rule_ready": 20,
+  "accepted_sample": [
+    {
+      "row_path": "Permitted Dwelling Units\n(including secondary suites)",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "1 to 3\nUnits",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Permitted Dwelling Units\n(including secondary suites)",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "1 to 2\nUnits",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Permitted Dwelling Units\n(including secondary suites)",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "3 to 4\nUnits",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Permitted Dwelling Units\n(including secondary suites)",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "5 to 6 Units",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Network Area Only > Minimum Lot Area",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "-",
+      "cond": "",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Network Area Only > Minimum Lot Area",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "-",
+      "cond": "",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Network Area Only > Minimum Lot Area",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "4 Units Only",
+      "cond": "4 Units Only",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Network Area Only > Minimum Lot Area",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": ":",
+      "cond": ":",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Network Area Only > Minimum Lot Area",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "281 m2",
+      "cond": "281 m2",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Network Area Only > 281 m2",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "281 m2",
+      "cond": "",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Maximum Lot Coverage > All Buildings",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "55%",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Maximum Lot Coverage > All Buildings",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "Lots < 567 m2: 40%",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Maximum Lot Coverage > All Buildings",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "40%",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Maximum Lot Coverage > All Buildings",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "45%",
+      "cond": "",
+      "decision": null
+    },
+    {
+      "row_path": "Maximum Lot Coverage > Lots > 567 m2: 30%",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "Lots > 567 m2: 30%",
+      "cond": "horizontal_merge",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Minimum Lot Line Setbacks for All Buildings .2 .3 > Interior Rear Yard > Interior Side Yard",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "Interior Side Yard",
+      "cond": "",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Minimum Lot Line Setbacks for All Buildings .2 .3 > Interior Rear Yard > Interior Side Yard",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "0 m, except 1.2 m\nfor end unit lots",
+      "cond": "value contains exception/condition cue",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Minimum Lot Line Setbacks for All Buildings .2 .3 > Interior Rear Yard > Interior Side Yard",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "1.2 m",
+      "cond": "",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Minimum Lot Line Setbacks for All Buildings .2 .3 > Interior Rear Yard > Interior Side Yard",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "1.2 m",
+      "cond": "",
+      "decision": "data_value"
+    },
+    {
+      "row_path": "Minimum Lot Line Setbacks for All Buildings .2 .3 > Interior Rear Yard > Interior Side Yard",
+      "col_path": "Dwelling Type > Small-Scale Multi-Unit",
+      "value": "1.2 m",
+      "cond": "",
+      "decision": "data_value"
+    }
+  ],
+  "dash_facts": [
+    {
+      "value": "-",
+      "status": "accepted",
+      "decision": "data_value"
+    },
+    {
+      "value": "-",
+      "status": "accepted",
+      "decision": "data_value"
+    }
+  ]
+}

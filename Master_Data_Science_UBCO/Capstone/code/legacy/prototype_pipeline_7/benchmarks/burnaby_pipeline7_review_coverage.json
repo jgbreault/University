@@ -1,0 +1,94 @@
+{
+  "note": "Pipeline7's Burnaby R1 merge-review population differs from pipeline5's, so the pipeline5 gold cannot be applied wholesale. This file documents the gap. ONLY burnaby_merge_review_gold_pipeline7.json (10 human-validated items carried/re-keyed from the pipeline5 gold) is used for scoring. The draft items below are NOT scored: their expected answers are Claude's drafts and must be human-confirmed before they count.",
+  "gate_fix_applied": "RULE_OBJECT_FAMILY_UNITS['height'] now allows {m, storeys}. This cleared the 5 false-positive rule_object_unit_conflict flags on storeys-measured height limits (former draft items 0038/0039/0040/0043/0045). After re-running extraction+review from cache, those 5 rules are no longer flagged and pass straight into the final registry as kept rules. The review queue dropped 18 -> 13.",
+  "pipeline7_review_queue_size_after_fix": 13,
+  "pipeline7_review_queue_size_before_fix": 18,
+  "scored_validated_item_count": 10,
+  "draft_item_count_pending_human_review": 3,
+  "absent_pipeline5_gold_item_count": 7,
+  "resolved_by_gate_fix_count": 5,
+
+  "resolved_by_gate_fix": [
+    {"merged_rule_id": "pipeline5_merged_rule_0038", "rule_key": "max_storeys_front_principal_rowhouse", "value": "3 storeys", "resolution": "false-positive rule_object_unit_conflict cleared; now KEEP/direct (not reviewed)"},
+    {"merged_rule_id": "pipeline5_merged_rule_0039", "rule_key": "max_storeys_front_principal_ssmu_1_2", "value": "2.5 storeys", "resolution": "false-positive rule_object_unit_conflict cleared; now KEEP/direct (not reviewed)"},
+    {"merged_rule_id": "pipeline5_merged_rule_0040", "rule_key": "max_storeys_front_principal_ssmu_3_6", "value": "3 storeys", "resolution": "false-positive rule_object_unit_conflict cleared; now KEEP/direct (not reviewed)"},
+    {"merged_rule_id": "pipeline5_merged_rule_0043", "rule_key": "max_storeys_rear_principal", "value": "2 storeys", "resolution": "false-positive rule_object_unit_conflict cleared; now KEEP/direct (not reviewed)"},
+    {"merged_rule_id": "pipeline5_merged_rule_0045", "rule_key": "max_height_accessory_buildings_storeys", "value": "1 storey", "resolution": "false-positive rule_object_unit_conflict cleared; now KEEP/direct (not reviewed)"}
+  ],
+
+  "draft_items_pending_human_review": [
+    {
+      "merged_rule_id": "pipeline5_merged_rule_0072",
+      "rule_key": "lot_area_maximum_rowhouse",
+      "flagged_reason": "exception_requires_atomic_review",
+      "draft_expected_action": "KEEP",
+      "draft_expected_replacement_count": 1,
+      "draft_expected_numeric_rules": [["<=", "280", "m2"]],
+      "draft_rationale": "Maximum lot area 280 m2 with a 'may exceed subject to a Section 219 Covenant prohibiting >3 dwelling units' escape clause. The exception is a discretionary/covenant-conditional allowance, so treating it as a qualifier (KEEP) is defensible; a splitter could argue REPLACE into <=280 m2 general + covenant-conditional allowance. JUDGMENT CALL.",
+      "needs_human_confirmation": true
+    },
+    {
+      "merged_rule_id": "pipeline5_merged_rule_0076",
+      "rule_key": "interior_side_yard_setback_shared_wall",
+      "flagged_reason": "source_warning",
+      "draft_expected_action": "KEEP",
+      "draft_expected_replacement_count": 1,
+      "draft_rationale": "'Interior side yard setbacks not required for rowhouse units on a shared party-wall lot line' is a 0 m permission scoped by a clear condition. Likely KEEP.",
+      "needs_human_confirmation": true
+    },
+    {
+      "merged_rule_id": "pipeline5_merged_rule_0078",
+      "rule_key": "accessory_buildings_separation_prohibition",
+      "flagged_reason": "exception_requires_atomic_review",
+      "draft_expected_action": "KEEP",
+      "draft_expected_replacement_count": 1,
+      "draft_rationale": "Prohibition of accessory buildings within minimum principal-building separations, with a 'see Section 101.6.1 for permitted projections' cross-reference exception. The exception is an unresolved cross-reference qualifier, so likely KEEP.",
+      "needs_human_confirmation": true
+    }
+  ],
+
+  "pipeline5_gold_items_absent_in_pipeline7_review": [
+    {
+      "pipeline5_merged_rule_id": "pipeline5_merged_rule_0068",
+      "pipeline5_rule_key": "separation_front_rear_principals",
+      "pipeline5_standard_answer": "Keep the >= 6.0 m front/rear-principal separation rule but clear the misleading through-lot exception.",
+      "absence_reason": "No matching front/rear-principal separation rule was flagged for review in pipeline7's run (extraction differed; rule may have been auto-kept or extracted without the triggering exception)."
+    },
+    {
+      "pipeline5_merged_rule_id": "pipeline5_merged_rule_0071",
+      "pipeline5_rule_key": "dwelling_unit_3_bedroom_minimum",
+      "pipeline5_standard_answer": "DROP the incomplete 'as follows:' text lead-in (linked 101.5.1 table provides the real values).",
+      "absence_reason": "Pipeline7 extracted the 3-bedroom minimums as table rules (minimum_3_plus_bedroom_units_*) without producing the dangling text lead-in, so there was nothing to drop."
+    },
+    {
+      "pipeline5_merged_rule_id": "pipeline5_merged_rule_0072",
+      "pipeline5_rule_key": "dwelling_unit_entrance_orientation",
+      "pipeline5_standard_answer": "Keep the general >= 1 dwelling-unit street-orientation requirement; clear the embedded through-lot exception.",
+      "absence_reason": "Not present in pipeline7's review queue (different extraction; this rule_key did not appear or was not flagged)."
+    },
+    {
+      "pipeline5_merged_rule_id": "pipeline5_merged_rule_0084",
+      "pipeline5_rule_key": "supportive_housing_cross_reference",
+      "pipeline5_standard_answer": "KEEP the supportive-housing cross-reference intact ('1 to 3 units' is a scope label, not a constraint).",
+      "absence_reason": "Not flagged for review in pipeline7's run."
+    },
+    {
+      "pipeline5_merged_rule_id": "pipeline5_merged_rule_0088",
+      "pipeline5_rule_key": "garage_carport_below_grade_max_height",
+      "pipeline5_standard_answer": "KEEP the below-grade garage/carport <= 1.2 m height rule with the driveway exclusion as a qualifier.",
+      "absence_reason": "Not flagged for review in pipeline7's run."
+    },
+    {
+      "pipeline5_merged_rule_id": "pipeline5_merged_rule_0093",
+      "pipeline5_rule_key": "child_care_facility_compliance",
+      "pipeline5_standard_answer": "KEEP the child-care cross-reference intact ('1 to 3 units' is a scope label, not a constraint).",
+      "absence_reason": "Not flagged for review in pipeline7's run."
+    },
+    {
+      "pipeline5_merged_rule_id": "pipeline5_merged_rule_0106",
+      "pipeline5_rule_key": "projection_cross_reference_yards",
+      "pipeline5_standard_answer": "Split the projection rule into the Section 6.12 cross-reference and the testable R1 lane-yard projection maximum of <= 0.8 m.",
+      "absence_reason": "Not flagged for review in pipeline7's run (projection rules extracted differently)."
+    }
+  ]
+}

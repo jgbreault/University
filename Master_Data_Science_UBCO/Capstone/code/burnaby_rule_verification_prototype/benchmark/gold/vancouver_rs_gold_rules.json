@@ -1,0 +1,145 @@
+[
+  {
+    "gold_id": "van_height_001",
+    "rule_object": "height",
+    "constraint_type": "max",
+    "constraint_scope": "building",
+    "applies_to": "laneway house",
+    "value": "8.5",
+    "unit": "m",
+    "operator": "<=",
+    "condition": null,
+    "source_page": 1,
+    "required_rule_terms": [
+      "laneway"
+    ],
+    "required_evidence_terms": [
+      "height",
+      "exceed",
+      "8.5"
+    ],
+    "gis_relevance": "direct"
+  },
+  {
+    "gold_id": "van_coverage_001",
+    "rule_object": "lot_coverage",
+    "constraint_type": "max",
+    "constraint_scope": "site",
+    "applies_to": "site with a laneway house",
+    "value": "50",
+    "unit": "%",
+    "operator": "<=",
+    "condition": null,
+    "source_page": 1,
+    "required_rule_terms": [
+      "laneway"
+    ],
+    "required_evidence_terms": [
+      "coverage",
+      "50"
+    ],
+    "gis_relevance": "direct"
+  },
+  {
+    "gold_id": "van_separation_001",
+    "rule_object": "building_separation",
+    "constraint_type": "min",
+    "constraint_scope": "separation",
+    "applies_to": "laneway house",
+    "value": "4.9",
+    "unit": "m",
+    "operator": ">=",
+    "condition": null,
+    "source_page": 1,
+    "required_rule_terms": [
+      "laneway"
+    ],
+    "required_evidence_terms": [
+      "least",
+      "4.9"
+    ],
+    "gis_relevance": "direct"
+  },
+  {
+    "gold_id": "van_setback_rear_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "rear_yard",
+    "applies_to": "laneway house",
+    "value": "0.9",
+    "unit": "m",
+    "operator": ">=",
+    "condition": null,
+    "source_page": 1,
+    "required_rule_terms": [
+      "laneway"
+    ],
+    "required_evidence_terms": [
+      "rear",
+      "0.9"
+    ],
+    "gis_relevance": "direct"
+  },
+  {
+    "gold_id": "van_setback_side_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "side_yard",
+    "applies_to": "laneway house",
+    "value": "1.2",
+    "unit": "m",
+    "operator": ">=",
+    "condition": null,
+    "source_page": 1,
+    "required_rule_terms": [
+      "laneway"
+    ],
+    "required_evidence_terms": [
+      "side",
+      "1.2"
+    ],
+    "gis_relevance": "direct"
+  },
+  {
+    "gold_id": "van_storeys_001",
+    "rule_object": "storeys",
+    "constraint_type": "max",
+    "constraint_scope": "building",
+    "applies_to": "laneway house",
+    "value": "2",
+    "unit": "storeys",
+    "operator": "<=",
+    "condition": null,
+    "source_page": 1,
+    "required_rule_terms": [
+      "laneway"
+    ],
+    "required_evidence_terms": [
+      "storeys",
+      "2"
+    ],
+    "gis_relevance": "direct"
+  },
+  {
+    "gold_id": "van_floor_area_001",
+    "rule_object": "floor_area",
+    "constraint_type": "max",
+    "constraint_scope": "",
+    "applies_to": "laneway house",
+    "value": "186",
+    "unit": "m2",
+    "operator": "<=",
+    "condition": "lesser of 0.25 x site area and 186 sq. m",
+    "source_page": 1,
+    "required_rule_terms": [
+      "laneway"
+    ],
+    "required_evidence_terms": [
+      "floor area",
+      "exceed",
+      "186"
+    ],
+    "gis_relevance": "direct",
+    "notes": "Vancouver 11.3.8.2(b). COMPOUND BOUND: the bylaw caps laneway floor area at the LESSER of 0.25 x site area and 186 sq. m; the verifier can only ground the absolute 186 m2 branch from this clause, so consumers must treat 186 m2 as an upper envelope, not the exact allowance on small lots. The 0.25 x site area branch (FSR-style) stays in review by design."
+  }
+]

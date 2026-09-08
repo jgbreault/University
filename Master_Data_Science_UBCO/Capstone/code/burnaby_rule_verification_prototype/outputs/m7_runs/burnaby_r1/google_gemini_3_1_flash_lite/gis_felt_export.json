@@ -1,0 +1,5415 @@
+{
+  "schema_version": "gis_felt_export_v1",
+  "city": "Burnaby",
+  "zone": "R1",
+  "source_document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "source_url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "input_mode": "native_rag_llm",
+  "consumer_notes": [
+    "This export is derived only from verified_rules.json.",
+    "Review, rejected, and not_used rules are not executable constraints.",
+    "Map consumers should display review_blockers as warnings, not apply them as zoning logic."
+  ],
+  "map_layer_requirements": [
+    {
+      "layer_key": "access_path",
+      "description": "Fire-access corridor paths for width and vertical-clearance checks.",
+      "example_team_file": "code/gis_files/burnaby/access_path.gpkg"
+    },
+    {
+      "layer_key": "building_footprint",
+      "description": "Building footprint polygons for height, storey, separation, and coverage limits.",
+      "example_team_file": "code/gis_files/burnaby/building_footprint.gpkg"
+    },
+    {
+      "layer_key": "dwelling_unit",
+      "description": "Dwelling-unit points/areas for unit-level trigger predicates (e.g. sprinklers).",
+      "example_team_file": "code/gis_files/burnaby/dwelling_unit.gpkg"
+    },
+    {
+      "layer_key": "front_lot_line",
+      "description": "Front lot-line segments for verified front street-yard setbacks.",
+      "example_team_file": "code/gis_files/burnaby/front_lot_line.gpkg"
+    },
+    {
+      "layer_key": "lane",
+      "description": "Lane edges for verified lane-yard setbacks.",
+      "example_team_file": "code/gis_files/burnaby/lane.gpkg"
+    },
+    {
+      "layer_key": "parcel_polygon",
+      "description": "Parcel boundary polygons for lot-level filters and capacity context.",
+      "example_team_file": "code/gis_files/burnaby/parcel_polygon.gpkg"
+    },
+    {
+      "layer_key": "rear_lot_line",
+      "description": "Rear lot-line segments for rear-yard setbacks.",
+      "example_team_file": "code/gis_files/burnaby/rear_lot_line.gpkg"
+    },
+    {
+      "layer_key": "side_lot_line",
+      "description": "Side lot-line segments for interior and flanking side-yard setbacks.",
+      "example_team_file": "code/gis_files/burnaby/side_lot_line.gpkg"
+    }
+  ],
+  "buildable_area_parameters": {
+    "accessory_building_height_m__rowhouse_1_3u": {
+      "parameter_key": "accessory_building_height_m__rowhouse_1_3u",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_069"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "accessory_building_height_m__ssmu_1_2u": {
+      "parameter_key": "accessory_building_height_m__ssmu_1_2u",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_071"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "accessory_building_height_m__ssmu_3_4u": {
+      "parameter_key": "accessory_building_height_m__ssmu_3_4u",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_073"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "accessory_building_height_m__ssmu_5_6u": {
+      "parameter_key": "accessory_building_height_m__ssmu_5_6u",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_075"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "accessory_building_max_storeys__rowhouse_1_3u": {
+      "parameter_key": "accessory_building_max_storeys__rowhouse_1_3u",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_070"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "accessory_building_max_storeys__ssmu_1_2u": {
+      "parameter_key": "accessory_building_max_storeys__ssmu_1_2u",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_072"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "accessory_building_max_storeys__ssmu_3_4u": {
+      "parameter_key": "accessory_building_max_storeys__ssmu_3_4u",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_074"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "accessory_building_max_storeys__ssmu_5_6u": {
+      "parameter_key": "accessory_building_max_storeys__ssmu_5_6u",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_076"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_height_flat_roof_m__rowhouse_1_3u__7": {
+      "parameter_key": "building_height_flat_roof_m__rowhouse_1_3u__7",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_058"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_flat_roof_m__rowhouse_1_3u__9_5": {
+      "parameter_key": "building_height_flat_roof_m__rowhouse_1_3u__9_5",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_046"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_flat_roof_m__ssmu_1_2u__7": {
+      "parameter_key": "building_height_flat_roof_m__ssmu_1_2u__7",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_060"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_flat_roof_m__ssmu_1_2u__9_5": {
+      "parameter_key": "building_height_flat_roof_m__ssmu_1_2u__9_5",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_048"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_flat_roof_m__ssmu_3_4u__7": {
+      "parameter_key": "building_height_flat_roof_m__ssmu_3_4u__7",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_062"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_flat_roof_m__ssmu_3_4u__9_5": {
+      "parameter_key": "building_height_flat_roof_m__ssmu_3_4u__9_5",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_050"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_flat_roof_m__ssmu_5_6u__7": {
+      "parameter_key": "building_height_flat_roof_m__ssmu_5_6u__7",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_064"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_flat_roof_m__ssmu_5_6u__9_5": {
+      "parameter_key": "building_height_flat_roof_m__ssmu_5_6u__9_5",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_052"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flat roof"
+      ]
+    },
+    "building_height_sloping_roof_m__rowhouse_1_3u__7_5": {
+      "parameter_key": "building_height_sloping_roof_m__rowhouse_1_3u__7_5",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_057"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_height_sloping_roof_m__rowhouse_1_3u__10": {
+      "parameter_key": "building_height_sloping_roof_m__rowhouse_1_3u__10",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_045"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_height_sloping_roof_m__ssmu_1_2u__7_5": {
+      "parameter_key": "building_height_sloping_roof_m__ssmu_1_2u__7_5",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_059"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_height_sloping_roof_m__ssmu_1_2u__10": {
+      "parameter_key": "building_height_sloping_roof_m__ssmu_1_2u__10",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_047"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_height_sloping_roof_m__ssmu_3_4u__7_5": {
+      "parameter_key": "building_height_sloping_roof_m__ssmu_3_4u__7_5",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_061"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_height_sloping_roof_m__ssmu_3_4u__10": {
+      "parameter_key": "building_height_sloping_roof_m__ssmu_3_4u__10",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_049"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_height_sloping_roof_m__ssmu_5_6u__7_5": {
+      "parameter_key": "building_height_sloping_roof_m__ssmu_5_6u__7_5",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_063"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_height_sloping_roof_m__ssmu_5_6u__10": {
+      "parameter_key": "building_height_sloping_roof_m__ssmu_5_6u__10",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_051"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "sloping roof"
+      ]
+    },
+    "building_max_storeys__rowhouse_1_3u__2": {
+      "parameter_key": "building_max_storeys__rowhouse_1_3u__2",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_065"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_max_storeys__rowhouse_1_3u__3": {
+      "parameter_key": "building_max_storeys__rowhouse_1_3u__3",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_053"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_max_storeys__ssmu_1_2u__2": {
+      "parameter_key": "building_max_storeys__ssmu_1_2u__2",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_066"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_max_storeys__ssmu_1_2u__2_5": {
+      "parameter_key": "building_max_storeys__ssmu_1_2u__2_5",
+      "value": "2.5",
+      "value_numeric": 2.5,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_054"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_max_storeys__ssmu_3_4u__2": {
+      "parameter_key": "building_max_storeys__ssmu_3_4u__2",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_067"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_max_storeys__ssmu_3_4u__3": {
+      "parameter_key": "building_max_storeys__ssmu_3_4u__3",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_055"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_max_storeys__ssmu_5_6u__2": {
+      "parameter_key": "building_max_storeys__ssmu_5_6u__2",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_068"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_max_storeys__ssmu_5_6u__3": {
+      "parameter_key": "building_max_storeys__ssmu_5_6u__3",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_056"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_separation_m__ssmu_1_2u": {
+      "parameter_key": "building_separation_m__ssmu_1_2u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_096"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_separation_m__ssmu_3_4u": {
+      "parameter_key": "building_separation_m__ssmu_3_4u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_097"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "building_separation_m__ssmu_5_6u": {
+      "parameter_key": "building_separation_m__ssmu_5_6u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_098"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "fire_access_corridor_width_m": {
+      "parameter_key": "fire_access_corridor_width_m",
+      "value": "1.0",
+      "value_numeric": 1.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "access_path",
+      "source_rule_ids": [
+        "burnaby_r1_023"
+      ],
+      "source_pages": [
+        6
+      ],
+      "conditions": [
+        "paved or gravel fire access corridor"
+      ]
+    },
+    "flanking_street_yard_setback_m__ssmu_1_2u": {
+      "parameter_key": "flanking_street_yard_setback_m__ssmu_1_2u",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "side_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_079"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flanking"
+      ]
+    },
+    "flanking_street_yard_setback_m__ssmu_3_4u": {
+      "parameter_key": "flanking_street_yard_setback_m__ssmu_3_4u",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "side_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_081"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flanking"
+      ]
+    },
+    "flanking_street_yard_setback_m__ssmu_5_6u": {
+      "parameter_key": "flanking_street_yard_setback_m__ssmu_5_6u",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "side_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_083"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "flanking"
+      ]
+    },
+    "front_rear_principal_separation_m__rowhouse_1_3u": {
+      "parameter_key": "front_rear_principal_separation_m__rowhouse_1_3u",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_102"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "front_rear_principal_separation_m__ssmu_1_2u": {
+      "parameter_key": "front_rear_principal_separation_m__ssmu_1_2u",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_103"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "front_rear_principal_separation_m__ssmu_3_4u": {
+      "parameter_key": "front_rear_principal_separation_m__ssmu_3_4u",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_104"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "front_rear_principal_separation_m__ssmu_5_6u": {
+      "parameter_key": "front_rear_principal_separation_m__ssmu_5_6u",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_105"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "front_street_yard_setback_m__ssmu_1_2u": {
+      "parameter_key": "front_street_yard_setback_m__ssmu_1_2u",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "front_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_078"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "front"
+      ]
+    },
+    "front_street_yard_setback_m__ssmu_3_4u": {
+      "parameter_key": "front_street_yard_setback_m__ssmu_3_4u",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "front_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_080"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "front"
+      ]
+    },
+    "front_street_yard_setback_m__ssmu_5_6u": {
+      "parameter_key": "front_street_yard_setback_m__ssmu_5_6u",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "front_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_082"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "front"
+      ]
+    },
+    "lane_yard_setback_m__rowhouse_1_3u": {
+      "parameter_key": "lane_yard_setback_m__rowhouse_1_3u",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "lane",
+      "source_rule_ids": [
+        "burnaby_r1_084"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "lane_yard_setback_m__ssmu_1_2u": {
+      "parameter_key": "lane_yard_setback_m__ssmu_1_2u",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "lane",
+      "source_rule_ids": [
+        "burnaby_r1_085"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "lane_yard_setback_m__ssmu_3_4u": {
+      "parameter_key": "lane_yard_setback_m__ssmu_3_4u",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "lane",
+      "source_rule_ids": [
+        "burnaby_r1_086"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "lane_yard_setback_m__ssmu_5_6u": {
+      "parameter_key": "lane_yard_setback_m__ssmu_5_6u",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "lane",
+      "source_rule_ids": [
+        "burnaby_r1_087"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_dwelling_units": {
+      "parameter_key": "max_dwelling_units",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "units",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_011"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "Total Dwelling Units on a Lot 1 to 3 Units"
+      ]
+    },
+    "max_dwelling_units__rowhouse_1_3u": {
+      "parameter_key": "max_dwelling_units__rowhouse_1_3u",
+      "value": 3,
+      "value_numeric": 3.0,
+      "unit": "units",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_029"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_dwelling_units__ssmu_1_2u": {
+      "parameter_key": "max_dwelling_units__ssmu_1_2u",
+      "value": 2,
+      "value_numeric": 2.0,
+      "unit": "units",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_030"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_dwelling_units__ssmu_3_4u": {
+      "parameter_key": "max_dwelling_units__ssmu_3_4u",
+      "value": 4,
+      "value_numeric": 4.0,
+      "unit": "units",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_031"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_dwelling_units__ssmu_5_6u": {
+      "parameter_key": "max_dwelling_units__ssmu_5_6u",
+      "value": 6,
+      "value_numeric": 6.0,
+      "unit": "units",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_032"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_impervious_surface_pct__rowhouse_1_3u": {
+      "parameter_key": "max_impervious_surface_pct__rowhouse_1_3u",
+      "value": "70",
+      "value_numeric": 70.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_041"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_impervious_surface_pct__ssmu_1_2u": {
+      "parameter_key": "max_impervious_surface_pct__ssmu_1_2u",
+      "value": "60",
+      "value_numeric": 60.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_042"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_impervious_surface_pct__ssmu_3_4u": {
+      "parameter_key": "max_impervious_surface_pct__ssmu_3_4u",
+      "value": "60",
+      "value_numeric": 60.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_043"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_impervious_surface_pct__ssmu_5_6u": {
+      "parameter_key": "max_impervious_surface_pct__ssmu_5_6u",
+      "value": "70",
+      "value_numeric": 70.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_044"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_lot_coverage_pct__rowhouse_1_3u": {
+      "parameter_key": "max_lot_coverage_pct__rowhouse_1_3u",
+      "value": "55",
+      "value_numeric": 55.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_036"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_lot_coverage_pct__ssmu_1_2u__30": {
+      "parameter_key": "max_lot_coverage_pct__ssmu_1_2u__30",
+      "value": "30",
+      "value_numeric": 30.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_038"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "Lots > 567 m2"
+      ]
+    },
+    "max_lot_coverage_pct__ssmu_1_2u__40": {
+      "parameter_key": "max_lot_coverage_pct__ssmu_1_2u__40",
+      "value": "40",
+      "value_numeric": 40.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_037"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": [
+        "Lots < 567 m2"
+      ]
+    },
+    "max_lot_coverage_pct__ssmu_3_4u": {
+      "parameter_key": "max_lot_coverage_pct__ssmu_3_4u",
+      "value": "40",
+      "value_numeric": 40.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_039"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "max_lot_coverage_pct__ssmu_5_6u": {
+      "parameter_key": "max_lot_coverage_pct__ssmu_5_6u",
+      "value": "45",
+      "value_numeric": 45.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_040"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "min_lot_area_m2": {
+      "parameter_key": "min_lot_area_m2",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "operator": ">=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_001",
+        "burnaby_r1_113"
+      ],
+      "source_pages": [
+        1
+      ],
+      "conditions": [
+        "Minimum Lot Area"
+      ]
+    },
+    "min_lot_area_m2__ssmu_3_4u": {
+      "parameter_key": "min_lot_area_m2__ssmu_3_4u",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "operator": ">=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_033"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "min_lot_area_m2__ssmu_5_6u": {
+      "parameter_key": "min_lot_area_m2__ssmu_5_6u",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "operator": ">=",
+      "geometry_target": "parcel_polygon",
+      "source_rule_ids": [
+        "burnaby_r1_034"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "other_building_separation_m__rowhouse_1_3u": {
+      "parameter_key": "other_building_separation_m__rowhouse_1_3u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_106"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "other_building_separation_m__ssmu_1_2u": {
+      "parameter_key": "other_building_separation_m__ssmu_1_2u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_107"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "other_building_separation_m__ssmu_3_4u": {
+      "parameter_key": "other_building_separation_m__ssmu_3_4u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_108"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "other_building_separation_m__ssmu_5_6u": {
+      "parameter_key": "other_building_separation_m__ssmu_5_6u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_109"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "rear_principal_separation_m__ssmu_1_2u": {
+      "parameter_key": "rear_principal_separation_m__ssmu_1_2u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_099"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "rear_principal_separation_m__ssmu_3_4u": {
+      "parameter_key": "rear_principal_separation_m__ssmu_3_4u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_100"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "rear_principal_separation_m__ssmu_5_6u": {
+      "parameter_key": "rear_principal_separation_m__ssmu_5_6u",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "burnaby_r1_101"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "setback_setback__ssmu_1_2u__1_2": {
+      "parameter_key": "setback_setback__ssmu_1_2u__1_2",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "side_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_093"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "setback_setback__ssmu_1_2u__3": {
+      "parameter_key": "setback_setback__ssmu_1_2u__3",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "rear_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_089"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "setback_setback__ssmu_3_4u__1_2": {
+      "parameter_key": "setback_setback__ssmu_3_4u__1_2",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "side_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_094"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "setback_setback__ssmu_3_4u__3": {
+      "parameter_key": "setback_setback__ssmu_3_4u__3",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "rear_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_090"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "setback_setback__ssmu_5_6u__1_2": {
+      "parameter_key": "setback_setback__ssmu_5_6u__1_2",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "side_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_095"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "setback_setback__ssmu_5_6u__3": {
+      "parameter_key": "setback_setback__ssmu_5_6u__3",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "rear_lot_line",
+      "source_rule_ids": [
+        "burnaby_r1_091"
+      ],
+      "source_pages": [
+        2
+      ],
+      "conditions": []
+    },
+    "sprinkler_distance_threshold_m": {
+      "parameter_key": "sprinkler_distance_threshold_m",
+      "value": 45,
+      "value_numeric": 45.0,
+      "unit": "m",
+      "operator": ">",
+      "geometry_target": "dwelling_unit",
+      "source_rule_ids": [
+        "burnaby_r1_025",
+        "burnaby_r1_110"
+      ],
+      "source_pages": [
+        6
+      ],
+      "conditions": [
+        "located more than 45 m from a lot line abutting a street",
+        "distance from lot line abutting a street"
+      ]
+    }
+  },
+  "constraints": [
+    {
+      "constraint_id": "burnaby_r1_001",
+      "source_rule_id": "burnaby_r1_001",
+      "rule_object": "lot_area",
+      "parameter_key": "min_lot_area_m2",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "applies_to": "lot",
+      "condition": "Minimum Lot Area",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 1,
+      "source_evidence_id": "m4_pack_0002_ev_001",
+      "source_quote": "Minimum Lot Area - 281 m2",
+      "felt_popup_sentence": "lot: lot area for lot area must be at least 281 m2 when Minimum Lot Area."
+    },
+    {
+      "constraint_id": "burnaby_r1_011",
+      "source_rule_id": "burnaby_r1_011",
+      "rule_object": "dwelling_units",
+      "parameter_key": "max_dwelling_units",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "units",
+      "applies_to": "dwelling units",
+      "condition": "Total Dwelling Units on a Lot 1 to 3 Units",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "bundle::burnaby_r1_011",
+      "source_quote": "[burnaby_r1_matrix_p2_t0_b0_001] Permitted Dwelling Units (including secondary suites) | Rowhouse 1 to 3 Units | 1 to 3\nUnits",
+      "felt_popup_sentence": "dwelling units: dwelling units for dwelling units must be no more than 3 units when Total Dwelling Units on a Lot 1 to 3 Units."
+    },
+    {
+      "constraint_id": "burnaby_r1_023",
+      "source_rule_id": "burnaby_r1_023",
+      "rule_object": "fire_access_corridor",
+      "parameter_key": "fire_access_corridor_width_m",
+      "export_group": "fire_access",
+      "geometry_target": "access_path",
+      "geometry": {
+        "operation": "clearance",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.0",
+      "value_numeric": 1.0,
+      "unit": "m",
+      "applies_to": "All dwelling units",
+      "condition": "paved or gravel fire access corridor",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 6,
+      "source_evidence_id": "m4_pack_0034_ev_001",
+      "source_quote": "All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor",
+      "felt_popup_sentence": "All dwelling units: fire access corridor for corridor width must be at least 1.0 m when paved or gravel fire access corridor."
+    },
+    {
+      "constraint_id": "burnaby_r1_025",
+      "source_rule_id": "burnaby_r1_025",
+      "rule_object": "automatic_sprinkler",
+      "parameter_key": "sprinkler_distance_threshold_m",
+      "export_group": "fire_access",
+      "geometry_target": "dwelling_unit",
+      "geometry": {
+        "operation": "trigger_predicate",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">",
+      "value": 45,
+      "value_numeric": 45.0,
+      "unit": "m",
+      "applies_to": "Dwelling units more than 45 m from a street lot line",
+      "condition": "located more than 45 m from a lot line abutting a street",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 6,
+      "source_evidence_id": "m4_pack_0035_ev_001",
+      "source_quote": "Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system.",
+      "felt_popup_sentence": "Dwelling units more than 45 m from a street lot line: automatic sprinkler for automatic sprinkler must be more than 45 m when located more than 45 m from a lot line abutting a street."
+    },
+    {
+      "constraint_id": "burnaby_r1_029",
+      "source_rule_id": "burnaby_r1_029",
+      "rule_object": "dwelling_units",
+      "parameter_key": "max_dwelling_units__rowhouse_1_3u",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": 3,
+      "value_numeric": 3.0,
+      "unit": "units",
+      "applies_to": "lot",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_001",
+      "source_quote": "Permitted Dwelling Units (including secondary suites) | Rowhouse 1 to 3 Units | 1 to 3\nUnits",
+      "felt_popup_sentence": "lot: dwelling units for lot must be no more than 3 units."
+    },
+    {
+      "constraint_id": "burnaby_r1_030",
+      "source_rule_id": "burnaby_r1_030",
+      "rule_object": "dwelling_units",
+      "parameter_key": "max_dwelling_units__ssmu_1_2u",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": 2,
+      "value_numeric": 2.0,
+      "unit": "units",
+      "applies_to": "lot",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_002",
+      "source_quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 1 to 2 Units | 1 to 2\nUnits",
+      "felt_popup_sentence": "lot: dwelling units for lot must be no more than 2 units."
+    },
+    {
+      "constraint_id": "burnaby_r1_031",
+      "source_rule_id": "burnaby_r1_031",
+      "rule_object": "dwelling_units",
+      "parameter_key": "max_dwelling_units__ssmu_3_4u",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": 4,
+      "value_numeric": 4.0,
+      "unit": "units",
+      "applies_to": "lot",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_003",
+      "source_quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 3 to 4 Units | 3 to 4\nUnits",
+      "felt_popup_sentence": "lot: dwelling units for lot must be no more than 4 units."
+    },
+    {
+      "constraint_id": "burnaby_r1_032",
+      "source_rule_id": "burnaby_r1_032",
+      "rule_object": "dwelling_units",
+      "parameter_key": "max_dwelling_units__ssmu_5_6u",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": 6,
+      "value_numeric": 6.0,
+      "unit": "units",
+      "applies_to": "lot",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_004",
+      "source_quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 5 to 6 Units",
+      "felt_popup_sentence": "lot: dwelling units for lot must be no more than 6 units."
+    },
+    {
+      "constraint_id": "burnaby_r1_033",
+      "source_rule_id": "burnaby_r1_033",
+      "rule_object": "lot_area",
+      "parameter_key": "min_lot_area_m2__ssmu_3_4u",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_005",
+      "source_quote": "Minimum Lot Area | Small-Scale Multi-Unit 3 to 4 Units | 4 Units Only\n:\n281 m2",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: lot area for lot area must be at least 281 m2."
+    },
+    {
+      "constraint_id": "burnaby_r1_034",
+      "source_rule_id": "burnaby_r1_034",
+      "rule_object": "lot_area",
+      "parameter_key": "min_lot_area_m2__ssmu_5_6u",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_006",
+      "source_quote": "Minimum Lot Area | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 281 m2",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: lot area for lot area must be at least 281 m2."
+    },
+    {
+      "constraint_id": "burnaby_r1_036",
+      "source_rule_id": "burnaby_r1_036",
+      "rule_object": "lot_coverage",
+      "parameter_key": "max_lot_coverage_pct__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "55",
+      "value_numeric": 55.0,
+      "unit": "%",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_008",
+      "source_quote": "Maximum Lot Coverage | All Buildings | Rowhouse 1 to 3 Units | 55%",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: lot coverage for lot coverage must be no more than 55 %."
+    },
+    {
+      "constraint_id": "burnaby_r1_037",
+      "source_rule_id": "burnaby_r1_037",
+      "rule_object": "lot_coverage",
+      "parameter_key": "max_lot_coverage_pct__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "40",
+      "value_numeric": 40.0,
+      "unit": "%",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "Lots < 567 m2",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "lot_area_threshold",
+            "comparator": "<=",
+            "value": 567.0,
+            "unit": "m2",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "Lots < 567 m2"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_009",
+      "source_quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 1 to 2 Units | Lots < 567 m2: 40%\nLots > 567 m2: 30%",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: lot coverage for lot coverage must be no more than 40 % when Lots < 567 m2."
+    },
+    {
+      "constraint_id": "burnaby_r1_038",
+      "source_rule_id": "burnaby_r1_038",
+      "rule_object": "lot_coverage",
+      "parameter_key": "max_lot_coverage_pct__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "30",
+      "value_numeric": 30.0,
+      "unit": "%",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "Lots > 567 m2",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "lot_area_threshold",
+            "comparator": ">",
+            "value": 567.0,
+            "unit": "m2",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "Lots > 567 m2"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_010",
+      "source_quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 1 to 2 Units | Lots < 567 m2: 40%\nLots > 567 m2: 30%",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: lot coverage for lot coverage must be no more than 30 % when Lots > 567 m2."
+    },
+    {
+      "constraint_id": "burnaby_r1_039",
+      "source_rule_id": "burnaby_r1_039",
+      "rule_object": "lot_coverage",
+      "parameter_key": "max_lot_coverage_pct__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "40",
+      "value_numeric": 40.0,
+      "unit": "%",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_011",
+      "source_quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 3 to 4 Units | 40%",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: lot coverage for lot coverage must be no more than 40 %."
+    },
+    {
+      "constraint_id": "burnaby_r1_040",
+      "source_rule_id": "burnaby_r1_040",
+      "rule_object": "lot_coverage",
+      "parameter_key": "max_lot_coverage_pct__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "45",
+      "value_numeric": 45.0,
+      "unit": "%",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_012",
+      "source_quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 45%",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: lot coverage for lot coverage must be no more than 45 %."
+    },
+    {
+      "constraint_id": "burnaby_r1_041",
+      "source_rule_id": "burnaby_r1_041",
+      "rule_object": "impervious_surface",
+      "parameter_key": "max_impervious_surface_pct__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "70",
+      "value_numeric": 70.0,
+      "unit": "%",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_013",
+      "source_quote": "Maximum Lot Coverage | Impervious Surfaces | Rowhouse 1 to 3 Units | 70%",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: impervious surface for impervious surface must be no more than 70 %."
+    },
+    {
+      "constraint_id": "burnaby_r1_042",
+      "source_rule_id": "burnaby_r1_042",
+      "rule_object": "impervious_surface",
+      "parameter_key": "max_impervious_surface_pct__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "60",
+      "value_numeric": 60.0,
+      "unit": "%",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_014",
+      "source_quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 1 to 2 Units | 60%",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: impervious surface for impervious surface must be no more than 60 %."
+    },
+    {
+      "constraint_id": "burnaby_r1_043",
+      "source_rule_id": "burnaby_r1_043",
+      "rule_object": "impervious_surface",
+      "parameter_key": "max_impervious_surface_pct__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "60",
+      "value_numeric": 60.0,
+      "unit": "%",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_015",
+      "source_quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 3 to 4 Units | 60%",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: impervious surface for impervious surface must be no more than 60 %."
+    },
+    {
+      "constraint_id": "burnaby_r1_044",
+      "source_rule_id": "burnaby_r1_044",
+      "rule_object": "impervious_surface",
+      "parameter_key": "max_impervious_surface_pct__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "70",
+      "value_numeric": 70.0,
+      "unit": "%",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_016",
+      "source_quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 70%",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: impervious surface for impervious surface must be no more than 70 %."
+    },
+    {
+      "constraint_id": "burnaby_r1_045",
+      "source_rule_id": "burnaby_r1_045",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_017",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: height for height must be no more than 10 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_046",
+      "source_rule_id": "burnaby_r1_046",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_018",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: height for height must be no more than 9.5 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_047",
+      "source_rule_id": "burnaby_r1_047",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_019",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: height for height must be no more than 10 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_048",
+      "source_rule_id": "burnaby_r1_048",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_020",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: height for height must be no more than 9.5 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_049",
+      "source_rule_id": "burnaby_r1_049",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_021",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: height for height must be no more than 10 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_050",
+      "source_rule_id": "burnaby_r1_050",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_022",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: height for height must be no more than 9.5 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_051",
+      "source_rule_id": "burnaby_r1_051",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_023",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: height for height must be no more than 10 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_052",
+      "source_rule_id": "burnaby_r1_052",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_024",
+      "source_quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 10 m | flat roof: 9.5 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: height for height must be no more than 9.5 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_053",
+      "source_rule_id": "burnaby_r1_053",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_025",
+      "source_quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Rowhouse 1 to 3 Units | 3 storeys",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: storeys for storeys must be no more than 3 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_054",
+      "source_rule_id": "burnaby_r1_054",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "2.5",
+      "value_numeric": 2.5,
+      "unit": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_026",
+      "source_quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 1 to 2 Units | 2.5 storeys",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: storeys for storeys must be no more than 2.5 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_055",
+      "source_rule_id": "burnaby_r1_055",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_027",
+      "source_quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 3 to 4 Units | 3 storeys",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: storeys for storeys must be no more than 3 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_056",
+      "source_rule_id": "burnaby_r1_056",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_028",
+      "source_quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 3 storeys",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: storeys for storeys must be no more than 3 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_057",
+      "source_rule_id": "burnaby_r1_057",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_029",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: height for height must be no more than 7.5 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_058",
+      "source_rule_id": "burnaby_r1_058",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_030",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: height for height must be no more than 7.0 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_059",
+      "source_rule_id": "burnaby_r1_059",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_031",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: height for height must be no more than 7.5 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_060",
+      "source_rule_id": "burnaby_r1_060",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_032",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: height for height must be no more than 7.0 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_061",
+      "source_rule_id": "burnaby_r1_061",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_033",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: height for height must be no more than 7.5 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_062",
+      "source_rule_id": "burnaby_r1_062",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_034",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: height for height must be no more than 7.0 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_063",
+      "source_rule_id": "burnaby_r1_063",
+      "rule_object": "height",
+      "parameter_key": "building_height_sloping_roof_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "sloping roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_035",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: height for height must be no more than 7.5 m when sloping roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_064",
+      "source_rule_id": "burnaby_r1_064",
+      "rule_object": "height",
+      "parameter_key": "building_height_flat_roof_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "flat roof"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_036",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: height for height must be no more than 7.0 m when flat roof."
+    },
+    {
+      "constraint_id": "burnaby_r1_065",
+      "source_rule_id": "burnaby_r1_065",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_037",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Rowhouse 1 to 3 Units | 2 storeys",
+      "felt_popup_sentence": "Rowhouse 1 to 3 Units: storeys for storeys must be no more than 2 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_066",
+      "source_rule_id": "burnaby_r1_066",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_038",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 1 to 2 Units | 2 storeys",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: storeys for storeys must be no more than 2 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_067",
+      "source_rule_id": "burnaby_r1_067",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_039",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 3 to 4 Units | 2 storeys",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: storeys for storeys must be no more than 2 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_068",
+      "source_rule_id": "burnaby_r1_068",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_040",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2 storeys",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: storeys for storeys must be no more than 2 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_069",
+      "source_rule_id": "burnaby_r1_069",
+      "rule_object": "height",
+      "parameter_key": "accessory_building_height_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_041",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Rowhouse 1 to 3 Units | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: height for height must be no more than 4.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_070",
+      "source_rule_id": "burnaby_r1_070",
+      "rule_object": "storeys",
+      "parameter_key": "accessory_building_max_storeys__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_042",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Rowhouse 1 to 3 Units | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: storeys for storeys must be no more than 1 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_071",
+      "source_rule_id": "burnaby_r1_071",
+      "rule_object": "height",
+      "parameter_key": "accessory_building_height_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_043",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 1 to 2 Units | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: height for height must be no more than 4.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_072",
+      "source_rule_id": "burnaby_r1_072",
+      "rule_object": "storeys",
+      "parameter_key": "accessory_building_max_storeys__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_044",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 1 to 2 Units | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: storeys for storeys must be no more than 1 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_073",
+      "source_rule_id": "burnaby_r1_073",
+      "rule_object": "height",
+      "parameter_key": "accessory_building_height_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_045",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 3 to 4 Units | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: height for height must be no more than 4.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_074",
+      "source_rule_id": "burnaby_r1_074",
+      "rule_object": "storeys",
+      "parameter_key": "accessory_building_max_storeys__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_046",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 3 to 4 Units | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: storeys for storeys must be no more than 1 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_075",
+      "source_rule_id": "burnaby_r1_075",
+      "rule_object": "height",
+      "parameter_key": "accessory_building_height_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_047",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: height for height must be no more than 4.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_076",
+      "source_rule_id": "burnaby_r1_076",
+      "rule_object": "storeys",
+      "parameter_key": "accessory_building_max_storeys__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "applies_to": "Accessory Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_048",
+      "source_quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 4.0 m | 1 storey",
+      "felt_popup_sentence": "Accessory Buildings: storeys for storeys must be no more than 1 storeys."
+    },
+    {
+      "constraint_id": "burnaby_r1_077",
+      "source_rule_id": "burnaby_r1_077",
+      "rule_object": "setback",
+      "parameter_key": "setback_setback__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": null,
+      "geometry": null,
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": false,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_049",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Rowhouse 1 to 3 Units | 3.0 m",
+      "felt_popup_sentence": "All Buildings: setback for setback must be at least 3.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_078",
+      "source_rule_id": "burnaby_r1_078",
+      "rule_object": "setback",
+      "parameter_key": "front_street_yard_setback_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "front_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "front_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "front",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "front"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_050",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 1 to 2 Units | front: 4.0 m | flanking: 3.0 m",
+      "felt_popup_sentence": "All Buildings: setback for street yard front must be at least 4.0 m when front."
+    },
+    {
+      "constraint_id": "burnaby_r1_079",
+      "source_rule_id": "burnaby_r1_079",
+      "rule_object": "setback",
+      "parameter_key": "flanking_street_yard_setback_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "side_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "flanking",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "flanking"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_051",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 1 to 2 Units | front: 4.0 m | flanking: 3.0 m",
+      "felt_popup_sentence": "All Buildings: setback for street yard flanking must be at least 3.0 m when flanking."
+    },
+    {
+      "constraint_id": "burnaby_r1_080",
+      "source_rule_id": "burnaby_r1_080",
+      "rule_object": "setback",
+      "parameter_key": "front_street_yard_setback_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "front_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "front_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "front",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "front"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_052",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 3 to 4 Units | front: 4.0 m | flanking: 3.0 m",
+      "felt_popup_sentence": "All Buildings: setback for street yard front must be at least 4.0 m when front."
+    },
+    {
+      "constraint_id": "burnaby_r1_081",
+      "source_rule_id": "burnaby_r1_081",
+      "rule_object": "setback",
+      "parameter_key": "flanking_street_yard_setback_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "side_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "flanking",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "flanking"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_053",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 3 to 4 Units | front: 4.0 m | flanking: 3.0 m",
+      "felt_popup_sentence": "All Buildings: setback for street yard flanking must be at least 3.0 m when flanking."
+    },
+    {
+      "constraint_id": "burnaby_r1_082",
+      "source_rule_id": "burnaby_r1_082",
+      "rule_object": "setback",
+      "parameter_key": "front_street_yard_setback_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "front_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "front_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "front",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "front"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_054",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | front: 4.0 m | flanking: 3.0 m",
+      "felt_popup_sentence": "All Buildings: setback for street yard front must be at least 4.0 m when front."
+    },
+    {
+      "constraint_id": "burnaby_r1_083",
+      "source_rule_id": "burnaby_r1_083",
+      "rule_object": "setback",
+      "parameter_key": "flanking_street_yard_setback_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "side_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "flanking",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "flanking"
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_055",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | front: 4.0 m | flanking: 3.0 m",
+      "felt_popup_sentence": "All Buildings: setback for street yard flanking must be at least 3.0 m when flanking."
+    },
+    {
+      "constraint_id": "burnaby_r1_084",
+      "source_rule_id": "burnaby_r1_084",
+      "rule_object": "setback",
+      "parameter_key": "lane_yard_setback_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "lane",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_056",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Rowhouse 1 to 3 Units | 1.5 m",
+      "felt_popup_sentence": "All Buildings: setback for lane yard must be at least 1.5 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_085",
+      "source_rule_id": "burnaby_r1_085",
+      "rule_object": "setback",
+      "parameter_key": "lane_yard_setback_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "lane",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_057",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 1 to 2 Units | 1.5 m",
+      "felt_popup_sentence": "All Buildings: setback for lane yard must be at least 1.5 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_086",
+      "source_rule_id": "burnaby_r1_086",
+      "rule_object": "setback",
+      "parameter_key": "lane_yard_setback_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "lane",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_058",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 3 to 4 Units | 1.5 m",
+      "felt_popup_sentence": "All Buildings: setback for lane yard must be at least 1.5 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_087",
+      "source_rule_id": "burnaby_r1_087",
+      "rule_object": "setback",
+      "parameter_key": "lane_yard_setback_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "lane",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_059",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 1.5 m",
+      "felt_popup_sentence": "All Buildings: setback for lane yard must be at least 1.5 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_089",
+      "source_rule_id": "burnaby_r1_089",
+      "rule_object": "setback",
+      "parameter_key": "setback_setback__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "rear_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "rear_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_061",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 1 to 2 Units | 3.0 m, except 1.5 m for accessory buildings",
+      "felt_popup_sentence": "All Buildings: setback for setback must be at least 3.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_090",
+      "source_rule_id": "burnaby_r1_090",
+      "rule_object": "setback",
+      "parameter_key": "setback_setback__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "rear_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "rear_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_062",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 3 to 4 Units | 3.0 m, except 1.5 m for accessory buildings",
+      "felt_popup_sentence": "All Buildings: setback for setback must be at least 3.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_091",
+      "source_rule_id": "burnaby_r1_091",
+      "rule_object": "setback",
+      "parameter_key": "setback_setback__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "rear_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "rear_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_063",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 3.0 m, except 1.5 m for accessory buildings",
+      "felt_popup_sentence": "All Buildings: setback for setback must be at least 3.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_093",
+      "source_rule_id": "burnaby_r1_093",
+      "rule_object": "setback",
+      "parameter_key": "setback_setback__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "side_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_065",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 1 to 2 Units | 1.2 m",
+      "felt_popup_sentence": "All Buildings: setback for setback must be at least 1.2 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_094",
+      "source_rule_id": "burnaby_r1_094",
+      "rule_object": "setback",
+      "parameter_key": "setback_setback__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "side_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_066",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 3 to 4 Units | 1.2 m",
+      "felt_popup_sentence": "All Buildings: setback for setback must be at least 1.2 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_095",
+      "source_rule_id": "burnaby_r1_095",
+      "rule_object": "setback",
+      "parameter_key": "setback_setback__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "side_lot_line",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "applies_to": "All Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_067",
+      "source_quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 1.2 m",
+      "felt_popup_sentence": "All Buildings: setback for setback must be at least 1.2 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_096",
+      "source_rule_id": "burnaby_r1_096",
+      "rule_object": "building_separation",
+      "parameter_key": "building_separation_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_068",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 1 to 2 Units: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_097",
+      "source_rule_id": "burnaby_r1_097",
+      "rule_object": "building_separation",
+      "parameter_key": "building_separation_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_069",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 3 to 4 Units: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_098",
+      "source_rule_id": "burnaby_r1_098",
+      "rule_object": "building_separation",
+      "parameter_key": "building_separation_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_070",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+      "felt_popup_sentence": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_099",
+      "source_rule_id": "burnaby_r1_099",
+      "rule_object": "building_separation",
+      "parameter_key": "rear_principal_separation_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "Rear Principal Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_071",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m",
+      "felt_popup_sentence": "Rear Principal Buildings: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_100",
+      "source_rule_id": "burnaby_r1_100",
+      "rule_object": "building_separation",
+      "parameter_key": "rear_principal_separation_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "Rear Principal Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_072",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m",
+      "felt_popup_sentence": "Rear Principal Buildings: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_101",
+      "source_rule_id": "burnaby_r1_101",
+      "rule_object": "building_separation",
+      "parameter_key": "rear_principal_separation_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "Rear Principal Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_073",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+      "felt_popup_sentence": "Rear Principal Buildings: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_102",
+      "source_rule_id": "burnaby_r1_102",
+      "rule_object": "building_separation",
+      "parameter_key": "front_rear_principal_separation_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "applies_to": "Front and Rear Principal Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_074",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Rowhouse 1 to 3 Units | 6.0 m",
+      "felt_popup_sentence": "Front and Rear Principal Buildings: building separation for building separation must be at least 6.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_103",
+      "source_rule_id": "burnaby_r1_103",
+      "rule_object": "building_separation",
+      "parameter_key": "front_rear_principal_separation_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "applies_to": "Front and Rear Principal Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_075",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 1 to 2 Units | 6.0 m",
+      "felt_popup_sentence": "Front and Rear Principal Buildings: building separation for building separation must be at least 6.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_104",
+      "source_rule_id": "burnaby_r1_104",
+      "rule_object": "building_separation",
+      "parameter_key": "front_rear_principal_separation_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "applies_to": "Front and Rear Principal Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_076",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 3 to 4 Units | 6.0 m",
+      "felt_popup_sentence": "Front and Rear Principal Buildings: building separation for building separation must be at least 6.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_105",
+      "source_rule_id": "burnaby_r1_105",
+      "rule_object": "building_separation",
+      "parameter_key": "front_rear_principal_separation_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "applies_to": "Front and Rear Principal Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_077",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 6.0 m",
+      "felt_popup_sentence": "Front and Rear Principal Buildings: building separation for building separation must be at least 6.0 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_106",
+      "source_rule_id": "burnaby_r1_106",
+      "rule_object": "building_separation",
+      "parameter_key": "other_building_separation_m__rowhouse_1_3u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "All Other Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b0_078",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Rowhouse 1 to 3 Units | 2.4 m",
+      "felt_popup_sentence": "All Other Buildings: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_107",
+      "source_rule_id": "burnaby_r1_107",
+      "rule_object": "building_separation",
+      "parameter_key": "other_building_separation_m__ssmu_1_2u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "All Other Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b1_079",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m",
+      "felt_popup_sentence": "All Other Buildings: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_108",
+      "source_rule_id": "burnaby_r1_108",
+      "rule_object": "building_separation",
+      "parameter_key": "other_building_separation_m__ssmu_3_4u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "All Other Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b2_080",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m",
+      "felt_popup_sentence": "All Other Buildings: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_109",
+      "source_rule_id": "burnaby_r1_109",
+      "rule_object": "building_separation",
+      "parameter_key": "other_building_separation_m__ssmu_5_6u",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "applies_to": "All Other Buildings",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 2,
+      "source_evidence_id": "burnaby_r1_matrix_p2_t0_b3_081",
+      "source_quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+      "felt_popup_sentence": "All Other Buildings: building separation for building separation must be at least 2.4 m."
+    },
+    {
+      "constraint_id": "burnaby_r1_110",
+      "source_rule_id": "burnaby_r1_110",
+      "rule_object": "automatic_sprinkler",
+      "parameter_key": "sprinkler_distance_threshold_m",
+      "export_group": "fire_access",
+      "geometry_target": "dwelling_unit",
+      "geometry": {
+        "operation": "trigger_predicate",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">",
+      "value": 45,
+      "value_numeric": 45.0,
+      "unit": "m",
+      "applies_to": "Dwelling units more than 45 m from a street lot line",
+      "condition": "distance from lot line abutting a street",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 6,
+      "source_evidence_id": "m4_pack_0035_v3_clause_ev_001",
+      "source_quote": "Parent context: 101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system",
+      "felt_popup_sentence": "Dwelling units more than 45 m from a street lot line: automatic sprinkler for dwelling unit must be more than 45 m when distance from lot line abutting a street."
+    },
+    {
+      "constraint_id": "burnaby_r1_113",
+      "source_rule_id": "burnaby_r1_113",
+      "rule_object": "lot_area",
+      "parameter_key": "min_lot_area_m2",
+      "export_group": "capacity",
+      "geometry_target": "parcel_polygon",
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "applies_to": "Minimum Lot Area",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 1,
+      "source_evidence_id": "v3_repair_pack_0001_ev_001",
+      "source_quote": "Minimum Lot Area - 281 m2",
+      "felt_popup_sentence": "Minimum Lot Area: lot area for lot area must be at least 281 m2."
+    }
+  ],
+  "review_blockers": {
+    "count": 57,
+    "category_counts": [
+      {
+        "name": "operator_uncertain",
+        "count": 19
+      },
+      {
+        "name": "missing_applies_to",
+        "count": 7
+      },
+      {
+        "name": "missing_condition_evidence",
+        "count": 6
+      },
+      {
+        "name": "text_candidate_needs_consensus",
+        "count": 6
+      },
+      {
+        "name": "general_review",
+        "count": 5
+      },
+      {
+        "name": "missing_scope_evidence",
+        "count": 5
+      },
+      {
+        "name": "upstream_review_requested",
+        "count": 4
+      },
+      {
+        "name": "unresolved_exception",
+        "count": 3
+      },
+      {
+        "name": "possible_rule_object_mismatch",
+        "count": 2
+      }
+    ],
+    "action_counts": [
+      {
+        "name": "retry_with_better_evidence",
+        "count": 49
+      },
+      {
+        "name": "human_legal_review",
+        "count": 3
+      },
+      {
+        "name": "evidence_packet_repair_candidate",
+        "count": 2
+      },
+      {
+        "name": "needs_second_source_consensus",
+        "count": 2
+      },
+      {
+        "name": "defer_low_priority",
+        "count": 1
+      }
+    ],
+    "rule_family_counts": [
+      {
+        "name": "dwelling_units",
+        "count": 20
+      },
+      {
+        "name": "setback",
+        "count": 9
+      },
+      {
+        "name": "building_separation",
+        "count": 8
+      },
+      {
+        "name": "lot_area",
+        "count": 6
+      },
+      {
+        "name": "fire_access_corridor",
+        "count": 4
+      },
+      {
+        "name": "height",
+        "count": 4
+      },
+      {
+        "name": "impervious_surface",
+        "count": 2
+      },
+      {
+        "name": "lot_coverage",
+        "count": 2
+      },
+      {
+        "name": "permitted_use",
+        "count": 2
+      }
+    ],
+    "example_blockers": [
+      {
+        "rule_id": "burnaby_r1_002",
+        "rule_object": "lot_area",
+        "review_category": "general_review",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); rule family direction mismatch"
+      },
+      {
+        "rule_id": "burnaby_r1_003",
+        "rule_object": "dwelling_units",
+        "review_category": "operator_uncertain",
+        "review_reason": "the extraction layer marked this candidate for review; Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the proposed operator is not supported by the cited wording; the cited evidence does not support the proposed rule object; the value is one range bound (e.g. 1 to 3) while a higher range is listed — not the overall maximum"
+      },
+      {
+        "rule_id": "burnaby_r1_004",
+        "rule_object": "dwelling_units",
+        "review_category": "operator_uncertain",
+        "review_reason": "the extraction layer marked this candidate for review; Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the proposed operator is not supported by the cited wording; the cited evidence does not support the proposed rule object"
+      },
+      {
+        "rule_id": "burnaby_r1_005",
+        "rule_object": "lot_coverage",
+        "review_category": "missing_condition_evidence",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the cited text does not support a material condition needed for text-rule verification"
+      },
+      {
+        "rule_id": "burnaby_r1_006",
+        "rule_object": "impervious_surface",
+        "review_category": "missing_condition_evidence",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the cited text does not support a material condition needed for text-rule verification"
+      },
+      {
+        "rule_id": "burnaby_r1_007",
+        "rule_object": "setback",
+        "review_category": "missing_condition_evidence",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the cited text does not support a material condition needed for text-rule verification"
+      },
+      {
+        "rule_id": "burnaby_r1_008",
+        "rule_object": "dwelling_units",
+        "review_category": "upstream_review_requested",
+        "review_reason": "the extraction layer marked this candidate for review; Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the value is one range bound (e.g. 1 to 3) while a higher range is listed — not the overall maximum"
+      },
+      {
+        "rule_id": "burnaby_r1_009",
+        "rule_object": "dwelling_units",
+        "review_category": "upstream_review_requested",
+        "review_reason": "the extraction layer marked this candidate for review; Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction)"
+      }
+    ]
+  },
+  "not_used_summary": {
+    "count": 0,
+    "top_reasons": [],
+    "example_rule_ids": []
+  },
+  "export_counts": {
+    "verified_rule_count": 84,
+    "gis_constraint_count": 84,
+    "buildable_area_parameter_count": 81,
+    "review_blocker_rule_count": 57,
+    "not_used_rule_count": 0
+  }
+}

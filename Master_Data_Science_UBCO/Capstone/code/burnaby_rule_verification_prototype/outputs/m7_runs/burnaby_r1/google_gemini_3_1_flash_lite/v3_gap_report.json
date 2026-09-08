@@ -1,0 +1,106 @@
+{
+  "report": "v3_gap_report",
+  "city": "burnaby_r1",
+  "pipeline": "native_m4_rag_llm",
+  "discovery_mode": "m4",
+  "advisory_gold_fields": true,
+  "safety_contract": "M4 extracts and repairs evidence packs; deterministic verifier decides.",
+  "pdf_page_count": 7,
+  "source_chunk_count": 93,
+  "pack_count": 93,
+  "m4_source_corpus": {
+    "path": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/benchmark/source_corpus/burnaby_r1",
+    "corpus_version": "m4_source_corpus_1",
+    "numeric_clause_count": 40,
+    "rule_like_numeric_clause_count": 23,
+    "selected_rule_like_numeric_coverage": 1.0
+  },
+  "model": "google/gemini-3.1-flash-lite",
+  "candidate_rule_count": 144,
+  "verified_rule_count": 87,
+  "review_rule_count": 57,
+  "rejected_rule_count": 0,
+  "not_used_rule_count": 0,
+  "false_verified_count": 0,
+  "verified_source_support_failed_count": 0,
+  "verified_precision": 1.0,
+  "verified_or_review_recall": 0.975,
+  "extraction_coverage_recall": 0.975,
+  "verifier_retention_rate": 1.0,
+  "top_support_gaps": [
+    {
+      "reason": "text_candidate_requires_review",
+      "count": 55
+    },
+    {
+      "reason": "operator_not_supported",
+      "count": 19
+    },
+    {
+      "reason": "upstream_extraction_requested_review",
+      "count": 19
+    },
+    {
+      "reason": "rule_object_not_supported",
+      "count": 18
+    },
+    {
+      "reason": "rule_family_direction_mismatch",
+      "count": 16
+    },
+    {
+      "reason": "applies_to_not_supported",
+      "count": 14
+    },
+    {
+      "reason": "constraint_scope_not_supported",
+      "count": 11
+    },
+    {
+      "reason": "range_bound_not_maximum",
+      "count": 8
+    },
+    {
+      "reason": "text_condition_not_supported",
+      "count": 6
+    },
+    {
+      "reason": "extraction_source_fidelity_hold",
+      "count": 4
+    }
+  ],
+  "estimated_cost_usd": 0.014857,
+  "latency_ms": 81334,
+  "extraction_error_count": 2,
+  "extraction_errors": [
+    {
+      "pack_id": "m4_pack_0001",
+      "chunk_id": "burnaby_r1_101.4_004",
+      "section": "101.4",
+      "page": 2,
+      "error": "model did not return valid JSON"
+    },
+    {
+      "pack_id": "v3_repair_pack_0002",
+      "chunk_id": "burnaby_r1_101.4_004",
+      "section": "101.4",
+      "page": 2,
+      "error": "model did not return valid JSON"
+    }
+  ],
+  "missed_rules": {
+    "unextracted_gold_rule_ids": [
+      "br1_fire_003"
+    ],
+    "verifier_rejected_gold_rule_ids": [],
+    "not_used_gold_rule_ids": [],
+    "missed_verified_or_review_gold_rule_ids": [
+      "br1_fire_003"
+    ]
+  },
+  "v2_comparison": {},
+  "interpretation": [
+    "M4 preserved the false_verified_count = 0 safety target for this city.",
+    "Missed-rule IDs are evaluation-only and are not used by M4 runtime extraction."
+  ]
+}

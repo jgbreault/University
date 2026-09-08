@@ -1,0 +1,1856 @@
+{
+  "purpose": "Source-backed evidence repair before verification. Advisory/debug only; the verifier still decides.",
+  "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/calgary_rcg/source.pdf",
+  "attempted": true,
+  "evidence_count": 150,
+  "candidate_count": 150,
+  "status_counts": {
+    "reanchored": 140,
+    "source_mismatch": 10
+  },
+  "forced_review_count": 0,
+  "items": [
+    {
+      "evidence_id": "m4_pack_0001_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+      "source_context": "tion (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (a) 5.0 metres...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0001_ev_002",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "(b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+      "source_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+      "parent_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is:"
+    },
+    {
+      "evidence_id": "m4_pack_0001_ev_003",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "(c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+      "source_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+      "parent_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is:"
+    },
+    {
+      "evidence_id": "m4_pack_0002_ev_001",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum building setback from the side property line shared with another parcel is 3.0 metres",
+      "source_context": "units on the parcel are contained in main residential buildings located within the first 60.0 per cent of the parcel depth; and (c) where the minimum separation distance of the main residential buildings on the front portion of the parcel and the main residential buildings contained on the rear portion of the parcel is 6.5 metres. (3) For a main residential building that is located on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with ano...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0002_ev_002",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "50.0 per cent parcel depth",
+      "source_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and: 50.0 per cent parcel depth",
+      "parent_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and:"
+    },
+    {
+      "evidence_id": "m4_pack_0003_ev_001",
+      "page": 395,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite",
+      "source_context": "area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metr...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0003_ev_002",
+      "page": 395,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage.",
+      "source_context": "bove grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a r...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0006_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres",
+      "source_context": "in residential building to the closest façade of a Backyard Suite. 10P2019 (3.1) The minimum façade separation in subsection (3) may be reduced to 1.5 metres where amenity space is provided at grade that: (a) is adjacent to the main residential building and the Backyard Suite; and (b) has no dimension less than 5.0 metres. 10P2019 (3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0006_ev_002",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections",
+      "source_context": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0006_ev_003",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "each have a maximum length of 3.1 metres",
+      "source_context": "ne shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwi...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0007_ev_001",
+      "page": 398,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a minimum of 3.0 metres for any other residential district",
+      "source_context": "operty line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if: (a) the Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling was legally existing or approved prior to the effective date of this Bylaw; (b) the building setback from the front property line is: (i) a minimum of 6.0 metres for the R-C1L or R-C1Ls districts; or (ii) a minimum of 3.0 metres for any other residential district; and 67P...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0009_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the maximum building height for a Backyard Suite is 7.5 metres.",
+      "source_context": "line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0013_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "A minimum building setback of 1.2 metres is required from a side property line",
+      "source_context": "PART 5 - 536 Building Setback Areas 15P2016 536 The minimum depth of all setback areas must be equal to the minimum 56P2022 building setback required in sections 535, 537, 538, 539, and 540. 537 Building Setback from Front Property Line 56P2022 537 The minimum building setback from a front property line is 3.0 metres. 61P2018, 15P2016, 62P2018 538 Block Face Requirements 15P2016 538 (1) A minimum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire leng...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0014_ev_001",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "21.0 square metres where one motor vehicle parking stall is required on a parcel that is not located in a private garage",
+      "source_context": "hectare; (c) 55.0 per cent of the area of the parcels subject to the single development permit for a development with a density of 50 units per hectare or greater and less than 60 units per hectare; or (d) 60.0 per cent of the area of the parcels subject to a single development permit for a development with a density of 60 units per hectare or greater. (3) The maximum parcel coverage referenced in subsections (1) and (2), must be reduced by: (a) 21.0 square metres where one motor vehicle parking stall is require...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0014_ev_002",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "19.0 square metres for each required motor vehicle parking stall that is not located in a private garage where more than one motor vehicle parking stall is required on a parcel",
+      "source_context": "50 units per hectare or greater and less than 60 units per hectare; or (d) 60.0 per cent of the area of the parcels subject to a single development permit for a development with a density of 60 units per hectare or greater. (3) The maximum parcel coverage referenced in subsections (1) and (2), must be reduced by: (a) 21.0 square metres where one motor vehicle parking stall is required on a parcel that is not located in a private garage; and (b) 19.0 square metres for each required motor vehicle parking stall tha...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0015_ev_001",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "the balcony is setback less than 4.0 metres from the shared property line",
+      "source_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; the balcony is setback less than 4.0 metres from the shared property line",
+      "parent_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street;"
+    },
+    {
+      "evidence_id": "m4_pack_0015_ev_002",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the privacy wall is a minimum of 2.0 metres in height",
+      "source_context": "n 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0015_ev_003",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a maximum of 3.0 metres in height",
+      "source_context": "Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Back...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0017_ev_001",
+      "page": 395,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent.",
+      "source_context": "dary Suite, excluding any area covered by stairways and landings, is 100.0 square metres: (a) in the R-C1L, R-C1Ls, R-C1, R-C1s, R-C1N, R-1, R-1s and 24P2018 R-1N Districts; or (b) when located on a parcel with a parcel width less than 13.0 metres (2.1) There is no maximum floor area for a Secondary Suite wholly located 23P2016, 4P2017 in a basement. Internal landings and stairways providing access to the basement may be located above grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the D...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0018_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite.",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 10P2019 (3) Unless otherwise referenced in subsections (3.1) and (3.2), a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite. 10P2019 (3.1) The minimum façade separation in subsection (3) may be reduced to 1.5 metres where amenity space is provided at grade that: (a) is adjacent to the main residential building and the Backyard Suite; and (b) has no dimension less than 5.0 metres. 10...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0019_ev_001",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum floor area of a Backyard Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent.",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES (6) The maximum floor area of a Backyard Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (7) Except in the R-CG District, a Backyard Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a pro...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0021_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres.",
+      "source_context": "maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area cover...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0021_ev_002",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+      "source_context": "e is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not e...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0022_ev_001",
+      "page": 469,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+      "source_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+      "parent_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a)"
+    },
+    {
+      "evidence_id": "m4_pack_0022_ev_002",
+      "page": 469,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "50.0 per cent of the area of the parcels subject to the single",
+      "source_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare; 50.0 per cent of the area of the parcels subject to the single",
+      "parent_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare;"
+    },
+    {
+      "evidence_id": "m4_pack_0023_ev_001",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the maximum parcel coverage is 45.0 percent.",
+      "source_context": "er hectare or greater. (3) The maximum parcel coverage referenced in subsections (1) and (2), must be reduced by: (a) 21.0 square metres where one motor vehicle parking stall is required on a parcel that is not located in a private garage; and (b) 19.0 square metres for each required motor vehicle parking stall that is not located in a private garage where more than one motor vehicle parking stall is required on a parcel. (4) For all other uses, the maximum parcel coverage is 45.0 percent. 15P2016, 62P2019 56P20...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0025_ev_001",
+      "page": 469,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum density for parcels designated R-CG District is 75 units per hectare.",
+      "source_context": "PART 5 - 528 Rules 528 In addition to the rules in this District, all uses in this District must comply with: (a) the General Rules for Low Density Residential Land Use Districts referenced in Part 5, Division 1; (b) the Rules Governing All Districts referenced in Part 3; and (c) the applicable Uses And Use Rules referenced in Part 4. 529 Density 529 The maximum density for parcels designated R-CG District is 75 units per hectare. 530 Number of Main Residential Buildings on a Parcel 4P2017 530 deleted 531 Parcel...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0027_ev_001",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum separation distance of the main residential buildings on the front portion of the parcel and the main residential buildings contained on the rear portion of the parcel is 6.5 metres",
+      "source_context": "the parcel depth for a building containing a unit. (2) On a laned parcel, there is no maximum building depth for a main residential building wholly contained to the rear of 40.0 percent parcel depth where: (a) there is more than one main residential building on the parcel; (b) 50.0 per cent or more of the units on the parcel are contained in main residential buildings located within the first 60.0 per cent of the parcel depth; and (c) where the minimum separation distance of the main residential buildings on the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0031_ev_001",
+      "page": 398,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "Decks greater than 1.5 metres in height",
+      "source_context": "the parcel width, parcel depth or the area of the parcel is less than the minimum required in a district the parcel is deemed to conform to the minimum requirement of this Bylaw provided that the use of the parcel is not being intensified. Decks greater than 1.5 metres in height",
+      "parent_context": "the parcel width, parcel depth or the area of the parcel is less than the minimum required in a district the parcel is deemed to conform to the minimum requirement of this Bylaw provided that the use of the parcel is not being intensified."
+    },
+    {
+      "evidence_id": "m4_pack_0032_ev_001",
+      "page": 469,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The minimum width of a street facing façade of a unit is 4.2 metres.",
+      "source_context": "5, Division 1; (b) the Rules Governing All Districts referenced in Part 3; and (c) the applicable Uses And Use Rules referenced in Part 4. 529 Density 529 The maximum density for parcels designated R-CG District is 75 units per hectare. 530 Number of Main Residential Buildings on a Parcel 4P2017 530 deleted 531 Parcel Width 15P2016 531 The minimum parcel width is 7.5 metres for a parcel containing a Duplex Dwelling. 532 Facade Width 15P2016 532 The minimum width of a street facing façade of a unit is 4.2 metres....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0033_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres.",
+      "source_context": "building setback required in sections 535, 537, 538, 539, and 540. 537 Building Setback from Front Property Line 56P2022 537 The minimum building setback from a front property line is 3.0 metres. 61P2018, 15P2016, 62P2018 538 Block Face Requirements 15P2016 538 (1) A minimum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, w...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_001",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347.1 Contextual Semi-detached Dwelling 347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an are...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_002",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347.1 Contextual Semi-detached Dwelling 347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an are...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_003",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_004",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the projecting or recessed portion having a minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "pal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of each unit, recessed or projecting forward from the remainder of the front façade of that unit, with the projecting or recessed portion having a minimum dimension of: (...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_005",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_006",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_007",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a porch that projects from the front façade a minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "he other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of each unit, recessed or projecting forward from the remainder of the front façade of that unit, with the projecting or recessed portion having a minimum dimension of: (A) 2.0 metres in width; (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch that projects from the front façade a minimum dimension of:...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_008",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_009",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "there is a minimum distance of 1.5 metres between the finished floor and the bottom of the window sill",
+      "source_context": "ance which is visible from the street side of the corner parcel; (d) must not have vehicular access from the lane to an attached private garage; (e) must not have windows that are located beyond the rear 9P2012, 44P2013 façade of a contextual adjacent building on an adjoining parcel unless: (i) the window is located below the second storey; (ii) the window is located on the rear façade; (iii) the glass in the window is entirely obscured; or (iv) there is a minimum distance of 1.5 metres between the finished floo...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0040_ev_010",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "must not have a roof slope less than 4:12 within 1.5 metres of the horizontal plane forming the maximum building height",
+      "source_context": "e to an attached private garage; (e) must not have windows that are located beyond the rear 9P2012, 44P2013 façade of a contextual adjacent building on an adjoining parcel unless: (i) the window is located below the second storey; (ii) the window is located on the rear façade; (iii) the glass in the window is entirely obscured; or (iv) there is a minimum distance of 1.5 metres between the finished floor and the bottom of the window sill; and (f) must not have a roof slope less than 4:12 within 1.5 metres of the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0041_ev_001",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the privacy wall is a minimum of 2.0 metres in height",
+      "source_context": "(i) where it forms part of the front façade and is not recessed back more than 4.5 metres from the front façade; or (ii) where it is on the street side of a corner parcel; (b) may have a balcony located on a rear façade where: (i) it does not form part of the side façade unless the side façade is on the street side of a corner parcel; (ii) a privacy wall is provided where the balcony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0041_ev_002",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a maximum of 3.0 metres in height",
+      "source_context": "essed back more than 4.5 metres from the front façade; or (ii) where it is on the street side of a corner parcel; (b) may have a balcony located on a rear façade where: (i) it does not form part of the side façade unless the side façade is on the street side of a corner parcel; (ii) a privacy wall is provided where the balcony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and 27P2011 (c) must not have a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0041_ev_003",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "must not have a balcony with a height greater than 6.0 metres",
+      "source_context": "de; or (ii) where it is on the street side of a corner parcel; (b) may have a balcony located on a rear façade where: (i) it does not form part of the side façade unless the side façade is on the street side of a corner parcel; (ii) a privacy wall is provided where the balcony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and 27P2011 (c) must not have a balcony with a height greater than 6.0 metres, when...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0042_ev_001",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade",
+      "source_context": "foremost front façade of the immediately adjacent main residential building and the front property line. 15P2016, 541 Building Height 62P2018,56P2022 541 (1) Unless otherwise referenced in subsections (2), (3) and (4), the maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0042_ev_002",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "increases at a 45 degree angle to a maximum of 11.0 metres",
+      "source_context": "he maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0043_ev_001",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347 Contextual Single Detached Dwelling 347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 me...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0043_ev_002",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a mini...",
+      "source_context": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular acc...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0043_ev_003",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a mini...",
+      "source_context": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular acc...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0043_ev_004",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347 Contextual Single Detached Dwelling 347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 me...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0043_ev_005",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a mini...",
+      "source_context": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular acc...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0043_ev_006",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum distance of 1.5 metres between the 66P2022 finished floor and the bottom of the window sill",
+      "source_context": "mension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular access from the lane to an attached private garage; (c) must not have windows that are located beyond the rear 9P2012 façade of a main residential building on an adjoining parcel unless: (i) the window is located below the second storey; (ii) the window is located on the rear façade; (iii) the glass in the window is entirely obscured; or (iv) there is a minimum distance of 1.5 metres between the 66P2022 finished floor a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0044_ev_001",
+      "page": 399,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "difference between the average building reference point at the front corners of the parcel and those at the rear of the parcel is greater than or equal to 1.0 metres",
+      "source_context": "in (5), the building height of a 3P2010 Contextual Semi-detached Dwelling, Contextual Single Detached Dwelling, Duplex Dwelling, Semi-detached Dwelling and Single Detached Dwelling, must not exceed a height plane described in this section. difference between the average building reference point at the front corners of the parcel and those at the rear of the parcel is greater than or equal to 1.0 metres",
+      "parent_context": "in (5), the building height of a 3P2010 Contextual Semi-detached Dwelling, Contextual Single Detached Dwelling, Duplex Dwelling, Semi-detached Dwelling and Single Detached Dwelling, must not exceed a height plane described in this section."
+    },
+    {
+      "evidence_id": "m4_pack_0045_ev_001",
+      "page": 399,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "difference between the average building reference points at the front corners of the parcel and those at the rear of the parcel is less than 1.0 metres",
+      "source_context": "(b) extends vertically to the maximum building height plus 1.0 metre; difference between the average building reference points at the front corners of the parcel and those at the rear of the parcel is less than 1.0 metres",
+      "parent_context": "(b) extends vertically to the maximum building height plus 1.0 metre;"
+    },
+    {
+      "evidence_id": "m4_pack_0046_ev_001",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the maximum building height is 11.0 metres measured from grade.",
+      "source_context": "mum building setback from a rear property line is 1.2 metres. 62P2018 540.1 Fences 540.1 The height of a fence above grade at any point along a fence line must not exceed 1.2 metres for any portion of a fence extending between the foremost front façade of the immediately adjacent main residential building and the front property line. 15P2016, 541 Building Height 62P2018,56P2022 541 (1) Unless otherwise referenced in subsections (2), (3) and (4), the maximum building height is 11.0 metres measured from grade. (2)...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0047_ev_001",
+      "page": 473,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building",
+      "source_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building located between the rear property line and 60.0 per cent parcel depth or the contextual building depth average, whichever is greater. (5) deleted 56P2022 15P2016,62P2018, 542 Landscaping Requirements 56P2022 542 (1) For developments of three units or more, landscaped areas must be provided in accordance with a landscape plan approved by the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0047_ev_002",
+      "page": 473,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "60.0 per cent parcel depth",
+      "source_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building located between the rear property line and 60.0 per cent parcel depth",
+      "parent_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building located between the rear property line and"
+    },
+    {
+      "evidence_id": "m4_pack_0048_ev_001",
+      "page": 400,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "7.5 metres in height from grade where the existing building has a walkout basement",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 3P2010 (4) The following diagrams illustrate the rules of subsections (2) and (3). Illustration 1: Building Height Subsection 360(2) Subsection 360(3) 3P2010 (5) The building height for an addition to a main residential building is measured from grade at any point adjacent to the addition when the addition is less than or equal to: (a) 7.5 metres in height from grade where the existing building has a walkout basement; and (b) 6.0 metres in height from grade where the existing b...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0048_ev_002",
+      "page": 400,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "6.0 metres in height from grade where the existing building does not have a walkout basement",
+      "source_context": "ON 1: GENERAL RULES 3P2010 (4) The following diagrams illustrate the rules of subsections (2) and (3). Illustration 1: Building Height Subsection 360(2) Subsection 360(3) 3P2010 (5) The building height for an addition to a main residential building is measured from grade at any point adjacent to the addition when the addition is less than or equal to: (a) 7.5 metres in height from grade where the existing building has a walkout basement; and (b) 6.0 metres in height from grade where the existing building does no...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0050_ev_001",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "maximum building depth is the greater of: (a) 65.0 per cent of the parcel depth",
+      "source_context": "cony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and 27P2011 (c) must not have a balcony with a height greater than 6.0 metres, when measured vertically at any point from grade to the platform of the balcony. (3) Where a Contextual Single Detached Dwelling is located on a parcel with a parcel width less than or equal to 10.0 metres the maximum building depth is the greater of: (a) 65.0 per cent of the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0051_ev_001",
+      "page": 392,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum building depth of a Contextual Semi-detached Dwelling is the greater of: (a) 60.0 per cent of the parcel depth",
+      "source_context": "the side façade is on the street side of a corner parcel; 9P2012 (ii) a privacy wall is provided where the balcony is facing a side property line shared with a contextual adjacent building; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and (c) must not have a balcony with a height greater than 6.0 metres, when measured vertically at any point from grade to the platform of the balcony. (3) The maximum building depth of a Contextual Semi-detached Dwelling is...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0053_ev_001",
+      "page": 394,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "Mechanical equipment may project a maximum of 0.3 metres from the surface of a roof on a building.",
+      "source_context": "GENERAL RULES 348 Visibility Setback 348 Within a corner visibility triangle, buildings, fences, finished grade of a parcel and vegetation must not exceed the lowest elevation of the street by more than 0.75 metres above lowest elevation of the street. 349 Roof Equipment Projection 349 (1) There is no vertical projection limit from the surface of a roof on a building for antennae, chimneys and wind powered attic ventilation devices. 68P2008 (2) Mechanical equipment may project a maximum of 0.3 metres from the su...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0054_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the minimum building setback from any side property line is 1.2 metres.",
+      "source_context": "imum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 met...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0055_ev_001",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "on a laned parcel the minimum building setback from a side property line for a private garage attached to a main residential building is 0.6 metres.",
+      "source_context": "PART 5 - (b) that provides unrestricted vehicle access to the rear of the parcel. (8) Unless otherwise referenced in subsection (9), on a laned parcel the minimum building setback from a side property line for a private garage attached to a main residential building is 0.6 metres. (9) On a laned parcel, the minimum building setback for a private garage attached to a main residential building that does not share a side or rear property line with a street may be reduced to zero metres where the wall of the portion...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0056_ev_001",
+      "page": 401,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the addition may be a maximum of: (i) 40.0 square metres in floor area",
+      "source_context": "ed Access 364 A gate must not be located across a private condominium roadway. 365 Exempt Additions 365 In order for the exemption in section 25(2)(a) to apply to an exterior alteration 32P2012 or addition to an existing Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling: (a) the existing building must: (i) conform to the rules of this Bylaw; and (ii) be legally existing or approved prior to the effective date of this Bylaw; (b) the addition may be a maximum of: (i) 40.0 square metres in floor a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0058_ev_001",
+      "page": 475,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "not recessed back more than 4.5 metres from the front façade",
+      "source_context": "rizontal cross section of the storey below. (2) A balcony attached to a Contextual Single Detached Dwelling, Contextual Semi-detached Dwelling, or Rowhouse Building that is a permitted use: (a) may be located on a side façade of a building: not recessed back more than 4.5 metres from the front façade",
+      "parent_context": "rizontal cross section of the storey below. (2) A balcony attached to a Contextual Single Detached Dwelling, Contextual Semi-detached Dwelling, or Rowhouse Building that is a permitted use: (a) may be located on a side façade of a building:"
+    },
+    {
+      "evidence_id": "m4_pack_0064_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "The building setback from a side property line of 3.0 metres",
+      "source_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: The building setback from a side property line of 3.0 metres",
+      "parent_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where:"
+    },
+    {
+      "evidence_id": "m4_pack_0064_ev_002",
+      "page": 471,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "may be reduced to zero metres where the owner of the parcel proposed for development and the owner of the adjacent parcel registers, against both titles, a private access easement",
+      "source_context": "(7) The building setback from a side property line of 3.0 metres required in subsection 2(b) may be reduced to zero metres where the owner of the parcel proposed for development and the owner of the adjacent parcel registers, against both titles, a private access easement: (a) where the width of the easement, in combination with the",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0067_ev_001",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the minimum building setback from a rear property line is 1.2 metres",
+      "source_context": "a street may be reduced to zero metres where the wall of the portion of the building that contains the private garage is constructed of maintenance-free materials and there is no overhang of eaves onto an adjacent parcel. 15P2016, 62P2018 540 Building Setback from Rear Property Line 56P2022 540 (1) Unless otherwise referenced in subsection (2) the minimum building setback from a rear property line is 7.5 metres. (2) On a laned or corner parcel, the minimum building setback from a rear property line is 1.2 metres...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0068_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement",
+      "source_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement",
+      "parent_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where:"
+    },
+    {
+      "evidence_id": "m4_pack_0069_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres",
+      "source_context": "e length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side p...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0069_ev_002",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+      "source_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+      "parent_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is:"
+    },
+    {
+      "evidence_id": "m4_pack_0070_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the minimum building setback from a side property line shared with a street is 0.6 metres.",
+      "source_context": "nimum building setback from a side property line may be reduced to a zero setback where: (a) the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement.. (5) The minimum building setback from a side property line may be reduced to a zero setback where the main residential building on the adjoining parcel has a zero setback. (6) For a corner parcel, the minimum building setback from a side property line shared with...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0071_ev_001",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the minimum building setback from a rear property line is 7.5 metres.",
+      "source_context": "te garage attached to a main residential building that does not share a side or rear property line with a street may be reduced to zero metres where the wall of the portion of the building that contains the private garage is constructed of maintenance-free materials and there is no overhang of eaves onto an adjacent parcel. 15P2016, 62P2018 540 Building Setback from Rear Property Line 56P2022 540 (1) Unless otherwise referenced in subsection (2) the minimum building setback from a rear property line is 7.5 metre...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0082_ev_001",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "There must not be more than one Secondary Suite contained within 62P2018 a Dwelling Unit.",
+      "source_context": "ea from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not be more than one Backyard Suite located on a 4P2017, 62P2018, 21P2024 parcel, except in the R-CG and R-2M Districts where one Backyard Suite may be located on any bare land unit. (1.1) There must not be more than one Secondary Suite contained within 62...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0093_ev_001",
+      "page": 471,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "The minimum building setback from a side property line may be reduced to a zero setback",
+      "source_context": "(5) The minimum building setback from a side property line may be reduced to a zero setback where the main residential building on the adjoining parcel has a zero setback.",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0094_ev_001",
+      "page": 472,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "the minimum building setback for a private garage attached to a main residential building that does not share a side or rear property line with a street may be reduced to zero metres",
+      "source_context": "(9) On a laned parcel, the minimum building setback for a private garage attached to a main residential building that does not share a side or rear property line with a street may be reduced to zero metres where the wall of the portion of the building that contains the private garage is constructed of maintenance-free materials and there is no overhang of eaves onto an adjacent parcel.",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0096_ev_001",
+      "page": 471,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "There is no requirement for a building setback from a property line upon which a party wall is located.",
+      "source_context": "(3) There is no requirement for a building setback from a property line upon which a party wall is located.",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0001_v3_clause_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "(4.1) The maximum building height for a Backyard Suite is: 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+      "source_context": "ilding setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (4.1) The maximum building height for a Backyard Suite is: 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+      "parent_context": "ilding setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must:"
+    },
+    {
+      "evidence_id": "m4_pack_0006_v3_clause_ev_002",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property...",
+      "source_context": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0007_v3_clause_ev_003",
+      "page": 398,
+      "status": "source_mismatch",
+      "actions": [
+        "source_text_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "The building setback from the front property line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if the building setback from the front property line i...",
+      "source_context": "The building setback from the front property line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if the building setback from the front property line is a minimum of 6.0 metres for the R-C1L or R-C1Ls districts",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0018_v3_clause_ev_004",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "(3) Unless otherwise referenced in subsections (3.1) and (3.2), a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite. 10P2019",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 10P2019 (3) Unless otherwise referenced in subsections (3.1) and (3.2), a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite. 10P2019 (3.1) The minimum façade separation in subsection (3) may be reduced to 1.5 metres where amenity space is provided at grade that: (a) is adjacent to the main residential building and the Backyard Suite; and (b) has no dimension less than 5.0 metres. 10...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0020_v3_clause_ev_005",
+      "page": 395,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "(2) Except as otherwise stated in subsections (2.1) and (3), the maximum 23P2016 floor area of a Secondary Suite, excluding any area covered by stairways and landings, is 100.0 square metres: (a) in the R-C1L, R-C1Ls, R-C1, R-C1s, R-C1N, R-1, R-1s and 24P20...",
+      "source_context": "(2) Except as otherwise stated in subsections (2.1) and (3), the maximum 23P2016 floor area of a Secondary Suite, excluding any area covered by stairways and landings, is 100.0 square metres: (a) in the R-C1L, R-C1Ls, R-C1, R-C1s, R-C1N, R-1, R-1s and 24P2018 R-1N Districts; or (b) when located on a parcel with a parcel width less than 13.0 metres",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0021_v3_clause_ev_006",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "(5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres",
+      "source_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres",
+      "parent_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0001_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+      "source_context": "tion (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (a) 5.0 metres...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0001_ev_002",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "(b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+      "source_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+      "parent_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0001_ev_003",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "(c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+      "source_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+      "parent_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0002_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres",
+      "source_context": "in residential building to the closest façade of a Backyard Suite. 10P2019 (3.1) The minimum façade separation in subsection (3) may be reduced to 1.5 metres where amenity space is provided at grade that: (a) is adjacent to the main residential building and the Backyard Suite; and (b) has no dimension less than 5.0 metres. 10P2019 (3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0002_ev_002",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections",
+      "source_context": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0002_ev_003",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "each have a maximum length of 3.1 metres",
+      "source_context": "ne shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwi...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0003_ev_001",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "the balcony is setback less than 4.0 metres from the shared property line",
+      "source_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; the balcony is setback less than 4.0 metres from the shared property line",
+      "parent_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street;"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0003_ev_002",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the privacy wall is a minimum of 2.0 metres in height",
+      "source_context": "n 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0003_ev_003",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a maximum of 3.0 metres in height",
+      "source_context": "Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Back...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0004_ev_001",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum building setback from the side property line shared with another parcel is 3.0 metres",
+      "source_context": "units on the parcel are contained in main residential buildings located within the first 60.0 per cent of the parcel depth; and (c) where the minimum separation distance of the main residential buildings on the front portion of the parcel and the main residential buildings contained on the rear portion of the parcel is 6.5 metres. (3) For a main residential building that is located on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with ano...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0004_ev_002",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "50.0 per cent parcel depth",
+      "source_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and: 50.0 per cent parcel depth",
+      "parent_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0005_ev_001",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum separation distance of the main residential buildings on the front portion of the parcel and the main residential buildings contained on the rear portion of the parcel is 6.5 metres",
+      "source_context": "the parcel depth for a building containing a unit. (2) On a laned parcel, there is no maximum building depth for a main residential building wholly contained to the rear of 40.0 percent parcel depth where: (a) there is more than one main residential building on the parcel; (b) 50.0 per cent or more of the units on the parcel are contained in main residential buildings located within the first 60.0 per cent of the parcel depth; and (c) where the minimum separation distance of the main residential buildings on the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0006_ev_001",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347 Contextual Single Detached Dwelling 347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 me...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0006_ev_002",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a mini...",
+      "source_context": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular acc...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0006_ev_003",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a mini...",
+      "source_context": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular acc...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0006_ev_004",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347 Contextual Single Detached Dwelling 347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 me...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0006_ev_005",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a mini...",
+      "source_context": "347 (1) A Contextual Single Detached Dwelling: 3P2010 (a) must have: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades, recessed or projecting forward from the remaining façade that has a minimum dimension of: (A) 2.0 metres in width (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch projecting from the front façade with a minimum dimension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular acc...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0006_ev_006",
+      "page": 389,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum distance of 1.5 metres between the 66P2022 finished floor and the bottom of the window sill",
+      "source_context": "mension of: (A) 2.0 metres in width; and (B) 1.2 metres in depth; (b) must not have vehicular access from the lane to an attached private garage; (c) must not have windows that are located beyond the rear 9P2012 façade of a main residential building on an adjoining parcel unless: (i) the window is located below the second storey; (ii) the window is located on the rear façade; (iii) the glass in the window is entirely obscured; or (iv) there is a minimum distance of 1.5 metres between the 66P2022 finished floor a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0007_ev_001",
+      "page": 395,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite",
+      "source_context": "area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metr...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0007_ev_002",
+      "page": 395,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage.",
+      "source_context": "bove grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a r...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0008_ev_001",
+      "page": 398,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a minimum of 3.0 metres for any other residential district",
+      "source_context": "operty line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if: (a) the Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling was legally existing or approved prior to the effective date of this Bylaw; (b) the building setback from the front property line is: (i) a minimum of 6.0 metres for the R-C1L or R-C1Ls districts; or (ii) a minimum of 3.0 metres for any other residential district; and 67P...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0009_ev_001",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the privacy wall is a minimum of 2.0 metres in height",
+      "source_context": "(i) where it forms part of the front façade and is not recessed back more than 4.5 metres from the front façade; or (ii) where it is on the street side of a corner parcel; (b) may have a balcony located on a rear façade where: (i) it does not form part of the side façade unless the side façade is on the street side of a corner parcel; (ii) a privacy wall is provided where the balcony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0009_ev_002",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a maximum of 3.0 metres in height",
+      "source_context": "essed back more than 4.5 metres from the front façade; or (ii) where it is on the street side of a corner parcel; (b) may have a balcony located on a rear façade where: (i) it does not form part of the side façade unless the side façade is on the street side of a corner parcel; (ii) a privacy wall is provided where the balcony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and 27P2011 (c) must not have a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0009_ev_003",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "must not have a balcony with a height greater than 6.0 metres",
+      "source_context": "de; or (ii) where it is on the street side of a corner parcel; (b) may have a balcony located on a rear façade where: (i) it does not form part of the side façade unless the side façade is on the street side of a corner parcel; (ii) a privacy wall is provided where the balcony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and 27P2011 (c) must not have a balcony with a height greater than 6.0 metres, when...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_001",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347.1 Contextual Semi-detached Dwelling 347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an are...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_002",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 347.1 Contextual Semi-detached Dwelling 347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an are...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_003",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_004",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the projecting or recessed portion having a minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "pal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of each unit, recessed or projecting forward from the remainder of the front façade of that unit, with the projecting or recessed portion having a minimum dimension of: (...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_005",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_006",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_007",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a porch that projects from the front façade a minimum dimension of: (A) 2.0 metres in width",
+      "source_context": "he other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of each unit, recessed or projecting forward from the remainder of the front façade of that unit, with the projecting or recessed portion having a minimum dimension of: (A) 2.0 metres in width; (B) 0.6 metres in depth; and (C) 2.4 metres in height; or (ii) a porch that projects from the front façade a minimum dimension of:...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_008",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "long_evidence_context_limited"
+      ],
+      "forced_review": false,
+      "quote": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered...",
+      "source_context": "347.1 (1) A Contextual Semi-detached Dwelling: 27P2011 (a) must have: (i) the principal front façade of one unit staggered a minimum of 0.6 metres behind the principal front façade of the other unit; and (ii) the principal rear façade of one unit staggered a minimum of 0.6 metres behind the principal rear façade of the other unit; (b) must have façade articulation for each unit, by including: (i) a portion of the front façade, with an area less than or 45P2015 equal to 50% of the area of all front façades of eac...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_009",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "there is a minimum distance of 1.5 metres between the finished floor and the bottom of the window sill",
+      "source_context": "ance which is visible from the street side of the corner parcel; (d) must not have vehicular access from the lane to an attached private garage; (e) must not have windows that are located beyond the rear 9P2012, 44P2013 façade of a contextual adjacent building on an adjoining parcel unless: (i) the window is located below the second storey; (ii) the window is located on the rear façade; (iii) the glass in the window is entirely obscured; or (iv) there is a minimum distance of 1.5 metres between the finished floo...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_010",
+      "page": 391,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "must not have a roof slope less than 4:12 within 1.5 metres of the horizontal plane forming the maximum building height",
+      "source_context": "e to an attached private garage; (e) must not have windows that are located beyond the rear 9P2012, 44P2013 façade of a contextual adjacent building on an adjoining parcel unless: (i) the window is located below the second storey; (ii) the window is located on the rear façade; (iii) the glass in the window is entirely obscured; or (iv) there is a minimum distance of 1.5 metres between the finished floor and the bottom of the window sill; and (f) must not have a roof slope less than 4:12 within 1.5 metres of the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0011_ev_001",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade",
+      "source_context": "foremost front façade of the immediately adjacent main residential building and the front property line. 15P2016, 541 Building Height 62P2018,56P2022 541 (1) Unless otherwise referenced in subsections (2), (3) and (4), the maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0011_ev_002",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "increases at a 45 degree angle to a maximum of 11.0 metres",
+      "source_context": "he maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0012_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres.",
+      "source_context": "maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area cover...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0012_ev_002",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+      "source_context": "e is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not e...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0013_ev_001",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum floor area of a Backyard Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent.",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES (6) The maximum floor area of a Backyard Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (7) Except in the R-CG District, a Backyard Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a pro...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0014_ev_001",
+      "page": 469,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+      "source_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+      "parent_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a)"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0014_ev_002",
+      "page": 469,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "50.0 per cent of the area of the parcels subject to the single",
+      "source_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare; 50.0 per cent of the area of the parcels subject to the single",
+      "parent_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare;"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0015_ev_001",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "21.0 square metres where one motor vehicle parking stall is required on a parcel that is not located in a private garage",
+      "source_context": "hectare; (c) 55.0 per cent of the area of the parcels subject to the single development permit for a development with a density of 50 units per hectare or greater and less than 60 units per hectare; or (d) 60.0 per cent of the area of the parcels subject to a single development permit for a development with a density of 60 units per hectare or greater. (3) The maximum parcel coverage referenced in subsections (1) and (2), must be reduced by: (a) 21.0 square metres where one motor vehicle parking stall is require...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0015_ev_002",
+      "page": 470,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "19.0 square metres for each required motor vehicle parking stall that is not located in a private garage where more than one motor vehicle parking stall is required on a parcel",
+      "source_context": "50 units per hectare or greater and less than 60 units per hectare; or (d) 60.0 per cent of the area of the parcels subject to a single development permit for a development with a density of 60 units per hectare or greater. (3) The maximum parcel coverage referenced in subsections (1) and (2), must be reduced by: (a) 21.0 square metres where one motor vehicle parking stall is required on a parcel that is not located in a private garage; and (b) 19.0 square metres for each required motor vehicle parking stall tha...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0017_ev_001",
+      "page": 401,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the addition may be a maximum of: (i) 40.0 square metres in floor area",
+      "source_context": "ed Access 364 A gate must not be located across a private condominium roadway. 365 Exempt Additions 365 In order for the exemption in section 25(2)(a) to apply to an exterior alteration 32P2012 or addition to an existing Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling: (a) the existing building must: (i) conform to the rules of this Bylaw; and (ii) be legally existing or approved prior to the effective date of this Bylaw; (b) the addition may be a maximum of: (i) 40.0 square metres in floor a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0018_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres.",
+      "source_context": "building setback required in sections 535, 537, 538, 539, and 540. 537 Building Setback from Front Property Line 56P2022 537 The minimum building setback from a front property line is 3.0 metres. 61P2018, 15P2016, 62P2018 538 Block Face Requirements 15P2016 538 (1) A minimum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, w...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0019_ev_001",
+      "page": 473,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building",
+      "source_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building located between the rear property line and 60.0 per cent parcel depth or the contextual building depth average, whichever is greater. (5) deleted 56P2022 15P2016,62P2018, 542 Landscaping Requirements 56P2022 542 (1) For developments of three units or more, landscaped areas must be provided in accordance with a landscape plan approved by the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0019_ev_002",
+      "page": 473,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "located between the rear property line and 60.0 per cent parcel depth",
+      "source_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building located between the rear property line and 60.0 per cent parcel depth",
+      "parent_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0020_ev_001",
+      "page": 471,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "The minimum building setback from a side property line may be reduced to a zero setback",
+      "source_context": "(4) The minimum building setback from a side property line may be reduced to a zero setback where: (a) the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement..",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0021_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "The building setback from a side property line of 3.0 metres",
+      "source_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: The building setback from a side property line of 3.0 metres",
+      "parent_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0021_ev_002",
+      "page": 471,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "may be reduced to zero metres where the owner of the parcel proposed for development and the owner of the adjacent parcel registers, against both titles, a private access easement",
+      "source_context": "(7) The building setback from a side property line of 3.0 metres required in subsection 2(b) may be reduced to zero metres where the owner of the parcel proposed for development and the owner of the adjacent parcel registers, against both titles, a private access easement: (a) where the width of the easement, in combination with the",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0022_ev_001",
+      "page": 472,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "the minimum building setback for a private garage attached to a main residential building that does not share a side or rear property line with a street may be reduced to zero metres",
+      "source_context": "(9) On a laned parcel, the minimum building setback for a private garage attached to a main residential building that does not share a side or rear property line with a street may be reduced to zero metres where the wall of the portion of the building that contains the private garage is constructed of maintenance-free materials and there is no overhang of eaves onto an adjacent parcel.",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0023_ev_001",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres",
+      "source_context": "e length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side p...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0023_ev_002",
+      "page": 471,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+      "source_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+      "parent_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0024_ev_001",
+      "page": 396,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite.",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 10P2019 (3) Unless otherwise referenced in subsections (3.1) and (3.2), a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite. 10P2019 (3.1) The minimum façade separation in subsection (3) may be reduced to 1.5 metres where amenity space is provided at grade that: (a) is adjacent to the main residential building and the Backyard Suite; and (b) has no dimension less than 5.0 metres. 10...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0025_ev_001",
+      "page": 395,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent.",
+      "source_context": "dary Suite, excluding any area covered by stairways and landings, is 100.0 square metres: (a) in the R-C1L, R-C1Ls, R-C1, R-C1s, R-C1N, R-1, R-1s and 24P2018 R-1N Districts; or (b) when located on a parcel with a parcel width less than 13.0 metres (2.1) There is no maximum floor area for a Secondary Suite wholly located 23P2016, 4P2017 in a basement. Internal landings and stairways providing access to the basement may be located above grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the D...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0027_ev_001",
+      "page": 469,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum density for parcels designated R-CG District is 75 units per hectare.",
+      "source_context": "PART 5 - 528 Rules 528 In addition to the rules in this District, all uses in this District must comply with: (a) the General Rules for Low Density Residential Land Use Districts referenced in Part 5, Division 1; (b) the Rules Governing All Districts referenced in Part 3; and (c) the applicable Uses And Use Rules referenced in Part 4. 529 Density 529 The maximum density for parcels designated R-CG District is 75 units per hectare. 530 Number of Main Residential Buildings on a Parcel 4P2017 530 deleted 531 Parcel...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0028_ev_001",
+      "page": 392,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "The maximum building depth of a Contextual Semi-detached Dwelling is the greater of: (a) 60.0 per cent of the parcel depth",
+      "source_context": "the side façade is on the street side of a corner parcel; 9P2012 (ii) a privacy wall is provided where the balcony is facing a side property line shared with a contextual adjacent building; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and (c) must not have a balcony with a height greater than 6.0 metres, when measured vertically at any point from grade to the platform of the balcony. (3) The maximum building depth of a Contextual Semi-detached Dwelling is...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0029_ev_001",
+      "page": 397,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "There must not be more than one Secondary Suite contained within 62P2018 a Dwelling Unit.",
+      "source_context": "ea from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not be more than one Backyard Suite located on a 4P2017, 62P2018, 21P2024 parcel, except in the R-CG and R-2M Districts where one Backyard Suite may be located on any bare land unit. (1.1) There must not be more than one Secondary Suite contained within 62...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0030_ev_001",
+      "page": 471,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "The minimum building setback from a side property line may be reduced to a zero setback where the main residential building on the adjoining parcel has a zero setback.",
+      "source_context": "(5) The minimum building setback from a side property line may be reduced to a zero setback where the main residential building on the adjoining parcel has a zero setback.",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0031_ev_001",
+      "page": 472,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "on a laned parcel the minimum building setback from a side property line for a private garage attached to a main residential building is 0.6 metres.",
+      "source_context": "PART 5 - (b) that provides unrestricted vehicle access to the rear of the parcel. (8) Unless otherwise referenced in subsection (9), on a laned parcel the minimum building setback from a side property line for a private garage attached to a main residential building is 0.6 metres. (9) On a laned parcel, the minimum building setback for a private garage attached to a main residential building that does not share a side or rear property line with a street may be reduced to zero metres where the wall of the portion...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0032_ev_001",
+      "page": 471,
+      "status": "source_mismatch",
+      "actions": [
+        "candidate_value_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "There is no requirement for a building setback from a property line upon which a party wall is located.",
+      "source_context": "(3) There is no requirement for a building setback from a property line upon which a party wall is located.",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0033_ev_001",
+      "page": 400,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "7.5 metres in height from grade where the existing building has a walkout basement",
+      "source_context": "PART 5 - DIVISION 1: GENERAL RULES 3P2010 (4) The following diagrams illustrate the rules of subsections (2) and (3). Illustration 1: Building Height Subsection 360(2) Subsection 360(3) 3P2010 (5) The building height for an addition to a main residential building is measured from grade at any point adjacent to the addition when the addition is less than or equal to: (a) 7.5 metres in height from grade where the existing building has a walkout basement; and (b) 6.0 metres in height from grade where the existing b...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0033_ev_002",
+      "page": 400,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "6.0 metres in height from grade where the existing building does not have a walkout basement",
+      "source_context": "ON 1: GENERAL RULES 3P2010 (4) The following diagrams illustrate the rules of subsections (2) and (3). Illustration 1: Building Height Subsection 360(2) Subsection 360(3) 3P2010 (5) The building height for an addition to a main residential building is measured from grade at any point adjacent to the addition when the addition is less than or equal to: (a) 7.5 metres in height from grade where the existing building has a walkout basement; and (b) 6.0 metres in height from grade where the existing building does no...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0034_ev_001",
+      "page": 390,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "maximum building depth is the greater of: (a) 65.0 per cent of the parcel depth",
+      "source_context": "cony is facing a side property line shared with a parcel; and (iii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height; and 27P2011 (c) must not have a balcony with a height greater than 6.0 metres, when measured vertically at any point from grade to the platform of the balcony. (3) Where a Contextual Single Detached Dwelling is located on a parcel with a parcel width less than or equal to 10.0 metres the maximum building depth is the greater of: (a) 65.0 per cent of the...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0035_ev_001",
+      "page": 394,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "Mechanical equipment may project a maximum of 0.3 metres from the surface of a roof on a building.",
+      "source_context": "GENERAL RULES 348 Visibility Setback 348 Within a corner visibility triangle, buildings, fences, finished grade of a parcel and vegetation must not exceed the lowest elevation of the street by more than 0.75 metres above lowest elevation of the street. 349 Roof Equipment Projection 349 (1) There is no vertical projection limit from the surface of a roof on a building for antennae, chimneys and wind powered attic ventilation devices. 68P2008 (2) Mechanical equipment may project a maximum of 0.3 metres from the su...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0036_ev_001",
+      "page": 475,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "not recessed back more than 4.5 metres from the front façade",
+      "source_context": "rizontal cross section of the storey below. (2) A balcony attached to a Contextual Single Detached Dwelling, Contextual Semi-detached Dwelling, or Rowhouse Building that is a permitted use: (a) may be located on a side façade of a building: not recessed back more than 4.5 metres from the front façade",
+      "parent_context": "rizontal cross section of the storey below. (2) A balcony attached to a Contextual Single Detached Dwelling, Contextual Semi-detached Dwelling, or Rowhouse Building that is a permitted use: (a) may be located on a side façade of a building:"
+    }
+  ]
+}

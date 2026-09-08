@@ -1,0 +1,116 @@
+[
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0011",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "5", "m"], [">=", "6.2", "m"]],
+    "standard_answer": "Split the Rowhouse interior-lot minimum width into >= 5 m generally and >= 6.2 m for end unit lots."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0020",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "1", "units"], ["<=", "3", "units"]],
+    "standard_answer": "Split the Rowhouse permitted dwelling-unit range into >= 1 units and <= 3 units."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0021",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "1", "units"], ["<=", "2", "units"]],
+    "standard_answer": "Split the small-scale multi-unit permitted dwelling-unit range into >= 1 units and <= 2 units."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0022",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "3", "units"], ["<=", "4", "units"]],
+    "standard_answer": "Split the small-scale multi-unit permitted dwelling-unit range into >= 3 units and <= 4 units."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0023",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "5", "units"], ["<=", "6", "units"]],
+    "standard_answer": "Split the FTN-area small-scale multi-unit permitted dwelling-unit range into >= 5 units and <= 6 units while preserving the FTN condition."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0047",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "3.0", "m"], [">=", "1.5", "m"]],
+    "standard_answer": "Split the interior rear-yard minimum into >= 3.0 m generally and >= 1.5 m for accessory buildings."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0048",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "0", "m"], [">=", "1.2", "m"]],
+    "standard_answer": "Split the Rowhouse interior side-yard minimum into >= 0 m generally and >= 1.2 m for end unit lots."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0059",
+    "expected_action": "KEEP",
+    "expected_replacement_count": 1,
+    "standard_answer": "Keep the lot-configuration prohibition with its unresolved Section 101.6.4 and discretionary site-condition exceptions as qualifiers."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0068",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 1,
+    "expected_numeric_rules": [[">=", "6.0", "m"]],
+    "standard_answer": "Keep the >= 6.0 m front/rear-principal separation rule but clear the misleading through-lot exception because the opposing-front-principal alternative is already represented by a sibling rule."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0071",
+    "expected_action": "DROP",
+    "expected_replacement_count": 0,
+    "standard_answer": "Drop the incomplete text lead-in ending with 'as follows:' because the linked 101.5.1 table rules contain the actual bedroom-unit values."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0072",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 1,
+    "expected_numeric_rules": [[">=", "1", "dwelling unit"]],
+    "standard_answer": "Keep the general >= 1 dwelling-unit street-orientation requirement but clear the embedded through-lot exception because its per-frontage alternative is already represented by a sibling rule."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0084",
+    "expected_action": "KEEP",
+    "expected_replacement_count": 1,
+    "standard_answer": "Keep the supportive-housing cross-reference intact. The phrase 1 to 3 units is a referenced scope label, not a numeric constraint to split."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0086",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "standard_answer": "Split the parking-location requirement into rear-of-lot parking when rear access is feasible and an alternate permission allowing parking elsewhere when rear access is unavailable or infeasible."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0088",
+    "expected_action": "KEEP",
+    "expected_replacement_count": 1,
+    "expected_numeric_rules": [["<=", "1.2", "m"]],
+    "standard_answer": "Keep the below-grade garage or carport <= 1.2 m height rule with the driveway exclusion as an applicability qualifier."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0090",
+    "expected_action": "KEEP",
+    "expected_replacement_count": 1,
+    "expected_numeric_rules": [["<=", "4.6", "m"]],
+    "standard_answer": "Keep the accessory-structure <= 4.6 m height rule with fences and retaining walls excluded from its scope."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0093",
+    "expected_action": "KEEP",
+    "expected_replacement_count": 1,
+    "standard_answer": "Keep the child-care cross-reference intact. The phrase 1 to 3 units is a referenced scope label, not a numeric constraint to split."
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0106",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [["<=", "0.8", "m"]],
+    "standard_answer": "Split the projection rule into the Section 6.12 cross-reference and the independently testable R1 lane-yard projection maximum of <= 0.8 m."
+  }
+]

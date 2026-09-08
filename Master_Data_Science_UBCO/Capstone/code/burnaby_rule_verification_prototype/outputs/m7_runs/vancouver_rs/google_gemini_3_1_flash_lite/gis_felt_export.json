@@ -1,0 +1,469 @@
+{
+  "schema_version": "gis_felt_export_v1",
+  "city": "Vancouver",
+  "zone": "RS",
+  "source_document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+  "source_url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+  "input_mode": "native_rag_llm",
+  "consumer_notes": [
+    "This export is derived only from verified_rules.json.",
+    "Review, rejected, and not_used rules are not executable constraints.",
+    "Map consumers should display review_blockers as warnings, not apply them as zoning logic."
+  ],
+  "map_layer_requirements": [
+    {
+      "layer_key": "building_footprint",
+      "description": "Building footprint polygons for height, storey, separation, and coverage limits.",
+      "example_team_file": "code/gis_files/vancouver/building_footprint.gpkg"
+    },
+    {
+      "layer_key": "lane",
+      "description": "Lane edges for verified lane-yard setbacks.",
+      "example_team_file": "code/gis_files/vancouver/lane.gpkg"
+    }
+  ],
+  "buildable_area_parameters": {
+    "building_height_m": {
+      "parameter_key": "building_height_m",
+      "value": "8.5",
+      "value_numeric": 8.5,
+      "unit": "m",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "vancouver_rs_006"
+      ],
+      "source_pages": [
+        8
+      ],
+      "conditions": []
+    },
+    "building_max_storeys": {
+      "parameter_key": "building_max_storeys",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "vancouver_rs_007"
+      ],
+      "source_pages": [
+        8
+      ],
+      "conditions": []
+    },
+    "building_separation_m": {
+      "parameter_key": "building_separation_m",
+      "value": "4.9",
+      "value_numeric": 4.9,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "vancouver_rs_028"
+      ],
+      "source_pages": [
+        8
+      ],
+      "conditions": []
+    },
+    "max_floor_area_m2": {
+      "parameter_key": "max_floor_area_m2",
+      "value": "186",
+      "value_numeric": 186.0,
+      "unit": "m2",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "vancouver_rs_027"
+      ],
+      "source_pages": [
+        8
+      ],
+      "conditions": []
+    },
+    "max_lot_coverage_pct": {
+      "parameter_key": "max_lot_coverage_pct",
+      "value": "50",
+      "value_numeric": 50.0,
+      "unit": "%",
+      "operator": "<=",
+      "geometry_target": "building_footprint",
+      "source_rule_ids": [
+        "vancouver_rs_016"
+      ],
+      "source_pages": [
+        8
+      ],
+      "conditions": []
+    },
+    "setback_rear_setback": {
+      "parameter_key": "setback_rear_setback",
+      "value": "0.9",
+      "value_numeric": 0.9,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "lane",
+      "source_rule_ids": [
+        "vancouver_rs_029"
+      ],
+      "source_pages": [
+        8
+      ],
+      "conditions": []
+    },
+    "setback_side_setback": {
+      "parameter_key": "setback_side_setback",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "operator": ">=",
+      "geometry_target": "lane",
+      "source_rule_ids": [
+        "vancouver_rs_030"
+      ],
+      "source_pages": [
+        8
+      ],
+      "conditions": []
+    }
+  },
+  "constraints": [
+    {
+      "constraint_id": "vancouver_rs_006",
+      "source_rule_id": "vancouver_rs_006",
+      "rule_object": "height",
+      "parameter_key": "building_height_m",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "8.5",
+      "value_numeric": 8.5,
+      "unit": "m",
+      "applies_to": "laneway house",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 8,
+      "source_evidence_id": "m4_pack_0003_ev_001",
+      "source_quote": "The building height for a laneway house must not exceed 8.5 m",
+      "felt_popup_sentence": "laneway house: height for height must be no more than 8.5 m."
+    },
+    {
+      "constraint_id": "vancouver_rs_007",
+      "source_rule_id": "vancouver_rs_007",
+      "rule_object": "storeys",
+      "parameter_key": "building_max_storeys",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "applies_to": "laneway house",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 8,
+      "source_evidence_id": "m4_pack_0003_ev_002",
+      "source_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys.",
+      "felt_popup_sentence": "laneway house: storeys for storeys must be no more than 2 storeys."
+    },
+    {
+      "constraint_id": "vancouver_rs_016",
+      "source_rule_id": "vancouver_rs_016",
+      "rule_object": "lot_coverage",
+      "parameter_key": "max_lot_coverage_pct",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "50",
+      "value_numeric": 50.0,
+      "unit": "%",
+      "applies_to": "site with a laneway house",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 8,
+      "source_evidence_id": "m4_pack_0008_ev_001",
+      "source_quote": "the maximum site coverage is 50% of the site area",
+      "felt_popup_sentence": "site with a laneway house: lot coverage for lot coverage must be no more than 50 %."
+    },
+    {
+      "constraint_id": "vancouver_rs_027",
+      "source_rule_id": "vancouver_rs_027",
+      "rule_object": "floor_area",
+      "parameter_key": "max_floor_area_m2",
+      "export_group": "capacity",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "floor_area_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": "<=",
+      "value": "186",
+      "value_numeric": 186.0,
+      "unit": "m2",
+      "applies_to": "laneway house",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "context",
+      "gis_ready": false,
+      "source_page": 8,
+      "source_evidence_id": "m4_pack_0004_v3_clause_ev_001",
+      "source_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2",
+      "felt_popup_sentence": "laneway house: floor area for floor area must be no more than 186 m2."
+    },
+    {
+      "constraint_id": "vancouver_rs_028",
+      "source_rule_id": "vancouver_rs_028",
+      "rule_object": "building_separation",
+      "parameter_key": "building_separation_m",
+      "export_group": "buildable_area",
+      "geometry_target": "building_footprint",
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "operator": ">=",
+      "value": "4.9",
+      "value_numeric": 4.9,
+      "unit": "m",
+      "applies_to": "laneway house",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 8,
+      "source_evidence_id": "m4_pack_0007_v3_clause_ev_002",
+      "source_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site",
+      "felt_popup_sentence": "laneway house: building separation for building separation must be at least 4.9 m."
+    },
+    {
+      "constraint_id": "vancouver_rs_029",
+      "source_rule_id": "vancouver_rs_029",
+      "rule_object": "setback",
+      "parameter_key": "setback_rear_setback",
+      "export_group": "buildable_area",
+      "geometry_target": "lane",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "0.9",
+      "value_numeric": 0.9,
+      "unit": "m",
+      "applies_to": "laneway house",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 8,
+      "source_evidence_id": "m4_pack_0007_v3_clause_ev_003",
+      "source_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+      "felt_popup_sentence": "laneway house: setback for rear setback must be at least 0.9 m."
+    },
+    {
+      "constraint_id": "vancouver_rs_030",
+      "source_rule_id": "vancouver_rs_030",
+      "rule_object": "setback",
+      "parameter_key": "setback_side_setback",
+      "export_group": "buildable_area",
+      "geometry_target": "lane",
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "evidence_lot_line"
+        ]
+      },
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "applies_to": "laneway house",
+      "condition": "",
+      "exception": "except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+      "applicability": null,
+      "gis_relevance": "direct",
+      "gis_ready": true,
+      "source_page": 8,
+      "source_evidence_id": "m4_pack_0007_v3_clause_ev_004",
+      "source_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+      "felt_popup_sentence": "laneway house: setback for side setback must be at least 1.2 m."
+    }
+  ],
+  "review_blockers": {
+    "count": 31,
+    "category_counts": [
+      {
+        "name": "general_review",
+        "count": 8
+      },
+      {
+        "name": "possible_rule_object_mismatch",
+        "count": 8
+      },
+      {
+        "name": "operator_uncertain",
+        "count": 7
+      },
+      {
+        "name": "missing_scope_evidence",
+        "count": 4
+      },
+      {
+        "name": "upstream_review_requested",
+        "count": 4
+      }
+    ],
+    "action_counts": [
+      {
+        "name": "retry_with_better_evidence",
+        "count": 21
+      },
+      {
+        "name": "upstream_candidate_issue",
+        "count": 6
+      },
+      {
+        "name": "defer_low_priority",
+        "count": 4
+      }
+    ],
+    "rule_family_counts": [
+      {
+        "name": "floor_area",
+        "count": 14
+      },
+      {
+        "name": "setback",
+        "count": 11
+      },
+      {
+        "name": "building_separation",
+        "count": 2
+      },
+      {
+        "name": "height",
+        "count": 2
+      },
+      {
+        "name": "lot_area",
+        "count": 2
+      }
+    ],
+    "example_blockers": [
+      {
+        "rule_id": "vancouver_rs_004",
+        "rule_object": "floor_area",
+        "review_category": "possible_rule_object_mismatch",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); rule family direction mismatch; the cited evidence does not support the proposed rule object"
+      },
+      {
+        "rule_id": "vancouver_rs_005",
+        "rule_object": "floor_area",
+        "review_category": "possible_rule_object_mismatch",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); rule family direction mismatch; the cited evidence does not support the proposed rule object"
+      },
+      {
+        "rule_id": "vancouver_rs_008",
+        "rule_object": "floor_area",
+        "review_category": "general_review",
+        "review_reason": "the value is a ratio coefficient (e.g. 0.25 multiplied by the site area), not an absolute cap"
+      },
+      {
+        "rule_id": "vancouver_rs_009",
+        "rule_object": "floor_area",
+        "review_category": "upstream_review_requested",
+        "review_reason": "the extraction layer marked this candidate for review; extraction source fidelity hold"
+      },
+      {
+        "rule_id": "vancouver_rs_013",
+        "rule_object": "building_separation",
+        "review_category": "possible_rule_object_mismatch",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the cited evidence does not support the proposed rule object"
+      },
+      {
+        "rule_id": "vancouver_rs_014",
+        "rule_object": "setback",
+        "review_category": "operator_uncertain",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the applies_to field is not clearly grounded; the proposed operator is not supported by the cited wording; the cited evidence does not support the proposed rule object"
+      },
+      {
+        "rule_id": "vancouver_rs_015",
+        "rule_object": "setback",
+        "review_category": "operator_uncertain",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); the applies_to field is not clearly grounded; the proposed operator is not supported by the cited wording; the cited evidence does not support the proposed rule object"
+      },
+      {
+        "rule_id": "vancouver_rs_017",
+        "rule_object": "floor_area",
+        "review_category": "general_review",
+        "review_reason": "Text rules are held for review until they pass the GIS text-rule contract (value/unit/operator/scope/direction); rule family direction mismatch"
+      }
+    ]
+  },
+  "not_used_summary": {
+    "count": 0,
+    "top_reasons": [],
+    "example_rule_ids": []
+  },
+  "export_counts": {
+    "verified_rule_count": 7,
+    "gis_constraint_count": 7,
+    "buildable_area_parameter_count": 7,
+    "review_blocker_rule_count": 31,
+    "not_used_rule_count": 0
+  }
+}

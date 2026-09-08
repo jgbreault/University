@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rule Extraction Pipeline Demos</title>
+  <style>
+    :root {
+      --bg: #071018;
+      --panel: rgba(12, 20, 32, 0.88);
+      --line: rgba(148, 163, 184, 0.28);
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --cyan: #38bdf8;
+      --green: #22c55e;
+      --orange: #f97316;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      color: var(--text);
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      background:
+        radial-gradient(circle at 20% 10%, #162033 0, transparent 28%),
+        radial-gradient(circle at 80% 15%, #10342f 0, transparent 24%),
+        linear-gradient(rgba(125, 211, 252, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(125, 211, 252, 0.035) 1px, transparent 1px),
+        var(--bg);
+      background-size: auto, auto, 42px 42px, 42px 42px, auto;
+    }
+
+    main {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 32px;
+    }
+
+    .shell {
+      width: min(980px, 100%);
+      display: grid;
+      gap: 18px;
+    }
+
+    header {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(7, 16, 24, 0.68);
+      padding: 18px 20px;
+      backdrop-filter: blur(12px);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 25px;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 8px 0 0;
+      color: var(--muted);
+      line-height: 1.45;
+      font-size: 14px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    a.card {
+      display: grid;
+      gap: 12px;
+      min-height: 210px;
+      padding: 18px;
+      text-decoration: none;
+      color: var(--text);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background:
+        radial-gradient(circle at 80% 18%, rgba(56, 189, 248, 0.14), transparent 30%),
+        rgba(12, 20, 32, 0.86);
+      box-shadow: 0 24px 70px rgba(0,0,0,0.34);
+      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+    }
+
+    a.card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(125, 211, 252, 0.6);
+      background:
+        radial-gradient(circle at 80% 18%, rgba(56, 189, 248, 0.22), transparent 34%),
+        rgba(12, 20, 32, 0.92);
+    }
+
+    .label {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(125, 211, 252, 0.32);
+      color: #e0f2fe;
+      font-size: 11px;
+      background: rgba(7, 16, 24, 0.62);
+    }
+
+    .dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: var(--cyan);
+      box-shadow: 0 0 14px rgba(56, 189, 248, 0.44);
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    .stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: auto;
+    }
+
+    .stat {
+      padding: 7px 9px;
+      border-radius: 6px;
+      background: rgba(15, 23, 42, 0.7);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      color: #cbd5e1;
+      font-size: 12px;
+    }
+
+    .note {
+      color: var(--muted);
+      font-size: 12px;
+      padding: 0 2px;
+    }
+
+    @media (max-width: 760px) {
+      main { padding: 18px; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="shell">
+      <header>
+        <h1>Graph/RAG Rule Extraction Demos</h1>
+        <p>Choose a city demo. Each page shows the PDF-to-blocks-to-RAG-packs-to-clean-rule-table flow used for the presentation.</p>
+      </header>
+
+      <section class="grid" aria-label="Available demos">
+        <a class="card" href="rag_pipeline_transfer_animation.html">
+          <span class="label"><span class="dot" style="background: var(--green)"></span>Burnaby example</span>
+          <h2>Burnaby Transfer Demo</h2>
+          <p>Compact city case with real raw block previews, RAG packs, table package, and final merge visualization.</p>
+          <div class="stats">
+            <span class="stat">raw blocks preview</span>
+            <span class="stat">interactive 3D graph</span>
+            <span class="stat">table package</span>
+          </div>
+        </a>
+
+        <a class="card" href="calgary_rag_pipeline_transfer_animation.html">
+          <span class="label"><span class="dot" style="background: var(--orange)"></span>Calgary example</span>
+          <h2>Calgary Transfer Demo</h2>
+          <p>Larger city case: 100 raw block previews from 6009 local blocks, then the full official Calgary RAG graph.</p>
+          <div class="stats">
+            <span class="stat">100 / 6009 blocks</span>
+            <span class="stat">130 RAG packs</span>
+            <span class="stat">178 evidence blocks</span>
+          </div>
+        </a>
+      </section>
+
+      <div class="note">Tip: upload the whole demos folder so the HTML, JS data files, and image crop folders stay together.</div>
+    </div>
+  </main>
+</body>
+</html>

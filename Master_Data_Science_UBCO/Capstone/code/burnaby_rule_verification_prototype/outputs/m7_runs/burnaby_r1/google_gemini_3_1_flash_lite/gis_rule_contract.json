@@ -1,0 +1,3911 @@
+{
+  "city": "Burnaby",
+  "zone": "R1",
+  "source_document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "source_url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "input_mode": "native_rag_llm",
+  "schema_version": "1.1",
+  "deduplication": {
+    "input_verified_rule_count": 87,
+    "export_rule_count": 84,
+    "duplicate_merged_count": 3,
+    "duplicate_group_count": 3,
+    "duplicate_groups": [
+      {
+        "keeper_rule_id": "burnaby_r1_011",
+        "merged_rule_ids": [
+          "burnaby_r1_125"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "burnaby_r1_023",
+        "merged_rule_ids": [
+          "burnaby_r1_135"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "burnaby_r1_077",
+        "merged_rule_ids": [
+          "burnaby_r1_088"
+        ],
+        "count": 2
+      }
+    ],
+    "policy": "source_aware_exact_duplicate_merge_for_gis_exports_only"
+  },
+  "rules": [
+    {
+      "rule_id": "burnaby_r1_001",
+      "rule_object": "lot_area",
+      "constraint_type": "minimum",
+      "constraint_scope": "lot_area",
+      "applies_to": "lot",
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "condition": "Minimum Lot Area",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 1,
+        "evidence_id": "m4_pack_0002_ev_001",
+        "quote": "Minimum Lot Area - 281 m2"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_011",
+      "rule_object": "dwelling_units",
+      "constraint_type": "maximum",
+      "constraint_scope": "dwelling_units",
+      "applies_to": "dwelling units",
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "units",
+      "condition": "Total Dwelling Units on a Lot 1 to 3 Units",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "bundle::burnaby_r1_011",
+        "quote": "[burnaby_r1_matrix_p2_t0_b0_001] Permitted Dwelling Units (including secondary suites) | Rowhouse 1 to 3 Units | 1 to 3\nUnits"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_023",
+      "rule_object": "fire_access_corridor",
+      "constraint_type": "minimum",
+      "constraint_scope": "corridor_width",
+      "applies_to": "All dwelling units",
+      "operator": ">=",
+      "value": "1.0",
+      "value_numeric": 1.0,
+      "unit": "m",
+      "condition": "paved or gravel fire access corridor",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "clearance",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 6,
+        "evidence_id": "m4_pack_0034_ev_001",
+        "quote": "All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_025",
+      "rule_object": "automatic_sprinkler",
+      "constraint_type": "required",
+      "constraint_scope": "automatic_sprinkler",
+      "applies_to": "Dwelling units more than 45 m from a street lot line",
+      "operator": ">",
+      "value": 45,
+      "value_numeric": 45.0,
+      "unit": "m",
+      "condition": "located more than 45 m from a lot line abutting a street",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "trigger_predicate",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 6,
+        "evidence_id": "m4_pack_0035_ev_001",
+        "quote": "Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system."
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_029",
+      "rule_object": "dwelling_units",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot",
+      "applies_to": "lot",
+      "operator": "<=",
+      "value": 3,
+      "value_numeric": 3.0,
+      "unit": "units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_001",
+        "quote": "Permitted Dwelling Units (including secondary suites) | Rowhouse 1 to 3 Units | 1 to 3\nUnits"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_030",
+      "rule_object": "dwelling_units",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot",
+      "applies_to": "lot",
+      "operator": "<=",
+      "value": 2,
+      "value_numeric": 2.0,
+      "unit": "units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_002",
+        "quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 1 to 2 Units | 1 to 2\nUnits"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_031",
+      "rule_object": "dwelling_units",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot",
+      "applies_to": "lot",
+      "operator": "<=",
+      "value": 4,
+      "value_numeric": 4.0,
+      "unit": "units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_003",
+        "quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 3 to 4 Units | 3 to 4\nUnits"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_032",
+      "rule_object": "dwelling_units",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot",
+      "applies_to": "lot",
+      "operator": "<=",
+      "value": 6,
+      "value_numeric": 6.0,
+      "unit": "units",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "unit_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_004",
+        "quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 5 to 6 Units"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_033",
+      "rule_object": "lot_area",
+      "constraint_type": "minimum",
+      "constraint_scope": "lot_area",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_005",
+        "quote": "Minimum Lot Area | Small-Scale Multi-Unit 3 to 4 Units | 4 Units Only\n:\n281 m2"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_034",
+      "rule_object": "lot_area",
+      "constraint_type": "minimum",
+      "constraint_scope": "lot_area",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_006",
+        "quote": "Minimum Lot Area | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 281 m2"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_036",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "55",
+      "value_numeric": 55.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_008",
+        "quote": "Maximum Lot Coverage | All Buildings | Rowhouse 1 to 3 Units | 55%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_037",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "40",
+      "value_numeric": 40.0,
+      "unit": "%",
+      "condition": "Lots < 567 m2",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "lot_area_threshold",
+            "comparator": "<=",
+            "value": 567.0,
+            "unit": "m2",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "Lots < 567 m2"
+        }
+      },
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_009",
+        "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 1 to 2 Units | Lots < 567 m2: 40%\nLots > 567 m2: 30%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_038",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "30",
+      "value_numeric": 30.0,
+      "unit": "%",
+      "condition": "Lots > 567 m2",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "lot_area_threshold",
+            "comparator": ">",
+            "value": 567.0,
+            "unit": "m2",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "Lots > 567 m2"
+        }
+      },
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_010",
+        "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 1 to 2 Units | Lots < 567 m2: 40%\nLots > 567 m2: 30%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_039",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "40",
+      "value_numeric": 40.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_011",
+        "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 3 to 4 Units | 40%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_040",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "45",
+      "value_numeric": 45.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_012",
+        "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 45%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_041",
+      "rule_object": "impervious_surface",
+      "constraint_type": "maximum",
+      "constraint_scope": "impervious_surface",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "70",
+      "value_numeric": 70.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_013",
+        "quote": "Maximum Lot Coverage | Impervious Surfaces | Rowhouse 1 to 3 Units | 70%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_042",
+      "rule_object": "impervious_surface",
+      "constraint_type": "maximum",
+      "constraint_scope": "impervious_surface",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "60",
+      "value_numeric": 60.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_014",
+        "quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 1 to 2 Units | 60%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_043",
+      "rule_object": "impervious_surface",
+      "constraint_type": "maximum",
+      "constraint_scope": "impervious_surface",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "60",
+      "value_numeric": 60.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_015",
+        "quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 3 to 4 Units | 60%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_044",
+      "rule_object": "impervious_surface",
+      "constraint_type": "maximum",
+      "constraint_scope": "impervious_surface",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "70",
+      "value_numeric": 70.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "surface_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_016",
+        "quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 70%"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_045",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_017",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_046",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_018",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_047",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_019",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_048",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_020",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_049",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_021",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_050",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_022",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_051",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "10",
+      "value_numeric": 10.0,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_023",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_052",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "9.5",
+      "value_numeric": 9.5,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_024",
+        "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 10 m | flat roof: 9.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_053",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_025",
+        "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Rowhouse 1 to 3 Units | 3 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_054",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "2.5",
+      "value_numeric": 2.5,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_026",
+        "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 1 to 2 Units | 2.5 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_055",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_027",
+        "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 3 to 4 Units | 3 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_056",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "3",
+      "value_numeric": 3.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_028",
+        "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 3 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_057",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_029",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_058",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_030",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_059",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_031",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_060",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_032",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_061",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_033",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_062",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_034",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_063",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "condition": "sloping roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "sloping roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_035",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_064",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "7.0",
+      "value_numeric": 7.0,
+      "unit": "m",
+      "condition": "flat roof",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "flat roof"
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_036",
+        "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 7.5 m | flat roof: 7.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_065",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Rowhouse 1 to 3 Units",
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_037",
+        "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Rowhouse 1 to 3 Units | 2 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_066",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_038",
+        "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 1 to 2 Units | 2 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_067",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_039",
+        "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 3 to 4 Units | 2 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_068",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": "<=",
+      "value": "2",
+      "value_numeric": 2.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_040",
+        "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2 storeys"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_069",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_041",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Rowhouse 1 to 3 Units | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_070",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_042",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Rowhouse 1 to 3 Units | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_071",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_043",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 1 to 2 Units | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_072",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_044",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 1 to 2 Units | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_073",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_045",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 3 to 4 Units | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_074",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_046",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 3 to 4 Units | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_075",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_047",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_076",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "Accessory Buildings",
+      "operator": "<=",
+      "value": "1",
+      "value_numeric": 1.0,
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "storey_count_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_048",
+        "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 4.0 m | 1 storey"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_077",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_049",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Rowhouse 1 to 3 Units | 3.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_078",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "street_yard_front",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "condition": "front",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "front"
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "front_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_050",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 1 to 2 Units | front: 4.0 m | flanking: 3.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_079",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "street_yard_flanking",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "flanking",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": "flanking"
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_051",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 1 to 2 Units | front: 4.0 m | flanking: 3.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_080",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "street_yard_front",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "condition": "front",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "front"
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "front_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_052",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 3 to 4 Units | front: 4.0 m | flanking: 3.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_081",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "street_yard_flanking",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "flanking",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": "flanking"
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_053",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 3 to 4 Units | front: 4.0 m | flanking: 3.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_082",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "street_yard_front",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "4.0",
+      "value_numeric": 4.0,
+      "unit": "m",
+      "condition": "front",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "front"
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "front_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_054",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | front: 4.0 m | flanking: 3.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_083",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "street_yard_flanking",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "flanking",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": "flanking"
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "side_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_055",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | front: 4.0 m | flanking: 3.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_084",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "lane_yard",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_056",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Rowhouse 1 to 3 Units | 1.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_085",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "lane_yard",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_057",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 1 to 2 Units | 1.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_086",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "lane_yard",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_058",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 3 to 4 Units | 1.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_087",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "lane_yard",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "offset_inward",
+        "axis": "lane_lot_line",
+        "direction": "inward",
+        "source_fields": [
+          "rule_object",
+          "constraint_scope"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_059",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 1.5 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_089",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_061",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 1 to 2 Units | 3.0 m, except 1.5 m for accessory buildings"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_090",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_062",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 3 to 4 Units | 3.0 m, except 1.5 m for accessory buildings"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_091",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_063",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 3.0 m, except 1.5 m for accessory buildings"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_093",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_065",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 1 to 2 Units | 1.2 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_094",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_066",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 3 to 4 Units | 1.2 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_095",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "All Buildings",
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_067",
+        "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 1.2 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_096",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_068",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_097",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_069",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_098",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_070",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_099",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Rear Principal Buildings",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_071",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_100",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Rear Principal Buildings",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_072",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_101",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Rear Principal Buildings",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_073",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_102",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Front and Rear Principal Buildings",
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_074",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Rowhouse 1 to 3 Units | 6.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_103",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Front and Rear Principal Buildings",
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_075",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 1 to 2 Units | 6.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_104",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Front and Rear Principal Buildings",
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_076",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 3 to 4 Units | 6.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_105",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Front and Rear Principal Buildings",
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_077",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 6.0 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_106",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "All Other Buildings",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "rowhouse",
+            "unit_range": {
+              "min": 1,
+              "max": 3
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Rowhouse 1 to 3 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b0_078",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Rowhouse 1 to 3 Units | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_107",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "All Other Buildings",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 1,
+              "max": 2
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b1_079",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_108",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "All Other Buildings",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 3,
+              "max": 4
+            }
+          }
+        ],
+        "qualifiers": [],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b2_080",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_109",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "All Other Buildings",
+      "operator": ">=",
+      "value": "2.4",
+      "value_numeric": 2.4,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": {
+        "status": "parsed",
+        "selectors": [
+          {
+            "dwelling_type": "small_scale_multi_unit",
+            "unit_range": {
+              "min": 5,
+              "max": 6
+            }
+          }
+        ],
+        "qualifiers": [
+          {
+            "type": "overlay",
+            "name": "frequent_transit_network_area",
+            "source": "condition"
+          }
+        ],
+        "raw": {
+          "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+          "condition": ""
+        }
+      },
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 2,
+        "evidence_id": "burnaby_r1_matrix_p2_t0_b3_081",
+        "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_110",
+      "rule_object": "automatic_sprinkler",
+      "constraint_type": "required",
+      "constraint_scope": "dwelling_unit",
+      "applies_to": "Dwelling units more than 45 m from a street lot line",
+      "operator": ">",
+      "value": 45,
+      "value_numeric": 45.0,
+      "unit": "m",
+      "condition": "distance from lot line abutting a street",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "trigger_predicate",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 6,
+        "evidence_id": "m4_pack_0035_v3_clause_ev_001",
+        "quote": "Parent context: 101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system"
+      }
+    },
+    {
+      "rule_id": "burnaby_r1_113",
+      "rule_object": "lot_area",
+      "constraint_type": "minimum",
+      "constraint_scope": "lot_area",
+      "applies_to": "Minimum Lot Area",
+      "operator": ">=",
+      "value": "281",
+      "value_numeric": 281.0,
+      "unit": "m2",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "area_floor",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+        "page": 1,
+        "evidence_id": "v3_repair_pack_0001_ev_001",
+        "quote": "Minimum Lot Area - 281 m2"
+      }
+    }
+  ]
+}

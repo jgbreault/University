@@ -1,0 +1,58 @@
+﻿{
+  "source_pdf": "C:\\Users\\18447\\w2025-data599-capstone-projects-green-metrics-technology\\code\\official_rule_extraction_pipeline\\pdfs\\burnaby\\R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "model": "gemini-3.1-pro-preview",
+  "selected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "text_block_count": 94,
+  "table_region_count": 4,
+  "page_reports": [
+    {
+      "page_number": 1,
+      "summary": "",
+      "text_block_count": 10,
+      "table_region_count": 2,
+      "warnings": []
+    },
+    {
+      "page_number": 2,
+      "summary": "",
+      "text_block_count": 7,
+      "table_region_count": 1,
+      "warnings": []
+    },
+    {
+      "page_number": 3,
+      "summary": "",
+      "text_block_count": 8,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 4,
+      "summary": "",
+      "text_block_count": 22,
+      "table_region_count": 1,
+      "warnings": []
+    },
+    {
+      "page_number": 5,
+      "summary": "",
+      "text_block_count": 25,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 6,
+      "summary": "",
+      "text_block_count": 22,
+      "table_region_count": 0,
+      "warnings": []
+    }
+  ]
+}

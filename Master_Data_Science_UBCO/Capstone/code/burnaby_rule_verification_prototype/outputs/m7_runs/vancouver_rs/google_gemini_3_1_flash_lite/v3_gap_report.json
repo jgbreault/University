@@ -1,0 +1,87 @@
+{
+  "report": "v3_gap_report",
+  "city": "vancouver_rs",
+  "pipeline": "native_m4_rag_llm",
+  "discovery_mode": "m4",
+  "advisory_gold_fields": true,
+  "safety_contract": "M4 extracts and repairs evidence packs; deterministic verifier decides.",
+  "pdf_page_count": 22,
+  "source_chunk_count": 251,
+  "pack_count": 178,
+  "m4_source_corpus": {
+    "path": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/benchmark/source_corpus/vancouver_rs",
+    "corpus_version": "m4_source_corpus_1",
+    "numeric_clause_count": 40,
+    "rule_like_numeric_clause_count": 38,
+    "selected_rule_like_numeric_coverage": 1.0
+  },
+  "model": "google/gemini-3.1-flash-lite",
+  "candidate_rule_count": 56,
+  "verified_rule_count": 10,
+  "review_rule_count": 31,
+  "rejected_rule_count": 15,
+  "not_used_rule_count": 0,
+  "false_verified_count": 0,
+  "verified_source_support_failed_count": 0,
+  "verified_precision": 1.0,
+  "verified_or_review_recall": 1.0,
+  "extraction_coverage_recall": 1.0,
+  "verifier_retention_rate": 1.0,
+  "top_support_gaps": [
+    {
+      "reason": "text_candidate_requires_review",
+      "count": 42
+    },
+    {
+      "reason": "rule_object_not_supported",
+      "count": 20
+    },
+    {
+      "reason": "rule_family_direction_mismatch",
+      "count": 14
+    },
+    {
+      "reason": "applies_to_not_supported",
+      "count": 13
+    },
+    {
+      "reason": "rule_object_unit_not_compatible",
+      "count": 13
+    },
+    {
+      "reason": "upstream_extraction_requested_review",
+      "count": 13
+    },
+    {
+      "reason": "extraction_source_fidelity_hold",
+      "count": 12
+    },
+    {
+      "reason": "operator_not_supported",
+      "count": 9
+    },
+    {
+      "reason": "coefficient_operand_not_value",
+      "count": 8
+    },
+    {
+      "reason": "constraint_scope_not_supported",
+      "count": 7
+    }
+  ],
+  "estimated_cost_usd": 0.032056,
+  "latency_ms": 298687,
+  "extraction_error_count": 0,
+  "extraction_errors": [],
+  "missed_rules": {
+    "unextracted_gold_rule_ids": [],
+    "verifier_rejected_gold_rule_ids": [],
+    "not_used_gold_rule_ids": [],
+    "missed_verified_or_review_gold_rule_ids": []
+  },
+  "v2_comparison": {},
+  "interpretation": [
+    "M4 preserved the false_verified_count = 0 safety target for this city.",
+    "Missed-rule IDs are evaluation-only and are not used by M4 runtime extraction."
+  ]
+}

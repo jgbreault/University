@@ -1,0 +1,736 @@
+[
+  {
+    "chunk_id": "vancouver_rs_11.1.1.1_003",
+    "page": 3,
+    "section": "11.1.1.1",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 3,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0052",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.1.1.1 The planting area must not exceed 325 m2 on any single parcel unless the primary use of the parcel is park or playground, or institutional, in which case the Director of Planning may permit an increase in planting area to a maximum of 7,000 m2."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.1.1.2_004",
+    "page": 3,
+    "section": "11.1.1.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0059",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.1.1.2 If 2 or more parcels are operated jointly as an urban farm - class A, the combined planting area for all parcels must not exceed 7,000 m2."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.1.2.1_015",
+    "page": 3,
+    "section": "11.1.2.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 1,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0053",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.1.2.1 The planting area for a single parcel or the combined planting area for all parcels operated jointly as an urban farm - class B, may not exceed 7,000 m2, unless relaxed by the Director of Planning due to unnecessary hardship associated with the location, shape or size of the parcel or parcels."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.1.2.2_016",
+    "page": 3,
+    "section": "11.1.2.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 0,
+    "rule_signal": false,
+    "rule_types": [],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0079",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "high",
+    "text_preview": "11.1.2.2 If located within 30.0 m of a dwelling use, no mechanical equipment may be used other than that designed for household use including lawnmowers, rototillers, garden hoses and pruners."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.1.2_034",
+    "page": 4,
+    "section": "11.3.1.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard",
+      "cross_reference"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0010",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.1.2 Subject to the provisions of section 11.3.1.7, the floor area of each: (a) dwelling unit, except for a lock-off unit, must be at least 37 m2; and City of Vancouver February 2026 Zoning and Development By-law Page 4"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.1.3_035",
+    "page": 5,
+    "section": "11.3.1.3",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0016",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.1.3 The maximum floor area of a lock-off unit is 29.7 m2."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.2.2_044",
+    "page": 5,
+    "section": "11.3.2.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 4,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard",
+      "permit_process"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0015",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.2.2 The floor area of a micro dwelling must be at least 29.7 m2, except that the Director of Planning or the Development Permit Board may decrease the permitted floor area of a micro dwelling to a minimum of"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.5.2_056",
+    "page": 7,
+    "section": "11.3.5.2",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0017",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.5.2 The total minimum and maximum size of an artist studio when combined with a residential unit associated with and forming an integral part of an artist studio is 47 m2 and 500 m2, respectively."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.6.6_063",
+    "page": 7,
+    "section": "11.3.6.6",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 4,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0009",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.6.6 For the purposes of calculating floor space ratio, common areas, such as the communal dining room and lounges, are included in floor area, except that any floor area for common space that exceeds 4 m2 per unit, may be excluded to a maximum of 10% of permitted floor area."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.7.2_066",
+    "page": 8,
+    "section": "11.3.7.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 1,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0018",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.7.2 For the purpose of fee simple subdivision, the minimum site width and frontage for each freehold rowhouse parcel is 5.0 m."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.8.2_069",
+    "page": 8,
+    "section": "11.3.8.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 3,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0004",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.8.3_070",
+    "page": 8,
+    "section": "11.3.8.3",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0006",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.8.3 The minimum site width for a laneway house is 9.8 m, except that the Director of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood privacy and all applicable Council policies and guide"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.8.4_071",
+    "page": 8,
+    "section": "11.3.8.4",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 4,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0003",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.8.6_073",
+    "page": 8,
+    "section": "11.3.8.6",
+    "evidence_type": "clause",
+    "measurement_count": 4,
+    "rule_cue_count": 1,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0007",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.8.6 A laneway house must be at least: (a) 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site; (b) 0.9 m from the ultimate rear property line; and (c) 1.2 m from each side property line, except that the Director of Planning may redu"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.8.7_074",
+    "page": 8,
+    "section": "11.3.8.7",
+    "evidence_type": "clause",
+    "measurement_count": 4,
+    "rule_cue_count": 5,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0002",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.8.7 Except for a laneway house with no separate bedrooms, a laneway house must include: (a) 1 main habitable room that is not a bedroom, with a minimum size of 16.7 m2 and a minimum dimension of 2.1 m measured between finished wall surfaces; and (b) at least 1 bedroom with a minimum size of 8.4 m2 and a minimum di"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.8.8_075",
+    "page": 9,
+    "section": "11.3.8.8",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 3,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0005",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.8.8 Computation of floor area for a laneway house must include: (a) all floors, including earthen floor, measured to the extreme outer limits of the building; (b) stairways, fire escapes, elevator shafts and other features that the Director of Planning considers similar, measured by their gross cross-sectional are"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.3.8.9_076",
+    "page": 9,
+    "section": "11.3.8.9",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 15,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard",
+      "parking",
+      "cross_reference"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0001",
+    "selected_pack_lane": "target_section_expansion",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.3.8.9 Computation of floor area for a laneway house must exclude: (a) floors or portions thereof that are used for off-street parking, provided that each parking space is open on at least 2 sides and does not exceed 7.3 m in length; (b) balconies and decks, and any other appurtenances that the Director of Planning c"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.4.2.2_085",
+    "page": 11,
+    "section": "11.4.2.2",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 7,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard",
+      "cross_reference"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0049",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.4.2.2 In the case of a specifically designed facility not being a conversion: (a) the site area must be at least 3,700 m2 except as provided in section 11.4.2.2(b); (b) the Director of Planning may increase the building height permitted by the applicable district schedule if the Director of Planning considers the im"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.4.3.1_088",
+    "page": 11,
+    "section": "11.4.3.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0064",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.4.3.1 The site must have a minimum frontage of 20.1 m."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.4.3.2_089",
+    "page": 11,
+    "section": "11.4.3.2",
+    "evidence_type": "clause",
+    "measurement_count": 4,
+    "rule_cue_count": 4,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0050",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.4.3.2 Yards must be provided in accordance with the applicable district schedule except that side yards must have a minimum width of 6.0 m plus an additional 0.3 m for every 0.6 m by which the height of the building exceeds 11.5 m."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.4.4.1_091",
+    "page": 11,
+    "section": "11.4.4.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0065",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.4.4.1 The site must have a minimum frontage of 20.1 m."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.4.4.3_093",
+    "page": 11,
+    "section": "11.4.4.3",
+    "evidence_type": "clause",
+    "measurement_count": 4,
+    "rule_cue_count": 4,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0051",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.4.4.3 Yards must be provided in accordance with the applicable district schedule, except that interior side yards must have a minimum width of 4.5 m plus an additional 0.3 m for every 0.6 m by which the height of the building exceeds 10.7 m."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.6.1.1_098",
+    "page": 12,
+    "section": "11.6.1.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 4,
+    "rule_signal": true,
+    "rule_types": [
+      "parking"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0061",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.6.1.1 The site area must be at least 2,000 m2, except that the Director of Planning may permit a smaller site if all parking required by the Parking By-law is provided on site."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.6.1.2_099",
+    "page": 12,
+    "section": "11.6.1.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 1,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0073",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "high",
+    "text_preview": "11.6.1.2 The site must be within 100.0 m of the development project to which the temporary sales office relates."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.6.1.4_101",
+    "page": 12,
+    "section": "11.6.1.4",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 1,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0074",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "high",
+    "text_preview": "11.6.1.4 The site must be more than 800.0 m from a commercial district, except that the Director of Planning may permit a temporary sales office closer to a commercial district if the applicant can demonstrate that suitable commercial vacancy opportunities are not available."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.1.3_110",
+    "page": 12,
+    "section": "11.8.1.3",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0066",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.1.3 The site area of a farmers’ market must not exceed 2,323 m2, except that the Director of Planning may permit an increase in site area, if the Director of Planning considers all applicable Council policies and guidelines. City of Vancouver February 2026 Zoning and Development By-law Page 12"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.2.2_116",
+    "page": 13,
+    "section": "11.8.2.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 1,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0075",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "high",
+    "text_preview": "11.8.2.2 The maximum permitted frontage for a site is 15.3 m."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.2.3_117",
+    "page": 13,
+    "section": "11.8.2.3",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0057",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.2.3 The maximum permitted floor area for all retail and storage space is 110 m2."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.3.1_123",
+    "page": 13,
+    "section": "11.8.3.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0067",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.3.1 A small-scale pharmacy must include at least 25 m2 of publicly accessible space except that if the Director of Planning considers all applicable Council policies and guidelines and potential impacts on the site and the surrounding properties, the Director of Planning may decrease the amount of space required."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.5.1_130",
+    "page": 14,
+    "section": "11.8.5.1",
+    "evidence_type": "clause",
+    "measurement_count": 5,
+    "rule_cue_count": 6,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard",
+      "cross_reference"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0055",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.5.1 Despite section 10.4 of this by-law and the front, side and rear yard regulations as set out in the C-1 District Schedule, in the case of a gasoline station - full serve or gasoline station - split island located in the C-1 district: (a) the minimum width of the side yard on a street that flanks a corner site "
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.5.3_132",
+    "page": 15,
+    "section": "11.8.5.3",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0068",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.5.3 No truck, bus, utility or camper trailer, camper or similar vehicle may be stored or parked at any time, other than the necessary waiting period for service, on a gasoline station - full serve or gasoline station - split island site in a C district except for the following: (a) in the C-1 district, trucks with"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.5.5_134",
+    "page": 15,
+    "section": "11.8.5.5",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "general_rule"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0069",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.5.5 The total width of vehicular access to a gasoline station - full serve or gasoline station - split island from a lane in a C, M or I district must not exceed an amount equal to 15% of the total length of the lane abutting the site, except that the total width of vehicular access need not be less than 3.7 m."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.6.2_137",
+    "page": 15,
+    "section": "11.8.6.2",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 0,
+    "rule_signal": false,
+    "rule_types": [
+      "permission"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0056",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.6.2 A cannabis store is not permitted: (a) within 300.0 m of the nearest property line of a site on which another cannabis store is located; (b) within 300.0 m of the nearest property line of a site containing a school - elementary or secondary, or community centre or neighbourhood house; City of Vancouver Februar"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.8.9.1_145",
+    "page": 17,
+    "section": "11.8.9.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 3,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0058",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.8.9.1 Any retail store is be permitted to use up to a maximum of 2.5 m2 of floor area of premises for the retailing of: (a) used electronic equipment, including, but not limited to, audio or video equipment or accessories, computers or printers; or (b) 2 or more of the following types of used merchandise: bicycles, "
+  },
+  {
+    "chunk_id": "vancouver_rs_11.10.2.1_178",
+    "page": 19,
+    "section": "11.10.2.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "permission",
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0070",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.10.2.1 Mini-storage warehouse is not permitted: (a) on the first storey, or on any storey with its floor level within 2.0 m above finished grade, in any I or M districts, except for entrances; (b) in the following areas of the I-2 district: (i) east of Ash Street, north of West Kent Avenue North, west of Manitoba St"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.9.4.1_173",
+    "page": 19,
+    "section": "11.9.4.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 5,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard",
+      "parking"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0062",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.9.4.1 The floor area of a wedding chapel must not exceed 140 m2, except that the Director of Planning may increase the floor area if the Director of Planning considers the siting and location of the proposed development, the type and hours of operation, generation of traffic, parking facilities, and any impact on ad"
+  },
+  {
+    "chunk_id": "vancouver_rs_11.13.1.6_190",
+    "page": 20,
+    "section": "11.13.1.6",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 3,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0054",
+    "selected_pack_lane": "family_query",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.13.1.6 Home-based businesses must occupy no more than 33.3% of the total gross floor area or 46 m2 of the dwelling unit, whichever is lesser, regardless of the number of home-based businesses being carried on in the dwelling unit."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.13.2.2_194",
+    "page": 21,
+    "section": "11.13.2.2",
+    "evidence_type": "clause",
+    "measurement_count": 2,
+    "rule_cue_count": 3,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0063",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.13.2.2 Every housekeeping unit must have a floor area of at least 13.4 m2, or a floor area of at least 11.1 m2 if the unit is occupied by only 1 person and adequate lounge facilities are provided on the premises."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.13.3.2_200",
+    "page": 21,
+    "section": "11.13.3.2",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0071",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.13.3.2 Every sleeping unit must include a main habitable room with a floor area of not less than 9.7 m2."
+  },
+  {
+    "chunk_id": "vancouver_rs_11.13.4.1_204",
+    "page": 21,
+    "section": "11.13.4.1",
+    "evidence_type": "clause",
+    "measurement_count": 1,
+    "rule_cue_count": 2,
+    "rule_signal": true,
+    "rule_types": [
+      "dimensional_standard"
+    ],
+    "selected_by_discovery": true,
+    "selected_pack_id": "m4_pack_0072",
+    "selected_pack_lane": "seed_discovery",
+    "selection_tier": "m4_exhaustive",
+    "drop_risk": "medium",
+    "text_preview": "11.13.4.1 The floor area of a live-work unit must be at least 47 m2."
+  }
+]

@@ -1,0 +1,1851 @@
+{
+  "purpose": "Source-backed evidence repair before verification. Advisory/debug only; the verifier still decides.",
+  "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/burnaby_r1/source.pdf",
+  "attempted": true,
+  "evidence_count": 144,
+  "candidate_count": 144,
+  "status_counts": {
+    "reanchored": 138,
+    "source_mismatch": 6
+  },
+  "forced_review_count": 0,
+  "items": [
+    {
+      "evidence_id": "m4_pack_0002_ev_001",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Area - 281 m2",
+      "source_context": "are Facilities 101.5.6 Accessory Use Use-Specific Regulations Boarding Use (up to 2 boarders) - Home Occupations 6.8, 6.8A Urban Agriculture 6.30 Accessory Buildings, Structures, and Uses 101.5.5, 6.6 (B/L No. 14694-24-11-04) 101.3 Subdivision Regulations Dwelling Type Rowhouse .1 Small-Scale Multi-Unit Minimum Lot Width .2 Interior Lot 5 m, except 6.2 m for end unit lots 10 m Corner Lot - Street 8 m 10 m Corner Lot - Lane 6.2 m 10 m Lot Area .3 Minimum Lot Area - 281 m2 Maximum Lot Area 280 m2 - .1 At the time...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0002_ev_002",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Area 280 m2",
+      "source_context": "essory Use Use-Specific Regulations Boarding Use (up to 2 boarders) - Home Occupations 6.8, 6.8A Urban Agriculture 6.30 Accessory Buildings, Structures, and Uses 101.5.5, 6.6 (B/L No. 14694-24-11-04) 101.3 Subdivision Regulations Dwelling Type Rowhouse .1 Small-Scale Multi-Unit Minimum Lot Width .2 Interior Lot 5 m, except 6.2 m for end unit lots 10 m Corner Lot - Street 8 m 10 m Corner Lot - Lane 6.2 m 10 m Lot Area .3 Minimum Lot Area - 281 m2 Maximum Lot Area 280 m2 - .1 At the time of registration of the sub...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0004_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "small-scale multi-unit lots with 1 to 3 units",
+      "source_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions: small-scale multi-unit lots with 1 to 3 units",
+      "parent_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions:"
+    },
+    {
+      "evidence_id": "m4_pack_0004_ev_002",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "small-scale multi-unit lots with 1 to 3 units",
+      "source_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions: small-scale multi-unit lots with 1 to 3 units",
+      "parent_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions:"
+    },
+    {
+      "evidence_id": "m4_pack_0006_ev_001",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "maximum lot coverage as set out in Section 101.4 may be increased up to 60%",
+      "source_context": "ge character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following: (i) lots with lane access shall have a minimum panhandle width of 1 m that is clear to a height of 2.5 m; and (ii) lots without lane access shall have a minimum panhandle width of 4.5 m that is clear to a height of 2.5 m; (b) maximum lot coverage as set out in Section 101.4 may be increased u...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0006_ev_002",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "impervious surface area up to 70%",
+      "source_context": "ce and its heritage character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following: impervious surface area up to 70%",
+      "parent_context": "ce and its heritage character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following:"
+    },
+    {
+      "evidence_id": "m4_pack_0006_ev_003",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "lot line setbacks for street yards may meet a minimum of 2.0 m",
+      "source_context": "to a height of 2.5 m; and (ii) lots without lane access shall have a minimum panhandle width of 4.5 m that is clear to a height of 2.5 m; (b) maximum lot coverage as set out in Section 101.4 may be increased up to 60% and impervious surface area up to 70%; (c) all original architectural appurtenances, such as chimneys, railings, vents, decorative features, or similar, may be excluded from the maximum permitted height of a principal building; (d) lot line setbacks for street yards may meet a minimum of 2.0 m; (e)...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0008_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "1 to 3 small-scale multi-unit dwelling units on a lot",
+      "source_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must: 1 to 3 small-scale multi-unit dwelling units on a lot",
+      "parent_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must:"
+    },
+    {
+      "evidence_id": "m4_pack_0008_ev_002",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "1 to 3 small-scale multi-unit dwelling units on a lot",
+      "source_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must: 1 to 3 small-scale multi-unit dwelling units on a lot",
+      "parent_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must:"
+    },
+    {
+      "evidence_id": "m4_pack_0017_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "Total Dwelling Units on a Lot 1 to 3 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "m4_pack_0017_ev_002",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "Total Dwelling Units on a Lot 1 to 3 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "m4_pack_0017_ev_003",
+      "page": 4,
+      "status": "source_mismatch",
+      "actions": [
+        "source_text_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "source_context": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0017_ev_004",
+      "page": 4,
+      "status": "source_mismatch",
+      "actions": [
+        "source_text_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "source_context": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0018_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "pedestrian walkway spaced every 100 m or less",
+      "source_context": ".5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units: pedestrian walkway spaced every 100 m or less",
+      "parent_context": ".5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:"
+    },
+    {
+      "evidence_id": "m4_pack_0018_ev_002",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "is at least 1.5 m wide",
+      "source_context": "tiple principal buildings and site access from both frontages, at least one dwelling unit per street frontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: (a) links the fronting street with the parallel lane, street, or trail network at the rear of the lot; (b) is at least 1.5 m wide and clear to a height of at least 2.5 m; and...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0018_ev_003",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "clear to a height of at least 2.5 m",
+      "source_context": "nd site access from both frontages, at least one dwelling unit per street frontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: (a) links the fronting street with the parallel lane, street, or trail network at the rear of the lot; (b) is at least 1.5 m wide and clear to a height of at least 2.5 m; and (c) is subject to a statut...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0019_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "nor be less than 1.2 m from a lot line",
+      "source_context": "(b) A garage or carport may be constructed below grade, provided that no part of such structure shall extend more than 1.2 m above the surface of the surrounding ground at any point other than the driveway, nor be less than 1.2 m from a lot line",
+      "parent_context": "(b) A garage or carport may be constructed below grade, provided that no part of such structure shall extend more than 1.2 m above the surface of the surrounding ground at any point other than the driveway,"
+    },
+    {
+      "evidence_id": "m4_pack_0021_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height.",
+      "source_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must: (a) be limited to a maximum of 25 children; (b) be located on a corner lot; (c) comply with the development regulations under section 101.4 for 1 to 3 small-scale multi-unit dwelling units on a lot; (d) be located on a lot that does not contain a dwelling unit or any other prin...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0025_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "terraces, decks, or other similar surfaces that are 1.0 m or less above grade",
+      "source_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot: terraces, decks, or other similar surfaces that are 1.0 m or less above grade",
+      "parent_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot:"
+    },
+    {
+      "evidence_id": "m4_pack_0025_ev_002",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade",
+      "source_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot: balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade",
+      "parent_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot:"
+    },
+    {
+      "evidence_id": "m4_pack_0025_ev_003",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m",
+      "source_context": "ot: (a) steps and stairs; (b) ornamental features, such as arbors, trellises, fish ponds, flag poles, or similar landscape features; (c) terraces, decks, or other similar surfaces that are 1.0 m or less above grade; (d) balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade up to a maximum of 25% of the width of a required separation; (e) belt courses, cornices, gutters, sills, chimneys, bay windows, or o...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0025_ev_004",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "eaves up to the lesser of 1.2 m",
+      "source_context": "d decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade up to a maximum of 25% of the width of a required separation; (e) belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m or 25% of the width of a required separation; (f) sunken access areas and window wells as per Section 6.9; (g) outdoor appliances; and (h) eaves up to the lesser of 1.2 m (3.94 ft.) or 25% of the width of a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0034_ev_001",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor",
+      "source_context": "101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system. (2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that: (a) provides direct pedestrian access from the dwelling unit entrance to a lot line abutting a street, or abutting a constructed lane where direct access to a street is not feasible; and (b) is clear of any projections or obstructions to a minimum of 2.5 m in height. 101....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0034_ev_002",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "is clear of any projections or obstructions to a minimum of 2.5 m in height.",
+      "source_context": "101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system. (2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that: (a) provides direct pedestrian access from the dwelling unit entrance to a lot line abutting a street, or abutting a constructed lane where direct access to a street is not feasible; and (b) is clear of any projections or obstructions to a minimum of 2.5 m in height. 101....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0035_ev_001",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system.",
+      "source_context": "101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system. (2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that: (a) provides direct pedestrian access from the dwelling unit entrance to a lot line abutting a street, or abutting a constructed lane where direct access to a street is not feasible; and (b) is clear of any projections or obstructions to a minimum of 2.5 m in height. 101....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0044_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "projections into required lane yards are limited to a maximum of 0.8 m",
+      "source_context": "gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m or 25% of the width of a required separation; (f) sunken access areas and window wells as per Section 6.9; (g) outdoor appliances; and (h) eaves up to the lesser of 1.2 m (3.94 ft.) or 25% of the width of a required separation. (B/L No. 14694-24-11-04) (2) Permitted projections into required yards are subject to Section 6.12, except that in the R1 District projections into required lane yards are limited to a maximum of 0....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0057_ev_001",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "maximum of 6 dwelling units on a lot",
+      "source_context": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) 101.1 Intent This District provides for the use and development of primarily ground-oriented residential dwellings up to a maximum of 6 dwelling units on a lot. 101.2 Permitted Uses Principal Use Use-Specific Regulations Small-Scale Multi-Unit Housing - Rowhouse Dwellings 101.5.2 Boarding, Lodging, or Rooming House 101.5.3 Group Home - Supportive Housing (Category A) 101.5.4 Child Care Facilities 101.5.6 Accessory Use Use-Specific Regulations Boarding Use (up to...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0058_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "lot with an area of not less than 560 m2",
+      "source_context": "rontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: lot with an area of not less than 560 m2",
+      "parent_context": "rontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that:"
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_001",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Permitted Dwelling Units (including secondary suites) | Rowhouse 1 to 3 Units | 1 to 3 Units",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_002",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 1 to 2 Units | 1 to 2 Units",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_003",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 3 to 4 Units | 3 to 4 Units",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_004",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 5 to 6 Units",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_005",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Area | Small-Scale Multi-Unit 3 to 4 Units | 4 Units Only : 281 m2",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_006",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Area | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 281 m2",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_007",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Area .1 | Rowhouse 1 to 3 Units | 280 m2",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_008",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | All Buildings | Rowhouse 1 to 3 Units | 55%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_009",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 1 to 2 Units | Lots < 567 m2: 40% Lots > 567 m2: 30%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_010",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 1 to 2 Units | Lots < 567 m2: 40% Lots > 567 m2: 30%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_011",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 3 to 4 Units | 40%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_012",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 45%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_013",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | Impervious Surfaces | Rowhouse 1 to 3 Units | 70%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_014",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 1 to 2 Units | 60%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_015",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 3 to 4 Units | 60%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_016",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 70%",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_017",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_018",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_019",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_020",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_021",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_022",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_023",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_024",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 10 m | flat roof: 9.5 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_025",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Rowhouse 1 to 3 Units | 3 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_026",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 1 to 2 Units | 2.5 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_027",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 3 to 4 Units | 3 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_028",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 3 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_029",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_030",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Rowhouse 1 to 3 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_031",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_032",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 1 to 2 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_033",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_034",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 3 to 4 Units | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_035",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_036",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Height | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | sloping roof: 7.5 m | flat roof: 7.0 m",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_037",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Rowhouse 1 to 3 Units | 2 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_038",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 1 to 2 Units | 2 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_039",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 3 to 4 Units | 2 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_040",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2 storeys",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_041",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Rowhouse 1 to 3 Units | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_042",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Rowhouse 1 to 3 Units | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_043",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 1 to 2 Units | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_044",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 1 to 2 Units | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_045",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 3 to 4 Units | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_046",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 3 to 4 Units | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_047",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_048",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Height | Rear Principal Buildings | Accessory Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 4.0 m | 1 storey",
+      "source_context": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (ba...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_049",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Rowhouse 1 to 3 Units | 3.0 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_050",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 1 to 2 Units | front: 4.0 m | flanking: 3.0 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_051",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 1 to 2 Units | front: 4.0 m | flanking: 3.0 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_052",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 3 to 4 Units | front: 4.0 m | flanking: 3.0 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_053",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 3 to 4 Units | front: 4.0 m | flanking: 3.0 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_054",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | front: 4.0 m | flanking: 3.0 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_055",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | front: 4.0 m | flanking: 3.0 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_056",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Rowhouse 1 to 3 Units | 1.5 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_057",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 1 to 2 Units | 1.5 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_058",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 3 to 4 Units | 1.5 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_059",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 1.5 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_060",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Rowhouse 1 to 3 Units | 3.0 m, except 1.5 m for accessory buildings",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_061",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 1 to 2 Units | 3.0 m, except 1.5 m for accessory buildings",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_062",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 3 to 4 Units | 3.0 m, except 1.5 m for accessory buildings",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_063",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 3.0 m, except 1.5 m for accessory buildings",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_064",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Rowhouse 1 to 3 Units | 0 m, except 1.2 m for end unit lots",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_065",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 1 to 2 Units | 1.2 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_066",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 3 to 4 Units | 1.2 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_067",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 1.2 m",
+      "source_context": "2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_068",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_069",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_070",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_071",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_072",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_073",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_074",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Rowhouse 1 to 3 Units | 6.0 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_075",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 1 to 2 Units | 6.0 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_076",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 3 to 4 Units | 6.0 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_077",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 6.0 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b0_078",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Rowhouse 1 to 3 Units | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b1_079",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 1 to 2 Units | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b2_080",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 3 to 4 Units | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "burnaby_r1_matrix_p2_t0_b3_081",
+      "page": 2,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "table_context_preserved"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+      "source_context": "basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m 1.2 m 1.2 m 1.2 m for end unit lots Minimum Separation of Buildings on the Same Lot .4 .5 Between Front...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0035_v3_clause_ev_001",
+      "page": 6,
+      "status": "source_mismatch",
+      "actions": [
+        "source_text_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "Parent context: 101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system",
+      "source_context": "Parent context: 101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0045_v3_clause_ev_002",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "101.2 Permitted Uses Principal Use Use-Specific Regulations Small-Scale Multi-Unit Housing - Rowhouse Dwellings 101.5.2 Boarding, Lodging, or Rooming House 101.5.3 Group Home - Supportive Housing (Category A) 101.5.4 Child Care Facilities 101.5.6 Accessory...",
+      "source_context": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) 101.1 Intent This District provides for the use and development of primarily ground-oriented residential dwellings up to a maximum of 6 dwelling units on a lot. 101.2 Permitted Uses Principal Use Use-Specific Regulations Small-Scale Multi-Unit Housing - Rowhouse Dwellings 101.5.2 Boarding, Lodging, or Rooming House 101.5.3 Group Home - Supportive Housing (Category A) 101.5.4 Child Care Facilities 101.5.6 Accessory Use Use-Specific Regulations Boarding Use (up to...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "m4_pack_0045_v3_clause_ev_003",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "101.2 Permitted Uses Principal Use Use-Specific Regulations Small-Scale Multi-Unit Housing - Rowhouse Dwellings 101.5.2 Boarding, Lodging, or Rooming House 101.5.3 Group Home - Supportive Housing (Category A) 101.5.4 Child Care Facilities 101.5.6 Accessory...",
+      "source_context": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) 101.1 Intent This District provides for the use and development of primarily ground-oriented residential dwellings up to a maximum of 6 dwelling units on a lot. 101.2 Permitted Uses Principal Use Use-Specific Regulations Small-Scale Multi-Unit Housing - Rowhouse Dwellings 101.5.2 Boarding, Lodging, or Rooming House 101.5.3 Group Home - Supportive Housing (Category A) 101.5.4 Child Care Facilities 101.5.6 Accessory Use Use-Specific Regulations Boarding Use (up to...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0001_ev_001",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "Minimum Lot Area - 281 m2",
+      "source_context": "are Facilities 101.5.6 Accessory Use Use-Specific Regulations Boarding Use (up to 2 boarders) - Home Occupations 6.8, 6.8A Urban Agriculture 6.30 Accessory Buildings, Structures, and Uses 101.5.5, 6.6 (B/L No. 14694-24-11-04) 101.3 Subdivision Regulations Dwelling Type Rowhouse .1 Small-Scale Multi-Unit Minimum Lot Width .2 Interior Lot 5 m, except 6.2 m for end unit lots 10 m Corner Lot - Street 8 m 10 m Corner Lot - Lane 6.2 m 10 m Lot Area .3 Minimum Lot Area - 281 m2 Maximum Lot Area 280 m2 - .1 At the time...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0001_ev_002",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Area 280 m2",
+      "source_context": "essory Use Use-Specific Regulations Boarding Use (up to 2 boarders) - Home Occupations 6.8, 6.8A Urban Agriculture 6.30 Accessory Buildings, Structures, and Uses 101.5.5, 6.6 (B/L No. 14694-24-11-04) 101.3 Subdivision Regulations Dwelling Type Rowhouse .1 Small-Scale Multi-Unit Minimum Lot Width .2 Interior Lot 5 m, except 6.2 m for end unit lots 10 m Corner Lot - Street 8 m 10 m Corner Lot - Lane 6.2 m 10 m Lot Area .3 Minimum Lot Area - 281 m2 Maximum Lot Area 280 m2 - .1 At the time of registration of the sub...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0003_ev_001",
+      "page": 1,
+      "status": "source_mismatch",
+      "actions": [
+        "source_text_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "Maximum Lot Area; 280 m2",
+      "source_context": "Heading: 101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) Table context: 101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) 101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Maximum Lot Area; 280 m2; -",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0004_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "small-scale multi-unit lots with 1 to 3 units",
+      "source_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions: small-scale multi-unit lots with 1 to 3 units",
+      "parent_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0004_ev_002",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "small-scale multi-unit lots with 1 to 3 units",
+      "source_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions: small-scale multi-unit lots with 1 to 3 units",
+      "parent_context": "ent plan to which the provisions of the Comprehensive Development District apply. 101.5.4 Supportive Housing (1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0005_ev_001",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "maximum lot coverage as set out in Section 101.4 may be increased up to 60%",
+      "source_context": "ge character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following: (i) lots with lane access shall have a minimum panhandle width of 1 m that is clear to a height of 2.5 m; and (ii) lots without lane access shall have a minimum panhandle width of 4.5 m that is clear to a height of 2.5 m; (b) maximum lot coverage as set out in Section 101.4 may be increased u...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0005_ev_002",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "impervious surface area up to 70%",
+      "source_context": "ce and its heritage character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following: impervious surface area up to 70%",
+      "parent_context": "ce and its heritage character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0005_ev_003",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "lot line setbacks for street yards may meet a minimum of 2.0 m",
+      "source_context": "to a height of 2.5 m; and (ii) lots without lane access shall have a minimum panhandle width of 4.5 m that is clear to a height of 2.5 m; (b) maximum lot coverage as set out in Section 101.4 may be increased up to 60% and impervious surface area up to 70%; (c) all original architectural appurtenances, such as chimneys, railings, vents, decorative features, or similar, may be excluded from the maximum permitted height of a principal building; (d) lot line setbacks for street yards may meet a minimum of 2.0 m; (e)...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0006_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "nor be less than 1.2 m from a lot line",
+      "source_context": "(b) A garage or carport may be constructed below grade, provided that no part of such structure shall extend more than 1.2 m above the surface of the surrounding ground at any point other than the driveway, nor be less than 1.2 m from a lot line",
+      "parent_context": "(b) A garage or carport may be constructed below grade, provided that no part of such structure shall extend more than 1.2 m above the surface of the surrounding ground at any point other than the driveway,"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0007_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "1 to 3 small-scale multi-unit dwelling units on a lot",
+      "source_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must: 1 to 3 small-scale multi-unit dwelling units on a lot",
+      "parent_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0007_ev_002",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "1 to 3 small-scale multi-unit dwelling units on a lot",
+      "source_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must: 1 to 3 small-scale multi-unit dwelling units on a lot",
+      "parent_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0008_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "Total Dwelling Units on a Lot 1 to 3 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0008_ev_002",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "Total Dwelling Units on a Lot 1 to 3 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0008_ev_003",
+      "page": 4,
+      "status": "source_mismatch",
+      "actions": [
+        "source_text_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "source_context": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0008_ev_004",
+      "page": 4,
+      "status": "source_mismatch",
+      "actions": [
+        "source_text_not_found_on_claimed_page"
+      ],
+      "forced_review": false,
+      "quote": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "source_context": "Parent context: 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0009_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "Total Dwelling Units on a Lot: 1 to 3 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot: 1 to 3 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0009_ev_002",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "Total Dwelling Units on a Lot: 1 to 3 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot: 1 to 3 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0009_ev_003",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "4 to 6 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: 4 to 6 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0009_ev_004",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "4 to 6 Units",
+      "source_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: 4 to 6 Units",
+      "parent_context": "101.5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "pedestrian walkway spaced every 100 m or less",
+      "source_context": ".5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units: pedestrian walkway spaced every 100 m or less",
+      "parent_context": ".5 Use-Specific Regulations 101.5.1 All Dwelling Units (1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_002",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "is at least 1.5 m wide",
+      "source_context": "tiple principal buildings and site access from both frontages, at least one dwelling unit per street frontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: (a) links the fronting street with the parallel lane, street, or trail network at the rear of the lot; (b) is at least 1.5 m wide and clear to a height of at least 2.5 m; and...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0010_ev_003",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "clear to a height of at least 2.5 m",
+      "source_context": "nd site access from both frontages, at least one dwelling unit per street frontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: (a) links the fronting street with the parallel lane, street, or trail network at the rear of the lot; (b) is at least 1.5 m wide and clear to a height of at least 2.5 m; and (c) is subject to a statut...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0011_ev_001",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor",
+      "source_context": "101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system. (2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that: (a) provides direct pedestrian access from the dwelling unit entrance to a lot line abutting a street, or abutting a constructed lane where direct access to a street is not feasible; and (b) is clear of any projections or obstructions to a minimum of 2.5 m in height. 101....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0011_ev_002",
+      "page": 6,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "is clear of any projections or obstructions to a minimum of 2.5 m in height.",
+      "source_context": "101.6.3 Access and Fire Safety (1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system. (2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that: (a) provides direct pedestrian access from the dwelling unit entrance to a lot line abutting a street, or abutting a constructed lane where direct access to a street is not feasible; and (b) is clear of any projections or obstructions to a minimum of 2.5 m in height. 101....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0012_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "terraces, decks, or other similar surfaces that are 1.0 m or less above grade",
+      "source_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot: terraces, decks, or other similar surfaces that are 1.0 m or less above grade",
+      "parent_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0012_ev_002",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade",
+      "source_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot: balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade",
+      "parent_context": "ly with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04) 101.6 General Regulations 101.6.1 Projections (1) The following features may project into the required minimum separation between buildings on the same lot:"
+    },
+    {
+      "evidence_id": "v3_repair_pack_0012_ev_003",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m",
+      "source_context": "ot: (a) steps and stairs; (b) ornamental features, such as arbors, trellises, fish ponds, flag poles, or similar landscape features; (c) terraces, decks, or other similar surfaces that are 1.0 m or less above grade; (d) balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade up to a maximum of 25% of the width of a required separation; (e) belt courses, cornices, gutters, sills, chimneys, bay windows, or o...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0012_ev_004",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "eaves up to the lesser of 1.2 m",
+      "source_context": "d decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade up to a maximum of 25% of the width of a required separation; (e) belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m or 25% of the width of a required separation; (f) sunken access areas and window wells as per Section 6.9; (g) outdoor appliances; and (h) eaves up to the lesser of 1.2 m (3.94 ft.) or 25% of the width of a...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0013_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height.",
+      "source_context": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height. 101.5.6 Child Care Facilities (1) A child care facility in the R1 District must: (a) be limited to a maximum of 25 children; (b) be located on a corner lot; (c) comply with the development regulations under section 101.4 for 1 to 3 small-scale multi-unit dwelling units on a lot; (d) be located on a lot that does not contain a dwelling unit or any other prin...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0014_ev_001",
+      "page": 5,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "projections into required lane yards are limited to a maximum of 0.8 m",
+      "source_context": "gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m or 25% of the width of a required separation; (f) sunken access areas and window wells as per Section 6.9; (g) outdoor appliances; and (h) eaves up to the lesser of 1.2 m (3.94 ft.) or 25% of the width of a required separation. (B/L No. 14694-24-11-04) (2) Permitted projections into required yards are subject to Section 6.12, except that in the R1 District projections into required lane yards are limited to a maximum of 0....",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0015_ev_001",
+      "page": 1,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page"
+      ],
+      "forced_review": false,
+      "quote": "up to a maximum of 6 dwelling units on a lot",
+      "source_context": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) 101.1 Intent This District provides for the use and development of primarily ground-oriented residential dwellings up to a maximum of 6 dwelling units on a lot. 101.2 Permitted Uses Principal Use Use-Specific Regulations Small-Scale Multi-Unit Housing - Rowhouse Dwellings 101.5.2 Boarding, Lodging, or Rooming House 101.5.3 Group Home - Supportive Housing (Category A) 101.5.4 Child Care Facilities 101.5.6 Accessory Use Use-Specific Regulations Boarding Use (up to...",
+      "parent_context": ""
+    },
+    {
+      "evidence_id": "v3_repair_pack_0016_ev_001",
+      "page": 4,
+      "status": "reanchored",
+      "actions": [
+        "reanchored_to_source_page",
+        "parent_lead_in_attached"
+      ],
+      "forced_review": false,
+      "quote": "lot with an area of not less than 560 m2",
+      "source_context": "rontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: lot with an area of not less than 560 m2",
+      "parent_context": "rontage. 101.5.2 Rowhouse Dwellings (1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that:"
+    }
+  ]
+}

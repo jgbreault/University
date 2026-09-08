@@ -1,0 +1,28 @@
+## Week 7
+
+Summary:
+Developed generic GIS scripts to define buildable areas and fit footprints for cities with different schemas, namely Burnaby and Calgary.
+
+Tasks:
+- Developed a QGIS Python script to define buildable areas, generic to Burnaby and Calgary.
+- Developed a QGIS Python script to fit a footprint onto buildable areas, generic to Burnaby and Calgary.
+- Preparing for GIS sections of Final Presentation.
+- Writing GIS sections of Final Report.
+- Writing GIS Reports for GMT.
+
+Time:
+- Buildable area script: 8 hours
+- Fitted footprint script: 8 hours
+- Final Presentation prep: 4 hours
+- Final Report writing: 12 hours
+- GMT Report writing: 4 hours
+- Meetings: 2 hours
+Total: 38 hours
+
+Challenges:
+- Although the GIS scripts can support the schemas for Burnaby and Calgary, there is not yet a generic solution to support the schema of any potential municipality. Having conditions in the scripts themselves to handle different schemas, as is done currently, is not a scalable solution. Ideally, an automated solution can be developed to convert required GIS files to a standardized schema to allow for simple scalable scripts.
+
+Next Steps:
+- Prepare for Final Presentation
+- Finish Final Report
+- Hand-off to GMT

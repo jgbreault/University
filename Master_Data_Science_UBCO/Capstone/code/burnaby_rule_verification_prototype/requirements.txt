@@ -1,0 +1,27 @@
+# Core runtime — deterministic verifier + GIS contract / Felt-export schema validation
+jsonschema>=4.0
+python-docx>=1.2.0
+
+# Dashboard — Streamlit review/GIS viewer
+streamlit>=1.46  # theme keys (borderColor/baseRadius) need 1.46+
+plotly>=5.24     # funnel/coverage charts; dashboard degrades to HTML bars without it
+
+# Optional: pydeck map tab in the dashboard (the tab degrades gracefully without it).
+# Install with the extra instead of uncommenting: `pip install -e .[map]`
+# pydeck>=0.9
+
+# Optional: LLM review-assistant (advisory only; never used inside verification).
+# Install with the extra instead of uncommenting: `pip install -e .[llm]`
+# anthropic>=0.40
+
+# Optional: MiniLM semantic review ranking (advisory only; never verifies rules).
+# Install with the extra instead of uncommenting: `pip install -e .[semantic]`
+# sentence-transformers>=2.7
+
+# Optional: internal extraction helper (diagnostic only; Pipeline 5 stays the
+# production extraction; never imported by the verify path).
+# Install with the extra instead of uncommenting: `pip install -e .[extraction]`
+# pdfplumber>=0.11
+# google-genai>=1.0
+# docling is a further optional ingest upgrade (HEAVY: vision models); install
+# manually with `pip install docling` — pdf_ingest falls back to pdfplumber.

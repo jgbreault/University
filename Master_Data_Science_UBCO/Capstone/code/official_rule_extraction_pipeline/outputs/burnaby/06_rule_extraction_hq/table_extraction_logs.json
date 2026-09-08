@@ -1,0 +1,42 @@
+﻿[
+  {
+    "batch_id": "page_0001__table_001",
+    "page_number": 1,
+    "section_heading": "101.2",
+    "rule_count": 10,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 27.077975034713745
+  },
+  {
+    "batch_id": "page_0001__table_002",
+    "page_number": 1,
+    "section_heading": "101.2",
+    "rule_count": 9,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 33.495481967926025
+  },
+  {
+    "batch_id": "page_0002__table_001",
+    "page_number": 2,
+    "section_heading": "101.4",
+    "rule_count": 45,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 135.01463675498962
+  },
+  {
+    "batch_id": "page_0004__table_001",
+    "page_number": 4,
+    "section_heading": "101.5.1",
+    "rule_count": 2,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 19.628047704696655
+  }
+]

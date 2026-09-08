@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Legal Parcels</title>
+                <geoform>vector digital data</geoform>
+                <onlink>https://gis.burnaby.ca/arcgis/rest/services/OpenData/OpenData4/MapServer/7</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Area of land designated as a separate and distinct parcel on a legally recorded subdivision plan or description filed in the Land Registry Office, and having a principal frontage upon a public street or place.
+
+Updated as an ongoing process.</abstract>
+            <purpose>Area of land designated as a separate and distinct parcel on a legally recorded subdivision plan or description filed in the Land Registry Office, and having a principal frontage upon a public street or place. Updated as an ongoing process.</purpose>
+        </descript>
+        <status>
+            <progress>In work</progress>
+            <update>Continually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-123.023471</westbc>
+                <eastbc>-122.892547</eastbc>
+                <northbc>49.299715</northbc>
+                <southbc>49.180858</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+                <themekey>planningCadastre</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>parcel</themekey>
+                <themekey>Legal Lot</themekey>
+                <themekey>Lot boundary</themekey>
+                <themekey>Lot Line</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>https://data.burnaby.ca/pages/open-government-licence</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Burnaby</cntorg>
+                    <cntper>Planning Department</cntper>
+                </cntorgp>
+                <cntpos>Planning Technician</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>4949 Canada Way</address>
+                    <city>Burnaby</city>
+                    <state>BC</state>
+                    <postal>V5G 1M2</postal>
+                    <country>CA</country>
+                </cntaddr>
+                <cntvoice>604-294-7241</cntvoice>
+                <cntemail>Planning@burnaby.ca</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Burnaby</cntorg>
+                    <cntper>GIS Division</cntper>
+                </cntorgp>
+                <cntpos>Owner</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>4949 Canada Way</address>
+                    <city>Burnaby</city>
+                    <state>BC</state>
+                    <postal>V5G 1M2</postal>
+                    <country>CA</country>
+                </cntaddr>
+                <cntfax>604-294-7425</cntfax>
+                <cntemail>gis@burnaby.ca</cntemail>
+                <hours>7:30am - 16:45 (PST)</hours>
+                <cntinst>Detail all queries via email</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Burnaby</cntorg>
+                    <cntper>GIS Division</cntper>
+                </cntorgp>
+                <cntpos>Resource Provider</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>4949 Canada Way</address>
+                    <city>Burnaby</city>
+                    <state>BC</state>
+                    <postal>V5G 1M2</postal>
+                    <country>CA</country>
+                </cntaddr>
+                <cntfax>604-294-7425</cntfax>
+                <cntemail>gis@burnaby.ca</cntemail>
+                <hours>7:30am - 16:45 (PST)</hours>
+                <cntinst>Detail all queries via email</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Planning Department (Documentation) , Engineering Dept. GIS Division City of Burnaby</datacred>
+        <native>Esri ArcGIS 10.3.1.4959</native>
+    </idinfo>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>36992</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>GIS.LglLot</enttypl>
+                <enttypd>Area of land designated as a separate and distinct parcel on a legally recorded subdivision plan or description filed in the Land Registry Office.</enttypd>
+                <enttypds>City of Burnaby</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LOT_ID</attrlabl>
+                <attrdef>System generated primary key.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ROOT_PLAN</attrlabl>
+                <attrdef>Originating subdivision plan.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_BY_ID</attrlabl>
+                <attrdef>User ID of feature author</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_BY_DATE</attrlabl>
+                <attrdef>Date of feature creation.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_BY_USING</attrlabl>
+                <attrdef>Software or method used for creating a feature</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>MODIFIED_BY_ID</attrlabl>
+                <attrdef>User ID of feature update.</attrdef>
+                <attrdefs>City of bURNABY</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>MODIFIED_BY_DATE</attrlabl>
+                <attrdef>Date of feature update.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PRCLID</attrlabl>
+                <attrdef>Text value of Primary key.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PRCLKEY</attrlabl>
+                <attrdef>Foreign key to asset management system, Hansen.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LTO_PID</attrlabl>
+                <attrdef>Land Titles Office Property Identifier</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ROLL_NUMBER</attrlabl>
+                <attrdef>12 digit property reference code consisting of: street code-street address-unit number</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ST_NMBR</attrlabl>
+                <attrdef>House or property number associated with each land parcel.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ST_NAME</attrlabl>
+                <attrdef>Street name associated with each city street.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ST_TYPE</attrlabl>
+                <attrdef>The street type given to each city street ie: ST, AV, DR, etc.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ADDRESS</attrlabl>
+                <attrdef>A designation of the location of a person's residence or workplace, an organization, or a building, consisting of numerical and text elements such as a street number, street name, and city arranged in a particular format.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>PLAN</attrlabl>
+                <attrdef>Subdivision plan associated with the parcel creation.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DL</attrlabl>
+                <attrdef>The original parcels of Burnaby that were created for settlement purposes. Burnaby consists of approximately 140 District Lots that are continuously subdivided into smaller parcels. Updated as an ongoing process.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>BLOCK</attrlabl>
+                <attrdef>Block number.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LOT</attrlabl>
+                <attrdef>Number given to an individual land parcel.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>BBY_PID</attrlabl>
+                <attrdef>Burnaby folio or property identifier.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>STRATA</attrlabl>
+                <attrdef>Strata property indicator.</attrdef>
+                <attrdefs>City of  Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AIR_SPACE</attrlabl>
+                <attrdef>Air space property indicator.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ANGLE</attrlabl>
+                <attrdef>Angle value for address orientation.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AGGREGATE</attrlabl>
+                <attrdef>Aggregated parcel indicator :C - Child, P - Parent, N - No</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>AGGR_ROLL</attrlabl>
+                <attrdef>Aggregated parcel roll number.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ST_SFX</attrlabl>
+                <attrdef>Street direction suffix .</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ST_NAME_NUM</attrlabl>
+                <attrdef>Numbered street alias ie: 13TH.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>HERITAGE</attrlabl>
+                <attrdef>Heritage property indicator</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+                <attrdef>A calculation of the size of a two-dimensional feature, measured in square units.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>Feature length in GIS.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Burnaby</cntorg>
+                    <cntper>Planning Department</cntper>
+                </cntorgp>
+                <cntpos>Planning Technician</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>4949 Canada Way</address>
+                    <city>Burnaby</city>
+                    <state>BC</state>
+                    <postal>V5G 1M2</postal>
+                    <country>CA</country>
+                </cntaddr>
+                <cntvoice>604-294-7241</cntvoice>
+                <cntemail>Planning@burnaby.ca</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+    </distinfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Burnaby</cntorg>
+                    <cntper>GIS Division</cntper>
+                </cntorgp>
+                <cntpos>Resource Provider</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>4949 Canada Way</address>
+                    <city>Burnaby</city>
+                    <state>BC</state>
+                    <postal>V5G 1M2</postal>
+                    <country>CA</country>
+                </cntaddr>
+                <cntfax>604-294-7425</cntfax>
+                <cntemail>gis@burnaby.ca</cntemail>
+                <hours>7:30am - 16:45 (PST)</hours>
+                <cntinst>Detail all queries via email</cntinst>
+            </cntinfo>
+        </distrib>
+        <distliab>See access and use constraints information.</distliab>
+    </distinfo>
+    <metainfo>
+        <metd>20160811</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>City of Burnaby</cntorg>
+                    <cntper>Planning Department</cntper>
+                </cntorgp>
+                <cntpos>Planning Technician</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>4949 Canada Way</address>
+                    <city>Burnaby</city>
+                    <state>BC</state>
+                    <postal>V5G 1M2</postal>
+                    <country>CA</country>
+                </cntaddr>
+                <cntvoice>604-294-7241</cntvoice>
+                <cntemail>Planning@burnaby.ca</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

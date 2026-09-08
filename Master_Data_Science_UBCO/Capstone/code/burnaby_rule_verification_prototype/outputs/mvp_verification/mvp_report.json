@@ -1,0 +1,1963 @@
+{
+  "report": "mvp_verification_report",
+  "purpose": "MVP comparison for the active Burnaby_prototype verification branch.",
+  "safety_contract": "Extractors and RAG propose; deterministic verifier decides; GIS uses only verified rules.",
+  "overall_status": "mvp_safety_ready",
+  "current_false_verified_total": 0,
+  "unsafe_current_rows": [],
+  "current_path_version": "native_m4",
+  "pdf_inventory": [
+    {
+      "city": "burnaby_r1",
+      "source_pdf": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/data/bylaws/burnaby_r1/source.pdf",
+      "page_count": 7,
+      "missing": false
+    },
+    {
+      "city": "vancouver_rs",
+      "source_pdf": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/data/bylaws/vancouver_rs/source.pdf",
+      "page_count": 22,
+      "missing": false
+    },
+    {
+      "city": "calgary_rcg",
+      "source_pdf": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/data/bylaws/calgary_rcg/source.pdf",
+      "page_count": 1053,
+      "missing": false
+    }
+  ],
+  "current_runs": [
+    {
+      "label": "Burnaby native M4 exhaustive full-bylaw extraction",
+      "city": "burnaby_r1",
+      "lane": "native_m4",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/burnaby_r1/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_m4",
+      "discovery_mode": "m4",
+      "candidate_rule_count": 101,
+      "evidence_unit_count": 101,
+      "verified_rule_count": 84,
+      "review_rule_count": 17,
+      "rejected_rule_count": 0,
+      "not_used_rule_count": 0,
+      "candidate_recall": 0.475,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true,
+        "proposal_decision_accuracy_is_1": true,
+        "proposal_case_accuracy_is_1": true,
+        "proposal_field_expectations_match": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": 40,
+      "m4_rule_like_numeric_clause_count": 23,
+      "m4_selected_rule_like_numeric_coverage": 1.0,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Vancouver native M4 exhaustive full-bylaw extraction",
+      "city": "vancouver_rs",
+      "lane": "native_m4",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/vancouver_rs/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_m4",
+      "discovery_mode": "m4",
+      "candidate_rule_count": 32,
+      "evidence_unit_count": 32,
+      "verified_rule_count": 12,
+      "review_rule_count": 11,
+      "rejected_rule_count": 9,
+      "not_used_rule_count": 0,
+      "candidate_recall": 1.0,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": 40,
+      "m4_rule_like_numeric_clause_count": 38,
+      "m4_selected_rule_like_numeric_coverage": 1.0,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Calgary native M4 exhaustive full-bylaw extraction",
+      "city": "calgary_rcg",
+      "lane": "native_m4",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/calgary_rcg/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_m4",
+      "discovery_mode": "m4",
+      "candidate_rule_count": 306,
+      "evidence_unit_count": 306,
+      "verified_rule_count": 11,
+      "review_rule_count": 43,
+      "rejected_rule_count": 35,
+      "not_used_rule_count": 217,
+      "candidate_recall": 1.0,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": 1106,
+      "m4_rule_like_numeric_clause_count": 1044,
+      "m4_selected_rule_like_numeric_coverage": 1.0,
+      "not_used_summary": {
+        "count": 217,
+        "top_reasons": [
+          {
+            "reason": "outside_target_section",
+            "label": "Outside target section",
+            "count": 217
+          },
+          {
+            "reason": "upstream_extraction_requested_review",
+            "label": "Upstream extraction requested review",
+            "count": 215
+          },
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 168
+          },
+          {
+            "reason": "enumerated_branch_condition_missing",
+            "label": "Enumerated branch condition missing",
+            "count": 80
+          },
+          {
+            "reason": "applies_to_not_supported",
+            "label": "Applies to not supported",
+            "count": 50
+          },
+          {
+            "reason": "constraint_scope_not_supported",
+            "label": "Constraint scope not supported",
+            "count": 45
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Setback",
+            "count": 118
+          },
+          {
+            "rule_family": "Height",
+            "count": 58
+          },
+          {
+            "rule_family": "Floor area",
+            "count": 15
+          },
+          {
+            "rule_family": "Lot area",
+            "count": 10
+          },
+          {
+            "rule_family": "Building separation",
+            "count": 8
+          },
+          {
+            "rule_family": "Lot coverage",
+            "count": 8
+          }
+        ],
+        "plain_explanation": "These are real numeric candidates from the full bylaw, but they are outside the configured target sections for this product run. They are kept for audit and review, not exported as verified rules."
+      },
+      "status_label": "pass"
+    }
+  ],
+  "v2_reference_runs": [
+    {
+      "label": "Burnaby native V2 full-bylaw extraction",
+      "city": "burnaby_r1",
+      "lane": "native_v2",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/burnaby_r1/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_v2",
+      "discovery_mode": null,
+      "candidate_rule_count": 79,
+      "evidence_unit_count": 79,
+      "verified_rule_count": 50,
+      "review_rule_count": 13,
+      "rejected_rule_count": 16,
+      "not_used_rule_count": 0,
+      "candidate_recall": 0.325,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 0.725,
+      "extraction_coverage_recall": 0.85,
+      "verifier_retention_rate": 0.8529411764705882,
+      "quality_gate_passed": false,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": false,
+        "verified_source_support_failures_is_0": true,
+        "proposal_decision_accuracy_is_1": false,
+        "proposal_case_accuracy_is_1": false,
+        "proposal_field_expectations_match": false
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [
+        "br1_use_001",
+        "br1_height_002",
+        "br1_height_004",
+        "br1_setback_001",
+        "br1_setback_002",
+        "br1_setback_004",
+        "br1_sep_002",
+        "br1_fire_001",
+        "br1_use_002",
+        "br1_height_005",
+        "br1_storeys_004"
+      ],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "scope mismatch"
+    },
+    {
+      "label": "Vancouver native V2 full-bylaw extraction",
+      "city": "vancouver_rs",
+      "lane": "native_v2",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/vancouver_rs/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_v2",
+      "discovery_mode": null,
+      "candidate_rule_count": 14,
+      "evidence_unit_count": 14,
+      "verified_rule_count": 2,
+      "review_rule_count": 8,
+      "rejected_rule_count": 4,
+      "not_used_rule_count": 0,
+      "candidate_recall": 0.5714285714285714,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 0.5714285714285714,
+      "extraction_coverage_recall": 0.5714285714285714,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": false,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": false,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [
+        "van_separation_001",
+        "van_setback_rear_001",
+        "van_setback_side_001"
+      ],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "scope mismatch"
+    },
+    {
+      "label": "Calgary native V2 full-bylaw extraction",
+      "city": "calgary_rcg",
+      "lane": "native_v2",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/calgary_rcg/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_v2",
+      "discovery_mode": null,
+      "candidate_rule_count": 129,
+      "evidence_unit_count": 129,
+      "verified_rule_count": 3,
+      "review_rule_count": 16,
+      "rejected_rule_count": 14,
+      "not_used_rule_count": 96,
+      "candidate_recall": 0.875,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 0.75,
+      "extraction_coverage_recall": 0.875,
+      "verifier_retention_rate": 0.8571428571428571,
+      "quality_gate_passed": false,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": false,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [
+        "cal_floor_area_secondary_001",
+        "cal_setback_front_deemed_001"
+      ],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 96,
+        "top_reasons": [
+          {
+            "reason": "outside_target_section",
+            "label": "Outside target section",
+            "count": 96
+          },
+          {
+            "reason": "upstream_extraction_requested_review",
+            "label": "Upstream extraction requested review",
+            "count": 94
+          },
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 73
+          },
+          {
+            "reason": "enumerated_branch_condition_missing",
+            "label": "Enumerated branch condition missing",
+            "count": 41
+          },
+          {
+            "reason": "constraint_scope_not_supported",
+            "label": "Constraint scope not supported",
+            "count": 26
+          },
+          {
+            "reason": "applies_to_not_supported",
+            "label": "Applies to not supported",
+            "count": 10
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Setback",
+            "count": 75
+          },
+          {
+            "rule_family": "Height",
+            "count": 12
+          },
+          {
+            "rule_family": "Floor area",
+            "count": 5
+          },
+          {
+            "rule_family": "Lot area",
+            "count": 2
+          },
+          {
+            "rule_family": "Lot coverage",
+            "count": 2
+          }
+        ],
+        "plain_explanation": "These are real numeric candidates from the full bylaw, but they are outside the configured target sections for this product run. They are kept for audit and review, not exported as verified rules."
+      },
+      "status_label": "scope mismatch"
+    }
+  ],
+  "v3_experimental_runs": [
+    {
+      "label": "Burnaby native V3 full-bylaw extraction",
+      "city": "burnaby_r1",
+      "lane": "native_v3",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v3_runs/burnaby_r1/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_v3",
+      "discovery_mode": null,
+      "candidate_rule_count": 103,
+      "evidence_unit_count": 103,
+      "verified_rule_count": 84,
+      "review_rule_count": 19,
+      "rejected_rule_count": 0,
+      "not_used_rule_count": 0,
+      "candidate_recall": 0.475,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": false,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true,
+        "proposal_decision_accuracy_is_1": false,
+        "proposal_case_accuracy_is_1": false,
+        "proposal_field_expectations_match": false
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "needs review"
+    },
+    {
+      "label": "Vancouver native V3 full-bylaw extraction",
+      "city": "vancouver_rs",
+      "lane": "native_v3",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v3_runs/vancouver_rs/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_v3",
+      "discovery_mode": null,
+      "candidate_rule_count": 31,
+      "evidence_unit_count": 31,
+      "verified_rule_count": 12,
+      "review_rule_count": 11,
+      "rejected_rule_count": 8,
+      "not_used_rule_count": 0,
+      "candidate_recall": 1.0,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Calgary native V3 full-bylaw extraction",
+      "city": "calgary_rcg",
+      "lane": "native_v3",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v3_runs/calgary_rcg/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_v3",
+      "discovery_mode": null,
+      "candidate_rule_count": 225,
+      "evidence_unit_count": 225,
+      "verified_rule_count": 10,
+      "review_rule_count": 28,
+      "rejected_rule_count": 28,
+      "not_used_rule_count": 159,
+      "candidate_recall": 1.0,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 159,
+        "top_reasons": [
+          {
+            "reason": "outside_target_section",
+            "label": "Outside target section",
+            "count": 159
+          },
+          {
+            "reason": "upstream_extraction_requested_review",
+            "label": "Upstream extraction requested review",
+            "count": 155
+          },
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 126
+          },
+          {
+            "reason": "enumerated_branch_condition_missing",
+            "label": "Enumerated branch condition missing",
+            "count": 66
+          },
+          {
+            "reason": "constraint_scope_not_supported",
+            "label": "Constraint scope not supported",
+            "count": 47
+          },
+          {
+            "reason": "applies_to_not_supported",
+            "label": "Applies to not supported",
+            "count": 18
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Setback",
+            "count": 113
+          },
+          {
+            "rule_family": "Height",
+            "count": 25
+          },
+          {
+            "rule_family": "Floor area",
+            "count": 9
+          },
+          {
+            "rule_family": "Lot area",
+            "count": 5
+          },
+          {
+            "rule_family": "Lot coverage",
+            "count": 4
+          },
+          {
+            "rule_family": "Building separation",
+            "count": 3
+          }
+        ],
+        "plain_explanation": "These are real numeric candidates from the full bylaw, but they are outside the configured target sections for this product run. They are kept for audit and review, not exported as verified rules."
+      },
+      "status_label": "pass"
+    }
+  ],
+  "m4_experimental_runs": [
+    {
+      "label": "Burnaby native M4 exhaustive full-bylaw extraction",
+      "city": "burnaby_r1",
+      "lane": "native_m4",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/burnaby_r1/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_m4",
+      "discovery_mode": "m4",
+      "candidate_rule_count": 101,
+      "evidence_unit_count": 101,
+      "verified_rule_count": 84,
+      "review_rule_count": 17,
+      "rejected_rule_count": 0,
+      "not_used_rule_count": 0,
+      "candidate_recall": 0.475,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true,
+        "proposal_decision_accuracy_is_1": true,
+        "proposal_case_accuracy_is_1": true,
+        "proposal_field_expectations_match": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": 40,
+      "m4_rule_like_numeric_clause_count": 23,
+      "m4_selected_rule_like_numeric_coverage": 1.0,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Vancouver native M4 exhaustive full-bylaw extraction",
+      "city": "vancouver_rs",
+      "lane": "native_m4",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/vancouver_rs/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_m4",
+      "discovery_mode": "m4",
+      "candidate_rule_count": 32,
+      "evidence_unit_count": 32,
+      "verified_rule_count": 12,
+      "review_rule_count": 11,
+      "rejected_rule_count": 9,
+      "not_used_rule_count": 0,
+      "candidate_recall": 1.0,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": 40,
+      "m4_rule_like_numeric_clause_count": 38,
+      "m4_selected_rule_like_numeric_coverage": 1.0,
+      "not_used_summary": {
+        "count": 0,
+        "top_reasons": [],
+        "top_rule_families": [],
+        "plain_explanation": ""
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Calgary native M4 exhaustive full-bylaw extraction",
+      "city": "calgary_rcg",
+      "lane": "native_m4",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/calgary_rcg/google_gemini_2_5_flash_lite",
+      "missing": false,
+      "pipeline": "native_rag_llm_extraction_m4",
+      "discovery_mode": "m4",
+      "candidate_rule_count": 306,
+      "evidence_unit_count": 306,
+      "verified_rule_count": 11,
+      "review_rule_count": 43,
+      "rejected_rule_count": 35,
+      "not_used_rule_count": 217,
+      "candidate_recall": 1.0,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": 1106,
+      "m4_rule_like_numeric_clause_count": 1044,
+      "m4_selected_rule_like_numeric_coverage": 1.0,
+      "not_used_summary": {
+        "count": 217,
+        "top_reasons": [
+          {
+            "reason": "outside_target_section",
+            "label": "Outside target section",
+            "count": 217
+          },
+          {
+            "reason": "upstream_extraction_requested_review",
+            "label": "Upstream extraction requested review",
+            "count": 215
+          },
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 168
+          },
+          {
+            "reason": "enumerated_branch_condition_missing",
+            "label": "Enumerated branch condition missing",
+            "count": 80
+          },
+          {
+            "reason": "applies_to_not_supported",
+            "label": "Applies to not supported",
+            "count": 50
+          },
+          {
+            "reason": "constraint_scope_not_supported",
+            "label": "Constraint scope not supported",
+            "count": 45
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Setback",
+            "count": 118
+          },
+          {
+            "rule_family": "Height",
+            "count": 58
+          },
+          {
+            "rule_family": "Floor area",
+            "count": 15
+          },
+          {
+            "rule_family": "Lot area",
+            "count": 10
+          },
+          {
+            "rule_family": "Building separation",
+            "count": 8
+          },
+          {
+            "rule_family": "Lot coverage",
+            "count": 8
+          }
+        ],
+        "plain_explanation": "These are real numeric candidates from the full bylaw, but they are outside the configured target sections for this product run. They are kept for audit and review, not exported as verified rules."
+      },
+      "status_label": "pass"
+    }
+  ],
+  "v3_promotion": {
+    "promoted": true,
+    "safety_ok": true,
+    "adversarial_ok": true,
+    "improvement_ok": true,
+    "improved_city_count": 3,
+    "improved_cities": [
+      "burnaby_r1",
+      "calgary_rcg",
+      "vancouver_rs"
+    ],
+    "missing_cities": [],
+    "reasons": [],
+    "details": [
+      {
+        "city": "burnaby_r1",
+        "v2_verified": 50,
+        "v3_verified": 84,
+        "v2_verified_or_review_recall": 0.725,
+        "v3_verified_or_review_recall": 1.0,
+        "improved": true
+      },
+      {
+        "city": "vancouver_rs",
+        "v2_verified": 2,
+        "v3_verified": 12,
+        "v2_verified_or_review_recall": 0.5714285714285714,
+        "v3_verified_or_review_recall": 1.0,
+        "improved": true
+      },
+      {
+        "city": "calgary_rcg",
+        "v2_verified": 3,
+        "v3_verified": 10,
+        "v2_verified_or_review_recall": 0.75,
+        "v3_verified_or_review_recall": 1.0,
+        "improved": true
+      }
+    ]
+  },
+  "m4_promotion": {
+    "promoted": true,
+    "safety_ok": true,
+    "adversarial_ok": true,
+    "source_coverage_ok": true,
+    "no_recall_loss": true,
+    "improved_city_count": 1,
+    "improved_cities": [
+      "calgary_rcg"
+    ],
+    "missing_cities": [],
+    "reasons": [],
+    "details": [
+      {
+        "city": "burnaby_r1",
+        "v3_verified": 84,
+        "m4_verified": 84,
+        "v3_verified_or_review_recall": 1.0,
+        "m4_verified_or_review_recall": 1.0,
+        "m4_selected_rule_like_numeric_coverage": 1.0,
+        "recall_loss": false,
+        "verified_improved": false
+      },
+      {
+        "city": "vancouver_rs",
+        "v3_verified": 12,
+        "m4_verified": 12,
+        "v3_verified_or_review_recall": 1.0,
+        "m4_verified_or_review_recall": 1.0,
+        "m4_selected_rule_like_numeric_coverage": 1.0,
+        "recall_loss": false,
+        "verified_improved": false
+      },
+      {
+        "city": "calgary_rcg",
+        "v3_verified": 10,
+        "m4_verified": 11,
+        "v3_verified_or_review_recall": 1.0,
+        "m4_verified_or_review_recall": 1.0,
+        "m4_selected_rule_like_numeric_coverage": 1.0,
+        "recall_loss": false,
+        "verified_improved": true
+      }
+    ]
+  },
+  "legacy_references": [
+    {
+      "label": "Burnaby P5 registry legacy reference",
+      "city": "burnaby_r1",
+      "lane": "legacy_p5",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/burnaby_r1_slim_pipeline5_registry_v21",
+      "missing": false,
+      "pipeline": null,
+      "discovery_mode": null,
+      "candidate_rule_count": 142,
+      "evidence_unit_count": 142,
+      "verified_rule_count": 43,
+      "review_rule_count": 50,
+      "rejected_rule_count": 27,
+      "not_used_rule_count": 22,
+      "candidate_recall": 0.95,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true,
+        "proposal_decision_accuracy_is_1": true,
+        "proposal_case_accuracy_is_1": true,
+        "proposal_field_expectations_match": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 22,
+        "top_reasons": [
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 14
+          },
+          {
+            "reason": "operator_not_supported",
+            "label": "Operator not supported",
+            "count": 13
+          },
+          {
+            "reason": "rule_object_not_supported",
+            "label": "Rule object not supported",
+            "count": 11
+          },
+          {
+            "reason": "outside_current_rule_contract",
+            "label": "Outside current rule contract",
+            "count": 9
+          },
+          {
+            "reason": "table_cell_candidate_requires_review",
+            "label": "Table cell candidate requires review",
+            "count": 8
+          },
+          {
+            "reason": "table_evidence_candidate_requires_review",
+            "label": "Table evidence candidate requires review",
+            "count": 8
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Permitted use",
+            "count": 4
+          },
+          {
+            "rule_family": "Accessory use",
+            "count": 4
+          },
+          {
+            "rule_family": "Setback",
+            "count": 3
+          },
+          {
+            "rule_family": "Building separation",
+            "count": 2
+          },
+          {
+            "rule_family": "Boarding house",
+            "count": 2
+          },
+          {
+            "rule_family": "Height",
+            "count": 2
+          }
+        ],
+        "plain_explanation": "These candidates are outside the current numeric zoning-rule contract."
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Vancouver P5 registry legacy reference",
+      "city": "vancouver_rs",
+      "lane": "legacy_p5",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/vancouver_rs_slim_pipeline5_registry",
+      "missing": false,
+      "pipeline": null,
+      "discovery_mode": null,
+      "candidate_rule_count": 45,
+      "evidence_unit_count": 41,
+      "verified_rule_count": 3,
+      "review_rule_count": 20,
+      "rejected_rule_count": 13,
+      "not_used_rule_count": 9,
+      "candidate_recall": 0.8571428571428571,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 9,
+        "top_reasons": [
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 9
+          },
+          {
+            "reason": "rule_object_not_supported",
+            "label": "Rule object not supported",
+            "count": 9
+          },
+          {
+            "reason": "outside_current_rule_contract",
+            "label": "Outside current rule contract",
+            "count": 9
+          },
+          {
+            "reason": "applies_to_not_supported",
+            "label": "Applies to not supported",
+            "count": 5
+          },
+          {
+            "reason": "constraint_scope_not_supported",
+            "label": "Constraint scope not supported",
+            "count": 3
+          },
+          {
+            "reason": "operator_not_supported",
+            "label": "Operator not supported",
+            "count": 2
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Bedroom area",
+            "count": 3
+          },
+          {
+            "rule_family": "Site dimension",
+            "count": 1
+          },
+          {
+            "rule_family": "Other",
+            "count": 1
+          },
+          {
+            "rule_family": "Habitable room area",
+            "count": 1
+          },
+          {
+            "rule_family": "Reference",
+            "count": 1
+          },
+          {
+            "rule_family": "Use combination",
+            "count": 1
+          }
+        ],
+        "plain_explanation": "These candidates are outside the current numeric zoning-rule contract."
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Calgary internal registry legacy reference",
+      "city": "calgary_rcg",
+      "lane": "legacy_internal_registry",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/calgary_rcg_slim_pipeline5_registry_v21",
+      "missing": false,
+      "pipeline": null,
+      "discovery_mode": null,
+      "candidate_rule_count": 24,
+      "evidence_unit_count": 24,
+      "verified_rule_count": 3,
+      "review_rule_count": 15,
+      "rejected_rule_count": 4,
+      "not_used_rule_count": 2,
+      "candidate_recall": 1.0,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 2,
+        "top_reasons": [
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 2
+          },
+          {
+            "reason": "operator_not_supported",
+            "label": "Operator not supported",
+            "count": 2
+          },
+          {
+            "reason": "outside_target_section",
+            "label": "Outside target section",
+            "count": 2
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Height",
+            "count": 2
+          }
+        ],
+        "plain_explanation": "These are real numeric candidates from the full bylaw, but they are outside the configured target sections for this product run. They are kept for audit and review, not exported as verified rules."
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Burnaby P9 graph-RAG upstream reference",
+      "city": "burnaby_r1",
+      "lane": "upstream_p9",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/burnaby_r1_p9_v21",
+      "missing": false,
+      "pipeline": null,
+      "discovery_mode": null,
+      "candidate_rule_count": 72,
+      "evidence_unit_count": 12,
+      "verified_rule_count": 0,
+      "review_rule_count": 50,
+      "rejected_rule_count": 14,
+      "not_used_rule_count": 8,
+      "candidate_recall": 0.55,
+      "verified_precision": 0.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 0.625,
+      "extraction_coverage_recall": 0.75,
+      "verifier_retention_rate": 0.8333333333333334,
+      "quality_gate_passed": false,
+      "quality_gates": {
+        "verified_precision_is_1": false,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": false,
+        "verified_source_support_failures_is_0": true,
+        "proposal_decision_accuracy_is_1": false,
+        "proposal_case_accuracy_is_1": false,
+        "proposal_field_expectations_match": false
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [
+        "br1_units_001",
+        "br1_setback_006",
+        "br1_sep_001",
+        "br1_sep_002",
+        "br1_sep_003",
+        "br1_fire_001",
+        "br1_fire_002",
+        "br1_fire_003",
+        "br1_heritage_001",
+        "br1_heritage_002",
+        "br1_heritage_003",
+        "br1_sep_004",
+        "br1_units_002",
+        "br1_units_003",
+        "br1_units_004"
+      ],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 8,
+        "top_reasons": [
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 8
+          },
+          {
+            "reason": "cross_reference_only",
+            "label": "Cross reference only",
+            "count": 6
+          },
+          {
+            "reason": "rule_object_not_supported",
+            "label": "Rule object not supported",
+            "count": 6
+          },
+          {
+            "reason": "unresolved_exception_cue",
+            "label": "Unresolved exception cue",
+            "count": 5
+          },
+          {
+            "reason": "operator_not_supported",
+            "label": "Operator not supported",
+            "count": 3
+          },
+          {
+            "reason": "text_condition_not_supported",
+            "label": "Text condition not supported",
+            "count": 2
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Building separation",
+            "count": 4
+          },
+          {
+            "rule_family": "Setback",
+            "count": 2
+          },
+          {
+            "rule_family": "Small scale multi unit lot",
+            "count": 1
+          },
+          {
+            "rule_family": "Parking location",
+            "count": 1
+          }
+        ],
+        "plain_explanation": "These candidates are outside the current numeric zoning-rule contract."
+      },
+      "status_label": "scope mismatch"
+    },
+    {
+      "label": "Vancouver P9 graph-RAG upstream reference",
+      "city": "vancouver_rs",
+      "lane": "upstream_p9",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/vancouver_rs_p9_v21",
+      "missing": false,
+      "pipeline": null,
+      "discovery_mode": null,
+      "candidate_rule_count": 43,
+      "evidence_unit_count": 35,
+      "verified_rule_count": 2,
+      "review_rule_count": 21,
+      "rejected_rule_count": 12,
+      "not_used_rule_count": 8,
+      "candidate_recall": 0.5714285714285714,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 1.0,
+      "extraction_coverage_recall": 1.0,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": true,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": true,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 8,
+        "top_reasons": [
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 8
+          },
+          {
+            "reason": "rule_object_not_supported",
+            "label": "Rule object not supported",
+            "count": 8
+          },
+          {
+            "reason": "outside_current_rule_contract",
+            "label": "Outside current rule contract",
+            "count": 8
+          },
+          {
+            "reason": "operator_not_supported",
+            "label": "Operator not supported",
+            "count": 1
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Room size",
+            "count": 2
+          },
+          {
+            "rule_family": "Room dimension",
+            "count": 2
+          },
+          {
+            "rule_family": "Building type",
+            "count": 1
+          },
+          {
+            "rule_family": "Site width",
+            "count": 1
+          },
+          {
+            "rule_family": "Director consideration",
+            "count": 1
+          },
+          {
+            "rule_family": "Development review",
+            "count": 1
+          }
+        ],
+        "plain_explanation": "These candidates are outside the current numeric zoning-rule contract."
+      },
+      "status_label": "pass"
+    },
+    {
+      "label": "Calgary P9 graph-RAG upstream reference",
+      "city": "calgary_rcg",
+      "lane": "upstream_p9",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/calgary_rcg_p9_v21",
+      "missing": false,
+      "pipeline": null,
+      "discovery_mode": null,
+      "candidate_rule_count": 428,
+      "evidence_unit_count": 152,
+      "verified_rule_count": 3,
+      "review_rule_count": 152,
+      "rejected_rule_count": 49,
+      "not_used_rule_count": 224,
+      "candidate_recall": 0.625,
+      "verified_precision": 1.0,
+      "false_verified_count": 0,
+      "verified_source_support_failed_count": 0,
+      "false_approval_count": 0,
+      "verified_or_review_recall": 0.75,
+      "extraction_coverage_recall": 0.75,
+      "verifier_retention_rate": 1.0,
+      "quality_gate_passed": false,
+      "quality_gates": {
+        "verified_precision_is_1": true,
+        "false_verified_is_0": true,
+        "false_approval_is_0": true,
+        "retrieval_recall_at_least_0_95": true,
+        "verified_or_review_recall_at_least_0_90": false,
+        "verified_source_support_failures_is_0": true
+      },
+      "false_verified_rule_ids": [],
+      "missed_verified_or_review_gold_rule_ids": [
+        "cal_height_side_edge_001",
+        "cal_setback_front_deemed_001"
+      ],
+      "m4_numeric_clause_count": null,
+      "m4_rule_like_numeric_clause_count": null,
+      "m4_selected_rule_like_numeric_coverage": null,
+      "not_used_summary": {
+        "count": 224,
+        "top_reasons": [
+          {
+            "reason": "outside_target_section",
+            "label": "Outside target section",
+            "count": 217
+          },
+          {
+            "reason": "pipeline5_text_candidate_requires_review",
+            "label": "Pipeline5 text candidate requires review",
+            "count": 212
+          },
+          {
+            "reason": "operator_not_supported",
+            "label": "Operator not supported",
+            "count": 63
+          },
+          {
+            "reason": "rule_object_not_supported",
+            "label": "Rule object not supported",
+            "count": 57
+          },
+          {
+            "reason": "upstream_extraction_requested_review",
+            "label": "Upstream extraction requested review",
+            "count": 33
+          },
+          {
+            "reason": "outside_current_rule_contract",
+            "label": "Outside current rule contract",
+            "count": 27
+          }
+        ],
+        "top_rule_families": [
+          {
+            "rule_family": "Permitted use",
+            "count": 76
+          },
+          {
+            "rule_family": "Setback",
+            "count": 39
+          },
+          {
+            "rule_family": "Height",
+            "count": 30
+          },
+          {
+            "rule_family": "Dwelling units",
+            "count": 25
+          },
+          {
+            "rule_family": "Floor space ratio",
+            "count": 14
+          },
+          {
+            "rule_family": "Lot coverage",
+            "count": 6
+          }
+        ],
+        "plain_explanation": "These are real numeric candidates from the full bylaw, but they are outside the configured target sections for this product run. They are kept for audit and review, not exported as verified rules."
+      },
+      "status_label": "scope mismatch"
+    }
+  ],
+  "v2_discovery": [
+    {
+      "city": "burnaby_r1",
+      "missing": false,
+      "source": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/burnaby_r1",
+      "source_chunk_count": 93,
+      "evidence_pack_count": 80,
+      "page_count_with_chunks": 6,
+      "first_page": 1,
+      "last_page": 7,
+      "discovery_version": "v2_discovery_2",
+      "advisory_only": true,
+      "lane_counts": [
+        {
+          "name": "context_only",
+          "count": 23
+        },
+        {
+          "name": "core_rule",
+          "count": 10
+        },
+        {
+          "name": "table_rule",
+          "count": 26
+        },
+        {
+          "name": "universal_applicable_rule",
+          "count": 3
+        },
+        {
+          "name": "use_permission",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "city": "vancouver_rs",
+      "missing": false,
+      "source": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/vancouver_rs",
+      "source_chunk_count": 251,
+      "evidence_pack_count": 80,
+      "page_count_with_chunks": 21,
+      "first_page": 1,
+      "last_page": 21,
+      "discovery_version": "v2_discovery_2",
+      "advisory_only": true,
+      "lane_counts": [
+        {
+          "name": "context_only",
+          "count": 37
+        },
+        {
+          "name": "core_rule",
+          "count": 18
+        },
+        {
+          "name": "universal_applicable_rule",
+          "count": 20
+        },
+        {
+          "name": "use_permission",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "city": "calgary_rcg",
+      "missing": false,
+      "source": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs_full_discovery/calgary_rcg",
+      "source_chunk_count": 3558,
+      "evidence_pack_count": 400,
+      "page_count_with_chunks": 709,
+      "first_page": 7,
+      "last_page": 1052,
+      "discovery_version": "v2_discovery_2",
+      "advisory_only": true,
+      "lane_counts": [
+        {
+          "name": "context_only",
+          "count": 20
+        },
+        {
+          "name": "core_rule",
+          "count": 194
+        },
+        {
+          "name": "table_rule",
+          "count": 86
+        },
+        {
+          "name": "universal_applicable_rule",
+          "count": 60
+        },
+        {
+          "name": "use_permission",
+          "count": 40
+        }
+      ]
+    }
+  ],
+  "m4_discovery": [
+    {
+      "city": "burnaby_r1",
+      "missing": false,
+      "source": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/burnaby_r1",
+      "full_pdf_page_count": 7,
+      "source_chunk_count": 93,
+      "evidence_pack_count": 87,
+      "page_count_with_chunks": 6,
+      "first_page": 1,
+      "last_page": 7,
+      "discovery_version": "m4_exhaustive_discovery_1",
+      "discovery_mode": "m4",
+      "advisory_only": true,
+      "numeric_clause_count": 40,
+      "rule_like_numeric_clause_count": 23,
+      "selected_rule_like_numeric_coverage": 1.0,
+      "lane_counts": [
+        {
+          "name": "family_query",
+          "count": 32
+        },
+        {
+          "name": "section_neighbor",
+          "count": 6
+        },
+        {
+          "name": "seed_discovery",
+          "count": 49
+        }
+      ]
+    },
+    {
+      "city": "vancouver_rs",
+      "missing": false,
+      "source": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/vancouver_rs",
+      "full_pdf_page_count": 22,
+      "source_chunk_count": 251,
+      "evidence_pack_count": 173,
+      "page_count_with_chunks": 21,
+      "first_page": 1,
+      "last_page": 21,
+      "discovery_version": "m4_exhaustive_discovery_1",
+      "discovery_mode": "m4",
+      "advisory_only": true,
+      "numeric_clause_count": 40,
+      "rule_like_numeric_clause_count": 38,
+      "selected_rule_like_numeric_coverage": 1.0,
+      "lane_counts": [
+        {
+          "name": "family_query",
+          "count": 13
+        },
+        {
+          "name": "section_neighbor",
+          "count": 56
+        },
+        {
+          "name": "seed_discovery",
+          "count": 56
+        },
+        {
+          "name": "target_section_expansion",
+          "count": 48
+        }
+      ]
+    },
+    {
+      "city": "calgary_rcg",
+      "missing": false,
+      "source": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/calgary_rcg",
+      "full_pdf_page_count": 1053,
+      "source_chunk_count": 3558,
+      "evidence_pack_count": 1400,
+      "page_count_with_chunks": 709,
+      "first_page": 7,
+      "last_page": 1052,
+      "discovery_version": "m4_exhaustive_discovery_1",
+      "discovery_mode": "m4",
+      "advisory_only": true,
+      "numeric_clause_count": 1106,
+      "rule_like_numeric_clause_count": 1044,
+      "selected_rule_like_numeric_coverage": 1.0,
+      "lane_counts": [
+        {
+          "name": "family_query",
+          "count": 79
+        },
+        {
+          "name": "m4_rule_signal_sweep",
+          "count": 501
+        },
+        {
+          "name": "section_neighbor",
+          "count": 247
+        },
+        {
+          "name": "seed_discovery",
+          "count": 548
+        },
+        {
+          "name": "target_section_expansion",
+          "count": 25
+        }
+      ]
+    }
+  ],
+  "v2_model_runs": [
+    {
+      "city": "burnaby_r1",
+      "model": "dry_run",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/burnaby_r1/dry_run",
+      "packs": 80,
+      "candidates": 66,
+      "verified": 48,
+      "review": 2,
+      "rejected": 16,
+      "false_verified": 0,
+      "verified_or_review_recall": 0.6,
+      "estimated_cost_usd": 0.0
+    },
+    {
+      "city": "burnaby_r1",
+      "model": "google/gemini-2.5-flash",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/burnaby_r1/google_gemini_2_5_flash",
+      "packs": 178,
+      "candidates": 34,
+      "verified": 3,
+      "review": 31,
+      "rejected": 0,
+      "false_verified": 0,
+      "verified_or_review_recall": 0.225,
+      "estimated_cost_usd": 0.040975
+    },
+    {
+      "city": "burnaby_r1",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/burnaby_r1/google_gemini_2_5_flash_lite",
+      "packs": 80,
+      "candidates": 79,
+      "verified": 50,
+      "review": 13,
+      "rejected": 16,
+      "false_verified": 0,
+      "verified_or_review_recall": 0.725,
+      "estimated_cost_usd": 0.003718
+    },
+    {
+      "city": "burnaby_r1",
+      "model": "openai/gpt-5-mini",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/burnaby_r1/openai_gpt_5_mini",
+      "packs": 178,
+      "candidates": 65,
+      "verified": 2,
+      "review": 60,
+      "rejected": 3,
+      "false_verified": 0,
+      "verified_or_review_recall": 0.525,
+      "estimated_cost_usd": 0.038908
+    },
+    {
+      "city": "calgary_rcg",
+      "model": "dry_run",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/calgary_rcg/dry_run",
+      "packs": 400,
+      "candidates": 0,
+      "verified": null,
+      "review": null,
+      "rejected": null,
+      "false_verified": null,
+      "verified_or_review_recall": null,
+      "estimated_cost_usd": 0.0
+    },
+    {
+      "city": "calgary_rcg",
+      "model": "google/gemini-2.5-flash",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/calgary_rcg/google_gemini_2_5_flash",
+      "packs": 40,
+      "candidates": 6,
+      "verified": 3,
+      "review": 3,
+      "rejected": 0,
+      "false_verified": 0,
+      "verified_or_review_recall": 0.625,
+      "estimated_cost_usd": 0.008606
+    },
+    {
+      "city": "calgary_rcg",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/calgary_rcg/google_gemini_2_5_flash_lite",
+      "packs": 400,
+      "candidates": 129,
+      "verified": 3,
+      "review": 16,
+      "rejected": 14,
+      "false_verified": 0,
+      "verified_or_review_recall": 0.75,
+      "estimated_cost_usd": 0.03081
+    },
+    {
+      "city": "vancouver_rs",
+      "model": "dry_run",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/vancouver_rs/dry_run",
+      "packs": 80,
+      "candidates": 0,
+      "verified": null,
+      "review": null,
+      "rejected": null,
+      "false_verified": null,
+      "verified_or_review_recall": null,
+      "estimated_cost_usd": 0.0
+    },
+    {
+      "city": "vancouver_rs",
+      "model": "google/gemini-2.5-flash",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/vancouver_rs/google_gemini_2_5_flash",
+      "packs": 80,
+      "candidates": 11,
+      "verified": 1,
+      "review": 7,
+      "rejected": 3,
+      "false_verified": 0,
+      "verified_or_review_recall": 1.0,
+      "estimated_cost_usd": 0.015543
+    },
+    {
+      "city": "vancouver_rs",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "v2_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v2_runs/vancouver_rs/google_gemini_2_5_flash_lite",
+      "packs": 80,
+      "candidates": 14,
+      "verified": 2,
+      "review": 8,
+      "rejected": 4,
+      "false_verified": 0,
+      "verified_or_review_recall": 0.5714285714285714,
+      "estimated_cost_usd": 0.004828
+    }
+  ],
+  "v3_model_runs": [
+    {
+      "city": "burnaby_r1",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "v3_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v3_runs/burnaby_r1/google_gemini_2_5_flash_lite",
+      "packs": 84,
+      "candidates": 103,
+      "verified": 84,
+      "review": 19,
+      "rejected": 0,
+      "false_verified": 0,
+      "verified_or_review_recall": 1.0,
+      "estimated_cost_usd": 0.002688
+    },
+    {
+      "city": "calgary_rcg",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "v3_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v3_runs/calgary_rcg/google_gemini_2_5_flash_lite",
+      "packs": 580,
+      "candidates": 225,
+      "verified": 10,
+      "review": 28,
+      "rejected": 28,
+      "false_verified": 0,
+      "verified_or_review_recall": 1.0,
+      "estimated_cost_usd": 0.043808
+    },
+    {
+      "city": "vancouver_rs",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "v3_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/v3_runs/vancouver_rs/google_gemini_2_5_flash_lite",
+      "packs": 134,
+      "candidates": 31,
+      "verified": 12,
+      "review": 11,
+      "rejected": 8,
+      "false_verified": 0,
+      "verified_or_review_recall": 1.0,
+      "estimated_cost_usd": 0.008153
+    }
+  ],
+  "m4_model_runs": [
+    {
+      "city": "burnaby_r1",
+      "model": "dry_run",
+      "run_root": "m4_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/burnaby_r1/dry_run",
+      "packs": 87,
+      "candidates": 84,
+      "verified": null,
+      "review": null,
+      "rejected": null,
+      "false_verified": null,
+      "verified_or_review_recall": null,
+      "estimated_cost_usd": 0.0
+    },
+    {
+      "city": "burnaby_r1",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "m4_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/burnaby_r1/google_gemini_2_5_flash_lite",
+      "packs": 95,
+      "candidates": 101,
+      "verified": 84,
+      "review": 17,
+      "rejected": 0,
+      "false_verified": 0,
+      "verified_or_review_recall": 1.0,
+      "estimated_cost_usd": 0.003131
+    },
+    {
+      "city": "calgary_rcg",
+      "model": "dry_run",
+      "run_root": "m4_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/calgary_rcg/dry_run",
+      "packs": 1400,
+      "candidates": 6,
+      "verified": null,
+      "review": null,
+      "rejected": null,
+      "false_verified": null,
+      "verified_or_review_recall": null,
+      "estimated_cost_usd": 0.0
+    },
+    {
+      "city": "calgary_rcg",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "m4_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/calgary_rcg/google_gemini_2_5_flash_lite",
+      "packs": 1480,
+      "candidates": 306,
+      "verified": 11,
+      "review": 43,
+      "rejected": 35,
+      "false_verified": 0,
+      "verified_or_review_recall": 1.0,
+      "estimated_cost_usd": 0.09968
+    },
+    {
+      "city": "vancouver_rs",
+      "model": "dry_run",
+      "run_root": "m4_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/vancouver_rs/dry_run",
+      "packs": 173,
+      "candidates": 5,
+      "verified": null,
+      "review": null,
+      "rejected": null,
+      "false_verified": null,
+      "verified_or_review_recall": null,
+      "estimated_cost_usd": 0.0
+    },
+    {
+      "city": "vancouver_rs",
+      "model": "google/gemini-2.5-flash-lite",
+      "run_root": "m4_runs",
+      "output_dir": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/vancouver_rs/google_gemini_2_5_flash_lite",
+      "packs": 186,
+      "candidates": 32,
+      "verified": 12,
+      "review": 11,
+      "rejected": 9,
+      "false_verified": 0,
+      "verified_or_review_recall": 1.0,
+      "estimated_cost_usd": 0.010884
+    }
+  ],
+  "commands_executed": [],
+  "interpretation": [
+    "Current MVP outputs satisfy the safety target: false_verified_count is 0 wherever benchmarks are present.",
+    "NATIVE_M4 covers the benchmarked gold rules through verified or review dispositions in every current city.",
+    "NATIVE_M4 keeps out-of-contract full-bylaw candidates in not_used for audit in: calgary_rcg. They are not verified outputs.",
+    "M4 passed promotion gates and is the current product path.",
+    "Pipeline 5 and Pipeline 9 rows are legacy/upstream references only; they are not part of the current product-path status.",
+    "This report proves the native-extraction verification handoff state; legacy extractors remain reference rows only."
+  ]
+}

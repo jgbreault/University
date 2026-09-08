@@ -1,0 +1,2967 @@
+[
+  {
+    "rule_id": "vancouver_rs_006",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "laneway house",
+    "value": "8.5",
+    "unit": "m",
+    "operator": "<=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "height__height__laneway_house____8_5__m",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "height",
+        "reason": "rule-object cue appears in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "maximum",
+        "reason": "text wording supports <= / maximum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "g height for a laneway house must not exceed 8.5 m\noor area for a laneway house must not exce",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "m",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "scope words appear in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.845,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0003_ev_001",
+      "evidence_type": "clause",
+      "evidence_text": "The building height for a laneway house must not exceed 8.5 m",
+      "source_context": "oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m, except that the Director of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site; (b) 0.9 m from the ultimate rear property line; and (c) 1.2 m from each side p",
+      "inherited_parent_context": null,
+      "local_context": "ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an appli",
+      "source_section": "11.3.8.4",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_native_m4_pack_0003_001",
+      "evidence_id": "m4_pack_0003_ev_001",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "8.5",
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_rag_llm",
+      "extraction_method": "native_rag_llm_v3",
+      "extraction_final_action": "",
+      "extraction_review_reasons": [],
+      "native_provenance": {
+        "pack_id": "m4_pack_0003",
+        "chunk_id": "vancouver_rs_11.3.8.4_071",
+        "source_quote_supported": true,
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_006::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_007",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "laneway house",
+    "value": "2",
+    "unit": "storeys",
+    "operator": "<=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "storeys__storeys__laneway_house____2__storeys",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "storeys",
+        "reason": "rule-object cue appears in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "maximum",
+        "reason": "text wording supports <= / maximum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "or a laneway house must not exceed 8.5 m and 2 storeys.\noor area for a laneway house must n",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "storeys",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "scope words appear in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.845,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0003_ev_002",
+      "evidence_type": "clause",
+      "evidence_text": "The building height for a laneway house must not exceed 8.5 m and 2 storeys.",
+      "source_context": "oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m, except that the Director of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site; (b) 0.9 m from the ultimate rear property line; and (c) 1.2 m from each side property line, e",
+      "inherited_parent_context": null,
+      "local_context": "ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an applicable district ",
+      "source_section": "11.3.8.4",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_native_m4_pack_0003_002",
+      "evidence_id": "m4_pack_0003_ev_002",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "2",
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_rag_llm",
+      "extraction_method": "native_rag_llm_v3",
+      "extraction_final_action": "",
+      "extraction_review_reasons": [],
+      "native_provenance": {
+        "pack_id": "m4_pack_0003",
+        "chunk_id": "vancouver_rs_11.3.8.4_071",
+        "source_quote_supported": true,
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_007::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_016",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "site with a laneway house",
+    "value": "50",
+    "unit": "%",
+    "operator": "<=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "lot_coverage__lot_coverage__site_with_a_laneway_house____50__",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area r of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood priva...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "coverage",
+        "reason": "rule-object cue appears in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "maximum",
+        "reason": "text wording supports <= / maximum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area\nr of Planning may reduce t",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area r of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood priva...",
+        "reason": "unit is not visible in text evidence"
+      },
+      "constraint_scope": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area r of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood priva...",
+        "reason": "claim words are not sufficiently visible in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area r of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood priva...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area r of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood priva...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, me...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "the maximum site coverage is 50% of the site area r of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood priva...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.845,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0008_ev_001",
+      "evidence_type": "clause",
+      "evidence_text": "the maximum site coverage is 50% of the site area",
+      "source_context": "r of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site; (b) 0.9 m from the ultimate rear property line; and (c) 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width. 11.3.8.7 Except for a laneway house with no separate bedrooms, a lanewa",
+      "inherited_parent_context": null,
+      "local_context": "e coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, measured across the widt",
+      "source_section": "11.3.8.5",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_native_m4_pack_0008_001",
+      "evidence_id": "m4_pack_0008_ev_001",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "site with a laneway house",
+      "operator": "<=",
+      "value": "50",
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_rag_llm",
+      "extraction_method": "native_rag_llm_v3",
+      "extraction_final_action": "",
+      "extraction_review_reasons": [],
+      "native_provenance": {
+        "pack_id": "m4_pack_0008",
+        "chunk_id": "vancouver_rs_11.3.8.5_072",
+        "source_quote_supported": true,
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_016::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_027",
+    "rule_object": "floor_area",
+    "constraint_type": "maximum",
+    "constraint_scope": "floor_area",
+    "applies_to": "laneway house",
+    "value": "186",
+    "unit": "m2",
+    "operator": "<=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "context",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "floor_area__floor_area__laneway_house____186__m2",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "complete",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "floor area",
+        "reason": "rule-object cue appears in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "not exceed",
+        "reason": "text wording supports <= / maximum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "a) 0.25 multiplied by the site area; and (b) 186 m2\n11.3.8.2 The floor area for a laneway hou",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "m2",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "scope words appear in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "no explicit exception claim and no unresolved exception cue"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2 11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site ar...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.883,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0004_v3_clause_ev_001",
+      "evidence_type": "clause",
+      "evidence_text": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2",
+      "source_context": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2",
+      "inherited_parent_context": null,
+      "local_context": "11.3.8.2 The floor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2",
+      "source_section": "11.3.8.2",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_v3clause_m4_pack_0004_001",
+      "evidence_id": "m4_pack_0004_v3_clause_ev_001",
+      "rule_object": "floor_area",
+      "constraint_type": "maximum",
+      "constraint_scope": "floor_area",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "186",
+      "unit": "m2",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_v3_clause",
+      "extraction_method": "native_v3_clause",
+      "extraction_final_action": "",
+      "native_provenance": {
+        "pack_id": "m4_pack_0004",
+        "chunk_id": "vancouver_rs_11.3.8.2_069",
+        "pattern": "maximum_floor_area_lesser_of",
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_027::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_028",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "laneway house",
+    "value": "4.9",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "building_separation__building_separation__laneway_house____4_9__m",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "rule object is not explicit in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "at least",
+        "reason": "text wording supports >= / minimum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, fr",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "m",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "claim words are not sufficiently visible in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "no explicit exception claim and no unresolved exception cue"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site 11.3.8.6 A laneway house must be at least: 4.9 m, measured...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.883,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0007_v3_clause_ev_002",
+      "evidence_type": "clause",
+      "evidence_text": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site",
+      "source_context": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site",
+      "inherited_parent_context": null,
+      "local_context": "11.3.8.6 A laneway house must be at least: 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site",
+      "source_section": "11.3.8.6",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_v3clause_m4_pack_0007_002",
+      "evidence_id": "m4_pack_0007_v3_clause_ev_002",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "laneway house",
+      "operator": ">=",
+      "value": "4.9",
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_v3_clause",
+      "extraction_method": "native_v3_clause",
+      "extraction_final_action": "",
+      "native_provenance": {
+        "pack_id": "m4_pack_0007",
+        "chunk_id": "vancouver_rs_11.3.8.6_073",
+        "pattern": "minimum_distance_list",
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_028::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_029",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "rear setback",
+    "applies_to": "laneway house",
+    "value": "0.9",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "setback__rear_setback__laneway_house____0_9__m",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "rule object is not explicit in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "at least",
+        "reason": "text wording supports >= / minimum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "m",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "claim words are not sufficiently visible in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "no explicit exception claim and no unresolved exception cue"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and 11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.883,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0007_v3_clause_ev_003",
+      "evidence_type": "clause",
+      "evidence_text": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+      "source_context": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+      "inherited_parent_context": null,
+      "local_context": "11.3.8.6 A laneway house must be at least: 0.9 m from the ultimate rear property line; and",
+      "source_section": "11.3.8.6",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_v3clause_m4_pack_0007_003",
+      "evidence_id": "m4_pack_0007_v3_clause_ev_003",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "rear setback",
+      "applies_to": "laneway house",
+      "operator": ">=",
+      "value": "0.9",
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_v3_clause",
+      "extraction_method": "native_v3_clause",
+      "extraction_final_action": "",
+      "native_provenance": {
+        "pack_id": "m4_pack_0007",
+        "chunk_id": "vancouver_rs_11.3.8.6_073",
+        "pattern": "minimum_distance_list",
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_029::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_030",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "side setback",
+    "applies_to": "laneway house",
+    "value": "1.2",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "",
+    "exception": "except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "setback__side_setback__laneway_house____1_2__m",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "exception words appear in evidence"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "exception words appear in evidence"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "rule object is not explicit in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "at least",
+        "reason": "text wording supports >= / minimum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "m",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "claim words are not sufficiently visible in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "exception words appear in text evidence"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width 11.3.8.6 A laneway house must be at least: 1.2 m from eac...",
+        "reason": "exception words appear in evidence"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.883,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0007_v3_clause_ev_004",
+      "evidence_type": "clause",
+      "evidence_text": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+      "source_context": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+      "inherited_parent_context": null,
+      "local_context": "11.3.8.6 A laneway house must be at least: 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+      "source_section": "11.3.8.6",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_v3clause_m4_pack_0007_004",
+      "evidence_id": "m4_pack_0007_v3_clause_ev_004",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "side setback",
+      "applies_to": "laneway house",
+      "operator": ">=",
+      "value": "1.2",
+      "unit": "m",
+      "condition": "",
+      "exception": "except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+      "source_stream": "native_v3_clause",
+      "extraction_method": "native_v3_clause",
+      "extraction_final_action": "",
+      "native_provenance": {
+        "pack_id": "m4_pack_0007",
+        "chunk_id": "vancouver_rs_11.3.8.6_073",
+        "pattern": "minimum_distance_list",
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_030::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 8,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 1
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_031",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "site with a laneway house",
+    "value": "50",
+    "unit": "%",
+    "operator": "<=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "lot_coverage__lot_coverage__site_with_a_laneway_house____50__",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "coverage",
+        "reason": "rule-object cue appears in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "maximum",
+        "reason": "text wording supports <= / maximum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "laneway house, the maximum site coverage is 50% of the site area\n11.3.8.5 Despite the maxim",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "unit is not visible in text evidence"
+      },
+      "constraint_scope": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "claim words are not sufficiently visible in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "no explicit exception claim and no unresolved exception cue"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area 11.3.8.5 Despite the maximum permitted site coverage in an applic...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.883,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "m4_pack_0008_v3_clause_ev_005",
+      "evidence_type": "clause",
+      "evidence_text": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area",
+      "source_context": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area",
+      "inherited_parent_context": null,
+      "local_context": "11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area",
+      "source_section": "11.3.8.5",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_v3clause_m4_pack_0008_005",
+      "evidence_id": "m4_pack_0008_v3_clause_ev_005",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "site with a laneway house",
+      "operator": "<=",
+      "value": "50",
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_v3_clause",
+      "extraction_method": "native_v3_clause",
+      "extraction_final_action": "",
+      "native_provenance": {
+        "pack_id": "m4_pack_0008",
+        "chunk_id": "vancouver_rs_11.3.8.5_072",
+        "pattern": "maximum_site_coverage",
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_031::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_043",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "laneway house",
+    "value": "8.5",
+    "unit": "m",
+    "operator": "<=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "height__height__laneway_house____8_5__m",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "height",
+        "reason": "rule-object cue appears in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "maximum",
+        "reason": "text wording supports <= / maximum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "g height for a laneway house must not exceed 8.5 m\noor area for a laneway house must not exce",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "m",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "scope words appear in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite t...",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m,...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.845,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "v3_repair_pack_0008_ev_001",
+      "evidence_type": "clause",
+      "evidence_text": "The building height for a laneway house must not exceed 8.5 m",
+      "source_context": "oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m, except that the Director of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site; (b) 0.9 m from the ultimate rear property line; and (c) 1.2 m from each side p",
+      "inherited_parent_context": null,
+      "local_context": "ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an appli",
+      "source_section": "11.3.8.4",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_native_v3_repair_pack_0008_001",
+      "evidence_id": "v3_repair_pack_0008_ev_001",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "8.5",
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_rag_llm",
+      "extraction_method": "native_rag_llm_v3",
+      "extraction_final_action": "",
+      "extraction_review_reasons": [],
+      "native_provenance": {
+        "pack_id": "v3_repair_pack_0008",
+        "chunk_id": "vancouver_rs_11.3.8.4_071",
+        "source_quote_supported": true,
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_043::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  },
+  {
+    "rule_id": "vancouver_rs_044",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "laneway house",
+    "value": "2",
+    "unit": "storeys",
+    "operator": "<=",
+    "condition": "",
+    "exception": "",
+    "gis_relevance": "direct",
+    "verification_status": "verified",
+    "verification_decision": "verified",
+    "verification_label": "supported",
+    "extractor_requested_review": false,
+    "canonical_rule_key": "storeys__storeys__laneway_house____2__storeys",
+    "proof_type": "text_evidence",
+    "table_proof_status": "none",
+    "text_span_proof_status": "partial",
+    "proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "text_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit exception claim"
+      }
+    },
+    "text_span_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "storeys",
+        "reason": "rule-object cue appears in text evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "maximum",
+        "reason": "text wording supports <= / maximum"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "or a laneway house must not exceed 8.5 m and 2 storeys.\noor area for a laneway house must n",
+        "reason": "value appears in text evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "storeys",
+        "reason": "unit appears in text evidence"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "scope words appear in text evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "applies_to words appear in text evidence"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "table_proof_trace": {},
+    "merged_proof_trace": {
+      "rule_object": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "cited evidence supports the canonical rule object"
+      },
+      "constraint_scope": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "scope words are grounded in local evidence"
+      },
+      "applies_to": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "applies_to words are grounded in local evidence"
+      },
+      "operator": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "operator wording is supported by evidence"
+      },
+      "value": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "value appears in cited evidence"
+      },
+      "unit": {
+        "label": "supported",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11....",
+        "reason": "unit appears in cited evidence and is compatible"
+      },
+      "condition": {
+        "label": "supported",
+        "evidence_field": "",
+        "evidence_quote": "",
+        "reason": "candidate has no explicit condition claim"
+      },
+      "exception": {
+        "label": "not_enough_info",
+        "evidence_field": "evidence_text",
+        "evidence_quote": "The building height for a laneway house must not exceed 8.5 m and 2 storeys. oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway...",
+        "reason": "exception wording appears but candidate has no resolved exception"
+      }
+    },
+    "proof_decision_mismatch": false,
+    "proof_decision_mismatches": [],
+    "evidence_strength": 0.845,
+    "review_priority": "verified",
+    "support_gaps": [],
+    "support_checks": {
+      "source_evidence_present": true,
+      "value_supported": true,
+      "unit_supported": true,
+      "operator_supported": true,
+      "applies_to_supported": true,
+      "scope_supported": true,
+      "rule_object_supported": true,
+      "table_context_supported": true,
+      "table_review_gate_passed": true
+    },
+    "applicability": null,
+    "matrix_bands": null,
+    "normalization_trace": [],
+    "review_reason": "all critical evidence checks passed",
+    "source": {
+      "document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+      "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+      "page": 8,
+      "section": null,
+      "evidence_id": "v3_repair_pack_0008_ev_002",
+      "evidence_type": "clause",
+      "evidence_text": "The building height for a laneway house must not exceed 8.5 m and 2 storeys.",
+      "source_context": "oor area for a laneway house must not exceed the lesser of: (a) 0.25 multiplied by the site area; and (b) 186 m2. 11.3.8.3 The minimum site width for a laneway house is 9.8 m, except that the Director of Planning may reduce the minimum site width if: (a) the site is at least 7.3 m in width; and (b) the Director of Planning considers massing, overlook and impact on neighbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an applicable district schedule, for a site with a laneway house, the maximum site coverage is 50% of the site area. 11.3.8.6 A laneway house must be at least: (a) 4.9 m, measured across the width of the site, from the single detached house or single detached house with secondary suite on the site; (b) 0.9 m from the ultimate rear property line; and (c) 1.2 m from each side property line, e",
+      "inherited_parent_context": null,
+      "local_context": "ghbourhood privacy and all applicable Council policies and guidelines. 11.3.8.4 The building height for a laneway house must not exceed 8.5 m and 2 storeys. 11.3.8.5 Despite the maximum permitted site coverage in an applicable district ",
+      "source_section": "11.3.8.4",
+      "source_heading": null,
+      "table_title": null,
+      "row_header": null,
+      "column_header": null,
+      "cell_value": null,
+      "bbox": null,
+      "table_parser": null
+    },
+    "candidate": {
+      "candidate_id": "vancouver_rs_native_v3_repair_pack_0008_002",
+      "evidence_id": "v3_repair_pack_0008_ev_002",
+      "rule_object": "storeys",
+      "constraint_type": "maximum",
+      "constraint_scope": "storeys",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "value": "2",
+      "unit": "storeys",
+      "condition": "",
+      "exception": "",
+      "source_stream": "native_rag_llm",
+      "extraction_method": "native_rag_llm_v3",
+      "extraction_final_action": "",
+      "extraction_review_reasons": [],
+      "native_provenance": {
+        "pack_id": "v3_repair_pack_0008",
+        "chunk_id": "vancouver_rs_11.3.8.4_071",
+        "source_quote_supported": true,
+        "v2_run_id": "vancouver_rs_google_gemini_3_1_flash_lite_8f1caa95ec78",
+        "model": "google/gemini-3.1-flash-lite",
+        "v3_final": true
+      }
+    },
+    "proof_dag_ref": "vancouver_rs_044::proof_dag",
+    "proof_dag_summary": {
+      "support_gap_count": 0,
+      "status_counts": {
+        "supported": 7,
+        "refuted": 0,
+        "not_enough_info": 0,
+        "not_applicable": 2
+      }
+    }
+  }
+]

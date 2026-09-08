@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Street</title>
+                <onlink>https://gis.burnaby.ca/arcgis/rest/services/OpenData/OpenData5/MapServer/8</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>A street centreline featuring a variety of data themes including street classification, ownership, jurisdiction, high and low addressing, Truck routes, Hazardous materials routes, High occupancy vehicle routes and Emergency disaster route</abstract>
+            <purpose>The City of Burnaby's dedicated streets, private roads and provincial highways</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Street</themekey>
+                <themekey>Roads</themekey>
+                <themekey>Transportation</themekey>
+                <themekey>Burnaby</themekey>
+                <themekey>Roads &amp; Traffic</themekey>
+                <themekey>Roads</themekey>
+                <themekey>Traffic</themekey>
+                <themekey>Streets</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>https://data.burnaby.ca/pages/open-government-licence</useconst>
+        <datacred>City of Burnaby</datacred>
+    </idinfo>
+    <spdoinfo>
+        <ptvctinf>
+            <sdtsterm>
+                <ptvctcnt>6478</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>GIS.Street</enttypl>
+                <enttypd>A street centreline of dedicated streets, private roads and provincial highways</enttypd>
+                <enttypds>City of Burnaby</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>MRN</attrlabl>
+                <attrdef>Indicator the road segment is part of the Major Road Network</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>DISASTERROUTE</attrlabl>
+                <attrdef>Street segment is classed as an emergency disaster route</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GISKEY</attrlabl>
+                <attrdef>Unique value assigned to each feature. OBSOLETE.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MODIFIED_BY_ID</attrlabl>
+                <attrdef>User ID of feature update.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated and managed.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>TRUCKROUTE</attrlabl>
+                <attrdef>Street segment is classed as a designated truck route</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>HIADDRESS</attrlabl>
+                <attrdef>Greatest potential address on a street segment</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>Municipality</attrlabl>
+                <attrdef>Coded values for cities within Metro Vancouver.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>JURISDICTION</attrlabl>
+                <attrdef>Authority or department claiming governance of the component/asset.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CompType</attrlabl>
+                <attrdef>Component/asset type in the asset mgmt. database (HANSEN).</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Dependant upon feature type.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATUS</attrlabl>
+                <attrdef>The state or conditon of a feature or asset.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREETDIRCODE</attrlabl>
+                <attrdef>Suffix direction assigned to streets north of Dundas Av</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>STREETTYPE</attrlabl>
+                <attrdef>Street type category (RD, AV, ST)</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>System generated feature length.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated and managed.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOVROUTE</attrlabl>
+                <attrdef>Street segment is classed as a high occupancy vehicle route</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>STREETNAME</attrlabl>
+                <attrdef>Common street name as created by bylaw.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREETCLASS</attrlabl>
+                <attrdef>Classification of streets with emphasis on traffic movement</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MODIFIED_BY_DATE</attrlabl>
+                <attrdef>Date of feature update.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated and managed.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNITID2</attrlabl>
+                <attrdef>Ending node ID of linear features.</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Validation enforced.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREETNAMEC</attrlabl>
+                <attrdef>Concatenated street name, type and suffix direction</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>UNITID</attrlabl>
+                <attrdef>Beginning node ID of linear features.</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Validation enforced.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_BY_ID</attrlabl>
+                <attrdef>User ID of feature author.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated values.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COMPKEY</attrlabl>
+                <attrdef>Key to a component/asset. This is a system generated, sequential number..</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STREETSEGCODE</attrlabl>
+                <attrdef>Street segment number</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SNOWCODE</attrlabl>
+                <attrdef>Original snow removal priority value</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>HAZROUTE</attrlabl>
+                <attrdef>Street segment is classed as a controlled substance transportation route</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_BY_DATE</attrlabl>
+                <attrdef>Date of feature creation.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated values.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+                <attrdef>A field of type UUID (Universal Unique Identifier) in which values are automatically assigned by the geodatabase when a row is created.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>LOADDRESS</attrlabl>
+                <attrdef>Smallest potential address on a street segment</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>STREETCODE</attrlabl>
+                <attrdef>Unique identifier for public and private roads maintained by COB</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>ENABLED</attrlabl>
+                <attrdef>In geometric networks, a network feature that allows flow to pass through it..</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20161018</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

@@ -1,0 +1,2251 @@
+﻿[
+  {
+    "source_id": "page_0001__table_001",
+    "rule_key": "permitted_use_small_scale_multi_unit_housing",
+    "rule_object": "permitted_use",
+    "constraint_type": "permitted_use",
+    "subject": "Small-Scale Multi-Unit Housing",
+    "operator": "permitted",
+    "value": "",
+    "unit": "",
+    "condition": "Principal Use",
+    "exception": "",
+    "evidence_text": "Principal Use | Small-Scale Multi-Unit Housing | -",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_001",
+    "rule_id": "pipeline10_rule_0001",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0001",
+        "rule_object": "permitted_use",
+        "condition": "Principal Use"
+      }
+    ],
+    "applies_to_objects": [
+      "permitted_use"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0001"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0001",
+    "approval_type": "permitted"
+  },
+  {
+    "source_id": "page_0001__table_001",
+    "rule_key": "permitted_use_rowhouse_dwellings",
+    "rule_object": "permitted_use",
+    "constraint_type": "permitted_use",
+    "subject": "Rowhouse Dwellings",
+    "operator": "permitted",
+    "value": "",
+    "unit": "",
+    "condition": "Principal Use; Use-Specific Regulations: 101.5.2",
+    "exception": "",
+    "evidence_text": "Principal Use | Rowhouse Dwellings | 101.5.2",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_001",
+    "rule_id": "pipeline10_rule_0002",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0002",
+        "rule_object": "permitted_use",
+        "condition": "Principal Use; Use-Specific Regulations: 101.5.2"
+      }
+    ],
+    "applies_to_objects": [
+      "permitted_use"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0002"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0002",
+    "approval_type": "permitted"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "rowhouse_min_lot_width_interior",
+    "rule_object": "lot_width",
+    "constraint_type": "minimum",
+    "subject": "Rowhouse .1",
+    "operator": ">=",
+    "value": "5",
+    "unit": "m",
+    "condition": "Interior Lot",
+    "exception": "except 6.2 m for end unit lots",
+    "evidence_text": "Dwelling Type | Rowhouse .1 | Minimum Lot Width .2 | Interior Lot | 5 m, except 6.2 m for end unit lots",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0011",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0011",
+        "rule_object": "lot_width",
+        "condition": "Interior Lot"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0011"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "exception_requires_atomic_review"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0011"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "rowhouse_min_lot_width_interior_end_unit",
+    "rule_object": "lot_width",
+    "constraint_type": "minimum",
+    "subject": "Rowhouse .1",
+    "operator": ">=",
+    "value": "6.2",
+    "unit": "m",
+    "condition": "Interior Lot; end unit lots",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Rowhouse .1 | Minimum Lot Width .2 | Interior Lot | 5 m, except 6.2 m for end unit lots",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0012",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0012",
+        "rule_object": "lot_width",
+        "condition": "Interior Lot; end unit lots"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0012"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0012"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "small_scale_multi_unit_min_lot_width_interior",
+    "rule_object": "lot_width",
+    "constraint_type": "minimum",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": ">=",
+    "value": "10",
+    "unit": "m",
+    "condition": "Interior Lot",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Small-Scale Multi-Unit | Minimum Lot Width .2 | Interior Lot | 10 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0013",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0013",
+        "rule_object": "lot_width",
+        "condition": "Interior Lot"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0013"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0013"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "rowhouse_min_lot_width_corner_street",
+    "rule_object": "lot_width",
+    "constraint_type": "minimum",
+    "subject": "Rowhouse .1",
+    "operator": ">=",
+    "value": "8",
+    "unit": "m",
+    "condition": "Corner Lot - Street",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Rowhouse .1 | Minimum Lot Width .2 | Corner Lot - Street | 8 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0014",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0014",
+        "rule_object": "lot_width",
+        "condition": "Corner Lot - Street"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0014"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0014"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "small_scale_multi_unit_min_lot_width_corner_street",
+    "rule_object": "lot_width",
+    "constraint_type": "minimum",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": ">=",
+    "value": "10",
+    "unit": "m",
+    "condition": "Corner Lot - Street",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Small-Scale Multi-Unit | Minimum Lot Width .2 | Corner Lot - Street | 10 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0015",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0015",
+        "rule_object": "lot_width",
+        "condition": "Corner Lot - Street"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0015"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0015"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "rowhouse_min_lot_width_corner_lane",
+    "rule_object": "lot_width",
+    "constraint_type": "minimum",
+    "subject": "Rowhouse .1",
+    "operator": ">=",
+    "value": "6.2",
+    "unit": "m",
+    "condition": "Corner Lot - Lane",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Rowhouse .1 | Minimum Lot Width .2 | Corner Lot - Lane | 6.2 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0016",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0016",
+        "rule_object": "lot_width",
+        "condition": "Corner Lot - Lane"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0016"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0016"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "small_scale_multi_unit_min_lot_width_corner_lane",
+    "rule_object": "lot_width",
+    "constraint_type": "minimum",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": ">=",
+    "value": "10",
+    "unit": "m",
+    "condition": "Corner Lot - Lane",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Small-Scale Multi-Unit | Minimum Lot Width .2 | Corner Lot - Lane | 10 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0017",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0017",
+        "rule_object": "lot_width",
+        "condition": "Corner Lot - Lane"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0017"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0017"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "small_scale_multi_unit_min_lot_area",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": ">=",
+    "value": "281",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Small-Scale Multi-Unit | Lot Area .3 | Minimum Lot Area | 281 m²",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0018",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0018",
+        "rule_object": "lot_area",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "lot_area"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0018"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0018"
+  },
+  {
+    "source_id": "page_0001__table_002",
+    "rule_key": "rowhouse_max_lot_area",
+    "rule_object": "lot_area",
+    "constraint_type": "maximum",
+    "subject": "Rowhouse .1",
+    "operator": "<=",
+    "value": "280",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "evidence_text": "Dwelling Type | Rowhouse .1 | Lot Area .3 | Maximum Lot Area | 280 m²",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0001__table_002",
+    "rule_id": "pipeline10_rule_0019",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0019",
+        "rule_object": "lot_area",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "lot_area"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0019"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0019"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "permitted_dwelling_units_rowhouse",
+    "rule_object": "dwelling_units",
+    "constraint_type": "permitted_range",
+    "subject": "Rowhouse",
+    "operator": "range",
+    "value": "1-3",
+    "unit": "units",
+    "condition": "including secondary suites",
+    "exception": "",
+    "evidence_text": "Permitted Dwelling Units (including secondary suites) | Rowhouse | 1 to 3 Units",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0020",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0020",
+        "rule_object": "dwelling_units",
+        "condition": "including secondary suites"
+      }
+    ],
+    "applies_to_objects": [
+      "dwelling_units"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0020"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0020"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "permitted_dwelling_units_ssmu_1_2",
+    "rule_object": "dwelling_units",
+    "constraint_type": "permitted_range",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": "range",
+    "value": "1-2",
+    "unit": "units",
+    "condition": "including secondary suites",
+    "exception": "",
+    "evidence_text": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit | 1 to 2 Units",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0021",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0021",
+        "rule_object": "dwelling_units",
+        "condition": "including secondary suites"
+      }
+    ],
+    "applies_to_objects": [
+      "dwelling_units"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0021"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0021"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "permitted_dwelling_units_ssmu_3_4",
+    "rule_object": "dwelling_units",
+    "constraint_type": "permitted_range",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": "range",
+    "value": "3-4",
+    "unit": "units",
+    "condition": "including secondary suites",
+    "exception": "",
+    "evidence_text": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit | 3 to 4 Units",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0022",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0022",
+        "rule_object": "dwelling_units",
+        "condition": "including secondary suites"
+      }
+    ],
+    "applies_to_objects": [
+      "dwelling_units"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0022"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0022"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "permitted_dwelling_units_ssmu_5_6",
+    "rule_object": "dwelling_units",
+    "constraint_type": "permitted_range",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": "range",
+    "value": "5-6",
+    "unit": "units",
+    "condition": "including secondary suites; Frequent Transit Network Area Only",
+    "exception": "",
+    "evidence_text": "Permitted Dwelling Units (including secondary suites) | Small-Scale Multi-Unit | 5 to 6 Units Frequent Transit Network Area Only",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0023",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0023",
+        "rule_object": "dwelling_units",
+        "condition": "including secondary suites; Frequent Transit Network Area Only"
+      }
+    ],
+    "applies_to_objects": [
+      "dwelling_units"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0023"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0023"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_lot_area_ssmu_3_4",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": ">=",
+    "value": "281",
+    "unit": "m2",
+    "condition": "3 to 4 Units; 4 Units Only",
+    "exception": "",
+    "evidence_text": "Minimum Lot Area | Small-Scale Multi-Unit | 3 to 4 Units | 4 Units Only: 281 m²",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0024",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0024",
+        "rule_object": "lot_area",
+        "condition": "3 to 4 Units; 4 Units Only"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_area"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0024"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0024"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_lot_area_ssmu_5_6",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "subject": "Small-Scale Multi-Unit",
+    "operator": ">=",
+    "value": "281",
+    "unit": "m2",
+    "condition": "5 to 6 Units; Frequent Transit Network Area Only",
+    "exception": "",
+    "evidence_text": "Minimum Lot Area | Small-Scale Multi-Unit | 5 to 6 Units Frequent Transit Network Area Only | 281 m²",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0025",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0025",
+        "rule_object": "lot_area",
+        "condition": "5 to 6 Units; Frequent Transit Network Area Only"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_area"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0025"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0025"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_area_rowhouse",
+    "rule_object": "lot_area",
+    "constraint_type": "maximum",
+    "subject": "Rowhouse",
+    "operator": "<=",
+    "value": "280",
+    "unit": "m2",
+    "condition": "1 to 3 Units",
+    "exception": "",
+    "evidence_text": "Maximum Lot Area .1 | Rowhouse | 1 to 3 Units | 280 m²",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0026",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0026",
+        "rule_object": "lot_area",
+        "condition": "1 to 3 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_area"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0026"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0026"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_all_buildings_rowhouse",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "All Buildings",
+    "operator": "<=",
+    "value": "55",
+    "unit": "%",
+    "condition": "Rowhouse; 1 to 3 Units",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | All Buildings | Rowhouse | 1 to 3 Units | 55%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0027",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0027",
+        "rule_object": "lot_coverage",
+        "condition": "Rowhouse; 1 to 3 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0027"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0027"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_all_buildings_ssmu_1_2_le_567",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "All Buildings",
+    "operator": "<=",
+    "value": "40",
+    "unit": "%",
+    "condition": "Small-Scale Multi-Unit; 1 to 2 Units; Lots <= 567 m²",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit | 1 to 2 Units | Lots <= 567 m²: 40%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0028",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0028",
+        "rule_object": "lot_coverage",
+        "condition": "Small-Scale Multi-Unit; 1 to 2 Units; Lots <= 567 m²"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0028"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0028"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_all_buildings_ssmu_1_2_gt_567",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "All Buildings",
+    "operator": "<=",
+    "value": "30",
+    "unit": "%",
+    "condition": "Small-Scale Multi-Unit; 1 to 2 Units; Lots > 567 m²",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit | 1 to 2 Units | Lots > 567 m²: 30%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0029",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0029",
+        "rule_object": "lot_coverage",
+        "condition": "Small-Scale Multi-Unit; 1 to 2 Units; Lots > 567 m²"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0029"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0029"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_all_buildings_ssmu_3_4",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "All Buildings",
+    "operator": "<=",
+    "value": "40",
+    "unit": "%",
+    "condition": "Small-Scale Multi-Unit; 3 to 4 Units",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit | 3 to 4 Units | 40%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0030",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0030",
+        "rule_object": "lot_coverage",
+        "condition": "Small-Scale Multi-Unit; 3 to 4 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0030"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0030"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_all_buildings_ssmu_5_6",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "All Buildings",
+    "operator": "<=",
+    "value": "45",
+    "unit": "%",
+    "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | All Buildings | Small-Scale Multi-Unit | 5 to 6 Units Frequent Transit Network Area Only | 45%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0031",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0031",
+        "rule_object": "lot_coverage",
+        "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0031"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0031"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_impervious_rowhouse",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "Impervious Surfaces",
+    "operator": "<=",
+    "value": "70",
+    "unit": "%",
+    "condition": "Rowhouse; 1 to 3 Units",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | Impervious Surfaces | Rowhouse | 1 to 3 Units | 70%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0032",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0032",
+        "rule_object": "lot_coverage",
+        "condition": "Rowhouse; 1 to 3 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0032"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0032"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_impervious_ssmu_1_2",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "Impervious Surfaces",
+    "operator": "<=",
+    "value": "60",
+    "unit": "%",
+    "condition": "Small-Scale Multi-Unit; 1 to 2 Units",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit | 1 to 2 Units | 60%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0033",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0033",
+        "rule_object": "lot_coverage",
+        "condition": "Small-Scale Multi-Unit; 1 to 2 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0033"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0033"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_impervious_ssmu_3_4",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "Impervious Surfaces",
+    "operator": "<=",
+    "value": "60",
+    "unit": "%",
+    "condition": "Small-Scale Multi-Unit; 3 to 4 Units",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit | 3 to 4 Units | 60%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0034",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0034",
+        "rule_object": "lot_coverage",
+        "condition": "Small-Scale Multi-Unit; 3 to 4 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0034"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0034"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_lot_coverage_impervious_ssmu_5_6",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "subject": "Impervious Surfaces",
+    "operator": "<=",
+    "value": "70",
+    "unit": "%",
+    "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only",
+    "exception": "",
+    "evidence_text": "Maximum Lot Coverage | Impervious Surfaces | Small-Scale Multi-Unit | 5 to 6 Units Frequent Transit Network Area Only | 70%",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0035",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0035",
+        "rule_object": "lot_coverage",
+        "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only"
+      }
+    ],
+    "applies_to_objects": [
+      "lot_coverage"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0035"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0035"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_height_front_principal_sloping",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Front Principal Buildings",
+    "operator": "<=",
+    "value": "10",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "evidence_text": "Maximum Height | Front Principal Buildings | Height | sloping roof: 10 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0036",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0036",
+        "rule_object": "height",
+        "condition": "sloping roof"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0036"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0036",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_height_front_principal_flat",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Front Principal Buildings",
+    "operator": "<=",
+    "value": "9.5",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "evidence_text": "Maximum Height | Front Principal Buildings | Height | flat roof: 9.5 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0037",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0037",
+        "rule_object": "height",
+        "condition": "flat roof"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0037"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0037",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_storeys_front_principal_rowhouse",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Front Principal Buildings",
+    "operator": "<=",
+    "value": "3",
+    "unit": "storeys",
+    "condition": "Rowhouse; 1 to 3 Units; basement inclusive",
+    "exception": "",
+    "evidence_text": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Rowhouse | 1 to 3 Units | 3 storeys",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0038",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0038",
+        "rule_object": "height",
+        "condition": "Rowhouse; 1 to 3 Units; basement inclusive"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0038"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0038",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_storeys_front_principal_ssmu_1_2",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Front Principal Buildings",
+    "operator": "<=",
+    "value": "2.5",
+    "unit": "storeys",
+    "condition": "Small-Scale Multi-Unit; 1 to 2 Units; basement inclusive",
+    "exception": "",
+    "evidence_text": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit | 1 to 2 Units | 2.5 storeys",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0039",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0039",
+        "rule_object": "height",
+        "condition": "Small-Scale Multi-Unit; 1 to 2 Units; basement inclusive"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0039"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0039",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_storeys_front_principal_ssmu_3_plus",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Front Principal Buildings",
+    "operator": "<=",
+    "value": "3",
+    "unit": "storeys",
+    "condition": "Small-Scale Multi-Unit; 3 to 4 Units, 5 to 6 Units Frequent Transit Network Area Only; basement inclusive",
+    "exception": "",
+    "evidence_text": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive) | Small-Scale Multi-Unit | 3 to 4 Units | 5 to 6 Units Frequent Transit Network Area Only | 3 storeys",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0040",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0040",
+        "rule_object": "height",
+        "condition": "Small-Scale Multi-Unit; 3 to 4 Units, 5 to 6 Units Frequent Transit Network Area Only; basement inclusive"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0040"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0040",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_height_rear_principal_sloping",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Rear Principal Buildings",
+    "operator": "<=",
+    "value": "7.5",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "evidence_text": "Maximum Height | Rear Principal Buildings | Height | sloping roof: 7.5 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0041",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0041",
+        "rule_object": "height",
+        "condition": "sloping roof"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0041"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0041",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_height_rear_principal_flat",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Rear Principal Buildings",
+    "operator": "<=",
+    "value": "7.0",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "evidence_text": "Maximum Height | Rear Principal Buildings | Height | flat roof: 7.0 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0042",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0042",
+        "rule_object": "height",
+        "condition": "flat roof"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0042"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0042",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_storeys_rear_principal",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Rear Principal Buildings",
+    "operator": "<=",
+    "value": "2",
+    "unit": "storeys",
+    "condition": "basement inclusive",
+    "exception": "",
+    "evidence_text": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive) | 2 storeys",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0043",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0043",
+        "rule_object": "height",
+        "condition": "basement inclusive"
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0043"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0043",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_height_accessory_m",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Accessory Buildings",
+    "operator": "<=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "evidence_text": "Maximum Height | Accessory Buildings | 4.0 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0044",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0044",
+        "rule_object": "height",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0044"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0044",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "max_height_accessory_storeys",
+    "rule_object": "building_height",
+    "constraint_type": "maximum",
+    "subject": "Accessory Buildings",
+    "operator": "<=",
+    "value": "1",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "evidence_text": "Maximum Height | Accessory Buildings | 1 storey",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0045",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0045",
+        "rule_object": "height",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "height"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0045"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0045",
+    "rule_object_original": "height"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_street_yard_rowhouse",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Street Yard",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "Rowhouse; 1 to 3 Units; All Buildings",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Rowhouse | 1 to 3 Units | 3.0 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0046",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0046",
+        "rule_object": "setback",
+        "condition": "Rowhouse; 1 to 3 Units; All Buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0046"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0046",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_street_yard_ssmu_front",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Street Yard",
+    "operator": ">=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; All Buildings; front",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit | front: 4.0 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0047",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0047",
+        "rule_object": "setback",
+        "condition": "Small-Scale Multi-Unit; All Buildings; front"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0047"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0047",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_street_yard_ssmu_flanking",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Street Yard",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; All Buildings; flanking",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard | Small-Scale Multi-Unit | flanking: 3.0 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0048",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0048",
+        "rule_object": "setback",
+        "condition": "Small-Scale Multi-Unit; All Buildings; flanking"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0048"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0048",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_lane_yard",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Lane Yard",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "All Buildings",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard | 1.5 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0049",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0049",
+        "rule_object": "setback",
+        "condition": "All Buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0049"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0049",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_interior_rear_yard",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Interior Rear Yard",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "All Buildings",
+    "exception": "1.5 m for accessory buildings",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | 3.0 m, except 1.5 m for accessory buildings",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0050",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0050",
+        "rule_object": "setback",
+        "condition": "All Buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0050"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "exception_requires_atomic_review"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0050",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_interior_rear_yard_accessory",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Interior Rear Yard",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "accessory buildings",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard | 3.0 m, except 1.5 m for accessory buildings",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0051",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0051",
+        "rule_object": "setback",
+        "condition": "accessory buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0051"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0051",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_interior_side_yard_rowhouse",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Interior Side Yard",
+    "operator": ">=",
+    "value": "0",
+    "unit": "m",
+    "condition": "Rowhouse; 1 to 3 Units; All Buildings",
+    "exception": "1.2 m for end unit lots",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Rowhouse | 1 to 3 Units | 0 m, except 1.2 m for end unit lots",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0052",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0052",
+        "rule_object": "setback",
+        "condition": "Rowhouse; 1 to 3 Units; All Buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0052"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "exception_requires_atomic_review"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0052",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_interior_side_yard_rowhouse_end_unit",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Interior Side Yard",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "Rowhouse; 1 to 3 Units; All Buildings; end unit lots",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Rowhouse | 1 to 3 Units | 0 m, except 1.2 m for end unit lots",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0053",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0053",
+        "rule_object": "setback",
+        "condition": "Rowhouse; 1 to 3 Units; All Buildings; end unit lots"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0053"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0053",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_interior_side_yard_ssmu_1_2",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Interior Side Yard",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 1 to 2 Units; All Buildings",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit | 1 to 2 Units | 1.2 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0054",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0054",
+        "rule_object": "setback",
+        "condition": "Small-Scale Multi-Unit; 1 to 2 Units; All Buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0054"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0054",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_interior_side_yard_ssmu_3_4",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Interior Side Yard",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 3 to 4 Units; All Buildings",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit | 3 to 4 Units | 1.2 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0055",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0055",
+        "rule_object": "setback",
+        "condition": "Small-Scale Multi-Unit; 3 to 4 Units; All Buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0055"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0055",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_setback_interior_side_yard_ssmu_5_6",
+    "rule_object": "building_setback",
+    "constraint_type": "minimum",
+    "subject": "Interior Side Yard",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only; All Buildings",
+    "exception": "",
+    "evidence_text": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard | Small-Scale Multi-Unit | 5 to 6 Units Frequent Transit Network Area Only | 1.2 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0056",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0056",
+        "rule_object": "setback",
+        "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only; All Buildings"
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0056"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0056",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_front_principals_ssmu_1_2",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between Front Principals",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 1 to 2 Units",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit | 1 to 2 Units | 2.4 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0057",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0057",
+        "rule_object": "building_separation",
+        "condition": "Small-Scale Multi-Unit; 1 to 2 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0057"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0057"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_front_principals_ssmu_3_4",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between Front Principals",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 3 to 4 Units",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit | 3 to 4 Units | 2.4 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0058",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0058",
+        "rule_object": "building_separation",
+        "condition": "Small-Scale Multi-Unit; 3 to 4 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0058"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0058"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_front_principals_ssmu_5_6",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between Front Principals",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals | Small-Scale Multi-Unit | 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0059",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0059",
+        "rule_object": "building_separation",
+        "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only"
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0059"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0059"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_rear_principals_ssmu_1_2",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between Rear Principals",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 1 to 2 Units",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit | 1 to 2 Units | 2.4 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0060",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0060",
+        "rule_object": "building_separation",
+        "condition": "Small-Scale Multi-Unit; 1 to 2 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0060"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0060"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_rear_principals_ssmu_3_4",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between Rear Principals",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 3 to 4 Units",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit | 3 to 4 Units | 2.4 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0061",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0061",
+        "rule_object": "building_separation",
+        "condition": "Small-Scale Multi-Unit; 3 to 4 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0061"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0061"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_rear_principals_ssmu_5_6",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between Rear Principals",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals | Small-Scale Multi-Unit | 5 to 6 Units Frequent Transit Network Area Only | 2.4 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0062",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0062",
+        "rule_object": "building_separation",
+        "condition": "Small-Scale Multi-Unit; 5 to 6 Units Frequent Transit Network Area Only"
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0062"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0062"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_front_rear_principals",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between Front & Rear Principals",
+    "operator": ">=",
+    "value": "6.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals | 6.0 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0063",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0063",
+        "rule_object": "building_separation",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0063"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0063"
+  },
+  {
+    "source_id": "page_0002__table_001",
+    "rule_key": "min_separation_all_other_buildings",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "subject": "Between All Other Buildings",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "evidence_text": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings | 2.4 m",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0002__table_001",
+    "rule_id": "pipeline10_rule_0064",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0064",
+        "rule_object": "building_separation",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "building_separation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0064"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0064"
+  },
+  {
+    "source_id": "page_0004__table_001",
+    "rule_key": "min_3_plus_bedroom_units_1_to_3_total",
+    "rule_object": "dwelling_units",
+    "constraint_type": "minimum",
+    "subject": "3+ bedroom units",
+    "operator": ">=",
+    "value": "1",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot: 1 to 3 Units",
+    "exception": "",
+    "evidence_text": "101.5.1 All Dwelling Units\n(1) The minimum number of dwelling units with at least 3 bedrooms must be provided as follows:\nTotal Dwelling Units on a Lot\n1 to 3 Units\nMinimum 3+ Bedroom Units: 1 Unit",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0004__table_001",
+    "rule_id": "pipeline10_rule_0065",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0065",
+        "rule_object": "dwelling_units",
+        "condition": "Total Dwelling Units on a Lot: 1 to 3 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "dwelling_units"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0065"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0065"
+  },
+  {
+    "source_id": "page_0004__table_001",
+    "rule_key": "min_3_plus_bedroom_units_4_to_6_total",
+    "rule_object": "dwelling_units",
+    "constraint_type": "minimum",
+    "subject": "3+ bedroom units",
+    "operator": ">=",
+    "value": "2",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot: 4 to 6 Units",
+    "exception": "",
+    "evidence_text": "101.5.1 All Dwelling Units\n(1) The minimum number of dwelling units with at least 3 bedrooms must be provided as follows:\nTotal Dwelling Units on a Lot\n4 to 6 Units\nMinimum 3+ Bedroom Units: 2 Units",
+    "warnings": [],
+    "source_stream": "gemini_table_image",
+    "batch_id": "page_0004__table_001",
+    "rule_id": "pipeline10_rule_0066",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0066",
+        "rule_object": "dwelling_units",
+        "condition": "Total Dwelling Units on a Lot: 4 to 6 Units"
+      }
+    ],
+    "applies_to_objects": [
+      "dwelling_units"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0066"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0066"
+  },
+  {
+    "source_id": "burnaby_generic_graph_pack_011__page_0005__local_004",
+    "rule_key": "outdoor_amenity_space_width_dwelling_unit",
+    "rule_object": "outdoor_amenity_space_width",
+    "constraint_type": "dimensional",
+    "subject": "outdoor_amenity_space",
+    "operator": ">=",
+    "value": "2.0",
+    "unit": "m",
+    "condition": "for each primary dwelling unit for its exclusive use and be accessible from the primary dwelling unit it serves",
+    "exception": "",
+    "evidence_text": "An outdoor amenity space with a minimum width of 2.0 m",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0004",
+    "rule_id": "pipeline10_rule_0138",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0138",
+        "rule_object": "outdoor_amenity_space_width",
+        "condition": "for each primary dwelling unit for its exclusive use and be accessible from the primary dwelling unit it serves"
+      }
+    ],
+    "applies_to_objects": [
+      "outdoor_amenity_space_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0138"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0138"
+  },
+  {
+    "source_id": "burnaby_generic_graph_pack_011__page_0005__local_004",
+    "rule_key": "outdoor_amenity_space_area_dwelling_unit",
+    "rule_object": "outdoor_amenity_space_area",
+    "constraint_type": "dimensional",
+    "subject": "outdoor_amenity_space",
+    "operator": ">=",
+    "value": "10.0",
+    "unit": "m2",
+    "condition": "for each primary dwelling unit for its exclusive use and be accessible from the primary dwelling unit it serves",
+    "exception": "",
+    "evidence_text": "area of 10.0 m2 must be provided for each primary dwelling unit for its exclusive use and be accessible from the primary dwelling unit it serves",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0004",
+    "rule_id": "pipeline10_rule_0139",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0139",
+        "rule_object": "outdoor_amenity_space_area",
+        "condition": "for each primary dwelling unit for its exclusive use and be accessible from the primary dwelling unit it serves"
+      }
+    ],
+    "applies_to_objects": [
+      "outdoor_amenity_space_area"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0139"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [],
+    "review_required": false,
+    "merged_rule_id": "pipeline5_merged_rule_0139"
+  }
+]

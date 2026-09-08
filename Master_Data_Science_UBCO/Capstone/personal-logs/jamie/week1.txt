@@ -1,0 +1,30 @@
+Week 1
+
+Summary:
+Gained housing development domain knowledge and completed the project proposal with proposed methods, tools, and a timeline.
+
+Tasks:
+- Investigated BC bylaw datasources and formats
+- Brainstormed how to divide the project and what methods/tools to use
+- Completed and shared team timeline and calendar
+- Completed team charter
+- Facilitated communication with GMT
+- Completed team project proposal
+
+Time:
+- Bylaw/Domain Investigation: 10 hours
+- Brainstorming methods/tools: 20 hours
+- Creating timeline: 3 hours
+- Editing proposal: 6 hours
+- Meetings: 1 hour
+Total: 40 hours
+
+Challenges:
+- Understanding what form the solution will take in this new domain
+- Getting used to the GMT's question protocol
+- Fragmented unstandardized dataseta
+- The team's limited skillset in language processing and GIS
+
+Next Steps:
+- Install QGIS and become familiar with parcel data
+- Fetch zoning type by address or PID given the needed parcel file (for Rule Retrieval)

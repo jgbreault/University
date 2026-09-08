@@ -1,0 +1,9 @@
+{
+  "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+  "fetched_at": "2026-06-11T00:18:49+00:00",
+  "sha256": "25d15e8d3a3ed10b90d9c029eff8a337ba899f5f330d64f509e8995874740d48",
+  "bytes": 22469286,
+  "pages": [[389, 401], [465, 478]],
+  "pages_rationale": "Land Use Bylaw 1P2007 is a 1053-page multi-district bylaw. Two disjoint deliverable spans are scoped: the suite/deemed-conforming block (s.347-360, pp.389-401, the prior gold) and the R-CG (Residential - Grade-Oriented Infill) District (s.525-546, pp.465-478; s.547 begins p.479). Scoping the corpus to these spans focuses extraction on the deliverable and makes the M5 scored-slot denominator reflect Calgary's low-density-infill scope instead of the whole bylaw.",
+  "page_count": 1053
+}

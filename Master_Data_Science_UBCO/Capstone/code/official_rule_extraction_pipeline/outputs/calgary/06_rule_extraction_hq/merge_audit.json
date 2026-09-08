@@ -1,0 +1,140 @@
+﻿[
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0048",
+    "dedup_status": "auto_folded_same_table_evidence",
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0010",
+    "rule_key": "motor_vehicle_parking_stalls_general",
+    "subject": "motor_vehicle_parking_stalls",
+    "operator": "required",
+    "value": "",
+    "unit": "",
+    "exception": "",
+    "evidence_text": "Unless otherwise referenced in subsection (2) and (3), the minimum number of motor vehicle parking stalls is the requirement referenced in Part 4.",
+    "merged_rule_count": 2,
+    "merged_rule_ids": [
+      "pipeline10_rule_0048",
+      "pipeline10_rule_0051"
+    ],
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0048",
+        "rule_object": "motor_vehicle_parking_stalls",
+        "condition": "Unless otherwise referenced in subsection (2) and (3), the requirement is referenced in Part 4."
+      },
+      {
+        "rule_id": "pipeline10_rule_0051",
+        "rule_object": "motor_vehicle_parking_stalls",
+        "condition": "Unless otherwise referenced in subsection (2) and (3), the requirement is referenced in Part 4."
+      }
+    ]
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0088",
+    "dedup_status": "auto_folded_same_table_evidence",
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0016",
+    "rule_key": "",
+    "subject": "Secondary Suite",
+    "operator": "permitted",
+    "value": "",
+    "unit": "",
+    "exception": "",
+    "evidence_text": "Secondary Suite;",
+    "merged_rule_count": 4,
+    "merged_rule_ids": [
+      "pipeline10_rule_0089",
+      "pipeline10_rule_0093",
+      "pipeline10_rule_0095",
+      "pipeline10_rule_0096"
+    ],
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0089",
+        "rule_object": "permitted_use",
+        "condition": "in PART 6 - DIVISION 10: M-H3 district"
+      },
+      {
+        "rule_id": "pipeline10_rule_0093",
+        "rule_object": "permitted_use",
+        "condition": "in PART 11 - DIVISION 1: GENERAL RULES"
+      },
+      {
+        "rule_id": "pipeline10_rule_0095",
+        "rule_object": "permitted_use",
+        "condition": "in PART 11 - Division 3: CC-MHX district"
+      },
+      {
+        "rule_id": "pipeline10_rule_0096",
+        "rule_object": "permitted_use",
+        "condition": "in PART 15 - DIVISION 1: HOUSING - GO district"
+      }
+    ]
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0089",
+    "dedup_status": "auto_folded_same_table_evidence",
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0016",
+    "rule_key": "",
+    "subject": "Backyard Suite",
+    "operator": "permitted",
+    "value": "",
+    "unit": "",
+    "exception": "",
+    "evidence_text": "Backyard Suite;",
+    "merged_rule_count": 3,
+    "merged_rule_ids": [
+      "pipeline10_rule_0090",
+      "pipeline10_rule_0092",
+      "pipeline10_rule_0094"
+    ],
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0090",
+        "rule_object": "permitted_use",
+        "condition": "in PART 6 - DIVISION 10: M-H3 district"
+      },
+      {
+        "rule_id": "pipeline10_rule_0092",
+        "rule_object": "permitted_use",
+        "condition": "in PART 11 - DIVISION 1: GENERAL RULES"
+      },
+      {
+        "rule_id": "pipeline10_rule_0094",
+        "rule_object": "permitted_use",
+        "condition": "in PART 11 - Division 3: CC-MHX district"
+      }
+    ]
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0161",
+    "dedup_status": "auto_folded_same_table_evidence",
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0025",
+    "rule_key": "secondary_suite_parking_semi_detached",
+    "subject": "Secondary Suite contained in a Semi-detached Dwelling",
+    "operator": ">=",
+    "value": "0.0",
+    "unit": "stalls",
+    "exception": "",
+    "evidence_text": "Secondary Suite contained in a Semi-detached Dwelling is reduced to 0.0 stalls, where 2.0 motor vehicle parking stalls are provided for each Dwelling Unit.",
+    "merged_rule_count": 2,
+    "merged_rule_ids": [
+      "pipeline10_rule_0167",
+      "pipeline10_rule_0168"
+    ],
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0167",
+        "rule_object": "motor_vehicle_parking_stalls",
+        "condition": "is reduced to 0.0 stalls, where 2.0 motor vehicle parking stalls are provided for each Dwelling Unit"
+      },
+      {
+        "rule_id": "pipeline10_rule_0168",
+        "rule_object": "motor_vehicle_parking_stalls",
+        "condition": "is reduced to 0.0 stalls, where 2.0 motor vehicle parking stalls are provided for each Dwelling Unit"
+      }
+    ]
+  }
+]

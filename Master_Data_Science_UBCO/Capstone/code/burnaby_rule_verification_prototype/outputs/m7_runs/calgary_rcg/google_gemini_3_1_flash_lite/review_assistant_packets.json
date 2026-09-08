@@ -1,0 +1,2319 @@
+{
+  "purpose": "Bounded advisory packets for dashboard review and optional LLM chat. Not a verification input.",
+  "advisory_only": true,
+  "packet_count": 42,
+  "items": [
+    {
+      "rule_id": "calgary_rcg_001",
+      "candidate_id": "calgary_rcg_native_m4_pack_0001_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "5.0",
+        "unit": "m",
+        "condition": "measured from grade at a side property line shared with a parcel designated with a low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold"
+      ],
+      "review_category": "upstream_review_requested",
+      "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes.",
+      "source": {
+        "page": 396,
+        "evidence_id": "m4_pack_0001_ev_001",
+        "original_evidence": "The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "tion (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P201...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "5.0",
+          "unit": "m",
+          "condition": "measured from grade at a side property line shared with a parcel designated with a low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold"
+        ],
+        "original_evidence": "The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "tion (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P201...",
+        "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_002",
+      "candidate_id": "calgary_rcg_native_m4_pack_0001_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold"
+      ],
+      "review_category": "upstream_review_requested",
+      "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes.",
+      "source": {
+        "page": 396,
+        "evidence_id": "m4_pack_0001_ev_002",
+        "original_evidence": "(b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold"
+        ],
+        "original_evidence": "(b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_003",
+      "candidate_id": "calgary_rcg_native_m4_pack_0001_003",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "7.5",
+        "unit": "m",
+        "condition": "at a proportional distance from the shared property line",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "applies_to_not_supported"
+      ],
+      "review_category": "missing_applies_to",
+      "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to.",
+      "source": {
+        "page": 396,
+        "evidence_id": "m4_pack_0001_ev_003",
+        "original_evidence": "(c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "7.5",
+          "unit": "m",
+          "condition": "at a proportional distance from the shared property line",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "applies_to_not_supported"
+        ],
+        "original_evidence": "(c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_005",
+      "candidate_id": "calgary_rcg_native_m4_pack_0002_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "lot_coverage",
+        "constraint_scope": "lot_coverage",
+        "applies_to": "parcel depth",
+        "operator": "<=",
+        "value": "50.0",
+        "unit": "%",
+        "condition": "main residential building on a corner parcel",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "text_candidate_requires_review",
+        "operator_not_supported",
+        "rule_object_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 470,
+        "evidence_id": "m4_pack_0002_ev_002",
+        "original_evidence": "50.0 per cent parcel depth",
+        "repaired_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and: 50.0 per cent parcel depth",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "lot_coverage",
+          "constraint_scope": "lot_coverage",
+          "applies_to": "parcel depth",
+          "operator": "<=",
+          "value": "50.0",
+          "unit": "%",
+          "condition": "main residential building on a corner parcel",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "text_candidate_requires_review",
+          "operator_not_supported",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "50.0 per cent parcel depth",
+        "repaired_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and: 50.0 per cent parcel depth",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_007",
+      "candidate_id": "calgary_rcg_native_m4_pack_0003_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "private garage",
+        "operator": ">=",
+        "value": "0.6",
+        "unit": "m",
+        "condition": "rear property line",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "constraint_scope_not_supported",
+        "operator_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 395,
+        "evidence_id": "m4_pack_0003_ev_002",
+        "original_evidence": "352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage.",
+        "repaired_context": "bove grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage. (2) Unless otherwise specified in the district, for a Backyard Suite, the minimum building setback from a side property line is 1.2 metres for any portion of the building used as a Backyard Suite. LAND USE BY...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "private garage",
+          "operator": ">=",
+          "value": "0.6",
+          "unit": "m",
+          "condition": "rear property line",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "constraint_scope_not_supported",
+          "operator_not_supported"
+        ],
+        "original_evidence": "352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage.",
+        "repaired_context": "bove grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage. (2) Unless otherwise specified in the district, for a Backyard Suite, the minimum building setback from a side property line is 1.2 metres for any portion of the building used as a Backyard Suite. LAND USE BY...",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_011",
+      "candidate_id": "calgary_rcg_native_m4_pack_0007_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling",
+        "operator": ">=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "for any other residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "rule_object_not_supported"
+      ],
+      "review_category": "possible_rule_object_mismatch",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 398,
+        "evidence_id": "m4_pack_0007_ev_001",
+        "original_evidence": "a minimum of 3.0 metres for any other residential district",
+        "repaired_context": "operty line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if: (a) the Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling was legally existing or approved prior to the effective date of this Bylaw; (b) the building setback from the front property line is: (i) a minimum of 6.0 metres for the R-C1L or R-C1Ls districts; or (ii) a minimum of 3.0 metres for any other residential district; and 67P2008 (c) the main residential building: (i) has not been added to after the effective date of this Bylaw; or (ii) has been added to after the effective date of this Bylaw and the addition complies with the requirements specified in this Bylaw for a building setback from the front property line. 67P2008, 46P2008 (4) The building height for a Duplex Dwelling, Semi-detached Dwelli...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling",
+          "operator": ">=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "for any other residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "a minimum of 3.0 metres for any other residential district",
+        "repaired_context": "operty line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if: (a) the Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling was legally existing or approved prior to the effective date of this Bylaw; (b) the building setback from the front property line is: (i) a minimum of 6.0 metres for the R-C1L or R-C1Ls districts; or (ii) a minimum of 3.0 metres for any other residential district; and 67P2008 (c) the main residential building: (i) has not been added to after the effective date of this Bylaw; or (ii) has been added to after the effective date of this Bylaw and the addition complies with the requirements specified in this Bylaw for a building setback from the front property line. 67P2008, 46P2008 (4) The building height for a Duplex Dwelling, Semi-detached Dwelli...",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_016",
+      "candidate_id": "calgary_rcg_native_m4_pack_0015_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "balcony",
+        "operator": "<",
+        "value": "4.0",
+        "unit": "m",
+        "condition": "balcony projects from a façade that faces a property line shared with a lane or a street or includes a privacy wall",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "text_condition_not_supported",
+        "rule_family_direction_mismatch"
+      ],
+      "review_category": "missing_condition_evidence",
+      "suggested_next_action": "Check nearby clauses for conditions or exceptions before any verifier rerun.",
+      "source": {
+        "page": 397,
+        "evidence_id": "m4_pack_0015_ev_001",
+        "original_evidence": "the balcony is setback less than 4.0 metres from the shared property line",
+        "repaired_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; the balcony is setback less than 4.0 metres from the shared property line",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "balcony",
+          "operator": "<",
+          "value": "4.0",
+          "unit": "m",
+          "condition": "balcony projects from a façade that faces a property line shared with a lane or a street or includes a privacy wall",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "text_condition_not_supported",
+          "rule_family_direction_mismatch"
+        ],
+        "original_evidence": "the balcony is setback less than 4.0 metres from the shared property line",
+        "repaired_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; the balcony is setback less than 4.0 metres from the shared property line",
+        "suggested_next_action": "Check nearby clauses for conditions or exceptions before any verifier rerun."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_017",
+      "candidate_id": "calgary_rcg_native_m4_pack_0015_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "privacy wall",
+        "operator": ">=",
+        "value": "2.0",
+        "unit": "m",
+        "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "enumerated_branch_condition_missing",
+        "rule_family_direction_mismatch"
+      ],
+      "review_category": "upstream_review_requested",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 397,
+        "evidence_id": "m4_pack_0015_ev_002",
+        "original_evidence": "the privacy wall is a minimum of 2.0 metres in height",
+        "repaired_context": "n 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "privacy wall",
+          "operator": ">=",
+          "value": "2.0",
+          "unit": "m",
+          "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "enumerated_branch_condition_missing",
+          "rule_family_direction_mismatch"
+        ],
+        "original_evidence": "the privacy wall is a minimum of 2.0 metres in height",
+        "repaired_context": "n 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not...",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_018",
+      "candidate_id": "calgary_rcg_native_m4_pack_0015_003",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "privacy wall",
+        "operator": "<=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "applies_to_not_supported"
+      ],
+      "review_category": "missing_applies_to",
+      "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to.",
+      "source": {
+        "page": 397,
+        "evidence_id": "m4_pack_0015_ev_003",
+        "original_evidence": "a maximum of 3.0 metres in height",
+        "repaired_context": "Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not be more than one Backyard Suite located on a 4P2017, 62P20...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "privacy wall",
+          "operator": "<=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "applies_to_not_supported"
+        ],
+        "original_evidence": "a maximum of 3.0 metres in height",
+        "repaired_context": "Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not be more than one Backyard Suite located on a 4P2017, 62P20...",
+        "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_022",
+      "candidate_id": "calgary_rcg_native_m4_pack_0021_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "floor_area",
+        "constraint_scope": "floor_area",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "75.0",
+        "unit": "m2",
+        "condition": "",
+        "exception": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres"
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "applies_to_not_supported"
+      ],
+      "review_category": "missing_applies_to",
+      "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to.",
+      "source": {
+        "page": 396,
+        "evidence_id": "m4_pack_0021_ev_001",
+        "original_evidence": "The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres.",
+        "repaired_context": "maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "floor_area",
+          "constraint_scope": "floor_area",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "75.0",
+          "unit": "m2",
+          "condition": "",
+          "exception": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres"
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "applies_to_not_supported"
+        ],
+        "original_evidence": "The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres.",
+        "repaired_context": "maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_023",
+      "candidate_id": "calgary_rcg_native_m4_pack_0021_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "floor_area",
+        "constraint_scope": "floor_area",
+        "applies_to": "stairways and internal landings",
+        "operator": "<=",
+        "value": "2.5",
+        "unit": "m2",
+        "condition": "within a Backyard Suite",
+        "exception": ""
+      },
+      "support_gaps": [
+        "unresolved_exception_cue"
+      ],
+      "review_category": "unresolved_exception",
+      "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes.",
+      "source": {
+        "page": 396,
+        "evidence_id": "m4_pack_0021_ev_002",
+        "original_evidence": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+        "repaired_context": "e is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "floor_area",
+          "constraint_scope": "floor_area",
+          "applies_to": "stairways and internal landings",
+          "operator": "<=",
+          "value": "2.5",
+          "unit": "m2",
+          "condition": "within a Backyard Suite",
+          "exception": ""
+        },
+        "support_gaps": [
+          "unresolved_exception_cue"
+        ],
+        "original_evidence": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+        "repaired_context": "e is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_024",
+      "candidate_id": "calgary_rcg_native_m4_pack_0022_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "lot_coverage",
+        "constraint_scope": "lot_coverage",
+        "applies_to": "parcels subject to a single development permit",
+        "operator": "<=",
+        "value": "45.0",
+        "unit": "%",
+        "condition": "density of less than 40 units per hectare",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "operator_not_supported",
+        "rule_object_not_supported",
+        "coefficient_operand_not_value"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 469,
+        "evidence_id": "m4_pack_0022_ev_001",
+        "original_evidence": "45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "repaired_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "lot_coverage",
+          "constraint_scope": "lot_coverage",
+          "applies_to": "parcels subject to a single development permit",
+          "operator": "<=",
+          "value": "45.0",
+          "unit": "%",
+          "condition": "density of less than 40 units per hectare",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "operator_not_supported",
+          "rule_object_not_supported",
+          "coefficient_operand_not_value"
+        ],
+        "original_evidence": "45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "repaired_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_025",
+      "candidate_id": "calgary_rcg_native_m4_pack_0022_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "lot_coverage",
+        "constraint_scope": "lot_coverage",
+        "applies_to": "parcels subject to a single development permit",
+        "operator": "<=",
+        "value": "50.0",
+        "unit": "%",
+        "condition": "",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "constraint_scope_not_supported",
+        "operator_not_supported",
+        "rule_object_not_supported",
+        "coefficient_operand_not_value"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 469,
+        "evidence_id": "m4_pack_0022_ev_002",
+        "original_evidence": "50.0 per cent of the area of the parcels subject to the single",
+        "repaired_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare; 50.0 per cent of the area of the parcels subject to the single",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "lot_coverage",
+          "constraint_scope": "lot_coverage",
+          "applies_to": "parcels subject to a single development permit",
+          "operator": "<=",
+          "value": "50.0",
+          "unit": "%",
+          "condition": "",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "constraint_scope_not_supported",
+          "operator_not_supported",
+          "rule_object_not_supported",
+          "coefficient_operand_not_value"
+        ],
+        "original_evidence": "50.0 per cent of the area of the parcels subject to the single",
+        "repaired_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare; 50.0 per cent of the area of the parcels subject to the single",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_029",
+      "candidate_id": "calgary_rcg_native_m4_pack_0031_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "Decks",
+        "operator": ">",
+        "value": "1.5",
+        "unit": "m",
+        "condition": "legally existing or approved prior to the effective date of this Bylaw",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "rule_family_direction_mismatch"
+      ],
+      "review_category": "general_review",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 398,
+        "evidence_id": "m4_pack_0031_ev_001",
+        "original_evidence": "Decks greater than 1.5 metres in height",
+        "repaired_context": "the parcel width, parcel depth or the area of the parcel is less than the minimum required in a district the parcel is deemed to conform to the minimum requirement of this Bylaw provided that the use of the parcel is not being intensified. Decks greater than 1.5 metres in height",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "Decks",
+          "operator": ">",
+          "value": "1.5",
+          "unit": "m",
+          "condition": "legally existing or approved prior to the effective date of this Bylaw",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "rule_family_direction_mismatch"
+        ],
+        "original_evidence": "Decks greater than 1.5 metres in height",
+        "repaired_context": "the parcel width, parcel depth or the area of the parcel is less than the minimum required in a district the parcel is deemed to conform to the minimum requirement of this Bylaw provided that the use of the parcel is not being intensified. Decks greater than 1.5 metres in height",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_030",
+      "candidate_id": "calgary_rcg_native_m4_pack_0032_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "street facing façade of a unit",
+        "operator": ">=",
+        "value": "4.2",
+        "unit": "m",
+        "condition": "",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "constraint_scope_not_supported",
+        "rule_object_not_supported"
+      ],
+      "review_category": "missing_scope_evidence",
+      "suggested_next_action": "Find source text naming the exact yard, lot line, parcel condition, or scope.",
+      "source": {
+        "page": 469,
+        "evidence_id": "m4_pack_0032_ev_001",
+        "original_evidence": "The minimum width of a street facing façade of a unit is 4.2 metres.",
+        "repaired_context": "5, Division 1; (b) the Rules Governing All Districts referenced in Part 3; and (c) the applicable Uses And Use Rules referenced in Part 4. 529 Density 529 The maximum density for parcels designated R-CG District is 75 units per hectare. 530 Number of Main Residential Buildings on a Parcel 4P2017 530 deleted 531 Parcel Width 15P2016 531 The minimum parcel width is 7.5 metres for a parcel containing a Duplex Dwelling. 532 Facade Width 15P2016 532 The minimum width of a street facing façade of a unit is 4.2 metres. 533 At Grade Orientation of Units 56P2022 533 (1) All units must provide individual, separate, direct access to grade. (2) Units with an exterior wall facing a street must provide: (a) an entrance that is visible from the street; and (b) sidewalks that provide direct exterior access to the unit. 534 Parcel Coverage 15P2016 534 (1) deleted 62P2018 62P2018, 56P2022, (2) Unless o...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "street facing façade of a unit",
+          "operator": ">=",
+          "value": "4.2",
+          "unit": "m",
+          "condition": "",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "constraint_scope_not_supported",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "The minimum width of a street facing façade of a unit is 4.2 metres.",
+        "repaired_context": "5, Division 1; (b) the Rules Governing All Districts referenced in Part 3; and (c) the applicable Uses And Use Rules referenced in Part 4. 529 Density 529 The maximum density for parcels designated R-CG District is 75 units per hectare. 530 Number of Main Residential Buildings on a Parcel 4P2017 530 deleted 531 Parcel Width 15P2016 531 The minimum parcel width is 7.5 metres for a parcel containing a Duplex Dwelling. 532 Facade Width 15P2016 532 The minimum width of a street facing façade of a unit is 4.2 metres. 533 At Grade Orientation of Units 56P2022 533 (1) All units must provide individual, separate, direct access to grade. (2) Units with an exterior wall facing a street must provide: (a) an entrance that is visible from the street; and (b) sidewalks that provide direct exterior access to the unit. 534 Parcel Coverage 15P2016 534 (1) deleted 62P2018 62P2018, 56P2022, (2) Unless o...",
+        "suggested_next_action": "Find source text naming the exact yard, lot line, parcel condition, or scope."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_031",
+      "candidate_id": "calgary_rcg_native_m4_pack_0033_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "side setback area",
+        "operator": ">=",
+        "value": "2.4",
+        "unit": "m",
+        "condition": "measured from grade",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "text_candidate_requires_review",
+        "applies_to_not_supported",
+        "operator_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 471,
+        "evidence_id": "m4_pack_0033_ev_001",
+        "original_evidence": "the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres.",
+        "repaired_context": "building setback required in sections 535, 537, 538, 539, and 540. 537 Building Setback from Front Property Line 56P2022 537 The minimum building setback from a front property line is 3.0 metres. 61P2018, 15P2016, 62P2018 538 Block Face Requirements 15P2016 538 (1) A minimum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "side setback area",
+          "operator": ">=",
+          "value": "2.4",
+          "unit": "m",
+          "condition": "measured from grade",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "text_candidate_requires_review",
+          "applies_to_not_supported",
+          "operator_not_supported"
+        ],
+        "original_evidence": "the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres.",
+        "repaired_context": "building setback required in sections 535, 537, 538, 539, and 540. 537 Building Setback from Front Property Line 56P2022 537 The minimum building setback from a front property line is 3.0 metres. 61P2018, 15P2016, 62P2018 538 Block Face Requirements 15P2016 538 (1) A minimum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any...",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_045",
+      "candidate_id": "calgary_rcg_native_m4_pack_0042_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "main residential building",
+        "operator": "<=",
+        "value": "7.0",
+        "unit": "m",
+        "condition": "shared property line with low density residential district, M-CG or H-GO District",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold"
+      ],
+      "review_category": "upstream_review_requested",
+      "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes.",
+      "source": {
+        "page": 472,
+        "evidence_id": "m4_pack_0042_ev_001",
+        "original_evidence": "the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade",
+        "repaired_context": "foremost front façade of the immediately adjacent main residential building and the front property line. 15P2016, 541 Building Height 62P2018,56P2022 541 (1) Unless otherwise referenced in subsections (2), (3) and (4), the maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be gre...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "main residential building",
+          "operator": "<=",
+          "value": "7.0",
+          "unit": "m",
+          "condition": "shared property line with low density residential district, M-CG or H-GO District",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold"
+        ],
+        "original_evidence": "the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade",
+        "repaired_context": "foremost front façade of the immediately adjacent main residential building and the front property line. 15P2016, 541 Building Height 62P2018,56P2022 541 (1) Unless otherwise referenced in subsections (2), (3) and (4), the maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be gre...",
+        "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_046",
+      "candidate_id": "calgary_rcg_native_m4_pack_0042_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "building",
+        "operator": "<=",
+        "value": "11.0",
+        "unit": "m",
+        "condition": "shared property line with low density residential district, M-CG or H-GO District",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "rule_object_not_supported"
+      ],
+      "review_category": "possible_rule_object_mismatch",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 472,
+        "evidence_id": "m4_pack_0042_ev_002",
+        "original_evidence": "increases at a 45 degree angle to a maximum of 11.0 metres",
+        "repaired_context": "he maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be greater than 75.0 per cent of the maximum area of a horizontal cross section through the building between average grade and 8.6 metres. 358 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "building",
+          "operator": "<=",
+          "value": "11.0",
+          "unit": "m",
+          "condition": "shared property line with low density residential district, M-CG or H-GO District",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "increases at a 45 degree angle to a maximum of 11.0 metres",
+        "repaired_context": "he maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be greater than 75.0 per cent of the maximum area of a horizontal cross section through the building between average grade and 8.6 metres. 358 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_057",
+      "candidate_id": "calgary_rcg_native_m4_pack_0047_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "lot_coverage",
+        "constraint_scope": "lot_coverage",
+        "applies_to": "parcel depth",
+        "operator": "<=",
+        "value": "60.0",
+        "unit": "%",
+        "condition": "not located on a corner parcel",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "text_candidate_requires_review",
+        "operator_not_supported",
+        "rule_object_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 473,
+        "evidence_id": "m4_pack_0047_ev_002",
+        "original_evidence": "60.0 per cent parcel depth",
+        "repaired_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building located between the rear property line and 60.0 per cent parcel depth",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "lot_coverage",
+          "constraint_scope": "lot_coverage",
+          "applies_to": "parcel depth",
+          "operator": "<=",
+          "value": "60.0",
+          "unit": "%",
+          "condition": "not located on a corner parcel",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "text_candidate_requires_review",
+          "operator_not_supported",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "60.0 per cent parcel depth",
+        "repaired_context": "PART 5 - DIVISION 11: R-CG, R-CGex (4) Where not located on a corner parcel, the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building located between the rear property line and 60.0 per cent parcel depth",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_070",
+      "candidate_id": "calgary_rcg_native_m4_pack_0068_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "private maintenance easement",
+        "operator": ">=",
+        "value": "1.2",
+        "unit": "m",
+        "condition": "minimum building setback from a side property line may be reduced to a zero setback",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "operator_not_supported",
+        "allowance_trigger_threshold"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 471,
+        "evidence_id": "m4_pack_0068_ev_001",
+        "original_evidence": "the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement",
+        "repaired_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "private maintenance easement",
+          "operator": ">=",
+          "value": "1.2",
+          "unit": "m",
+          "condition": "minimum building setback from a side property line may be reduced to a zero setback",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "operator_not_supported",
+          "allowance_trigger_threshold"
+        ],
+        "original_evidence": "the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement",
+        "repaired_context": "the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: the owner of the parcel proposed for development and the owner of the adjacent parcel register, against both titles, a 1.2 metre private maintenance easement",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_071",
+      "candidate_id": "calgary_rcg_native_m4_pack_0069_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "side property line",
+        "operator": ">=",
+        "value": "1.2",
+        "unit": "m",
+        "condition": "laneless parcel",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "enumerated_branch_condition_missing"
+      ],
+      "review_category": "general_review",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 471,
+        "evidence_id": "m4_pack_0069_ev_001",
+        "original_evidence": "for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres",
+        "repaired_context": "e length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres; or (b) 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: (a) the owner...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "side property line",
+          "operator": ">=",
+          "value": "1.2",
+          "unit": "m",
+          "condition": "laneless parcel",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "enumerated_branch_condition_missing"
+        ],
+        "original_evidence": "for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres",
+        "repaired_context": "e length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres; or (b) 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: (a) the owner...",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_072",
+      "candidate_id": "calgary_rcg_native_m4_pack_0069_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "side property line",
+        "operator": ">=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "laneless parcel, no provision is made for a private garage on the front or side of a building",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "applies_to_not_supported",
+        "operator_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 471,
+        "evidence_id": "m4_pack_0069_ev_002",
+        "original_evidence": "3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "repaired_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "side property line",
+          "operator": ">=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "laneless parcel, no provision is made for a private garage on the front or side of a building",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "applies_to_not_supported",
+          "operator_not_supported"
+        ],
+        "original_evidence": "3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "repaired_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_080",
+      "candidate_id": "calgary_rcg_v3clause_m4_pack_0006_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "building_separation",
+        "constraint_scope": "building_separation",
+        "applies_to": "Backyard Suite",
+        "operator": ">=",
+        "value": "0.6",
+        "unit": "m",
+        "condition": "",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "enumerated_branch_condition_missing"
+      ],
+      "review_category": "general_review",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 396,
+        "evidence_id": "m4_pack_0006_v3_clause_ev_002",
+        "original_evidence": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019",
+        "repaired_context": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "long_evidence_context_limited"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "building_separation",
+          "constraint_scope": "building_separation",
+          "applies_to": "Backyard Suite",
+          "operator": ">=",
+          "value": "0.6",
+          "unit": "m",
+          "condition": "",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "enumerated_branch_condition_missing"
+        ],
+        "original_evidence": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019",
+        "repaired_context": "(3.2) (a) Where portions of a Backyard Suite meet the requirements of subsection (b) these portions may project: (i) into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres from the shared property line; and (ii) 0.6 metres into the minimum separation area required in subsection (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_085",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0001_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "5.0",
+        "unit": "m",
+        "condition": "measured from grade at a side property line shared with a parcel designated with a low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold"
+      ],
+      "review_category": "upstream_review_requested",
+      "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes.",
+      "source": {
+        "page": 396,
+        "evidence_id": "v3_repair_pack_0001_ev_001",
+        "original_evidence": "The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "tion (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P201...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "5.0",
+          "unit": "m",
+          "condition": "measured from grade at a side property line shared with a parcel designated with a low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold"
+        ],
+        "original_evidence": "The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "tion (3) or the amenity space required in subsection (3.1); (b) Projections described in subsection (a) must: (i) not exceed 40.0 per cent of the length of the façade on each storey for the total combined length of all projections; (ii) each contain a window; and (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P201...",
+        "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_086",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0001_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold"
+      ],
+      "review_category": "upstream_review_requested",
+      "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes.",
+      "source": {
+        "page": 396,
+        "evidence_id": "v3_repair_pack_0001_ev_002",
+        "original_evidence": "(b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold"
+        ],
+        "original_evidence": "(b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district",
+        "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_087",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0001_003",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "7.5",
+        "unit": "m",
+        "condition": "at a proportional distance from the shared property line",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "applies_to_not_supported"
+      ],
+      "review_category": "missing_applies_to",
+      "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to.",
+      "source": {
+        "page": 396,
+        "evidence_id": "v3_repair_pack_0001_ev_003",
+        "original_evidence": "(c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "7.5",
+          "unit": "m",
+          "condition": "at a proportional distance from the shared property line",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "applies_to_not_supported"
+        ],
+        "original_evidence": "(c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "repaired_context": "d (iii) each have a maximum length of 3.1 metres 10P2019 (4) Unless otherwise referenced in subsection (4.1), the maximum building height for a Backyard Suite is 7.5 metres. 10P2019 (4.1) The maximum building height for a Backyard Suite is: (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line.",
+        "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_091",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0003_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "balcony",
+        "operator": "<",
+        "value": "4.0",
+        "unit": "m",
+        "condition": "balcony projects from a façade that faces a property line shared with a lane or a street or includes a privacy wall",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "text_condition_not_supported",
+        "rule_family_direction_mismatch"
+      ],
+      "review_category": "missing_condition_evidence",
+      "suggested_next_action": "Check nearby clauses for conditions or exceptions before any verifier rerun.",
+      "source": {
+        "page": 397,
+        "evidence_id": "v3_repair_pack_0003_ev_001",
+        "original_evidence": "the balcony is setback less than 4.0 metres from the shared property line",
+        "repaired_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; the balcony is setback less than 4.0 metres from the shared property line",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "balcony",
+          "operator": "<",
+          "value": "4.0",
+          "unit": "m",
+          "condition": "balcony projects from a façade that faces a property line shared with a lane or a street or includes a privacy wall",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "text_condition_not_supported",
+          "rule_family_direction_mismatch"
+        ],
+        "original_evidence": "the balcony is setback less than 4.0 metres from the shared property line",
+        "repaired_context": "(c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; the balcony is setback less than 4.0 metres from the shared property line",
+        "suggested_next_action": "Check nearby clauses for conditions or exceptions before any verifier rerun."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_092",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0003_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "privacy wall",
+        "operator": ">=",
+        "value": "2.0",
+        "unit": "m",
+        "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "enumerated_branch_condition_missing",
+        "rule_family_direction_mismatch"
+      ],
+      "review_category": "upstream_review_requested",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 397,
+        "evidence_id": "v3_repair_pack_0003_ev_002",
+        "original_evidence": "the privacy wall is a minimum of 2.0 metres in height",
+        "repaired_context": "n 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "privacy wall",
+          "operator": ">=",
+          "value": "2.0",
+          "unit": "m",
+          "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "enumerated_branch_condition_missing",
+          "rule_family_direction_mismatch"
+        ],
+        "original_evidence": "the privacy wall is a minimum of 2.0 metres in height",
+        "repaired_context": "n 16P2018 less than 1.5 metres. (c) deleted 16P2018 (8) A Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not...",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_093",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0003_003",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "privacy wall",
+        "operator": "<=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "applies_to_not_supported"
+      ],
+      "review_category": "missing_applies_to",
+      "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to.",
+      "source": {
+        "page": 397,
+        "evidence_id": "v3_repair_pack_0003_ev_003",
+        "original_evidence": "a maximum of 3.0 metres in height",
+        "repaired_context": "Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not be more than one Backyard Suite located on a 4P2017, 62P20...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "privacy wall",
+          "operator": "<=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "balcony includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "applies_to_not_supported"
+        ],
+        "original_evidence": "a maximum of 3.0 metres in height",
+        "repaired_context": "Backyard Suite may include a balcony where the balcony: 10P2019 (a) projects from a façade that faces a property line shared with a lane or a street; or (b) includes a privacy wall that screens the balcony from a property line shared with a parcel designated with low density residential district where: (i) the balcony is setback less than 4.0 metres from the shared property line; and (ii) the privacy wall is a minimum of 2.0 metres in height and a maximum of 3.0 metres in height. (9) A balcony attached to a Backyard Suite may project into a required 10P2019 setback area from a property line shared with a street or a lane to a minimum setback of 0.6 metres from the property line. 353 Secondary Suite – Outdoor Private Amenity Space 12P2010, 24P2014 353 deleted 354 Accessory Suite – Density 12P2010, 24P2014 354 (1) There must not be more than one Backyard Suite located on a 4P2017, 62P20...",
+        "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_095",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0004_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "lot_coverage",
+        "constraint_scope": "lot_coverage",
+        "applies_to": "parcel depth",
+        "operator": "<=",
+        "value": "50.0",
+        "unit": "%",
+        "condition": "main residential building on a corner parcel",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "text_candidate_requires_review",
+        "operator_not_supported",
+        "rule_object_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 470,
+        "evidence_id": "v3_repair_pack_0004_ev_002",
+        "original_evidence": "50.0 per cent parcel depth",
+        "repaired_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and: 50.0 per cent parcel depth",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "lot_coverage",
+          "constraint_scope": "lot_coverage",
+          "applies_to": "parcel depth",
+          "operator": "<=",
+          "value": "50.0",
+          "unit": "%",
+          "condition": "main residential building on a corner parcel",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "text_candidate_requires_review",
+          "operator_not_supported",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "50.0 per cent parcel depth",
+        "repaired_context": "ocated on a corner parcel there is no maximum building depth where the minimum building setback from the side property line shared with another parcel is 3.0 metres for any portion of the building located between the rear property line and: 50.0 per cent parcel depth",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_104",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0007_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "private garage",
+        "operator": ">=",
+        "value": "0.6",
+        "unit": "m",
+        "condition": "rear property line",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "constraint_scope_not_supported",
+        "operator_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 395,
+        "evidence_id": "v3_repair_pack_0007_ev_002",
+        "original_evidence": "352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage.",
+        "repaired_context": "bove grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage. (2) Unless otherwise specified in the district, for a Backyard Suite, the minimum building setback from a side property line is 1.2 metres for any portion of the building used as a Backyard Suite. LAND USE BY...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "private garage",
+          "operator": ">=",
+          "value": "0.6",
+          "unit": "m",
+          "condition": "rear property line",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "constraint_scope_not_supported",
+          "operator_not_supported"
+        ],
+        "original_evidence": "352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage.",
+        "repaired_context": "bove grade. (3) The maximum floor area of a Secondary Suite may be relaxed by the Development Authority to a maximum of 10.0 per cent. (4) Except in the R-CG District, a Secondary Suite must have a private 56P2022 amenity space that: (a) is located outdoors; and 16P2018 (b) has a minimum area of 7.5 square metres with no dimension 16P2018 less than 1.5 metres. (c) deleted 16P2018 351.1 deleted 12P2012, 24P2014 352 Backyard Suite 12P2012, 24P2014 352 (1) For a Backyard Suite, the minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite; and (b) 0.6 metres for any portion of the building used as a private garage. (2) Unless otherwise specified in the district, for a Backyard Suite, the minimum building setback from a side property line is 1.2 metres for any portion of the building used as a Backyard Suite. LAND USE BY...",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_105",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0008_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling",
+        "operator": ">=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "any other residential district",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "rule_object_not_supported"
+      ],
+      "review_category": "possible_rule_object_mismatch",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 398,
+        "evidence_id": "v3_repair_pack_0008_ev_001",
+        "original_evidence": "a minimum of 3.0 metres for any other residential district",
+        "repaired_context": "operty line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if: (a) the Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling was legally existing or approved prior to the effective date of this Bylaw; (b) the building setback from the front property line is: (i) a minimum of 6.0 metres for the R-C1L or R-C1Ls districts; or (ii) a minimum of 3.0 metres for any other residential district; and 67P2008 (c) the main residential building: (i) has not been added to after the effective date of this Bylaw; or (ii) has been added to after the effective date of this Bylaw and the addition complies with the requirements specified in this Bylaw for a building setback from the front property line. 67P2008, 46P2008 (4) The building height for a Duplex Dwelling, Semi-detached Dwelli...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling",
+          "operator": ">=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "any other residential district",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "a minimum of 3.0 metres for any other residential district",
+        "repaired_context": "operty line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if: (a) the Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling was legally existing or approved prior to the effective date of this Bylaw; (b) the building setback from the front property line is: (i) a minimum of 6.0 metres for the R-C1L or R-C1Ls districts; or (ii) a minimum of 3.0 metres for any other residential district; and 67P2008 (c) the main residential building: (i) has not been added to after the effective date of this Bylaw; or (ii) has been added to after the effective date of this Bylaw and the addition complies with the requirements specified in this Bylaw for a building setback from the front property line. 67P2008, 46P2008 (4) The building height for a Duplex Dwelling, Semi-detached Dwelli...",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_119",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0011_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "maximum building height",
+        "operator": "<=",
+        "value": "7.0",
+        "unit": "m",
+        "condition": "from grade; measured at the shared property line",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "enumerated_branch_condition_missing",
+        "applies_to_not_supported"
+      ],
+      "review_category": "missing_applies_to",
+      "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to.",
+      "source": {
+        "page": 472,
+        "evidence_id": "v3_repair_pack_0011_ev_001",
+        "original_evidence": "the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade",
+        "repaired_context": "foremost front façade of the immediately adjacent main residential building and the front property line. 15P2016, 541 Building Height 62P2018,56P2022 541 (1) Unless otherwise referenced in subsections (2), (3) and (4), the maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be gre...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "maximum building height",
+          "operator": "<=",
+          "value": "7.0",
+          "unit": "m",
+          "condition": "from grade; measured at the shared property line",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "enumerated_branch_condition_missing",
+          "applies_to_not_supported"
+        ],
+        "original_evidence": "the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade",
+        "repaired_context": "foremost front façade of the immediately adjacent main residential building and the front property line. 15P2016, 541 Building Height 62P2018,56P2022 541 (1) Unless otherwise referenced in subsections (2), (3) and (4), the maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be gre...",
+        "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_120",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0011_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "height",
+        "constraint_scope": "height",
+        "applies_to": "maximum building height",
+        "operator": "<=",
+        "value": "11.0",
+        "unit": "m",
+        "condition": "increases at a 45 degree angle",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "extraction_source_fidelity_hold",
+        "text_candidate_requires_review",
+        "rule_object_not_supported"
+      ],
+      "review_category": "possible_rule_object_mismatch",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 472,
+        "evidence_id": "v3_repair_pack_0011_ev_002",
+        "original_evidence": "increases at a 45 degree angle to a maximum of 11.0 metres",
+        "repaired_context": "he maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be greater than 75.0 per cent of the maximum area of a horizontal cross section through the building between average grade and 8.6 metres. 358 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "height",
+          "constraint_scope": "height",
+          "applies_to": "maximum building height",
+          "operator": "<=",
+          "value": "11.0",
+          "unit": "m",
+          "condition": "increases at a 45 degree angle",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "extraction_source_fidelity_hold",
+          "text_candidate_requires_review",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "increases at a 45 degree angle to a maximum of 11.0 metres",
+        "repaired_context": "he maximum building height is 11.0 metres measured from grade. (2) Where a building setback is required from a property line shared with another parcel designated with a low density residential district, the M-CG or H-GO District the maximum building height: (a) is the greater of: (i) the highest geodetic elevation of a main residential building on the adjoining parcel; or (ii) 7.0 metres from grade; measured at the shared property line; and (b) increases at a 45 degree angle to a maximum of 11.0 metres measured from grade. 56P2022 (3) On a corner parcel, the maximum area of a horizontal cross section through a building at 9.5 metres above average grade must not be greater than 75.0 per cent of the maximum area of a horizontal cross section through the building between average grade and 8.6 metres. 358 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_121",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0012_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "floor_area",
+        "constraint_scope": "floor_area",
+        "applies_to": "Backyard Suite",
+        "operator": "<=",
+        "value": "75.0",
+        "unit": "m2",
+        "condition": "",
+        "exception": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres"
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "applies_to_not_supported"
+      ],
+      "review_category": "missing_applies_to",
+      "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to.",
+      "source": {
+        "page": 396,
+        "evidence_id": "v3_repair_pack_0012_ev_001",
+        "original_evidence": "The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres.",
+        "repaired_context": "maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "floor_area",
+          "constraint_scope": "floor_area",
+          "applies_to": "Backyard Suite",
+          "operator": "<=",
+          "value": "75.0",
+          "unit": "m2",
+          "condition": "",
+          "exception": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres"
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "applies_to_not_supported"
+        ],
+        "original_evidence": "The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres.",
+        "repaired_context": "maximum building height for a Backyard Suite is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "suggested_next_action": "Find source text naming the target building/use or table row/column that supplies applies_to."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_122",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0012_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "floor_area",
+        "constraint_scope": "floor_area",
+        "applies_to": "stairways and internal landings",
+        "operator": "<=",
+        "value": "2.5",
+        "unit": "m2",
+        "condition": "within a Backyard Suite",
+        "exception": ""
+      },
+      "support_gaps": [
+        "unresolved_exception_cue"
+      ],
+      "review_category": "unresolved_exception",
+      "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes.",
+      "source": {
+        "page": 396,
+        "evidence_id": "v3_repair_pack_0012_ev_002",
+        "original_evidence": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+        "repaired_context": "e is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "floor_area",
+          "constraint_scope": "floor_area",
+          "applies_to": "stairways and internal landings",
+          "operator": "<=",
+          "value": "2.5",
+          "unit": "m2",
+          "condition": "within a Backyard Suite",
+          "exception": ""
+        },
+        "support_gaps": [
+          "unresolved_exception_cue"
+        ],
+        "original_evidence": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+        "repaired_context": "e is: (a) 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district; (b) 3.0 metres measured from grade at a rear property line shared with a parcel designated with a low density residential district; and (c) increases at a 45 degree angle to a maximum of 7.5 metres at a proportional distance from the shared property line. 10P2019 (5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres. 292.4 LAND USE BYLAW – 1P2007 July 23, 2007",
+        "suggested_next_action": "Human review should inspect the cited source and keep the rule out of GIS unless deterministic verification passes."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_124",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0014_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "lot_coverage",
+        "constraint_scope": "lot_coverage",
+        "applies_to": "parcels subject to a single development permit",
+        "operator": "<=",
+        "value": "45.0",
+        "unit": "%",
+        "condition": "density of less than 40 units per hectare",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "operator_not_supported",
+        "rule_object_not_supported",
+        "coefficient_operand_not_value"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 469,
+        "evidence_id": "v3_repair_pack_0014_ev_001",
+        "original_evidence": "45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "repaired_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "lot_coverage",
+          "constraint_scope": "lot_coverage",
+          "applies_to": "parcels subject to a single development permit",
+          "operator": "<=",
+          "value": "45.0",
+          "unit": "%",
+          "condition": "density of less than 40 units per hectare",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "operator_not_supported",
+          "rule_object_not_supported",
+          "coefficient_operand_not_value"
+        ],
+        "original_evidence": "45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "repaired_context": "ls subject to a single development permit containing a Contextual Semi-Detached Dwelling, Contextual Single Detached Dwelling, Cottage Housing Cluster, Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_125",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0014_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "lot_coverage",
+        "constraint_scope": "lot_coverage",
+        "applies_to": "parcels subject to a single development permit",
+        "operator": "<=",
+        "value": "50.0",
+        "unit": "%",
+        "condition": "",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "constraint_scope_not_supported",
+        "operator_not_supported",
+        "rule_object_not_supported",
+        "coefficient_operand_not_value"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 469,
+        "evidence_id": "v3_repair_pack_0014_ev_002",
+        "original_evidence": "50.0 per cent of the area of the parcels subject to the single",
+        "repaired_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare; 50.0 per cent of the area of the parcels subject to the single",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "lot_coverage",
+          "constraint_scope": "lot_coverage",
+          "applies_to": "parcels subject to a single development permit",
+          "operator": "<=",
+          "value": "50.0",
+          "unit": "%",
+          "condition": "",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "constraint_scope_not_supported",
+          "operator_not_supported",
+          "rule_object_not_supported",
+          "coefficient_operand_not_value"
+        ],
+        "original_evidence": "50.0 per cent of the area of the parcels subject to the single",
+        "repaired_context": "Rowhouse Building, Semi-Detached Dwelling, Single Detached Dwelling or Townhouse is: (a) 45.0 per cent of the area of the parcels subject to the single development permit for a development with a density of less than 40 units per hectare; 50.0 per cent of the area of the parcels subject to the single",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_129",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0018_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "side setback area",
+        "operator": ">=",
+        "value": "2.4",
+        "unit": "m",
+        "condition": "measured from grade",
+        "exception": ""
+      },
+      "support_gaps": [
+        "upstream_extraction_requested_review",
+        "text_candidate_requires_review",
+        "applies_to_not_supported",
+        "operator_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 471,
+        "evidence_id": "v3_repair_pack_0018_ev_001",
+        "original_evidence": "the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres.",
+        "repaired_context": "building setback required in sections 535, 537, 538, 539, and 540. 537 Building Setback from Front Property Line 56P2022 537 The minimum building setback from a front property line is 3.0 metres. 61P2018, 15P2016, 62P2018 538 Block Face Requirements 15P2016 538 (1) A minimum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "side setback area",
+          "operator": ">=",
+          "value": "2.4",
+          "unit": "m",
+          "condition": "measured from grade",
+          "exception": ""
+        },
+        "support_gaps": [
+          "upstream_extraction_requested_review",
+          "text_candidate_requires_review",
+          "applies_to_not_supported",
+          "operator_not_supported"
+        ],
+        "original_evidence": "the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres.",
+        "repaired_context": "building setback required in sections 535, 537, 538, 539, and 540. 537 Building Setback from Front Property Line 56P2022 537 The minimum building setback from a front property line is 3.0 metres. 61P2018, 15P2016, 62P2018 538 Block Face Requirements 15P2016 538 (1) A minimum building setback of 1.2 metres is required from a side property line at least every 60.0 metres along the entire length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any...",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_136",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0023_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "side property line",
+        "operator": ">=",
+        "value": "1.2",
+        "unit": "m",
+        "condition": "laneless parcel",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "enumerated_branch_condition_missing"
+      ],
+      "review_category": "general_review",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 471,
+        "evidence_id": "v3_repair_pack_0023_ev_001",
+        "original_evidence": "for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres",
+        "repaired_context": "e length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres; or (b) 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: (a) the owner...",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "side property line",
+          "operator": ">=",
+          "value": "1.2",
+          "unit": "m",
+          "condition": "laneless parcel",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "enumerated_branch_condition_missing"
+        ],
+        "original_evidence": "for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres",
+        "repaired_context": "e length of a block face. . (2) Where subsection (1) applies, the side setback area must be clear of all air conditioning units, window wells and portions of a building measured from grade to a height of 2.4 metres. 15P2016, 62P2018 539 Building Setback from Side Property Line 56P2022 539 (1) Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: (a) 1.2 metres; or (b) 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building. (3) There is no requirement for a building setback from a property line upon which a party wall is located. (4) The minimum building setback from a side property line may be reduced to a zero setback where: (a) the owner...",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_137",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0023_002",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "setback",
+        "constraint_scope": "setback",
+        "applies_to": "side property line",
+        "operator": ">=",
+        "value": "3.0",
+        "unit": "m",
+        "condition": "laneless parcel, no provision is made for a private garage on the front or side of a building",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "applies_to_not_supported",
+        "operator_not_supported"
+      ],
+      "review_category": "operator_uncertain",
+      "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited.",
+      "source": {
+        "page": 471,
+        "evidence_id": "v3_repair_pack_0023_ev_002",
+        "original_evidence": "3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "repaired_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page",
+          "parent_lead_in_attached"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "setback",
+          "constraint_scope": "setback",
+          "applies_to": "side property line",
+          "operator": ">=",
+          "value": "3.0",
+          "unit": "m",
+          "condition": "laneless parcel, no provision is made for a private garage on the front or side of a building",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "applies_to_not_supported",
+          "operator_not_supported"
+        ],
+        "original_evidence": "3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "repaired_context": "Subject to subsections (3) through (9), the minimum building setback from any side property line is 1.2 metres. (2) Subject to subsections (3) through (7), for a laneless parcel, the minimum building setback from any side property line is: 3.0 metres on one side of the parcel when no provision is made for a private garage on the front or side of a building.",
+        "suggested_next_action": "Look for an operator in parent heading or lead-in text: minimum, maximum, required, permitted, or prohibited."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_140",
+      "candidate_id": "calgary_rcg_native_v3_repair_pack_0027_001",
+      "advisory_only": true,
+      "candidate_rule": {
+        "rule_object": "dwelling_units",
+        "constraint_scope": "dwelling_units",
+        "applies_to": "parcels designated R-CG District",
+        "operator": "<=",
+        "value": "75",
+        "unit": "units",
+        "condition": "",
+        "exception": ""
+      },
+      "support_gaps": [
+        "text_candidate_requires_review",
+        "rule_object_not_supported"
+      ],
+      "review_category": "possible_rule_object_mismatch",
+      "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block.",
+      "source": {
+        "page": 469,
+        "evidence_id": "v3_repair_pack_0027_ev_001",
+        "original_evidence": "The maximum density for parcels designated R-CG District is 75 units per hectare.",
+        "repaired_context": "PART 5 - 528 Rules 528 In addition to the rules in this District, all uses in this District must comply with: (a) the General Rules for Low Density Residential Land Use Districts referenced in Part 5, Division 1; (b) the Rules Governing All Districts referenced in Part 3; and (c) the applicable Uses And Use Rules referenced in Part 4. 529 Density 529 The maximum density for parcels designated R-CG District is 75 units per hectare. 530 Number of Main Residential Buildings on a Parcel 4P2017 530 deleted 531 Parcel Width 15P2016 531 The minimum parcel width is 7.5 metres for a parcel containing a Duplex Dwelling. 532 Facade Width 15P2016 532 The minimum width of a street facing façade of a unit is 4.2 metres. 533 At Grade Orientation of Units 56P2022 533 (1) All units must provide individual, separate, direct access to grade. (2) Units with an exterior wall facing a street m",
+        "repair_status": "reanchored",
+        "repair_actions": [
+          "reanchored_to_source_page"
+        ]
+      },
+      "p9_provenance": null,
+      "llm_context": {
+        "instruction": "Advisory only. Explain why this rule is in review and what source evidence would be needed. Do not approve, verify, or rewrite GIS outputs.",
+        "rule": {
+          "rule_object": "dwelling_units",
+          "constraint_scope": "dwelling_units",
+          "applies_to": "parcels designated R-CG District",
+          "operator": "<=",
+          "value": "75",
+          "unit": "units",
+          "condition": "",
+          "exception": ""
+        },
+        "support_gaps": [
+          "text_candidate_requires_review",
+          "rule_object_not_supported"
+        ],
+        "original_evidence": "The maximum density for parcels designated R-CG District is 75 units per hectare.",
+        "repaired_context": "PART 5 - 528 Rules 528 In addition to the rules in this District, all uses in this District must comply with: (a) the General Rules for Low Density Residential Land Use Districts referenced in Part 5, Division 1; (b) the Rules Governing All Districts referenced in Part 3; and (c) the applicable Uses And Use Rules referenced in Part 4. 529 Density 529 The maximum density for parcels designated R-CG District is 75 units per hectare. 530 Number of Main Residential Buildings on a Parcel 4P2017 530 deleted 531 Parcel Width 15P2016 531 The minimum parcel width is 7.5 metres for a parcel containing a Duplex Dwelling. 532 Facade Width 15P2016 532 The minimum width of a street facing façade of a unit is 4.2 metres. 533 At Grade Orientation of Units 56P2022 533 (1) All units must provide individual, separate, direct access to grade. (2) Units with an exterior wall facing a street m",
+        "suggested_next_action": "Find a second independent source or stronger source context; do not approve from one weak text block."
+      }
+    }
+  ]
+}

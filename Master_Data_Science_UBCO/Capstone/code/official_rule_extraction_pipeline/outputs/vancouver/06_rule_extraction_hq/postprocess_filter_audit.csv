@@ -1,0 +1,3 @@
+﻿reason,source_id,merged_rule_id,rule_object,subject,operator,value,unit,condition,evidence_text
+vancouver_numeric_operator_without_value,vancouver_generic_graph_pack_009__page_0009__local_010,pipeline5_merged_rule_0022,entry_porch_verandah_design,guard_rails_height,<=,,,"for exclusion of entries, porches and verandahs from laneway house floor area computation; guard rails do not exceed the required minimum height","they are open or protected by guard rails that do not exceed the required minimum height,"
+vancouver_duplicate_target_heading_permission,vancouver_generic_graph_pack_006__page_0008__local_004,pipeline5_merged_rule_0034,permitted_use,laneway house,permitted,,,,11.3.8 Laneway House

@@ -1,0 +1,16 @@
+{
+  "evidence_unit_count": 56,
+  "candidate_rule_count": 56,
+  "mean_evidence_quality_score": 0.99,
+  "candidate_evidence_match_rate": 1.0,
+  "candidate_value_grounding_rate": 1.0,
+  "candidate_unit_grounding_rate": 0.964,
+  "table_evidence_count": 0,
+  "table_context_completion_rate": 0.0,
+  "top_evidence_quality_issues": [
+    {
+      "issue": "evidence_text_not_in_source_context",
+      "count": 3
+    }
+  ]
+}

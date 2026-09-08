@@ -1,0 +1,16 @@
+{
+  "city": "vancouver_rs",
+  "model": "google/gemini-3.1-flash-lite",
+  "dry_run": false,
+  "pack_count": 197,
+  "cache_hit_count": 0,
+  "input_chars": 411290,
+  "output_chars": 16364,
+  "estimated_input_tokens": 102823,
+  "estimated_output_tokens": 4092,
+  "estimated_cost_usd": 0.032056,
+  "latency_ms": 298687,
+  "extraction_error_count": 0,
+  "extraction_errors": [],
+  "pricing_note": "Estimated from character count and planning price table; OpenRouter billing is authoritative."
+}

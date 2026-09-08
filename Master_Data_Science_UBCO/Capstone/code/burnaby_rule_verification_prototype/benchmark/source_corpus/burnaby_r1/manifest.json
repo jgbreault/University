@@ -1,0 +1,21 @@
+{
+  "corpus_version": "m4_source_corpus_1",
+  "city": "burnaby_r1",
+  "zone": "R1",
+  "configured_source_document": "R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "configured_source_url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "provenance_url": "https://www.burnaby.ca/sites/default/files/acquiadam/2024-07/R1Small-Scale-Multi-Unit-Housing-District.pdf",
+  "fetched_at": "2026-06-10T20:17:03+00:00",
+  "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/burnaby_r1/source.pdf",
+  "pdf_sha256": "4eb9ad463edaba70dba6cadaa47939726c6a539933053912ce881cc2d4ee4bac",
+  "provenance_sha256": "4eb9ad463edaba70dba6cadaa47939726c6a539933053912ce881cc2d4ee4bac",
+  "pdf_bytes": 443033,
+  "page_count": 7,
+  "config_hash": "ee2bb1d7a34cd205ac295ed9159260dd697f3dccb04beed3b3790a26c0d6e486",
+  "source_chunk_count": 93,
+  "rag_chunk_count": 93,
+  "table_entry_count": 54,
+  "numeric_clause_count": 40,
+  "rule_like_numeric_clause_count": 23,
+  "gold_leakage_guard": "No benchmark gold, expected dispositions, or verified outputs are stored in this source corpus."
+}

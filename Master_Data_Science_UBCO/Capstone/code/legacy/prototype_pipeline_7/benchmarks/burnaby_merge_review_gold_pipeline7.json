@@ -1,0 +1,80 @@
+[
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0011",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "5", "m"], [">=", "6.2", "m"]],
+    "standard_answer": "Split the Rowhouse interior-lot minimum width into >= 5 m generally and >= 6.2 m for end unit lots.",
+    "carried_from": "pipeline5 burnaby gold 0011 (same id, same rule)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0020",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "1", "units"], ["<=", "3", "units"]],
+    "standard_answer": "Split the Rowhouse permitted dwelling-unit range into >= 1 units and <= 3 units.",
+    "carried_from": "pipeline5 burnaby gold 0020 (same id, same rule)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0021",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "1", "units"], ["<=", "2", "units"]],
+    "standard_answer": "Split the small-scale multi-unit permitted dwelling-unit range into >= 1 units and <= 2 units.",
+    "carried_from": "pipeline5 burnaby gold 0021 (same id, same rule)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0022",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "3", "units"], ["<=", "4", "units"]],
+    "standard_answer": "Split the small-scale multi-unit permitted dwelling-unit range into >= 3 units and <= 4 units.",
+    "carried_from": "pipeline5 burnaby gold 0022 (same id, same rule)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0023",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "5", "units"], ["<=", "6", "units"]],
+    "standard_answer": "Split the FTN-area small-scale multi-unit permitted dwelling-unit range into >= 5 units and <= 6 units while preserving the FTN condition.",
+    "carried_from": "pipeline5 burnaby gold 0023 (same id, same rule)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0050",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "3.0", "m"], [">=", "1.5", "m"]],
+    "standard_answer": "Split the interior rear-yard minimum into >= 3.0 m generally and >= 1.5 m for accessory buildings.",
+    "carried_from": "pipeline5 burnaby gold 0047 (re-keyed: same rule, different merged_rule_id in pipeline7)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0052",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "expected_numeric_rules": [[">=", "0", "m"], [">=", "1.2", "m"]],
+    "standard_answer": "Split the Rowhouse interior side-yard minimum into >= 0 m generally and >= 1.2 m for end unit lots.",
+    "carried_from": "pipeline5 burnaby gold 0048 (re-keyed: same rule, different merged_rule_id in pipeline7)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0070",
+    "expected_action": "KEEP",
+    "expected_replacement_count": 1,
+    "standard_answer": "Keep the lot-configuration (panhandle) prohibition with its unresolved Section 101.6.4 and discretionary site-condition exceptions as qualifiers.",
+    "carried_from": "pipeline5 burnaby gold 0059 (re-keyed: same rule, different merged_rule_id in pipeline7)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0095",
+    "expected_action": "REPLACE",
+    "expected_replacement_count": 2,
+    "standard_answer": "Split the parking-location requirement into rear-of-lot parking when rear access is feasible and an alternate permission allowing parking elsewhere when rear access is unavailable or infeasible.",
+    "carried_from": "pipeline5 burnaby gold 0086 (re-keyed: same rule, different merged_rule_id in pipeline7)"
+  },
+  {
+    "merged_rule_id": "pipeline5_merged_rule_0098",
+    "expected_action": "KEEP",
+    "expected_replacement_count": 1,
+    "expected_numeric_rules": [["<=", "4.6", "m"]],
+    "standard_answer": "Keep the accessory-structure <= 4.6 m height rule with fences and retaining walls excluded from its scope.",
+    "carried_from": "pipeline5 burnaby gold 0090 (re-keyed: same rule, different merged_rule_id in pipeline7)"
+  }
+]

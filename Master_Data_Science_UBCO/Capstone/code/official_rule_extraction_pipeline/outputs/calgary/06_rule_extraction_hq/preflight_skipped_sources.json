@@ -1,0 +1,66 @@
+﻿[
+  {
+    "source_id": "calgary_generic_graph_pack_028__page_0195__local_003",
+    "reason": "table_like_text_block"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_004__page_0062__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_008__page_0071__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_018__page_0108__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_019__page_0109__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_031__page_0196__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_035__page_0217__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_069__page_0392__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_073__page_0395__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_075__page_0396__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_080__page_0397__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_084__page_0398__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_110__page_0420__local_001",
+    "reason": "short_context_without_target_or_rule_signal"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_171__page_0505__local_001",
+    "reason": "heading_only_without_target"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_180__page_0524__local_001",
+    "reason": "short_context_without_target_or_rule_signal"
+  },
+  {
+    "source_id": "calgary_generic_graph_pack_198__page_0567__local_001",
+    "reason": "short_context_without_target_or_rule_signal"
+  }
+]

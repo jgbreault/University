@@ -1,0 +1,485 @@
+[
+  {
+    "scope_key": "building_separation::building_separation",
+    "rule_object": "building_separation",
+    "constraint_scope": "building_separation",
+    "applies_to": "terraces, decks, or other similar surfaces",
+    "variants": [
+      {
+        "value": "1.0",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "1.0",
+        "unit": "m",
+        "operator": ">",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "0.9",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "1.2",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "2.4",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "6.0",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "dwelling_units::dwelling_units",
+    "rule_object": "dwelling_units",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit lots",
+    "variants": [
+      {
+        "value": "1",
+        "unit": "units",
+        "operator": "",
+        "direction": "eq",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "3",
+        "unit": "units",
+        "operator": "",
+        "direction": "eq",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "4",
+        "unit": "units",
+        "operator": "",
+        "direction": "eq",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "6",
+        "unit": "units",
+        "operator": "",
+        "direction": "eq",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "6",
+        "unit": "units",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm",
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "3",
+        "unit": "units",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "2",
+        "unit": "units",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "4",
+        "unit": "units",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "fire_access_corridor::fire_access_corridor",
+    "rule_object": "fire_access_corridor",
+    "constraint_scope": "fire_access_corridor",
+    "applies_to": "pedestrian walkway",
+    "variants": [
+      {
+        "value": "100",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "1.0",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "height::height",
+    "rule_object": "height",
+    "constraint_scope": "height",
+    "applies_to": "pedestrian walkway",
+    "variants": [
+      {
+        "value": "2.5",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "4.6",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "10",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "9.5",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "7.5",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "7.0",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "4.0",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "impervious_surface::impervious_surface",
+    "rule_object": "impervious_surface",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "lots in the R1 District on the Community Heritage Register",
+    "variants": [
+      {
+        "value": "70",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm",
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "60",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "lot_area::lot_area",
+    "rule_object": "lot_area",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "variants": [
+      {
+        "value": "281",
+        "unit": "m2",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm",
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "280",
+        "unit": "m2",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm",
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "560",
+        "unit": "m2",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "lot_coverage::lot_coverage",
+    "rule_object": "lot_coverage",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "lots in the R1 District on the Community Heritage Register",
+    "variants": [
+      {
+        "value": "60",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "55",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "40",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "30",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "45",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "setback::setback",
+    "rule_object": "setback",
+    "constraint_scope": "setback",
+    "applies_to": "street yards",
+    "variants": [
+      {
+        "value": "2.0",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "1.5",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm",
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "1.2",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm",
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "0.8",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "3.0",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "4.0",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "0",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "1.2",
+        "unit": "m",
+        "operator": "",
+        "direction": "eq",
+        "sources": [
+          "native_rag_llm"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "storeys::storeys",
+    "rule_object": "storeys",
+    "constraint_scope": "storeys",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "variants": [
+      {
+        "value": "3",
+        "unit": "storeys",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "2.5",
+        "unit": "storeys",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "2",
+        "unit": "storeys",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      },
+      {
+        "value": "1",
+        "unit": "storeys",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_v2_matrix"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Lane</title>
+                <onlink>https://gis.burnaby.ca/arcgis/rest/services/OpenData/OpenData5/MapServer/7</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Unnamed asphalted passages used for vehicle access to a rear facing garage, garbage servicing and subterranean utility services. Common in older subdivisions.</abstract>
+            <purpose>Asphalted service road between properties</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>transportation</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Lane</themekey>
+                <themekey>Alley</themekey>
+                <themekey>Roads</themekey>
+                <themekey>Transportation</themekey>
+                <themekey>Burnaby</themekey>
+                <themekey>Roads &amp; Traffic</themekey>
+                <themekey>Traffic</themekey>
+                <themekey>Streets</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>https://data.burnaby.ca/pages/open-government-licence</useconst>
+        <datacred>City of Burnaby</datacred>
+    </idinfo>
+    <spdoinfo>
+        <ptvctinf>
+            <sdtsterm>
+                <ptvctcnt>2253</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>GIS.Lane</enttypl>
+                <enttypd>Asphalted service road between properties.</enttypd>
+                <enttypds>City of Burnaby</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CompType</attrlabl>
+                <attrdef>Component/asset type in the asset mgmt. database (HANSEN).</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Dependant upon feature type.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>JURISDICTION</attrlabl>
+                <attrdef>Authority or department claiming governance of the component/asset.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNITID</attrlabl>
+                <attrdef>Beginning node ID of linear features. Non-unique value, "LANE".</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Validation enforced.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LANECLASS</attrlabl>
+                <attrdef>Lane classification, (Nornal Lane)</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_BY_ID</attrlabl>
+                <attrdef>User ID of feature author.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated values.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATUS</attrlabl>
+                <attrdef>The state or conditon of a feature or asset.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>System generated feature length.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated and managed.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COMPKEY</attrlabl>
+                <attrdef>Key to a component/asset. This is a system generated, sequential number..</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNITID2</attrlabl>
+                <attrdef>Ending node ID of linear features. Numerical sequence of ascending numbers.</attrdef>
+                <attrdefs>HANSEN</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Validation enforced.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Municipality</attrlabl>
+                <attrdef>Coded values for cities within Metro Vancouver.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Feature specific.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LANECODE</attrlabl>
+                <attrdef>Non-unique value, "LANE"</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>MODIFIED_BY_DATE</attrlabl>
+                <attrdef>Date of feature update.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated and managed.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LANESEGCODE</attrlabl>
+                <attrdef>Numerical sequence of ascending numbers equivalent to the UNITID2 value</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_BY_DATE</attrlabl>
+                <attrdef>Date of feature creation.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated values.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Coordinates defining the features.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GISKEY</attrlabl>
+                <attrdef>Unique value assigned to each feature. OBSOLETE.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                    				
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MODIFIED_BY_ID</attrlabl>
+                <attrdef>User ID of feature update.</attrdef>
+                <attrdefs>City of Burnaby</attrdefs>
+                <attrdomv>
+                    					
+                    <udom>System generated and managed.</udom>
+                    				
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20161018</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

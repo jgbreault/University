@@ -1,0 +1,18 @@
+{
+  "pipeline": "native_rag_llm_extraction_m4",
+  "city": "calgary_rcg",
+  "model": "google/gemini-3.1-flash-lite",
+  "dry_run": false,
+  "discovery_mode": "m4",
+  "retrieval_pack_count": 161,
+  "seed_pack_count": 125,
+  "repair_pack_count": 36,
+  "evidence_unit_count": 150,
+  "candidate_rule_count": 150,
+  "pass1_candidate_rule_count": 84,
+  "repair_candidate_rule_count": 66,
+  "matrix_candidate_count": 0,
+  "cache_hit_count": 0,
+  "extraction_error_count": 2,
+  "safety_contract": "M4 extraction proposes candidates only. Deterministic verification decides."
+}

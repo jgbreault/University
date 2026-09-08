@@ -1,0 +1,9 @@
+{
+  "url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+  "fetched_at": "2026-06-11T20:11:55+00:00",
+  "sha256": "80f30e5782fe5a62b1a6a7f768713f93fdea120245739831394d6b14b0555111",
+  "bytes": 869241,
+  "pages": null,
+  "page_count": 22,
+  "verification_note": "M5 provenance repair: official City of Vancouver Section 11 PDF URL was confirmed reachable through web search/extraction on 2026-06-15 with 22 pages and matching sampled clauses; direct shell download returned HTTP 403, so the existing local cached PDF hash is retained."
+}

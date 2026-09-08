@@ -1,0 +1,64 @@
+{
+  "discovery_version": "v3_discovery_1",
+  "advisory_only": true,
+  "pack_count": 125,
+  "chunk_count": 151,
+  "lane_counts": [
+    {
+      "name": "family_query",
+      "count": 27
+    },
+    {
+      "name": "section_neighbor",
+      "count": 13
+    },
+    {
+      "name": "seed_discovery",
+      "count": 46
+    },
+    {
+      "name": "target_section_expansion",
+      "count": 39
+    }
+  ],
+  "family_query_counts": [
+    {
+      "name": "dwelling_units",
+      "count": 1
+    },
+    {
+      "name": "floor_area",
+      "count": 1
+    },
+    {
+      "name": "height",
+      "count": 10
+    },
+    {
+      "name": "impervious_surface",
+      "count": 1
+    },
+    {
+      "name": "lot_area",
+      "count": 1
+    },
+    {
+      "name": "lot_coverage",
+      "count": 4
+    },
+    {
+      "name": "parking_access",
+      "count": 3
+    },
+    {
+      "name": "setback",
+      "count": 2
+    },
+    {
+      "name": "storeys",
+      "count": 4
+    }
+  ],
+  "near_miss_count": 0,
+  "near_misses_dropped_with_rule_signal": []
+}

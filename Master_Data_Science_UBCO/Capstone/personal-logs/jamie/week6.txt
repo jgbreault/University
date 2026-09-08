@@ -1,0 +1,24 @@
+## Week 6
+
+Summary:
+Developed GIS scripts to determine if a building can legally be built on a lot.
+
+Tasks:
+- Developed QGIS python script to define buildable areas with existing structures being accounted for.
+- Developed QGIS python script to generate the footprint of a building as a polygon in QGIS.
+- Developed QGIS python script to fit a footprint onto buildable areas.
+
+Time:
+- Developing initial QGIS python scripts: 20 hours
+- Developing new QGIS python scripts based on GMT feedback: 10 hours
+- DATA 599 Presentation: 1 hour
+- Meetings: 2 hours
+Total: 33 hours
+
+Challenges:
+- It is difficult to distinguish between rear principal buildings and accessory buildings. To resolve this, it will be assumed that lots with a front and rear principal building will not be able to fit another. This way any building that isn't the largest can be labelled as accessory.
+
+Next Steps:
+- Run the scripts on Calgary data to ensure robustness.
+- Final Report writing
+- Final Presentation prep

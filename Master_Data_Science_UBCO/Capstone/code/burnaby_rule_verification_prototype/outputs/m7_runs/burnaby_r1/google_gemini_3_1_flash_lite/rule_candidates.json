@@ -1,0 +1,4131 @@
+[
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0002_001",
+    "evidence_id": "m4_pack_0002_ev_001",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "operator": ">=",
+    "value": "281",
+    "unit": "m2",
+    "condition": "Minimum Lot Area",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0002",
+      "chunk_id": "burnaby_r1_101.3_003",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0002_002",
+    "evidence_id": "m4_pack_0002_ev_002",
+    "rule_object": "lot_area",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "operator": "<=",
+    "value": "280",
+    "unit": "m2",
+    "condition": "Maximum Lot Area",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0002",
+      "chunk_id": "burnaby_r1_101.3_003",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0004_001",
+    "evidence_id": "m4_pack_0004_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit lots",
+    "operator": "",
+    "value": "1",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0004",
+      "chunk_id": "burnaby_r1_101.1_014",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0004_002",
+    "evidence_id": "m4_pack_0004_ev_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit lots",
+    "operator": "",
+    "value": "3",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0004",
+      "chunk_id": "burnaby_r1_101.1_014",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0006_001",
+    "evidence_id": "m4_pack_0006_ev_001",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "lots in the R1 District on the Community Heritage Register",
+    "operator": "<=",
+    "value": "60",
+    "unit": "%",
+    "condition": "subject to approval of the Director of Planning and Development and the registration of a Section 219 Covenant",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0006",
+      "chunk_id": "burnaby_r1_101.1_030",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0006_002",
+    "evidence_id": "m4_pack_0006_ev_002",
+    "rule_object": "impervious_surface",
+    "constraint_type": "maximum",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "lots in the R1 District on the Community Heritage Register",
+    "operator": "<=",
+    "value": "70",
+    "unit": "%",
+    "condition": "subject to approval of the Director of Planning and Development and the registration of a Section 219 Covenant",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0006",
+      "chunk_id": "burnaby_r1_101.1_030",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0006_003",
+    "evidence_id": "m4_pack_0006_ev_003",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "street yards",
+    "operator": ">=",
+    "value": "2.0",
+    "unit": "m",
+    "condition": "lots in the R1 District on the Community Heritage Register",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0006",
+      "chunk_id": "burnaby_r1_101.1_030",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0008_001",
+    "evidence_id": "m4_pack_0008_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit",
+    "operator": "",
+    "value": "1",
+    "unit": "units",
+    "condition": "on a lot",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0008",
+      "chunk_id": "burnaby_r1_101.1_019",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0008_002",
+    "evidence_id": "m4_pack_0008_ev_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit",
+    "operator": "",
+    "value": "3",
+    "unit": "units",
+    "condition": "on a lot",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0008",
+      "chunk_id": "burnaby_r1_101.1_019",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0017_001",
+    "evidence_id": "m4_pack_0017_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "1",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 1 to 3 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0017",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0017_002",
+    "evidence_id": "m4_pack_0017_ev_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "3",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 1 to 3 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0017",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0017_003",
+    "evidence_id": "m4_pack_0017_ev_003",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "4",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 4 to 6 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction",
+      "source_quote_not_in_retrieved_pack"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0017",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": false,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0017_004",
+    "evidence_id": "m4_pack_0017_ev_004",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "6",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 4 to 6 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction",
+      "source_quote_not_in_retrieved_pack"
+    ],
+    "native_provenance": {
+      "pack_id": "m4_pack_0017",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": false,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0018_001",
+    "evidence_id": "m4_pack_0018_ev_001",
+    "rule_object": "fire_access_corridor",
+    "constraint_type": "maximum",
+    "constraint_scope": "fire_access_corridor",
+    "applies_to": "pedestrian walkway",
+    "operator": "<=",
+    "value": "100",
+    "unit": "m",
+    "condition": "Contiguous rowhouse lots",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0018",
+      "chunk_id": "burnaby_r1_101.1_010",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0018_002",
+    "evidence_id": "m4_pack_0018_ev_002",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "pedestrian walkway",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "Contiguous rowhouse lots",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0018",
+      "chunk_id": "burnaby_r1_101.1_010",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0018_003",
+    "evidence_id": "m4_pack_0018_ev_003",
+    "rule_object": "height",
+    "constraint_type": "minimum",
+    "constraint_scope": "height",
+    "applies_to": "pedestrian walkway",
+    "operator": ">=",
+    "value": "2.5",
+    "unit": "m",
+    "condition": "Contiguous rowhouse lots",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0018",
+      "chunk_id": "burnaby_r1_101.1_010",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0019_001",
+    "evidence_id": "m4_pack_0019_ev_001",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "garage or carport",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "below grade",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0019",
+      "chunk_id": "burnaby_r1_101.1_016",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0021_001",
+    "evidence_id": "m4_pack_0021_ev_001",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "accessory structure",
+    "operator": "<=",
+    "value": "4.6",
+    "unit": "m",
+    "condition": "not being a building, excluding a fence or a retaining wall, located outside of a required yard",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0021",
+      "chunk_id": "burnaby_r1_101.2_017",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0025_001",
+    "evidence_id": "m4_pack_0025_ev_001",
+    "rule_object": "building_separation",
+    "constraint_type": "maximum",
+    "constraint_scope": "building_separation",
+    "applies_to": "terraces, decks, or other similar surfaces",
+    "operator": "<=",
+    "value": "1.0",
+    "unit": "m",
+    "condition": "above grade",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0025",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0025_002",
+    "evidence_id": "m4_pack_0025_ev_002",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features",
+    "operator": ">",
+    "value": "1.0",
+    "unit": "m",
+    "condition": "above grade",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0025",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0025_003",
+    "evidence_id": "m4_pack_0025_ev_003",
+    "rule_object": "building_separation",
+    "constraint_type": "maximum",
+    "constraint_scope": "building_separation",
+    "applies_to": "belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features",
+    "operator": "<=",
+    "value": "0.9",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0025",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0025_004",
+    "evidence_id": "m4_pack_0025_ev_004",
+    "rule_object": "building_separation",
+    "constraint_type": "maximum",
+    "constraint_scope": "building_separation",
+    "applies_to": "eaves",
+    "operator": "<=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0025",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0034_001",
+    "evidence_id": "m4_pack_0034_ev_001",
+    "rule_object": "fire_access_corridor",
+    "constraint_type": "minimum",
+    "constraint_scope": "fire_access_corridor",
+    "applies_to": "dwelling units",
+    "operator": ">=",
+    "value": "1.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0034",
+      "chunk_id": "burnaby_r1_101.2_028",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0034_002",
+    "evidence_id": "m4_pack_0034_ev_002",
+    "rule_object": "height",
+    "constraint_type": "minimum",
+    "constraint_scope": "height",
+    "applies_to": "fire_access_corridor",
+    "operator": ">=",
+    "value": "2.5",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0034",
+      "chunk_id": "burnaby_r1_101.2_028",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0035_001",
+    "evidence_id": "m4_pack_0035_ev_001",
+    "rule_object": "automatic_sprinkler",
+    "constraint_type": "minimum",
+    "constraint_scope": "automatic_sprinkler",
+    "applies_to": "dwelling units",
+    "operator": ">",
+    "value": "45",
+    "unit": "m",
+    "condition": "located more than 45 m from a lot line abutting a street",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0035",
+      "chunk_id": "burnaby_r1_101.1_027",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0044_001",
+    "evidence_id": "m4_pack_0044_ev_001",
+    "rule_object": "setback",
+    "constraint_type": "maximum",
+    "constraint_scope": "setback",
+    "applies_to": "projections into required lane yards",
+    "operator": "<=",
+    "value": "0.8",
+    "unit": "m",
+    "condition": "R1 District",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0044",
+      "chunk_id": "burnaby_r1_101.2_023",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0057_001",
+    "evidence_id": "m4_pack_0057_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "maximum",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "residential dwellings",
+    "operator": "<=",
+    "value": "6",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0057",
+      "chunk_id": "burnaby_r1_101.1_001",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_m4_pack_0058_001",
+    "evidence_id": "m4_pack_0058_ev_001",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "operator": ">=",
+    "value": "560",
+    "unit": "m2",
+    "condition": "boarding, lodging or rooming houses",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "m4_pack_0058",
+      "chunk_id": "burnaby_r1_101.1_012",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_001",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "maximum",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "3",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Permitted Dwelling Units (including secondary suites)",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_002",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "maximum",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "2",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Permitted Dwelling Units (including secondary suites)",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_003",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_003",
+    "rule_object": "dwelling_units",
+    "constraint_type": "maximum",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "4",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Permitted Dwelling Units (including secondary suites)",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_004",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_004",
+    "rule_object": "dwelling_units",
+    "constraint_type": "maximum",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "6",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Permitted Dwelling Units (including secondary suites)",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_005",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_005",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "constraint_scope": "lot_area",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "281",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Area",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_006",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_006",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "constraint_scope": "lot_area",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "281",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Area",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_007",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_007",
+    "rule_object": "lot_area",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_area",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "280",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Area .1",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_008",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_008",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "55",
+    "unit": "%",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | All Buildings",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_009",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_009",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "40",
+    "unit": "%",
+    "condition": "Lots < 567 m2",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | All Buildings",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_010",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_010",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "30",
+    "unit": "%",
+    "condition": "Lots > 567 m2",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | All Buildings",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_011",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_011",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "40",
+    "unit": "%",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | All Buildings",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_012",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_012",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "45",
+    "unit": "%",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | All Buildings",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_013",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_013",
+    "rule_object": "impervious_surface",
+    "constraint_type": "maximum",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "70",
+    "unit": "%",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | Impervious Surfaces",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_014",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_014",
+    "rule_object": "impervious_surface",
+    "constraint_type": "maximum",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "60",
+    "unit": "%",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | Impervious Surfaces",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_015",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_015",
+    "rule_object": "impervious_surface",
+    "constraint_type": "maximum",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "60",
+    "unit": "%",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | Impervious Surfaces",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_016",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_016",
+    "rule_object": "impervious_surface",
+    "constraint_type": "maximum",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "70",
+    "unit": "%",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Lot Coverage | Impervious Surfaces",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_017",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_017",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "10",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_018",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_018",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "9.5",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_019",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_019",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "10",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_020",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_020",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "9.5",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_021",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_021",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "10",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_022",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_022",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "9.5",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_023",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_023",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "10",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_024",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_024",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "9.5",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Height",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_025",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_025",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "3",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_026",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_026",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "2.5",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_027",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_027",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "3",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_028",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_028",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "3",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Front Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_029",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_029",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "7.5",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_030",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_030",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "7.0",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_031",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_031",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "7.5",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_032",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_032",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "7.0",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_033",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_033",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "7.5",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_034",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_034",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "7.0",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_035",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_035",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "7.5",
+    "unit": "m",
+    "condition": "sloping roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_036",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_036",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "7.0",
+    "unit": "m",
+    "condition": "flat roof",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Height",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_037",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_037",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "2",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_038",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_038",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "2",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_039",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_039",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "2",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_040",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_040",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "2",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Storeys (basement inclusive)",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_041",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_041",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_042",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_042",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": "<=",
+    "value": "1",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_043",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_043",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_044",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_044",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": "<=",
+    "value": "1",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_045",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_045",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_046",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_046",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": "<=",
+    "value": "1",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_047",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_047",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_048",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_048",
+    "rule_object": "storeys",
+    "constraint_type": "maximum",
+    "constraint_scope": "storeys",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": "<=",
+    "value": "1",
+    "unit": "storeys",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Maximum Height | Rear Principal Buildings | Accessory Buildings",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_049",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_049",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_050",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_050",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "front",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_051",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_051",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "flanking",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_052",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_052",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "front",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_053",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_053",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "flanking",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_054",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_054",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "4.0",
+    "unit": "m",
+    "condition": "front",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_055",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_055",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "flanking",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Street Yard",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_056",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_056",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_057",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_057",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_058",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_058",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_059",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_059",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Lane Yard",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_060",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_060",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_061",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_061",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_062",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_062",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_063",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_063",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "3.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Rear Yard",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_064",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_064",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": ">=",
+    "value": "0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_065",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_065",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_066",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_066",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_067",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_067",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Lot Line Setbacks for All Buildings .2 .3 | Interior Side Yard",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_068",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_068",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_069",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_069",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_070",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_070",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front Principals",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_071",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_071",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_072",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_072",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_073",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_073",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Rear Principals",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_074",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_074",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": ">=",
+    "value": "6.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_075",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_075",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "6.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_076",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_076",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "6.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_077",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_077",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "6.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between Front & Rear Principals",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_078",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b0_078",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Rowhouse 1 to 3 Units",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings",
+      "band_key": 0,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_079",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b1_079",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 1 to 2 Units",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings",
+      "band_key": 1,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_080",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b2_080",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 3 to 4 Units",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings",
+      "band_key": 2,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v2matrix_081",
+    "evidence_id": "burnaby_r1_matrix_p2_t0_b3_081",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "Small-Scale Multi-Unit 5 to 6 Units Frequent Transit Network Area Only",
+    "operator": ">=",
+    "value": "2.4",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v2_matrix",
+    "extraction_method": "deterministic_matrix_v3",
+    "native_provenance": {
+      "page": 2,
+      "row_label": "Minimum Separation of Buildings on the Same Lot .4 .5 | Between All Other Buildings",
+      "band_key": 3,
+      "discovery_confidence": 0.9,
+      "selected_because": [
+        "matrix_cell"
+      ],
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "lane": "table_rule",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v3clause_m4_pack_0035_001",
+    "evidence_id": "m4_pack_0035_v3_clause_ev_001",
+    "rule_object": "automatic_sprinkler",
+    "constraint_type": "required",
+    "constraint_scope": "dwelling_unit",
+    "applies_to": "Dwelling units more than 45 m from a street lot line",
+    "operator": ">",
+    "value": "45",
+    "unit": "m",
+    "condition": "distance from lot line abutting a street",
+    "exception": "",
+    "source_stream": "native_v3_clause",
+    "extraction_method": "native_v3_clause",
+    "extraction_final_action": "",
+    "native_provenance": {
+      "pack_id": "m4_pack_0035",
+      "chunk_id": "burnaby_r1_101.1_027",
+      "pattern": "automatic_sprinkler_distance_requirement",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v3clause_m4_pack_0045_002",
+    "evidence_id": "m4_pack_0045_v3_clause_ev_002",
+    "rule_object": "permitted_use",
+    "constraint_type": "allowed",
+    "constraint_scope": "district",
+    "applies_to": "Small-Scale Multi-Unit Housing",
+    "operator": "allowed",
+    "value": null,
+    "unit": null,
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_v3_clause",
+    "extraction_method": "native_v3_clause",
+    "extraction_final_action": "",
+    "native_provenance": {
+      "pack_id": "m4_pack_0045",
+      "chunk_id": "burnaby_r1_101.2_002",
+      "pattern": "permitted_use_row",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_v3clause_m4_pack_0045_003",
+    "evidence_id": "m4_pack_0045_v3_clause_ev_003",
+    "rule_object": "permitted_use",
+    "constraint_type": "allowed",
+    "constraint_scope": "use",
+    "applies_to": "Principal Use",
+    "operator": "allowed",
+    "value": null,
+    "unit": null,
+    "condition": "Group Home",
+    "exception": "",
+    "source_stream": "native_v3_clause",
+    "extraction_method": "native_v3_clause",
+    "extraction_final_action": "",
+    "native_provenance": {
+      "pack_id": "m4_pack_0045",
+      "chunk_id": "burnaby_r1_101.2_002",
+      "pattern": "permitted_use_row",
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0001_001",
+    "evidence_id": "v3_repair_pack_0001_ev_001",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "constraint_scope": "lot_area",
+    "applies_to": "Minimum Lot Area",
+    "operator": ">=",
+    "value": "281",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0001",
+      "chunk_id": "burnaby_r1_101.3_003",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0001_002",
+    "evidence_id": "v3_repair_pack_0001_ev_002",
+    "rule_object": "lot_area",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_area",
+    "applies_to": "Maximum Lot Area",
+    "operator": "<=",
+    "value": "280",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0001",
+      "chunk_id": "burnaby_r1_101.3_003",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0003_001",
+    "evidence_id": "v3_repair_pack_0003_ev_001",
+    "rule_object": "lot_area",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "operator": "<=",
+    "value": "280",
+    "unit": "m2",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0003",
+      "chunk_id": "burnaby_r1_table_002_r008",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0004_001",
+    "evidence_id": "v3_repair_pack_0004_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit lots",
+    "operator": "",
+    "value": "1",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0004",
+      "chunk_id": "burnaby_r1_101.1_014",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0004_002",
+    "evidence_id": "v3_repair_pack_0004_ev_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit lots",
+    "operator": "",
+    "value": "3",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0004",
+      "chunk_id": "burnaby_r1_101.1_014",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0005_001",
+    "evidence_id": "v3_repair_pack_0005_ev_001",
+    "rule_object": "lot_coverage",
+    "constraint_type": "maximum",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "lots in the R1 District on the Community Heritage Register",
+    "operator": "<=",
+    "value": "60",
+    "unit": "%",
+    "condition": "subject to approval of the Director of Planning and Development and the registration of a Section 219 Covenant",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0005",
+      "chunk_id": "burnaby_r1_101.1_030",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0005_002",
+    "evidence_id": "v3_repair_pack_0005_ev_002",
+    "rule_object": "impervious_surface",
+    "constraint_type": "maximum",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "lots in the R1 District on the Community Heritage Register",
+    "operator": "<=",
+    "value": "70",
+    "unit": "%",
+    "condition": "subject to approval of the Director of Planning and Development and the registration of a Section 219 Covenant",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0005",
+      "chunk_id": "burnaby_r1_101.1_030",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0005_003",
+    "evidence_id": "v3_repair_pack_0005_ev_003",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "street yards",
+    "operator": ">=",
+    "value": "2.0",
+    "unit": "m",
+    "condition": "lots in the R1 District on the Community Heritage Register",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0005",
+      "chunk_id": "burnaby_r1_101.1_030",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0006_001",
+    "evidence_id": "v3_repair_pack_0006_ev_001",
+    "rule_object": "setback",
+    "constraint_type": "dimensional",
+    "constraint_scope": "setback",
+    "applies_to": "garage or carport",
+    "operator": "",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "below grade",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0006",
+      "chunk_id": "burnaby_r1_101.1_016",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0007_001",
+    "evidence_id": "v3_repair_pack_0007_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit",
+    "operator": "",
+    "value": "1",
+    "unit": "units",
+    "condition": "R1 District",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0007",
+      "chunk_id": "burnaby_r1_101.1_019",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0007_002",
+    "evidence_id": "v3_repair_pack_0007_ev_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit",
+    "operator": "",
+    "value": "3",
+    "unit": "units",
+    "condition": "R1 District",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0007",
+      "chunk_id": "burnaby_r1_101.1_019",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0008_001",
+    "evidence_id": "v3_repair_pack_0008_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "1",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 1 to 3 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0008",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0008_002",
+    "evidence_id": "v3_repair_pack_0008_ev_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "3",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 1 to 3 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0008",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0008_003",
+    "evidence_id": "v3_repair_pack_0008_ev_003",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "4",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 4 to 6 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction",
+      "source_quote_not_in_retrieved_pack"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0008",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": false,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0008_004",
+    "evidence_id": "v3_repair_pack_0008_ev_004",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "dwelling units",
+    "operator": "",
+    "value": "6",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot 4 to 6 Units",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction",
+      "source_quote_not_in_retrieved_pack"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0008",
+      "chunk_id": "burnaby_r1_101.1_007",
+      "source_quote_supported": false,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0009_001",
+    "evidence_id": "v3_repair_pack_0009_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit housing",
+    "operator": "",
+    "value": "1",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0009",
+      "chunk_id": "burnaby_r1_table_008_r001",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0009_002",
+    "evidence_id": "v3_repair_pack_0009_ev_002",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit housing",
+    "operator": "",
+    "value": "3",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0009",
+      "chunk_id": "burnaby_r1_table_008_r001",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0009_003",
+    "evidence_id": "v3_repair_pack_0009_ev_003",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit housing",
+    "operator": "",
+    "value": "4",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0009",
+      "chunk_id": "burnaby_r1_table_008_r001",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0009_004",
+    "evidence_id": "v3_repair_pack_0009_ev_004",
+    "rule_object": "dwelling_units",
+    "constraint_type": "dimensional",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit housing",
+    "operator": "",
+    "value": "6",
+    "unit": "units",
+    "condition": "Total Dwelling Units on a Lot",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "REVIEW",
+    "extraction_review_reasons": [
+      "operator_missing_from_extraction"
+    ],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0009",
+      "chunk_id": "burnaby_r1_table_008_r001",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0010_001",
+    "evidence_id": "v3_repair_pack_0010_ev_001",
+    "rule_object": "fire_access_corridor",
+    "constraint_type": "maximum",
+    "constraint_scope": "fire_access_corridor",
+    "applies_to": "pedestrian walkway",
+    "operator": "<=",
+    "value": "100",
+    "unit": "m",
+    "condition": "Contiguous rowhouse lots",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0010",
+      "chunk_id": "burnaby_r1_101.1_010",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0010_002",
+    "evidence_id": "v3_repair_pack_0010_ev_002",
+    "rule_object": "setback",
+    "constraint_type": "minimum",
+    "constraint_scope": "setback",
+    "applies_to": "pedestrian walkway",
+    "operator": ">=",
+    "value": "1.5",
+    "unit": "m",
+    "condition": "Contiguous rowhouse lots",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0010",
+      "chunk_id": "burnaby_r1_101.1_010",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0010_003",
+    "evidence_id": "v3_repair_pack_0010_ev_003",
+    "rule_object": "height",
+    "constraint_type": "minimum",
+    "constraint_scope": "height",
+    "applies_to": "pedestrian walkway",
+    "operator": ">=",
+    "value": "2.5",
+    "unit": "m",
+    "condition": "Contiguous rowhouse lots",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0010",
+      "chunk_id": "burnaby_r1_101.1_010",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0011_001",
+    "evidence_id": "v3_repair_pack_0011_ev_001",
+    "rule_object": "fire_access_corridor",
+    "constraint_type": "minimum",
+    "constraint_scope": "fire_access_corridor",
+    "applies_to": "dwelling units",
+    "operator": ">=",
+    "value": "1.0",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0011",
+      "chunk_id": "burnaby_r1_101.2_028",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0011_002",
+    "evidence_id": "v3_repair_pack_0011_ev_002",
+    "rule_object": "height",
+    "constraint_type": "minimum",
+    "constraint_scope": "height",
+    "applies_to": "fire access corridor",
+    "operator": ">=",
+    "value": "2.5",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0011",
+      "chunk_id": "burnaby_r1_101.2_028",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0012_001",
+    "evidence_id": "v3_repair_pack_0012_ev_001",
+    "rule_object": "building_separation",
+    "constraint_type": "maximum",
+    "constraint_scope": "building_separation",
+    "applies_to": "terraces, decks, or other similar surfaces",
+    "operator": "<=",
+    "value": "1.0",
+    "unit": "m",
+    "condition": "above grade",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0012",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0012_002",
+    "evidence_id": "v3_repair_pack_0012_ev_002",
+    "rule_object": "building_separation",
+    "constraint_type": "minimum",
+    "constraint_scope": "building_separation",
+    "applies_to": "balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features",
+    "operator": ">",
+    "value": "1.0",
+    "unit": "m",
+    "condition": "above grade",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0012",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0012_003",
+    "evidence_id": "v3_repair_pack_0012_ev_003",
+    "rule_object": "building_separation",
+    "constraint_type": "maximum",
+    "constraint_scope": "building_separation",
+    "applies_to": "belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features",
+    "operator": "<=",
+    "value": "0.9",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0012",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0012_004",
+    "evidence_id": "v3_repair_pack_0012_ev_004",
+    "rule_object": "building_separation",
+    "constraint_type": "maximum",
+    "constraint_scope": "building_separation",
+    "applies_to": "eaves",
+    "operator": "<=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0012",
+      "chunk_id": "burnaby_r1_101.1_022",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0013_001",
+    "evidence_id": "v3_repair_pack_0013_ev_001",
+    "rule_object": "height",
+    "constraint_type": "maximum",
+    "constraint_scope": "height",
+    "applies_to": "accessory structure",
+    "operator": "<=",
+    "value": "4.6",
+    "unit": "m",
+    "condition": "not being a building, excluding a fence or a retaining wall, located outside of a required yard",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0013",
+      "chunk_id": "burnaby_r1_101.2_017",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0014_001",
+    "evidence_id": "v3_repair_pack_0014_ev_001",
+    "rule_object": "setback",
+    "constraint_type": "maximum",
+    "constraint_scope": "setback",
+    "applies_to": "projections into required lane yards",
+    "operator": "<=",
+    "value": "0.8",
+    "unit": "m",
+    "condition": "in the R1 District",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0014",
+      "chunk_id": "burnaby_r1_101.2_023",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0015_001",
+    "evidence_id": "v3_repair_pack_0015_ev_001",
+    "rule_object": "dwelling_units",
+    "constraint_type": "maximum",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "ground-oriented residential dwellings",
+    "operator": "<=",
+    "value": "6",
+    "unit": "units",
+    "condition": "",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0015",
+      "chunk_id": "burnaby_r1_101.1_001",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  },
+  {
+    "candidate_id": "burnaby_r1_native_v3_repair_pack_0016_001",
+    "evidence_id": "v3_repair_pack_0016_ev_001",
+    "rule_object": "lot_area",
+    "constraint_type": "minimum",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "operator": ">=",
+    "value": "560",
+    "unit": "m2",
+    "condition": "boarding, lodging or rooming houses",
+    "exception": "",
+    "source_stream": "native_rag_llm",
+    "extraction_method": "native_rag_llm_v3",
+    "extraction_final_action": "",
+    "extraction_review_reasons": [],
+    "native_provenance": {
+      "pack_id": "v3_repair_pack_0016",
+      "chunk_id": "burnaby_r1_101.1_012",
+      "source_quote_supported": true,
+      "v2_run_id": "burnaby_r1_google_gemini_3_1_flash_lite_3098b6f0a276",
+      "model": "google/gemini-3.1-flash-lite",
+      "v3_final": true
+    }
+  }
+]

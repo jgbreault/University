@@ -1,0 +1,86 @@
+[
+  {
+    "scope_key": "dwelling_units::dwelling_units",
+    "rule_object": "dwelling_units",
+    "constraint_scope": "dwelling_units",
+    "applies_to": "small-scale multi-unit lots",
+    "value": "6",
+    "unit": "units",
+    "operator": "<=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v2_matrix"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "impervious_surface::impervious_surface",
+    "rule_object": "impervious_surface",
+    "constraint_scope": "impervious_surface",
+    "applies_to": "lots in the R1 District on the Community Heritage Register",
+    "value": "70",
+    "unit": "%",
+    "operator": "<=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v2_matrix"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "lot_area::lot_area",
+    "rule_object": "lot_area",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "value": "281",
+    "unit": "m2",
+    "operator": ">=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v2_matrix"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "lot_area::lot_area",
+    "rule_object": "lot_area",
+    "constraint_scope": "lot_area",
+    "applies_to": "lot",
+    "value": "280",
+    "unit": "m2",
+    "operator": "<=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v2_matrix"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "setback::setback",
+    "rule_object": "setback",
+    "constraint_scope": "setback",
+    "applies_to": "street yards",
+    "value": "1.5",
+    "unit": "m",
+    "operator": ">=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v2_matrix"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "setback::setback",
+    "rule_object": "setback",
+    "constraint_scope": "setback",
+    "applies_to": "street yards",
+    "value": "1.2",
+    "unit": "m",
+    "operator": ">=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v2_matrix"
+    ],
+    "source_count": 2
+  }
+]

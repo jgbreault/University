@@ -1,0 +1,29 @@
+## Week 2
+
+Summary:
+Reviewed Burnaby zoning bylaws to design a robust rule structure that can be applied to any type of zoning bylaw.
+
+Tasks:
+- Reviewed Burnaby zoning bylaws and compiled a list of rules that could impact building single-laneway homes
+- Designed a robust rule structure that can be applied to any zoning bylaw with examples
+- Oriented Zihao, our new team member
+- Wrote blocker reports and had related discussions to clarify points of confusion
+- Prepared presentation slides and conducted the weekly DATA 599 presentation
+
+Time:
+- Burnaby bylaw compilation: 12 hours
+- Rule structure design: 12 hours
+- Zihao orientation: 2 hours
+- Blocker reports and discussions: 3 hours
+- DATA 599 Presentation: 8 hours
+Total: 37 hours
+
+Challenges:
+- Still getting used to GMT's blocker and question protocol
+- Understanding what the deliverables of the project are
+- Differences between types of bylaws; different attributes are needed in different cases
+- Differences between bylaws in different municipalities
+- Incorporation of a new team member that wasn't planned for (he is more than welcome)
+
+Next Steps:
+- Meet with GMT early next week to discuss the deliverables for the project and next steps. GMT has already been notified that this needs to be discussed asap.

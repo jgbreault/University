@@ -1,0 +1,70 @@
+{
+  "pipeline": "m4_full_bylaw_bakeoff",
+  "city": "vancouver_rs",
+  "discovery_mode": "m4",
+  "pdf_hash": "80f30e5782fe5a62b1a6a7f768713f93fdea120245739831394d6b14b0555111",
+  "config_hash": "29ab67d30e349b55eb7d056a8fa3d8cf61765b97244bfec49ae9faafe82c959a",
+  "prompt_template_hash": "9b32be46a52cbe5e89a3fb5c7f0b87247d55dc90ec66f9c3351ed36b579625d9",
+  "discovery_version": "m4_exhaustive_discovery_1",
+  "source": {
+    "source_layer": "m4_exhaustive_bylaw_discovery",
+    "discovery_version": "m4_exhaustive_discovery_1",
+    "source_chunk_count": 251,
+    "evidence_pack_count": 178,
+    "page_count": 21,
+    "first_page": 1,
+    "last_page": 21,
+    "packed_page_count": 20,
+    "lane_counts": [
+      {
+        "name": "family_query",
+        "count": 13
+      },
+      {
+        "name": "section_neighbor",
+        "count": 54
+      },
+      {
+        "name": "seed_discovery",
+        "count": 63
+      },
+      {
+        "name": "target_section_expansion",
+        "count": 48
+      }
+    ],
+    "advisory_only": true,
+    "city": "vancouver_rs",
+    "discovery_mode": "m4",
+    "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/vancouver_rs/source.pdf",
+    "pdf_hash": "80f30e5782fe5a62b1a6a7f768713f93fdea120245739831394d6b14b0555111",
+    "config_hash": "29ab67d30e349b55eb7d056a8fa3d8cf61765b97244bfec49ae9faafe82c959a",
+    "discovery_hash": "174fb5b343e67e34794fa98d8197840a51312a51456c86fdca2e14873bd48bd2",
+    "cache_db": "outputs/m7_cache/vancouver_rs.sqlite",
+    "m4_source_corpus": {
+      "path": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/benchmark/source_corpus/vancouver_rs",
+      "corpus_version": "m4_source_corpus_1",
+      "numeric_clause_count": 40,
+      "rule_like_numeric_clause_count": 38,
+      "selected_rule_like_numeric_coverage": 1.0
+    }
+  },
+  "runs": [
+    {
+      "model": "google/gemini-3.1-flash-lite",
+      "output_dir": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/outputs/m4_runs/vancouver_rs/google_gemini_3_1_flash_lite",
+      "candidate_rule_count": 56,
+      "evidence_unit_count": 56,
+      "repair_pack_count": 19,
+      "estimated_cost_usd": 0.032056,
+      "latency_ms": 298687,
+      "verified_rule_count": 10,
+      "review_rule_count": 31,
+      "rejected_rule_count": 15,
+      "false_verified_count": 0,
+      "verified_precision": 1.0,
+      "verified_or_review_recall": 1.0
+    }
+  ],
+  "safety_contract": "LLM/RAG propose or explain; deterministic verifier decides."
+}

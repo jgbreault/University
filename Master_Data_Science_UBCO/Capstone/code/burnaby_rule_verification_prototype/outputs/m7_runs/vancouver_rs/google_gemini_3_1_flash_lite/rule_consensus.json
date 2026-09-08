@@ -1,0 +1,44 @@
+[
+  {
+    "scope_key": "building_separation::building_separation",
+    "rule_object": "building_separation",
+    "constraint_scope": "building_separation",
+    "applies_to": "laneway house",
+    "value": "4.9",
+    "unit": "m",
+    "operator": ">=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v3_clause"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "floor_area::floor_area",
+    "rule_object": "floor_area",
+    "constraint_scope": "floor_area",
+    "applies_to": "parking space length",
+    "value": "186",
+    "unit": "m2",
+    "operator": "<=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v3_clause"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "lot_coverage::lot_coverage",
+    "rule_object": "lot_coverage",
+    "constraint_scope": "lot_coverage",
+    "applies_to": "site with a laneway house",
+    "value": "50",
+    "unit": "%",
+    "operator": "<=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v3_clause"
+    ],
+    "source_count": 2
+  }
+]

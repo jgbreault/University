@@ -1,0 +1,574 @@
+[
+  {
+    "chunk_id": "calgary_rcg_table_001_r001",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "ACADIA",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "DOWNTOWN WEST\nEND"
+      },
+      {
+        "column_header": "",
+        "cell_value": "LINCOLN PARK"
+      },
+      {
+        "column_header": "",
+        "cell_value": "ROSEMONT"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | ACADIA 15P2016,62P2018, | ACADIA | DOWNTOWN WEST\nEND; LINCOLN PARK; ROSEMONT"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r002",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "ALBERT PARK/\nRADISSON\nHEIGHTS",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "EAGLE RIDGE"
+      },
+      {
+        "column_header": "",
+        "cell_value": "LOWER MOUNT\nROYAL"
+      },
+      {
+        "column_header": "",
+        "cell_value": "ROSSCARROCK"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | ALBERT PARK/\nRADISSON\nHEIGHTS 15P2016,62P2018, | ALBERT PARK/\nRADISSON\nHEIGHTS | EAGLE RIDGE; LOWER MOUNT\nROYAL; ROSSCARROCK"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r003",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "ALTADORE",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "EAU CLAIRE"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MANCHESTER"
+      },
+      {
+        "column_header": "",
+        "cell_value": "ROXBORO"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | ALTADORE 15P2016,62P2018, | ALTADORE | EAU CLAIRE; MANCHESTER; ROXBORO"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r004",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BANFF TRAIL",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "ELBOW PARK"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MAPLE RIDGE"
+      },
+      {
+        "column_header": "",
+        "cell_value": "RUTLAND PARK"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BANFF TRAIL 15P2016,62P2018, | BANFF TRAIL | ELBOW PARK; MAPLE RIDGE; RUTLAND PARK"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r005",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BANKVIEW",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "ELBOYA"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MARLBOROUGH"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SCARBORO"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BANKVIEW 15P2016,62P2018, | BANKVIEW | ELBOYA; MARLBOROUGH; SCARBORO"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r006",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BAYVIEW",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "ERLTON"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MAYFAIR"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SHAGANAPPI"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BAYVIEW 15P2016,62P2018, | BAYVIEW | ERLTON; MAYFAIR; SHAGANAPPI"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r007",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BEL-AIRE",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "FAIRVIEW"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MAYLAND HEIGHTS"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SOUTH CALGARY"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BEL-AIRE 15P2016,62P2018, | BEL-AIRE | FAIRVIEW; MAYLAND HEIGHTS; SOUTH CALGARY"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r008",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BELTLINE",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "FOREST HEIGHTS"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MEADOWLARK\nPARK"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SOUTHVIEW"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BELTLINE 15P2016,62P2018, | BELTLINE | FOREST HEIGHTS; MEADOWLARK\nPARK; SOUTHVIEW"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r009",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BONAVISTA\nDOWNS",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "FOREST LAWN"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MISSION"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SOUTHWOOD"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BONAVISTA\nDOWNS 15P2016,62P2018, | BONAVISTA\nDOWNS | FOREST LAWN; MISSION; SOUTHWOOD"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r010",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BOWNESS",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "GARRISON GREEN"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MONTGOMERY"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SPRUCE CLIFF"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BOWNESS 15P2016,62P2018, | BOWNESS | GARRISON GREEN; MONTGOMERY; SPRUCE CLIFF"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r011",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BRAESIDE",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "GARRISON WOODS"
+      },
+      {
+        "column_header": "",
+        "cell_value": "MOUNT PLEASANT"
+      },
+      {
+        "column_header": "",
+        "cell_value": "ST. ANDREWS\nHEIGHTS"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BRAESIDE 15P2016,62P2018, | BRAESIDE | GARRISON WOODS; MOUNT PLEASANT; ST. ANDREWS\nHEIGHTS"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r012",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BRENTWOOD",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "GLAMORGAN"
+      },
+      {
+        "column_header": "",
+        "cell_value": "NORTH GLENMORE\nPARK"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SUNALTA"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BRENTWOOD 15P2016,62P2018, | BRENTWOOD | GLAMORGAN; NORTH GLENMORE\nPARK; SUNALTA"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r013",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BRIDGELAND/\nRIVERSIDE",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "GLENBROOK"
+      },
+      {
+        "column_header": "",
+        "cell_value": "NORTH HAVEN"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SUNALTA WEST"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BRIDGELAND/\nRIVERSIDE 15P2016,62P2018, | BRIDGELAND/\nRIVERSIDE | GLENBROOK; NORTH HAVEN; SUNALTA WEST"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r014",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "BRITANNIA",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "GLENDALE"
+      },
+      {
+        "column_header": "",
+        "cell_value": "NORTH HAVEN\nUPPER"
+      },
+      {
+        "column_header": "",
+        "cell_value": "SUNNYSIDE"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | BRITANNIA 15P2016,62P2018, | BRITANNIA | GLENDALE; NORTH HAVEN\nUPPER; SUNNYSIDE"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r015",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "CAMBRIAN\nHEIGHTS",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "GREENVIEW"
+      },
+      {
+        "column_header": "",
+        "cell_value": "OAKRIDGE"
+      },
+      {
+        "column_header": "",
+        "cell_value": "THORNCLIFFE"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | CAMBRIAN\nHEIGHTS 15P2016,62P2018, | CAMBRIAN\nHEIGHTS | GREENVIEW; OAKRIDGE; THORNCLIFFE"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_001_r016",
+    "page": 476,
+    "section": "",
+    "table_title": "15P2016,62P2018,",
+    "row_header": "CANYON\nMEADOWS",
+    "cells": [
+      {
+        "column_header": "",
+        "cell_value": "HAYSBORO"
+      },
+      {
+        "column_header": "",
+        "cell_value": "OGDEN"
+      },
+      {
+        "column_header": "",
+        "cell_value": "TUXEDO PARK"
+      }
+    ],
+    "source_text": "Heading: 15P2016,62P2018, Table context: 15P2016,62P2018, | CANYON\nMEADOWS 15P2016,62P2018, | CANYON\nMEADOWS | HAYSBORO; OGDEN; TUXEDO PARK"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r001",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "CHARLESWOOD",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "HIGHWOOD"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "PARKDALE"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "UNIVERSITY\nHEIGHTS"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CHARLESWOOD CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CHARLESWOOD | HIGHLAND PARK: HIGHWOOD; PALLISER: PARKDALE; UNIVERSITY\nDISTRICT: UNIVERSITY\nHEIGHTS"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r002",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "CHINATOWN",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "HILLHURST"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "PARKHILL"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "UPPER MOUNT\nROYAL"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CHINATOWN CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CHINATOWN | HIGHLAND PARK: HILLHURST; PALLISER: PARKHILL; UNIVERSITY\nDISTRICT: UPPER MOUNT\nROYAL"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r003",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "CHINOOK PARK",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "HOUNSFIELD\nHEIGHTS/ BRIAR\nHILL"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "POINT MCKAY"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "VARSITY"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CHINOOK PARK CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CHINOOK PARK | HIGHLAND PARK: HOUNSFIELD\nHEIGHTS/ BRIAR\nHILL; PALLISER: POINT MCKAY; UNIVERSITY\nDISTRICT: VARSITY"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r004",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "CLIFF BUNGALOW",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "HUNTINGTON\nHILLS"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "PUMP HILL"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "VISTA HEIGHTS"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CLIFF BUNGALOW CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CLIFF BUNGALOW | HIGHLAND PARK: HUNTINGTON\nHILLS; PALLISER: PUMP HILL; UNIVERSITY\nDISTRICT: VISTA HEIGHTS"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r005",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "COLLINGWOOD",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "INGLEWOOD"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "QUEENS PARK\nVILLAGE"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "WEST HILLHURST"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | COLLINGWOOD CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | COLLINGWOOD | HIGHLAND PARK: INGLEWOOD; PALLISER: QUEENS PARK\nVILLAGE; UNIVERSITY\nDISTRICT: WEST HILLHURST"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r006",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "CRESCENT\nHEIGHTS",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "KELVIN GROVE"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "RAMSAY"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "WESTGATE"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CRESCENT\nHEIGHTS CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CRESCENT\nHEIGHTS | HIGHLAND PARK: KELVIN GROVE; PALLISER: RAMSAY; UNIVERSITY\nDISTRICT: WESTGATE"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r007",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "CURRIE\nBARRACKS",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "KILLARNEY/\nGLENGARRY"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "RENFREW"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "WILDWOOD"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CURRIE\nBARRACKS CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | CURRIE\nBARRACKS | HIGHLAND PARK: KILLARNEY/\nGLENGARRY; PALLISER: RENFREW; UNIVERSITY\nDISTRICT: WILDWOOD"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r008",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "DALHOUSIE",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "KINGSLAND"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "RICHMOND"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "WILLOW PARK"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | DALHOUSIE CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | DALHOUSIE | HIGHLAND PARK: KINGSLAND; PALLISER: RICHMOND; UNIVERSITY\nDISTRICT: WILLOW PARK"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r009",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "DOWNTOWN\nCOMMERCIAL\nCORE",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "LAKE BONAVISTA"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "RIDEAU PARK"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "WINDSOR PARK"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | DOWNTOWN\nCOMMERCIAL\nCORE CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | DOWNTOWN\nCOMMERCIAL\nCORE | HIGHLAND PARK: LAKE BONAVISTA; PALLISER: RIDEAU PARK; UNIVERSITY\nDISTRICT: WINDSOR PARK"
+  },
+  {
+    "chunk_id": "calgary_rcg_table_002_r010",
+    "page": 477,
+    "section": "",
+    "table_title": "CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY",
+    "row_header": "DOWNTOWN EAST\nVILLAGE",
+    "cells": [
+      {
+        "column_header": "HIGHLAND PARK",
+        "cell_value": "LAKEVIEW"
+      },
+      {
+        "column_header": "PALLISER",
+        "cell_value": "ROSEDALE"
+      },
+      {
+        "column_header": "UNIVERSITY\nDISTRICT",
+        "cell_value": "WINSTON\nHEIGHTS/\nMOUNTVIEW"
+      }
+    ],
+    "source_text": "Heading: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY Table context: CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | DOWNTOWN EAST\nVILLAGE CAPITOL HILL HIGHLAND PARK PALLISER UNIVERSITY | DOWNTOWN EAST\nVILLAGE | HIGHLAND PARK: LAKEVIEW; PALLISER: ROSEDALE; UNIVERSITY\nDISTRICT: WINSTON\nHEIGHTS/\nMOUNTVIEW"
+  }
+]

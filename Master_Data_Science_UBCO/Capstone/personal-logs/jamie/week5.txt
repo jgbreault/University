@@ -1,0 +1,25 @@
+## Week 5
+
+Summary:
+Developed algorithm to defined the buildable area assuming there are no existing structures.
+
+Tasks:
+- Wrote reports to outline an empty-lot buildable area algorithm that captures lots of any shape.
+- Implemented the empty-lot buildable area algorithm in QGIS for 1000 Burnaby lots. 
+- Facilitated communication and planning for future capstone logistics.
+
+Time:
+- Writing Lot Line Labelling Reports: 10 hours
+- Developing QGIS Empty-lot Buildable Area Solution: 20 hours
+- DATA 599 Presentation: 8 hour
+- Meetings: 2 hours
+Total: 40 hours
+
+Challenges:
+- PID is not unique even though it is supposed to be legally, so I had to define my own unique ID for parcels
+- The developed algorithms are computationally costly and take a while to run in QGIS
+- Existing structures have yet to be considered in the algorithm
+
+Next Steps:
+- Find a way to account for existing structures and related setbacks when calculating buildable area
+- Implement the solution with 1000 Burnaby parcels

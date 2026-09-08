@@ -1,0 +1,8 @@
+pandas
+requests
+tqdm
+nbformat
+nbclient
+openpyxl
+pymupdf
+pymupdf4llm

@@ -1,0 +1,632 @@
+[
+  {
+    "chunk_id": "vancouver_rs_table_001_r001",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Arts and Culture Event",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.2.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Arts and Culture Event | Section 11.3.5 | Arts and Culture Event | Section: 11.2.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r002",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Bed and Breakfast Accommodation",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.9.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Bed and Breakfast Accommodation | Section 11.3.5 | Bed and Breakfast Accommodation | Section: 11.9.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r003",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Bingo Hall",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.2.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Bingo Hall | Section 11.3.5 | Bingo Hall | Section: 11.2.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r004",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Body-Rub Parlour",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.9.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Body-Rub Parlour | Section 11.3.5 | Body-Rub Parlour | Section: 11.9.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r005",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Cannabis Store",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.6"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Cannabis Store | Section 11.3.5 | Cannabis Store | Section: 11.8.6"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r006",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Casino",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.2.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Casino | Section 11.3.5 | Casino | Section: 11.2.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r007",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Church",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.4.4"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Church | Section 11.3.5 | Church | Section: 11.4.4"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r008",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Community Care or Assisted Living Facility -\nClass B",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.4.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Community Care or Assisted Living Facility -\nClass B | Section 11.3.5 | Community Care or Assisted Living Facility -\nClass B | Section: 11.4.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r009",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Dwelling Unit",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Dwelling Unit | Section 11.3.5 | Dwelling Unit | Section: 11.3.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r010",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Farmers’ Market",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Farmers’ Market | Section 11.3.5 | Farmers’ Market | Section: 11.8.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r011",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Freehold Rowhouse",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.7"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Freehold Rowhouse | Section 11.3.5 | Freehold Rowhouse | Section: 11.3.7"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r012",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Gasoline Station - Full Serve",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.5"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Gasoline Station - Full Serve | Section 11.3.5 | Gasoline Station - Full Serve | Section: 11.8.5"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r013",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Gasoline Station - Split Island",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.5"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Gasoline Station - Split Island | Section 11.3.5 | Gasoline Station - Split Island | Section: 11.8.5"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r014",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Group Residence",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.4.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Group Residence | Section 11.3.5 | Group Residence | Section: 11.4.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r015",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Home-Based Business",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.13.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Home-Based Business | Section 11.3.5 | Home-Based Business | Section: 11.13.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r016",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Hospital",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.4.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Hospital | Section 11.3.5 | Hospital | Section: 11.4.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r017",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Housekeeping Unit",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.13.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Housekeeping Unit | Section 11.3.5 | Housekeeping Unit | Section: 11.13.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r018",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Laneway House",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.8"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Laneway House | Section 11.3.5 | Laneway House | Section: 11.3.8"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r019",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Liquor Store",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.7"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Liquor Store | Section 11.3.5 | Liquor Store | Section: 11.8.7"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r020",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Live-Work Use",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.13.4"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Live-Work Use | Section 11.3.5 | Live-Work Use | Section: 11.13.4"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r021",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Lock-Off Unit",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Lock-Off Unit | Section 11.3.5 | Lock-Off Unit | Section: 11.3.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_001_r022",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Lounge",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.13.5"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Lounge | Section 11.3.5 | Lounge | Section: 11.13.5"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r001",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Marine Terminal or Berth",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.10.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Marine Terminal or Berth | Section 11.3.5 | Marine Terminal or Berth | Section: 11.10.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r002",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Micro Dwelling",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Micro Dwelling | Section 11.3.5 | Micro Dwelling | Section: 11.3.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r003",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Mini-Storage Warehouse",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.10.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Mini-Storage Warehouse | Section 11.3.5 | Mini-Storage Warehouse | Section: 11.10.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r004",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Neighbourhood Grocery Store",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Neighbourhood Grocery Store | Section 11.3.5 | Neighbourhood Grocery Store | Section: 11.8.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r005",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Pawnshop",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.8"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Pawnshop | Section 11.3.5 | Pawnshop | Section: 11.8.8"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r006",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Public Bike Share",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.4"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Public Bike Share | Section 11.3.5 | Public Bike Share | Section: 11.8.4"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r007",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Residential Unit associated with and forming\nan integral part of an Artist Studio",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.5"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Residential Unit associated with and forming\nan integral part of an Artist Studio | Section 11.3.5 | Residential Unit associated with and forming\nan integral part of an Artist Studio | Section: 11.3.5"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r008",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Retailing Used Merchandise",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.9"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Retailing Used Merchandise | Section 11.3.5 | Retailing Used Merchandise | Section: 11.8.9"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r009",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Riding Ring",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.2.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Riding Ring | Section 11.3.5 | Riding Ring | Section: 11.2.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r010",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "School - Elementary or Secondary",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.4.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | School - Elementary or Secondary | Section 11.3.5 | School - Elementary or Secondary | Section: 11.4.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r011",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Secondary Suite",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Secondary Suite | Section 11.3.5 | Secondary Suite | Section: 11.3.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r012",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Secondhand Store",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.8"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Secondhand Store | Section 11.3.5 | Secondhand Store | Section: 11.8.8"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r013",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Seniors Supportive or Independent Living\nHousing",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.6"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Seniors Supportive or Independent Living\nHousing | Section 11.3.5 | Seniors Supportive or Independent Living\nHousing | Section: 11.3.6"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r014",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Shared E-Scooter System",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.12"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Shared E-Scooter System | Section 11.3.5 | Shared E-Scooter System | Section: 11.8.12"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r015",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Short Term Rental Accommodation",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.9.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Short Term Rental Accommodation | Section 11.3.5 | Short Term Rental Accommodation | Section: 11.9.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r016",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Sleeping Unit",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.13.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Sleeping Unit | Section 11.3.5 | Sleeping Unit | Section: 11.13.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r017",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Small-Scale Pharmacy",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.3"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Small-Scale Pharmacy | Section 11.3.5 | Small-Scale Pharmacy | Section: 11.8.3"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r018",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Temporary Modular Housing",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.3.4"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Temporary Modular Housing | Section 11.3.5 | Temporary Modular Housing | Section: 11.3.4"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r019",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Temporary Sales Office",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.6.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Temporary Sales Office | Section 11.3.5 | Temporary Sales Office | Section: 11.6.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r020",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Urban Farm - Class A",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.1.1"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Urban Farm - Class A | Section 11.3.5 | Urban Farm - Class A | Section: 11.1.1"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_002_r021",
+    "page": 1,
+    "section": "",
+    "table_title": "11.3.5",
+    "row_header": "Urban Farm - Class B",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.1.2"
+      }
+    ],
+    "source_text": "Heading: 11.3.5 Table context: 11.3.5 | Urban Farm - Class B | Section 11.3.5 | Urban Farm - Class B | Section: 11.1.2"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_003_r001",
+    "page": 2,
+    "section": "",
+    "table_title": "",
+    "row_header": "Wedding Chapel",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.9.4"
+      }
+    ],
+    "source_text": "Table context: Wedding Chapel | Section Wedding Chapel | Section: 11.9.4"
+  },
+  {
+    "chunk_id": "vancouver_rs_table_003_r002",
+    "page": 2,
+    "section": "",
+    "table_title": "",
+    "row_header": "Wine on Shelf",
+    "cells": [
+      {
+        "column_header": "Section",
+        "cell_value": "11.8.11"
+      }
+    ],
+    "source_text": "Table context: Wine on Shelf | Section Wine on Shelf | Section: 11.8.11"
+  }
+]

@@ -1,0 +1,1 @@
+"""Deterministic verification authority layer."""

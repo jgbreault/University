@@ -1,0 +1,18 @@
+﻿{
+  "source_pdf": "C:\\Users\\18447\\w2025-data599-capstone-projects-green-metrics-technology\\code\\official_rule_extraction_pipeline\\pdfs\\calgary\\calgary-land-use-bylaw-1p2007.pdf",
+  "model": "gemini-3.1-pro-preview",
+  "selected_pages": [
+    195
+  ],
+  "text_block_count": 26,
+  "table_region_count": 1,
+  "page_reports": [
+    {
+      "page_number": 195,
+      "summary": "",
+      "text_block_count": 26,
+      "table_region_count": 1,
+      "warnings": []
+    }
+  ]
+}

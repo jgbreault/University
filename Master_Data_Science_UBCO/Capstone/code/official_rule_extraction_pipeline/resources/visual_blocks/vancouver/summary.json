@@ -1,0 +1,74 @@
+﻿{
+  "source_pdf": "C:\\Users\\18447\\w2025-data599-capstone-projects-green-metrics-technology\\code\\official_rule_extraction_pipeline\\pdfs\\vancouver\\zoning-by-law-section-11.pdf",
+  "model": "gemini-3.1-pro-preview",
+  "selected_pages": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    17,
+    18,
+    19
+  ],
+  "text_block_count": 160,
+  "table_region_count": 0,
+  "page_reports": [
+    {
+      "page_number": 7,
+      "summary": "",
+      "text_block_count": 20,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 8,
+      "summary": "",
+      "text_block_count": 21,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 9,
+      "summary": "",
+      "text_block_count": 21,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 10,
+      "summary": "",
+      "text_block_count": 22,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 11,
+      "summary": "",
+      "text_block_count": 18,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 17,
+      "summary": "",
+      "text_block_count": 20,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 18,
+      "summary": "",
+      "text_block_count": 18,
+      "table_region_count": 0,
+      "warnings": []
+    },
+    {
+      "page_number": 19,
+      "summary": "",
+      "text_block_count": 20,
+      "table_region_count": 0,
+      "warnings": []
+    }
+  ]
+}

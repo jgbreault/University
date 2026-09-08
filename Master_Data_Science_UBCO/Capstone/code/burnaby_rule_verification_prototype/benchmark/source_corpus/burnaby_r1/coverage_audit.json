@@ -1,0 +1,31 @@
+{
+  "corpus_version": "m4_source_corpus_1",
+  "advisory_only": true,
+  "source_chunk_count": 93,
+  "page_count_with_chunks": 6,
+  "first_chunk_page": 1,
+  "last_chunk_page": 7,
+  "evidence_type_counts": [
+    {
+      "name": "clause",
+      "count": 39
+    },
+    {
+      "name": "table_cell",
+      "count": 27
+    },
+    {
+      "name": "table_row",
+      "count": 27
+    }
+  ],
+  "table_entry_count": 54,
+  "table_cell_count": 113,
+  "numeric_clause_count": 40,
+  "rule_like_numeric_clause_count": 23,
+  "selected_rule_like_numeric_clause_count": 23,
+  "selected_rule_like_numeric_coverage": 1.0,
+  "packed_numeric_page_count": 5,
+  "near_miss_rule_like_numeric": [],
+  "note": "Coverage audit measures source discovery only; benchmark gold is scored separately after verification."
+}

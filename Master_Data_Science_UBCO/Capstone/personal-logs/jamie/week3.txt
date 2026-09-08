@@ -1,0 +1,26 @@
+## Week 3
+
+Summary:
+Started GIS solutions to check for bylaw clashes for housing developers.
+
+Tasks:
+- Reviewed rule structure robustness for discovered rules
+- Reviewed DATA 599 presentation slides and prepared for presentation
+- Developed GIS solution to check for max lot coverage violations
+- Developed outline for GIS solution to check for minimum setback violations for lots with 4 approximately straight sides
+
+Time:
+- Rule robustness review: 4 hours
+- DATA 599 Presentation: 2 hours
+- GIS (max lot coverage): 4 hours
+- GIS (minimum setbacks): 22 hours
+- Meetings: 2 hours
+Total: 34 hours
+
+Challenges:
+- Developing a robust algorithmic method to determine which sides of a lot count as the front, sides, and rear. Looking to limit the solution to lots with 4 approximately straight sides.
+- Not having the opportunity to meet with an NLP expert from GMT, though the circumstance is very understandable.
+
+Next Steps:
+- Ensure the currently planned solution to check for minimum setback violations is robust enough to handle data from multiple municipalities.
+- Develop a GIS solution that can identify the front, sides, and rear lot lines of lots with 4 approximately straight sides.

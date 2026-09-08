@@ -1,0 +1,21 @@
+Package: openmeteoR
+Type: Package
+Title: OpenMeteo Weather API Wrapper
+Version: 0.1.0
+Author: Kai Tseng
+Maintainer: Kai Tseng <kai.tseng@example.com>
+Description: An R wrapper for accessing weather data from the Open-Meteo API.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    httr2,
+    jsonlite,
+    ggplot2,
+    readr,
+    geosphere,
+    utils
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+RoxygenNote: 7.3.3

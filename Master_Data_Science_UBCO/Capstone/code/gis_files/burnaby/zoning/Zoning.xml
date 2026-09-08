@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Zoning</title>
+                <onlink>https://gis.burnaby.ca/arcgis/rest/services/OpenData/OpenData1/MapServer/8</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Zoning layers provide information on zone codes, and labels for Comprehensive Development breakdown and annotations.</abstract>
+            <purpose>The Burnaby Zoning Bylaw regulates the development and use of land and the location and use of buildings and structures within the City of Burnaby.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>planningCadastre</themekey>
+            </theme>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Zoning</themekey>
+                <themekey>Planning</themekey>
+                <themekey>Zone Code</themekey>
+                <themekey>Burnaby</themekey>
+                <themekey>Planning &amp; Regional</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>https://data.burnaby.ca/pages/open-government-licence</useconst>
+        <datacred>City of Burnaby</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20161121</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metuc>Open Data License</metuc>
+    </metainfo>
+</metadata>

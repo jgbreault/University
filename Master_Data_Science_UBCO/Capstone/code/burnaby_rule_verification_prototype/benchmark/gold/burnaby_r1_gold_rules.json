@@ -1,0 +1,1002 @@
+[
+ {
+  "gold_id": "br1_use_001",
+  "rule_object": "permitted_use",
+  "constraint_type": "allowed",
+  "constraint_scope": "district",
+  "applies_to": "Small-Scale Multi-Unit Housing",
+  "value": null,
+  "unit": null,
+  "operator": "allowed",
+  "condition": null,
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b03_01",
+  "required_rule_terms": [
+   "small",
+   "scale",
+   "multi",
+   "unit",
+   "housing"
+  ],
+  "required_evidence_terms": [
+   "permitted",
+   "uses",
+   "small",
+   "scale",
+   "multi",
+   "unit"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_units_001",
+  "rule_object": "dwelling_units",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "R1 lot",
+  "value": 6,
+  "unit": "units",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b02_01",
+  "required_rule_terms": [
+   "dwelling",
+   "units",
+   "lot"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "6",
+   "dwelling",
+   "units",
+   "lot"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_lot_area_001",
+  "rule_object": "lot_area",
+  "constraint_type": "minimum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit Housing",
+  "value": 281,
+  "unit": "m2",
+  "operator": ">=",
+  "condition": "4 units only",
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b04_01",
+  "required_rule_terms": [
+   "lot",
+   "area",
+   "281"
+  ],
+  "required_evidence_terms": [
+   "minimum",
+   "lot",
+   "area",
+   "281"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_height_001",
+  "rule_object": "height",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Rear Principal Buildings",
+  "value": 7.5,
+  "unit": "m",
+  "operator": "<=",
+  "condition": "sloping roof",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "rear",
+   "principal",
+   "height",
+   "sloping"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "height",
+   "rear",
+   "principal",
+   "7.5"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_height_002",
+  "rule_object": "height",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Rear Principal Buildings",
+  "value": 7.0,
+  "unit": "m",
+  "operator": "<=",
+  "condition": "flat roof",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "rear",
+   "principal",
+   "height",
+   "flat"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "height",
+   "rear",
+   "principal",
+   "7.0"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_height_003",
+  "rule_object": "storeys",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Rear Principal Buildings",
+  "value": 2,
+  "unit": "storeys",
+  "operator": "<=",
+  "condition": "basement inclusive",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "rear",
+   "principal",
+   "storeys"
+  ],
+  "required_evidence_terms": [
+   "rear",
+   "principal",
+   "storeys",
+   "2"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_height_004",
+  "rule_object": "height",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Accessory Buildings",
+  "value": 4.0,
+  "unit": "m",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "accessory",
+   "buildings",
+   "height"
+  ],
+  "required_evidence_terms": [
+   "accessory",
+   "buildings",
+   "4.0"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_setback_001",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "street_yard_front",
+  "applies_to": "All Buildings",
+  "value": 4.0,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "front street yard",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "street",
+   "yard",
+   "front"
+  ],
+  "required_evidence_terms": [
+   "street",
+   "yard",
+   "front",
+   "4.0"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_setback_002",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "street_yard_flanking",
+  "applies_to": "All Buildings",
+  "value": 3.0,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "flanking street yard",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "street",
+   "yard",
+   "flanking"
+  ],
+  "required_evidence_terms": [
+   "street",
+   "yard",
+   "flanking",
+   "3.0"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_setback_003",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "lane_yard",
+  "applies_to": "All Buildings",
+  "value": 1.5,
+  "unit": "m",
+  "operator": ">=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "lane",
+   "yard"
+  ],
+  "required_evidence_terms": [
+   "lane",
+   "yard",
+   "1.5"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_setback_004",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "interior_rear_yard",
+  "applies_to": "Rear Principal Buildings",
+  "value": 3.0,
+  "unit": "m",
+  "operator": ">=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "interior",
+   "rear",
+   "yard",
+   "rear",
+   "principal"
+  ],
+  "required_evidence_terms": [
+   "interior",
+   "rear",
+   "yard",
+   "3.0"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_setback_005",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "interior_rear_yard",
+  "applies_to": "Accessory Buildings",
+  "value": 1.5,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "accessory buildings exception",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "interior",
+   "rear",
+   "yard",
+   "accessory"
+  ],
+  "required_evidence_terms": [
+   "interior",
+   "rear",
+   "yard",
+   "1.5",
+   "accessory"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_setback_006",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "interior_side_yard",
+  "applies_to": "End unit lots",
+  "value": 1.2,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "end unit lots",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "interior",
+   "side",
+   "yard",
+   "end",
+   "unit"
+  ],
+  "required_evidence_terms": [
+   "interior",
+   "side",
+   "yard",
+   "1.2",
+   "end",
+   "unit"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_setback_007",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "interior_side_yard",
+  "applies_to": "All Buildings",
+  "value": 0,
+  "unit": "m",
+  "operator": ">=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "interior",
+   "side",
+   "yard"
+  ],
+  "required_evidence_terms": [
+   "interior",
+   "side",
+   "yard",
+   "0"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_sep_001",
+  "rule_object": "building_separation",
+  "constraint_type": "minimum",
+  "constraint_scope": "building_separation",
+  "applies_to": "Rear Principal Buildings",
+  "value": 2.4,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "between rear principals",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "between",
+   "rear",
+   "principals"
+  ],
+  "required_evidence_terms": [
+   "between",
+   "rear",
+   "principals",
+   "2.4"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_sep_002",
+  "rule_object": "building_separation",
+  "constraint_type": "minimum",
+  "constraint_scope": "building_separation",
+  "applies_to": "Front and Rear Principal Buildings",
+  "value": 6.0,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "between front and rear principals",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "between",
+   "front",
+   "rear",
+   "principals"
+  ],
+  "required_evidence_terms": [
+   "between",
+   "front",
+   "rear",
+   "principals",
+   "6.0"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_sep_003",
+  "rule_object": "building_separation",
+  "constraint_type": "minimum",
+  "constraint_scope": "building_separation",
+  "applies_to": "All Other Buildings",
+  "value": 2.4,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "between all other buildings",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "between",
+   "all",
+   "other",
+   "buildings"
+  ],
+  "required_evidence_terms": [
+   "between",
+   "all",
+   "other",
+   "buildings",
+   "2.4"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_fire_001",
+  "rule_object": "automatic_sprinkler",
+  "constraint_type": "required",
+  "constraint_scope": "dwelling_unit",
+  "applies_to": "Dwelling units more than 45 m from a street lot line",
+  "value": 45,
+  "unit": "m",
+  "operator": ">",
+  "condition": "distance from lot line abutting a street",
+  "source_page": 6,
+  "source_block_id": "burnaby_r1_p06_b01_01",
+  "required_rule_terms": [
+   "sprinkler",
+   "45",
+   "street"
+  ],
+  "required_evidence_terms": [
+   "45",
+   "street",
+   "automatic",
+   "sprinkler"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_fire_002",
+  "rule_object": "fire_access_corridor",
+  "constraint_type": "minimum",
+  "constraint_scope": "corridor_width",
+  "applies_to": "All dwelling units",
+  "value": 1.0,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "paved or gravel fire access corridor",
+  "source_page": 6,
+  "source_block_id": "burnaby_r1_p06_b01_01",
+  "required_rule_terms": [
+   "fire",
+   "access",
+   "corridor",
+   "width"
+  ],
+  "required_evidence_terms": [
+   "minimum",
+   "1.0",
+   "fire",
+   "access",
+   "corridor"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_fire_003",
+  "rule_object": "fire_access_corridor",
+  "constraint_type": "minimum",
+  "constraint_scope": "vertical_clearance",
+  "applies_to": "All dwelling units",
+  "value": 2.5,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "clear of projections or obstructions",
+  "source_page": 6,
+  "source_block_id": "burnaby_r1_p06_b01_01",
+  "required_rule_terms": [
+   "fire",
+   "access",
+   "corridor",
+   "clearance"
+  ],
+  "required_evidence_terms": [
+   "clear",
+   "projections",
+   "obstructions",
+   "2.5"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_heritage_001",
+  "rule_object": "lot_coverage",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Community Heritage Register lots",
+  "value": 60,
+  "unit": "%",
+  "operator": "<=",
+  "condition": "heritage exception",
+  "source_page": 6,
+  "source_block_id": "burnaby_r1_p06_b02_01",
+  "required_rule_terms": [
+   "heritage",
+   "lot",
+   "coverage"
+  ],
+  "required_evidence_terms": [
+   "heritage",
+   "lot",
+   "coverage",
+   "60"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_heritage_002",
+  "rule_object": "impervious_surface",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Community Heritage Register lots",
+  "value": 70,
+  "unit": "%",
+  "operator": "<=",
+  "condition": "heritage exception",
+  "source_page": 6,
+  "source_block_id": "burnaby_r1_p06_b02_01",
+  "required_rule_terms": [
+   "heritage",
+   "impervious",
+   "surface"
+  ],
+  "required_evidence_terms": [
+   "heritage",
+   "impervious",
+   "surface",
+   "70"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_heritage_003",
+  "rule_object": "setback",
+  "constraint_type": "minimum",
+  "constraint_scope": "street_yard",
+  "applies_to": "Community Heritage Register lots",
+  "value": 2.0,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "heritage exception",
+  "source_page": 6,
+  "source_block_id": "burnaby_r1_p06_b02_01",
+  "required_rule_terms": [
+   "heritage",
+   "street",
+   "yard"
+  ],
+  "required_evidence_terms": [
+   "street",
+   "yards",
+   "minimum",
+   "2.0"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_use_002",
+  "rule_object": "permitted_use",
+  "constraint_type": "allowed",
+  "constraint_scope": "use",
+  "applies_to": "Principal Use",
+  "value": null,
+  "unit": null,
+  "operator": "allowed",
+  "condition": "group home",
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b02_01",
+  "required_rule_terms": [
+   "group",
+   "home"
+  ],
+  "required_evidence_terms": [
+   "group",
+   "home",
+   "permitted"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_height_006",
+  "rule_object": "height",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Front Principal Buildings",
+  "value": 10,
+  "unit": "m",
+  "operator": "<=",
+  "condition": "sloping roof",
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b03_01",
+  "required_rule_terms": [
+   "front",
+   "principal"
+  ],
+  "required_evidence_terms": [
+   "front",
+   "principal",
+   "sloping",
+   "10"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_height_005",
+  "rule_object": "height",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Front Principal Buildings",
+  "value": 9.5,
+  "unit": "m",
+  "operator": "<=",
+  "condition": "flat roof",
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b03_01",
+  "required_rule_terms": [
+   "front",
+   "principal"
+  ],
+  "required_evidence_terms": [
+   "front",
+   "principal",
+   "flat",
+   "9.5"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_storeys_002",
+  "rule_object": "storeys",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Front Principal Buildings",
+  "value": 3,
+  "unit": "storeys",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b03_01",
+  "required_rule_terms": [
+   "front",
+   "principal"
+  ],
+  "required_evidence_terms": [
+   "front",
+   "principal",
+   "storeys",
+   "3"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_storeys_003",
+  "rule_object": "storeys",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Front Principal Buildings",
+  "value": 2.5,
+  "unit": "storeys",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 1,
+  "source_block_id": "burnaby_r1_p01_b03_01",
+  "required_rule_terms": [
+   "front",
+   "principal"
+  ],
+  "required_evidence_terms": [
+   "front",
+   "principal",
+   "storeys",
+   "2.5"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_sep_004",
+  "rule_object": "building_separation",
+  "constraint_type": "minimum",
+  "constraint_scope": "building_separation",
+  "applies_to": "Front Principal Buildings",
+  "value": 2.4,
+  "unit": "m",
+  "operator": ">=",
+  "condition": "between front principals",
+  "source_page": 2,
+  "source_block_id": "burnaby_r1_p02_b01_01",
+  "required_rule_terms": [
+   "front",
+   "principal"
+  ],
+  "required_evidence_terms": [
+   "between",
+   "front",
+   "principals",
+   "2.4"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_cov_001",
+  "rule_object": "lot_coverage",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Rowhouse (1 to 3 Units)",
+  "value": 55,
+  "unit": "%",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "lot",
+   "coverage",
+   "rowhouse"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "lot",
+   "coverage"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_cov_002",
+  "rule_object": "lot_coverage",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit (1 to 2 Units)",
+  "value": 40,
+  "unit": "%",
+  "operator": "<=",
+  "condition": "Lots <= 567 m2",
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "lot",
+   "coverage",
+   "567"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "lot",
+   "coverage",
+   "567"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_cov_003",
+  "rule_object": "lot_coverage",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit (1 to 2 Units)",
+  "value": 30,
+  "unit": "%",
+  "operator": "<=",
+  "condition": "Lots > 567 m2",
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "lot",
+   "coverage",
+   "567"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "lot",
+   "coverage",
+   "567"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_cov_004",
+  "rule_object": "lot_coverage",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit (3 to 4 Units)",
+  "value": 40,
+  "unit": "%",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "lot",
+   "coverage",
+   "3",
+   "4"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "lot",
+   "coverage"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_cov_005",
+  "rule_object": "lot_coverage",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit (5 to 6 Units)",
+  "value": 45,
+  "unit": "%",
+  "operator": "<=",
+  "condition": "Frequent Transit Network Area Only",
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "lot",
+   "coverage",
+   "transit"
+  ],
+  "required_evidence_terms": [
+   "maximum",
+   "lot",
+   "coverage"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_storeys_004",
+  "rule_object": "storeys",
+  "constraint_type": "maximum",
+  "constraint_scope": "building",
+  "applies_to": "Accessory Buildings",
+  "value": 1,
+  "unit": "storeys",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "accessory",
+   "storey"
+  ],
+  "required_evidence_terms": [
+   "accessory",
+   "storey"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_units_002",
+  "rule_object": "dwelling_units",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Rowhouse",
+  "value": 3,
+  "unit": "units",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "dwelling",
+   "rowhouse"
+  ],
+  "required_evidence_terms": [
+   "permitted",
+   "dwelling",
+   "units"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_units_003",
+  "rule_object": "dwelling_units",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit (1 to 2 Units)",
+  "value": 2,
+  "unit": "units",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "dwelling",
+   "1",
+   "2"
+  ],
+  "required_evidence_terms": [
+   "permitted",
+   "dwelling",
+   "units"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_units_004",
+  "rule_object": "dwelling_units",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit (3 to 4 Units)",
+  "value": 4,
+  "unit": "units",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "dwelling",
+   "3",
+   "4"
+  ],
+  "required_evidence_terms": [
+   "permitted",
+   "dwelling",
+   "units"
+  ],
+  "gis_relevance": "context"
+ },
+ {
+  "gold_id": "br1_imp_001",
+  "rule_object": "impervious_surface",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Rowhouse (1 to 3 Units); Small-Scale Multi-Unit (5 to 6 Units)",
+  "value": 70,
+  "unit": "%",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "impervious",
+   "rowhouse"
+  ],
+  "required_evidence_terms": [
+   "impervious",
+   "surfaces"
+  ],
+  "gis_relevance": "direct"
+ },
+ {
+  "gold_id": "br1_imp_002",
+  "rule_object": "impervious_surface",
+  "constraint_type": "maximum",
+  "constraint_scope": "lot",
+  "applies_to": "Small-Scale Multi-Unit (1 to 2 Units); Small-Scale Multi-Unit (3 to 4 Units)",
+  "value": 60,
+  "unit": "%",
+  "operator": "<=",
+  "condition": null,
+  "source_page": 2,
+  "source_block_id": null,
+  "required_rule_terms": [
+   "impervious",
+   "multi",
+   "unit"
+  ],
+  "required_evidence_terms": [
+   "impervious",
+   "surfaces"
+  ],
+  "gis_relevance": "direct"
+ }
+]

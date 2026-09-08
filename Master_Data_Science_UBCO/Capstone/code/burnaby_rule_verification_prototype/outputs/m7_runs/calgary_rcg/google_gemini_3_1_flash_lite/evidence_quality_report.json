@@ -1,0 +1,11 @@
+{
+  "evidence_unit_count": 150,
+  "candidate_rule_count": 150,
+  "mean_evidence_quality_score": 1.0,
+  "candidate_evidence_match_rate": 1.0,
+  "candidate_value_grounding_rate": 0.927,
+  "candidate_unit_grounding_rate": 0.147,
+  "table_evidence_count": 0,
+  "table_context_completion_rate": 0.0,
+  "top_evidence_quality_issues": []
+}

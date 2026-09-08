@@ -1,0 +1,679 @@
+﻿[
+  {
+    "batch_id": "text_batch_0001",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_011",
+      "calgary_generic_graph_pack_016",
+      "calgary_generic_graph_pack_021",
+      "calgary_generic_graph_pack_027"
+    ],
+    "original_pages": [
+      80,
+      95,
+      121,
+      178
+    ],
+    "source_count": 4,
+    "char_count": 3857,
+    "rule_count": 0,
+    "skipped_count": 4,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 7.733500242233276
+  },
+  {
+    "batch_id": "text_batch_0003",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_042",
+      "calgary_generic_graph_pack_050"
+    ],
+    "original_pages": [
+      232,
+      340
+    ],
+    "source_count": 3,
+    "char_count": 1996,
+    "rule_count": 2,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 9.870669841766357
+  },
+  {
+    "batch_id": "text_batch_0004",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_061"
+    ],
+    "original_pages": [
+      384
+    ],
+    "source_count": 3,
+    "char_count": 3002,
+    "rule_count": 2,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 11.93868637084961
+  },
+  {
+    "batch_id": "text_batch_0005",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_063",
+      "calgary_generic_graph_pack_064",
+      "calgary_generic_graph_pack_066",
+      "calgary_generic_graph_pack_068"
+    ],
+    "original_pages": [
+      386,
+      390,
+      392
+    ],
+    "source_count": 7,
+    "char_count": 5561,
+    "rule_count": 11,
+    "skipped_count": 4,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 31.644533395767212
+  },
+  {
+    "batch_id": "text_batch_0007",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_079",
+      "calgary_generic_graph_pack_081",
+      "calgary_generic_graph_pack_082",
+      "calgary_generic_graph_pack_083",
+      "calgary_generic_graph_pack_091",
+      "calgary_generic_graph_pack_103",
+      "calgary_generic_graph_pack_108"
+    ],
+    "original_pages": [
+      397,
+      398,
+      406,
+      413,
+      420
+    ],
+    "source_count": 7,
+    "char_count": 5299,
+    "rule_count": 2,
+    "skipped_count": 5,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 16.98002338409424
+  },
+  {
+    "batch_id": "text_batch_0008",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_109",
+      "calgary_generic_graph_pack_114",
+      "calgary_generic_graph_pack_116",
+      "calgary_generic_graph_pack_117"
+    ],
+    "original_pages": [
+      420,
+      429,
+      433
+    ],
+    "source_count": 8,
+    "char_count": 5695,
+    "rule_count": 7,
+    "skipped_count": 3,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 44.985036849975586
+  },
+  {
+    "batch_id": "text_batch_0009",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_122",
+      "calgary_generic_graph_pack_129",
+      "calgary_generic_graph_pack_131",
+      "calgary_generic_graph_pack_134",
+      "calgary_generic_graph_pack_136",
+      "calgary_generic_graph_pack_137"
+    ],
+    "original_pages": [
+      438,
+      442,
+      448,
+      451
+    ],
+    "source_count": 8,
+    "char_count": 6058,
+    "rule_count": 7,
+    "skipped_count": 4,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 22.088032245635986
+  },
+  {
+    "batch_id": "text_batch_0010",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_138",
+      "calgary_generic_graph_pack_140",
+      "calgary_generic_graph_pack_144",
+      "calgary_generic_graph_pack_146",
+      "calgary_generic_graph_pack_153",
+      "calgary_generic_graph_pack_155"
+    ],
+    "original_pages": [
+      451,
+      453,
+      458,
+      465,
+      469,
+      479
+    ],
+    "source_count": 8,
+    "char_count": 6384,
+    "rule_count": 12,
+    "skipped_count": 3,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 19.642417430877686
+  },
+  {
+    "batch_id": "text_batch_0011",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_161",
+      "calgary_generic_graph_pack_162",
+      "calgary_generic_graph_pack_164",
+      "calgary_generic_graph_pack_165"
+    ],
+    "original_pages": [
+      483,
+      484
+    ],
+    "source_count": 6,
+    "char_count": 5011,
+    "rule_count": 11,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 50.69869637489319
+  },
+  {
+    "batch_id": "text_batch_0012",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_167"
+    ],
+    "original_pages": [
+      504
+    ],
+    "source_count": 3,
+    "char_count": 3192,
+    "rule_count": 1,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 11.384693384170532
+  },
+  {
+    "batch_id": "text_batch_0013",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_187",
+      "calgary_generic_graph_pack_193",
+      "calgary_generic_graph_pack_210",
+      "calgary_generic_graph_pack_211",
+      "calgary_generic_graph_pack_212",
+      "calgary_generic_graph_pack_223",
+      "calgary_generic_graph_pack_231",
+      "calgary_generic_graph_pack_232"
+    ],
+    "original_pages": [
+      555,
+      561,
+      794,
+      825,
+      857,
+      1039,
+      1041
+    ],
+    "source_count": 8,
+    "char_count": 6763,
+    "rule_count": 5,
+    "skipped_count": 5,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 25.52217149734497
+  },
+  {
+    "batch_id": "text_batch_0014",
+    "lanes": [
+      "extract_now_core_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_023",
+      "calgary_generic_graph_pack_024",
+      "calgary_generic_graph_pack_030",
+      "calgary_generic_graph_pack_060",
+      "calgary_generic_graph_pack_065",
+      "calgary_generic_graph_pack_067",
+      "calgary_generic_graph_pack_070",
+      "calgary_generic_graph_pack_078"
+    ],
+    "original_pages": [
+      139,
+      196,
+      379,
+      390,
+      392,
+      395,
+      397
+    ],
+    "source_count": 8,
+    "char_count": 4835,
+    "rule_count": 3,
+    "skipped_count": 6,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 17.63640308380127
+  },
+  {
+    "batch_id": "text_batch_0015",
+    "lanes": [
+      "extract_now_core_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_100",
+      "calgary_generic_graph_pack_124",
+      "calgary_generic_graph_pack_160",
+      "calgary_generic_graph_pack_169",
+      "calgary_generic_graph_pack_170",
+      "calgary_generic_graph_pack_182",
+      "calgary_generic_graph_pack_185",
+      "calgary_generic_graph_pack_188"
+    ],
+    "original_pages": [
+      412,
+      438,
+      480,
+      505,
+      548,
+      554,
+      555
+    ],
+    "source_count": 8,
+    "char_count": 2685,
+    "rule_count": 9,
+    "skipped_count": 1,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 14.81324028968811
+  },
+  {
+    "batch_id": "text_batch_0016",
+    "lanes": [
+      "extract_now_core_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_191",
+      "calgary_generic_graph_pack_194",
+      "calgary_generic_graph_pack_213",
+      "calgary_generic_graph_pack_214",
+      "calgary_generic_graph_pack_220",
+      "calgary_generic_graph_pack_230",
+      "calgary_generic_graph_pack_233"
+    ],
+    "original_pages": [
+      560,
+      561,
+      825,
+      826,
+      834,
+      1037,
+      1049
+    ],
+    "source_count": 8,
+    "char_count": 4759,
+    "rule_count": 10,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 14.76524043083191
+  },
+  {
+    "batch_id": "text_batch_0017",
+    "lanes": [
+      "extract_separately_use_permission_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_014",
+      "calgary_generic_graph_pack_022",
+      "calgary_generic_graph_pack_086",
+      "calgary_generic_graph_pack_088",
+      "calgary_generic_graph_pack_094",
+      "calgary_generic_graph_pack_095",
+      "calgary_generic_graph_pack_102"
+    ],
+    "original_pages": [
+      93,
+      139,
+      405,
+      406,
+      411,
+      413
+    ],
+    "source_count": 8,
+    "char_count": 4759,
+    "rule_count": 7,
+    "skipped_count": 3,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 28.179056882858276
+  },
+  {
+    "batch_id": "text_batch_0018",
+    "lanes": [
+      "extract_separately_use_permission_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_107",
+      "calgary_generic_graph_pack_111",
+      "calgary_generic_graph_pack_112",
+      "calgary_generic_graph_pack_121",
+      "calgary_generic_graph_pack_126",
+      "calgary_generic_graph_pack_128",
+      "calgary_generic_graph_pack_132"
+    ],
+    "original_pages": [
+      419,
+      427,
+      437,
+      438,
+      441,
+      447
+    ],
+    "source_count": 8,
+    "char_count": 3810,
+    "rule_count": 9,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 16.742446184158325
+  },
+  {
+    "batch_id": "text_batch_0019",
+    "lanes": [
+      "extract_separately_use_permission_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_133",
+      "calgary_generic_graph_pack_141",
+      "calgary_generic_graph_pack_142",
+      "calgary_generic_graph_pack_147",
+      "calgary_generic_graph_pack_150",
+      "calgary_generic_graph_pack_151"
+    ],
+    "original_pages": [
+      447,
+      453,
+      465,
+      466,
+      467
+    ],
+    "source_count": 8,
+    "char_count": 4511,
+    "rule_count": 5,
+    "skipped_count": 3,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 21.990362882614136
+  },
+  {
+    "batch_id": "text_batch_0020",
+    "lanes": [
+      "extract_separately_use_permission_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_156",
+      "calgary_generic_graph_pack_172",
+      "calgary_generic_graph_pack_173",
+      "calgary_generic_graph_pack_174",
+      "calgary_generic_graph_pack_176",
+      "calgary_generic_graph_pack_179",
+      "calgary_generic_graph_pack_183",
+      "calgary_generic_graph_pack_196"
+    ],
+    "original_pages": [
+      479,
+      507,
+      508,
+      515,
+      516,
+      524,
+      549,
+      565
+    ],
+    "source_count": 8,
+    "char_count": 3568,
+    "rule_count": 8,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 17.935957431793213
+  },
+  {
+    "batch_id": "text_batch_0021",
+    "lanes": [
+      "extract_separately_use_permission_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_199",
+      "calgary_generic_graph_pack_202",
+      "calgary_generic_graph_pack_215"
+    ],
+    "original_pages": [
+      572,
+      573,
+      829
+    ],
+    "source_count": 4,
+    "char_count": 1583,
+    "rule_count": 4,
+    "skipped_count": 1,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 7.343581438064575
+  },
+  {
+    "batch_id": "text_batch_0022",
+    "lanes": [
+      "universal_applicable_rules_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_004",
+      "calgary_generic_graph_pack_008",
+      "calgary_generic_graph_pack_018",
+      "calgary_generic_graph_pack_019"
+    ],
+    "original_pages": [
+      62,
+      71,
+      108,
+      109
+    ],
+    "source_count": 7,
+    "char_count": 5311,
+    "rule_count": 5,
+    "skipped_count": 3,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 16.684081077575684
+  },
+  {
+    "batch_id": "text_batch_0023",
+    "lanes": [
+      "universal_applicable_rules_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_031"
+    ],
+    "original_pages": [
+      196
+    ],
+    "source_count": 2,
+    "char_count": 1609,
+    "rule_count": 0,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 9.477790832519531
+  },
+  {
+    "batch_id": "text_batch_0024",
+    "lanes": [
+      "universal_applicable_rules_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_035"
+    ],
+    "original_pages": [
+      217
+    ],
+    "source_count": 3,
+    "char_count": 2470,
+    "rule_count": 2,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 13.668473243713379
+  },
+  {
+    "batch_id": "text_batch_0026",
+    "lanes": [
+      "universal_applicable_rules_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_192",
+      "calgary_generic_graph_pack_197",
+      "calgary_generic_graph_pack_198",
+      "calgary_generic_graph_pack_206",
+      "calgary_generic_graph_pack_207"
+    ],
+    "original_pages": [
+      561,
+      567,
+      744,
+      761
+    ],
+    "source_count": 6,
+    "char_count": 3670,
+    "rule_count": 1,
+    "skipped_count": 5,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 7.110455751419067
+  },
+  {
+    "batch_id": "text_batch_0002",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_028"
+    ],
+    "original_pages": [
+      195
+    ],
+    "source_count": 3,
+    "char_count": 2413,
+    "rule_count": 4,
+    "skipped_count": 1,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 9.649674654006958
+  },
+  {
+    "batch_id": "text_batch_0006",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_071",
+      "calgary_generic_graph_pack_072",
+      "calgary_generic_graph_pack_074",
+      "calgary_generic_graph_pack_076",
+      "calgary_generic_graph_pack_077"
+    ],
+    "original_pages": [
+      395,
+      396,
+      397
+    ],
+    "source_count": 8,
+    "char_count": 6137,
+    "rule_count": 15,
+    "skipped_count": 3,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 30.046522855758667
+  },
+  {
+    "batch_id": "text_batch_0025",
+    "lanes": [
+      "universal_applicable_rules_packs"
+    ],
+    "rag_pack_ids": [
+      "calgary_generic_graph_pack_075",
+      "calgary_generic_graph_pack_080",
+      "calgary_generic_graph_pack_085",
+      "calgary_generic_graph_pack_110",
+      "calgary_generic_graph_pack_139",
+      "calgary_generic_graph_pack_145",
+      "calgary_generic_graph_pack_180",
+      "calgary_generic_graph_pack_186"
+    ],
+    "original_pages": [
+      396,
+      397,
+      403,
+      420,
+      451,
+      458,
+      524,
+      555
+    ],
+    "source_count": 8,
+    "char_count": 4527,
+    "rule_count": 11,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 22.385793447494507
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "scope_key": "building_separation::building_separation",
+    "rule_object": "building_separation",
+    "constraint_scope": "building_separation",
+    "applies_to": "between the closest façade of the main residential building to the closest façade of a Backyard Suite",
+    "value": "5.0",
+    "unit": "m",
+    "operator": ">=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v3_clause"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "floor_area::floor_area",
+    "rule_object": "floor_area",
+    "constraint_scope": "floor_area",
+    "applies_to": "Backyard Suite projections",
+    "value": "75.0",
+    "unit": "m2",
+    "operator": "<=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v3_clause"
+    ],
+    "source_count": 2
+  },
+  {
+    "scope_key": "height::height",
+    "rule_object": "height",
+    "constraint_scope": "height",
+    "applies_to": "Backyard Suite",
+    "value": "5.0",
+    "unit": "m",
+    "operator": "<=",
+    "agreeing_sources": [
+      "native_rag_llm",
+      "native_v3_clause"
+    ],
+    "source_count": 2
+  }
+]

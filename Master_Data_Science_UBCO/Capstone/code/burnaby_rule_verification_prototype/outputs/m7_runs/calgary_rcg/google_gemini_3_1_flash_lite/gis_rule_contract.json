@@ -1,0 +1,658 @@
+{
+  "city": "Calgary",
+  "zone": "RCG",
+  "source_document": null,
+  "source_url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+  "input_mode": "native_rag_llm",
+  "schema_version": "1.1",
+  "deduplication": {
+    "input_verified_rule_count": 29,
+    "export_rule_count": 22,
+    "duplicate_merged_count": 7,
+    "duplicate_group_count": 7,
+    "duplicate_groups": [
+      {
+        "keeper_rule_id": "calgary_rcg_004",
+        "merged_rule_ids": [
+          "calgary_rcg_094"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "calgary_rcg_006",
+        "merged_rule_ids": [
+          "calgary_rcg_103"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "calgary_rcg_008",
+        "merged_rule_ids": [
+          "calgary_rcg_088"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "calgary_rcg_013",
+        "merged_rule_ids": [
+          "calgary_rcg_063"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "calgary_rcg_028",
+        "merged_rule_ids": [
+          "calgary_rcg_096"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "calgary_rcg_064",
+        "merged_rule_ids": [
+          "calgary_rcg_144"
+        ],
+        "count": 2
+      },
+      {
+        "keeper_rule_id": "calgary_rcg_067",
+        "merged_rule_ids": [
+          "calgary_rcg_133"
+        ],
+        "count": 2
+      }
+    ],
+    "policy": "source_aware_exact_duplicate_merge_for_gis_exports_only"
+  },
+  "rules": [
+    {
+      "rule_id": "calgary_rcg_004",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "side property line shared with another parcel",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "main residential building on a corner parcel",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 470,
+        "evidence_id": "m4_pack_0002_ev_001",
+        "quote": "minimum building setback from the side property line shared with another parcel is 3.0 metres"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_006",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "Backyard Suite",
+      "operator": ">=",
+      "value": "1.5",
+      "value_numeric": 1.5,
+      "unit": "m",
+      "condition": "rear property line",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 395,
+        "evidence_id": "m4_pack_0003_ev_001",
+        "quote": "minimum building setback from a rear property line is: (a) 1.5 metres for any portion of the building used as a Backyard Suite"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_008",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "Backyard Suite",
+      "operator": ">=",
+      "value": "0.6",
+      "value_numeric": 0.6,
+      "unit": "m",
+      "condition": "into a setback area from a property line shared with a street or a lane",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 396,
+        "evidence_id": "m4_pack_0006_ev_001",
+        "quote": "into a setback area from a property line shared with a street or a lane to a minimum building setback of 0.6 metres"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_012",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Backyard Suite",
+      "operator": "<=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 396,
+        "evidence_id": "m4_pack_0009_ev_001",
+        "quote": "the maximum building height for a Backyard Suite is 7.5 metres."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_013",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "side property line",
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 471,
+        "evidence_id": "m4_pack_0013_ev_001",
+        "quote": "A minimum building setback of 1.2 metres is required from a side property line"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_020",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "between the closest façade of the main residential building to the closest façade of a Backyard Suite",
+      "operator": ">=",
+      "value": "5.0",
+      "value_numeric": 5.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 396,
+        "evidence_id": "m4_pack_0018_ev_001",
+        "quote": "a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_026",
+      "rule_object": "lot_coverage",
+      "constraint_type": "maximum",
+      "constraint_scope": "lot_coverage",
+      "applies_to": "all other uses",
+      "operator": "<=",
+      "value": "45.0",
+      "value_numeric": 45.0,
+      "unit": "%",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "footprint_ratio_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 470,
+        "evidence_id": "m4_pack_0023_ev_001",
+        "quote": "the maximum parcel coverage is 45.0 percent."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_028",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "main residential buildings",
+      "operator": ">=",
+      "value": "6.5",
+      "value_numeric": 6.5,
+      "unit": "m",
+      "condition": "on a laned parcel",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 470,
+        "evidence_id": "bundle::calgary_rcg_028",
+        "quote": "[m4_pack_0027_ev_001] minimum separation distance of the main residential buildings on the front portion of the parcel and the main residential buildings contained on the rear portion of the parcel is 6.5 metres\n[v3_repair_pack_0005_ev_001] minimum separation distance of the main residential buildings on the front portion of the parcel and the main residential buildings contained on the rear portion of the parcel is 6.5 metres"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_055",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "building",
+      "operator": "<=",
+      "value": "11.0",
+      "value_numeric": 11.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 472,
+        "evidence_id": "m4_pack_0046_ev_001",
+        "quote": "the maximum building height is 11.0 metres measured from grade."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_056",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "main residential building",
+      "operator": "<=",
+      "value": "8.6",
+      "value_numeric": 8.6,
+      "unit": "m",
+      "condition": "not located on a corner parcel, for any portion of a main residential building located between the rear property line and 60.0 per cent parcel depth or the contextual building depth average",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 473,
+        "evidence_id": "m4_pack_0047_ev_001",
+        "quote": "the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_064",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "private garage attached to a main residential building",
+      "operator": ">=",
+      "value": "0.6",
+      "value_numeric": 0.6,
+      "unit": "m",
+      "condition": "on a laned parcel",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 472,
+        "evidence_id": "bundle::calgary_rcg_064",
+        "quote": "[m4_pack_0055_ev_001] on a laned parcel the minimum building setback from a side property line for a private garage attached to a main residential building is 0.6 metres.\n[v3_repair_pack_0031_ev_001] on a laned parcel the minimum building setback from a side property line for a private garage attached to a main residential building is 0.6 metres."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_067",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "side property line",
+      "operator": ">=",
+      "value": "3.0",
+      "value_numeric": 3.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 470,
+        "evidence_id": "bundle::calgary_rcg_067",
+        "quote": "[m4_pack_0002_ev_001] minimum building setback from the side property line shared with another parcel is 3.0 metres\n[m4_pack_0002_ev_002] 50.0 per cent parcel depth"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_069",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "building",
+      "operator": ">=",
+      "value": "1.2",
+      "value_numeric": 1.2,
+      "unit": "m",
+      "condition": "laned or corner parcel",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 472,
+        "evidence_id": "m4_pack_0067_ev_001",
+        "quote": "the minimum building setback from a rear property line is 1.2 metres"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_073",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "side property line shared with a street",
+      "operator": ">=",
+      "value": "0.6",
+      "value_numeric": 0.6,
+      "unit": "m",
+      "condition": "corner parcel",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 471,
+        "evidence_id": "m4_pack_0070_ev_001",
+        "quote": "the minimum building setback from a side property line shared with a street is 0.6 metres."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_074",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "setback",
+      "applies_to": "rear property line",
+      "operator": ">=",
+      "value": "7.5",
+      "value_numeric": 7.5,
+      "unit": "m",
+      "condition": "",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 472,
+        "evidence_id": "m4_pack_0071_ev_001",
+        "quote": "the minimum building setback from a rear property line is 7.5 metres."
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_079",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "Backyard Suite",
+      "operator": "<=",
+      "value": "5.0",
+      "value_numeric": 5.0,
+      "unit": "m",
+      "condition": "measured from grade at a side property line shared with a parcel designated with a low density residential district",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 396,
+        "evidence_id": "m4_pack_0001_v3_clause_ev_001",
+        "quote": "(4.1) The maximum building height for a Backyard Suite is: 5.0 metres measured from grade at a side property line shared with a parcel designated with a low density residential district"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_081",
+      "rule_object": "setback",
+      "constraint_type": "minimum",
+      "constraint_scope": "front setback",
+      "applies_to": "Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling",
+      "operator": ">=",
+      "value": "6.0",
+      "value_numeric": 6.0,
+      "unit": "m",
+      "condition": "Developed Area and R-C1L or R-C1Ls districts",
+      "exception": "",
+      "applicability": null,
+      "geometry": null,
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 398,
+        "evidence_id": "m4_pack_0007_v3_clause_ev_003",
+        "quote": "The building setback from the front property line for a Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling in the Developed Area is deemed to conform with the requirements of this Bylaw if the building setback from the front property line is a minimum of 6.0 metres for the R-C1L or R-C1Ls districts"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_082",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "Backyard Suite",
+      "operator": ">=",
+      "value": "5.0",
+      "value_numeric": 5.0,
+      "unit": "m",
+      "condition": "between the closest façade of the main residential building to the closest façade of a Backyard Suite. 10P2019",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 396,
+        "evidence_id": "m4_pack_0018_v3_clause_ev_004",
+        "quote": "(3) Unless otherwise referenced in subsections (3.1) and (3.2), a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite. 10P2019"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_083",
+      "rule_object": "floor_area",
+      "constraint_type": "maximum",
+      "constraint_scope": "floor_area",
+      "applies_to": "Secondary Suite",
+      "operator": "<=",
+      "value": "100.0",
+      "value_numeric": 100.0,
+      "unit": "m2",
+      "condition": "(a) in the R-C1L, R-C1Ls, R-C1, R-C1s, R-C1N, R-1, R-1s and 24P2018 R-1N Districts; or (b) when located on a parcel with a parcel width less than 13.0 metres",
+      "exception": "excluding any area covered by stairways and landings",
+      "applicability": null,
+      "geometry": {
+        "operation": "floor_area_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 395,
+        "evidence_id": "m4_pack_0020_v3_clause_ev_005",
+        "quote": "(2) Except as otherwise stated in subsections (2.1) and (3), the maximum 23P2016 floor area of a Secondary Suite, excluding any area covered by stairways and landings, is 100.0 square metres: (a) in the R-C1L, R-C1Ls, R-C1, R-C1s, R-C1N, R-1, R-1s and 24P2018 R-1N Districts; or (b) when located on a parcel with a parcel width less than 13.0 metres"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_084",
+      "rule_object": "floor_area",
+      "constraint_type": "maximum",
+      "constraint_scope": "floor_area",
+      "applies_to": "Backyard Suite",
+      "operator": "<=",
+      "value": "75.0",
+      "value_numeric": 75.0,
+      "unit": "m2",
+      "condition": "",
+      "exception": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+      "applicability": null,
+      "geometry": {
+        "operation": "floor_area_cap",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 396,
+        "evidence_id": "m4_pack_0021_v3_clause_ev_006",
+        "quote": "(5) The maximum floor area of a Backyard Suite, excluding any area covered by stairways and internal landings not exceeding 2.5 square metres, is 75.0 square metres"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_130",
+      "rule_object": "height",
+      "constraint_type": "maximum",
+      "constraint_scope": "height",
+      "applies_to": "main residential building",
+      "operator": "<=",
+      "value": "8.6",
+      "value_numeric": 8.6,
+      "unit": "m",
+      "condition": "not located on a corner parcel",
+      "exception": "",
+      "applicability": null,
+      "geometry": {
+        "operation": "extrude_z",
+        "axis": "vertical",
+        "direction": "up",
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 473,
+        "evidence_id": "v3_repair_pack_0019_ev_001",
+        "quote": "the maximum building height 56P2022 is 8.6 metres for any portion of a main residential building"
+      }
+    },
+    {
+      "rule_id": "calgary_rcg_138",
+      "rule_object": "building_separation",
+      "constraint_type": "minimum",
+      "constraint_scope": "building_separation",
+      "applies_to": "between the closest façade of the main residential building to the closest façade of a Backyard Suite",
+      "operator": ">=",
+      "value": "5.0",
+      "value_numeric": 5.0,
+      "unit": "m",
+      "condition": "",
+      "exception": "Unless otherwise referenced in subsections (3.1) and (3.2)",
+      "applicability": null,
+      "geometry": {
+        "operation": "min_separation",
+        "axis": null,
+        "direction": null,
+        "source_fields": [
+          "rule_object"
+        ]
+      },
+      "verification_status": "verified",
+      "citation": {
+        "document": null,
+        "url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+        "page": 396,
+        "evidence_id": "v3_repair_pack_0024_ev_001",
+        "quote": "a minimum separation of 5.0 metres is required between the closest façade of the main residential building to the closest façade of a Backyard Suite."
+      }
+    }
+  ]
+}

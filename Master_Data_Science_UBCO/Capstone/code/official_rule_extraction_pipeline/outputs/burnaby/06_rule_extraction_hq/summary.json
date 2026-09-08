@@ -1,0 +1,227 @@
+﻿{
+  "pipeline": "official_rule_extraction_pipeline_batched_rag_rule_extraction",
+  "dry_run": false,
+  "model": "gemini-2.5-flash",
+  "text_model": "gemini-2.5-flash",
+  "table_model": "gemini-3.1-pro-preview",
+  "visual_blocks_dir": "C:\\Users\\18447\\w2025-data599-capstone-projects-green-metrics-technology\\code\\official_rule_extraction_pipeline\\outputs\\burnaby\\05_rag_visual_blocks",
+  "text_block_count": 13,
+  "preflight_kept_text_block_count": 13,
+  "preflight_skipped_text_block_count": 0,
+  "preflight_skip_reason_counts": {},
+  "text_batch_count": 7,
+  "only_batches": [],
+  "max_blocks_per_batch": 8,
+  "max_chars_per_batch": 12000,
+  "batch_mode": "pack_adaptive",
+  "regulatory_table_count": 4,
+  "ignored_visual_region_count": 0,
+  "table_like_text_block_count": 0,
+  "text_rule_count": 81,
+  "table_rule_count": 66,
+  "combined_rule_count": 147,
+  "deduplicated_rule_count": 60,
+  "auto_folded_group_count": 0,
+  "auto_folded_rule_count": 0,
+  "normalized_folded_group_count": 0,
+  "normalized_folded_rule_count": 0,
+  "postprocess_filtered_rule_count": 87,
+  "postprocess_filter_reason_counts": {
+    "burnaby_non_target_permitted_use_table_row": 8,
+    "table_image_preferred_over_same_page_text_ocr": 78,
+    "burnaby_duplicate_development_regulations_cross_reference": 1
+  },
+  "merge_review_rule_count": 0,
+  "non_canonical_unit_count": 0,
+  "non_canonical_units": [],
+  "extraction_quality_flags": {
+    "exception_requires_atomic_review": 3
+  },
+  "text_successful_batches": 7,
+  "text_error_batches": 0,
+  "table_successful_batches": 4,
+  "text_logs": [
+    {
+      "batch_id": "text_batch_0001",
+      "lanes": [
+        "district_dimensional_overrides_packs"
+      ],
+      "rag_pack_ids": [
+        "burnaby_generic_graph_pack_004"
+      ],
+      "original_pages": [
+        1
+      ],
+      "source_count": 1,
+      "char_count": 1083,
+      "rule_count": 7,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 21.734371423721313
+    },
+    {
+      "batch_id": "text_batch_0002",
+      "lanes": [
+        "district_dimensional_overrides_packs"
+      ],
+      "rag_pack_ids": [
+        "burnaby_generic_graph_pack_007"
+      ],
+      "original_pages": [
+        2
+      ],
+      "source_count": 3,
+      "char_count": 4017,
+      "rule_count": 53,
+      "skipped_count": 0,
+      "warnings": [
+        "The table structure in the source text is ambiguous in some places, requiring interpretation of column applicability for 'Impervious Surfaces' and general 'Maximum Lot Coverage' rules. Interpretation was based on visual alignment and explicit mentions of dwelling types.",
+        "Source 'burnaby_generic_graph_pack_007__page_0002__local_003' contains an incomplete sentence for note .3: 'Interior side yard setbacks are not required for rowhouse dwelling units on a lot line between two'."
+      ],
+      "status": "ok",
+      "seconds": 73.68572616577148
+    },
+    {
+      "batch_id": "text_batch_0003",
+      "lanes": [
+        "district_dimensional_overrides_packs"
+      ],
+      "rag_pack_ids": [
+        "burnaby_generic_graph_pack_009"
+      ],
+      "original_pages": [
+        4
+      ],
+      "source_count": 3,
+      "char_count": 2513,
+      "rule_count": 11,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 16.918081283569336
+    },
+    {
+      "batch_id": "text_batch_0004",
+      "lanes": [
+        "district_dimensional_overrides_packs"
+      ],
+      "rag_pack_ids": [
+        "burnaby_generic_graph_pack_011",
+        "burnaby_generic_graph_pack_012"
+      ],
+      "original_pages": [
+        5
+      ],
+      "source_count": 2,
+      "char_count": 1311,
+      "rule_count": 3,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 10.505322694778442
+    },
+    {
+      "batch_id": "text_batch_0005",
+      "lanes": [
+        "extract_now_core_packs"
+      ],
+      "rag_pack_ids": [
+        "burnaby_generic_graph_pack_002",
+        "burnaby_generic_graph_pack_006"
+      ],
+      "original_pages": [
+        1
+      ],
+      "source_count": 2,
+      "char_count": 1205,
+      "rule_count": 2,
+      "skipped_count": 1,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 9.878241062164307
+    },
+    {
+      "batch_id": "text_batch_0006",
+      "lanes": [
+        "extract_separately_use_permission_packs"
+      ],
+      "rag_pack_ids": [
+        "burnaby_generic_graph_pack_008"
+      ],
+      "original_pages": [
+        2
+      ],
+      "source_count": 1,
+      "char_count": 725,
+      "rule_count": 2,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 5.5148024559021
+    },
+    {
+      "batch_id": "text_batch_0007",
+      "lanes": [
+        "universal_applicable_rules_packs"
+      ],
+      "rag_pack_ids": [
+        "burnaby_generic_graph_pack_010"
+      ],
+      "original_pages": [
+        4
+      ],
+      "source_count": 1,
+      "char_count": 1119,
+      "rule_count": 3,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 11.907374620437622
+    }
+  ],
+  "table_logs": [
+    {
+      "batch_id": "page_0001__table_001",
+      "page_number": 1,
+      "section_heading": "101.2",
+      "rule_count": 10,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 27.077975034713745
+    },
+    {
+      "batch_id": "page_0001__table_002",
+      "page_number": 1,
+      "section_heading": "101.2",
+      "rule_count": 9,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 33.495481967926025
+    },
+    {
+      "batch_id": "page_0002__table_001",
+      "page_number": 2,
+      "section_heading": "101.4",
+      "rule_count": 45,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 135.01463675498962
+    },
+    {
+      "batch_id": "page_0004__table_001",
+      "page_number": 4,
+      "section_heading": "101.5.1",
+      "rule_count": 2,
+      "skipped_count": 0,
+      "warnings": [],
+      "status": "ok",
+      "seconds": 19.628047704696655
+    }
+  ],
+  "rebuilt_from_cached_raw_rules": true,
+  "clean_rule_count": 60
+}

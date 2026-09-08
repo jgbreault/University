@@ -1,0 +1,34 @@
+{
+  "summary": {
+    "burnaby_r1": {
+      "pdf_path": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/data/bylaws/burnaby_r1/source.pdf",
+      "pdf_pages": 7,
+      "verified_rules": 84,
+      "unique_cited_pages": [
+        2,
+        6
+      ]
+    },
+    "vancouver_rs": {
+      "pdf_path": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/data/bylaws/vancouver_rs/source.pdf",
+      "pdf_pages": 22,
+      "verified_rules": 12,
+      "unique_cited_pages": [
+        8
+      ]
+    },
+    "calgary_rcg": {
+      "pdf_path": "/Users/thomas/Documents/Capstone_prototype/Burnaby_prototype/data/bylaws/calgary_rcg/source.pdf",
+      "pdf_pages": 1053,
+      "verified_rules": 11,
+      "unique_cited_pages": [
+        395,
+        396,
+        397,
+        398
+      ]
+    }
+  },
+  "failure_count": 0,
+  "failures": []
+}

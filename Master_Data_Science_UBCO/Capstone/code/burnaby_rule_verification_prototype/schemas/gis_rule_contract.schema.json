@@ -1,0 +1,287 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Burnaby GIS Rule Contract (slim, verified-only)",
+  "description": "The downstream-safe contract handed to GIS. Verified rules only, flat fields plus one compact citation. Full proof/debug detail lives in verified_rules.json, NOT here. additionalProperties:false makes any leaked internal field fail validation.",
+  "type": "object",
+  "required": [
+    "city",
+    "zone",
+    "schema_version",
+    "rules"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "geometry_operator": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "operation",
+        "axis",
+        "direction",
+        "source_fields"
+      ],
+      "properties": {
+        "operation": {
+          "enum": [
+            "area_floor",
+            "clearance",
+            "density_ratio_cap",
+            "extrude_z",
+            "floor_area_cap",
+            "footprint_ratio_cap",
+            "min_separation",
+            "offset_inward",
+            "storey_count_cap",
+            "surface_ratio_cap",
+            "trigger_predicate",
+            "unit_count_cap",
+            "use_permission"
+          ]
+        },
+        "axis": {
+          "enum": [
+            "front_lot_line",
+            "side_lot_line",
+            "rear_lot_line",
+            "lane_lot_line",
+            "vertical",
+            null
+          ]
+        },
+        "direction": {
+          "enum": [
+            "inward",
+            "up",
+            null
+          ]
+        },
+        "source_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "properties": {
+    "city": {
+      "type": "string"
+    },
+    "zone": {
+      "type": "string"
+    },
+    "source_document": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "input_mode": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "deduplication": {
+      "description": "Source-aware exact duplicate merge applied only to GIS-facing exports. The raw verifier audit trail remains verified_rules.json.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "input_verified_rule_count",
+        "export_rule_count",
+        "duplicate_merged_count",
+        "duplicate_group_count",
+        "duplicate_groups",
+        "policy"
+      ],
+      "properties": {
+        "input_verified_rule_count": {
+          "type": "integer"
+        },
+        "export_rule_count": {
+          "type": "integer"
+        },
+        "duplicate_merged_count": {
+          "type": "integer"
+        },
+        "duplicate_group_count": {
+          "type": "integer"
+        },
+        "policy": {
+          "type": "string"
+        },
+        "duplicate_groups": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "keeper_rule_id",
+              "merged_rule_ids",
+              "count"
+            ],
+            "properties": {
+              "keeper_rule_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "merged_rule_ids": {
+                "type": "array",
+                "items": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "count": {
+                "type": "integer"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "rule_id",
+          "rule_object",
+          "value",
+          "unit",
+          "verification_status",
+          "citation"
+        ],
+        "properties": {
+          "rule_id": {
+            "type": "string"
+          },
+          "rule_object": {
+            "type": "string"
+          },
+          "constraint_type": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "constraint_scope": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "applies_to": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "operator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "value": {},
+          "value_numeric": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "condition": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "exception": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "geometry": {
+            "$ref": "#/$defs/geometry_operator"
+          },
+          "verification_status": {
+            "type": "string",
+            "enum": [
+              "verified"
+            ]
+          },
+          "citation": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "evidence_id",
+              "quote"
+            ],
+            "properties": {
+              "document": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "page": {
+                "type": [
+                  "integer",
+                  "string",
+                  "null"
+                ]
+              },
+              "evidence_id": {
+                "type": "string"
+              },
+              "quote": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "applicability": {
+            "description": "Structured applicability for matrix-column rules: selectors (dwelling_type, unit_range) + qualifiers (lot_area_threshold, overlay). Optional and additive; absent for selector-less rules.",
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

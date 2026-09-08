@@ -1,0 +1,242 @@
+[
+  {
+    "scope_key": "floor_area::floor_area",
+    "rule_object": "floor_area",
+    "constraint_scope": "floor_area",
+    "applies_to": "parking space length",
+    "variants": [
+      {
+        "value": "7.3",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "8",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "13",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "16.7",
+        "unit": "m2",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "8.4",
+        "unit": "m2",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "0.25",
+        "unit": "",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "186",
+        "unit": "m2",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm",
+          "native_v3_clause"
+        ]
+      },
+      {
+        "value": "3.7",
+        "unit": "m",
+        "operator": ">",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "4",
+        "unit": "m2",
+        "operator": ">",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "10",
+        "unit": "%",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "37",
+        "unit": "m2",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "29.7",
+        "unit": "m2",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "height::height",
+    "rule_object": "height",
+    "constraint_scope": "height",
+    "applies_to": "laneway house",
+    "variants": [
+      {
+        "value": "8.5",
+        "unit": "m",
+        "operator": "<=",
+        "direction": "max",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "10.7",
+        "unit": "m",
+        "operator": ">",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "lot_area::lot_area",
+    "rule_object": "lot_area",
+    "constraint_scope": "lot_area",
+    "applies_to": "laneway house",
+    "variants": [
+      {
+        "value": "9.8",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "7.3",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "2000",
+        "unit": "m2",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      }
+    ]
+  },
+  {
+    "scope_key": "setback::setback",
+    "rule_object": "setback",
+    "constraint_scope": "setback",
+    "applies_to": "laneway house",
+    "variants": [
+      {
+        "value": "0.9",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "1.2",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "6.0",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "4.5",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "0.3",
+        "unit": "m",
+        "operator": ">=",
+        "direction": "min",
+        "sources": [
+          "native_rag_llm"
+        ]
+      },
+      {
+        "value": "7.3",
+        "unit": "m",
+        "operator": "",
+        "direction": "eq",
+        "sources": [
+          "native_rag_llm"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,322 @@
+﻿[
+  {
+    "source_id": "vancouver_generic_graph_pack_007__page_0008__local_009",
+    "rule_key": "laneway_house_site_width_min",
+    "rule_object": "site_width",
+    "constraint_type": "minimum",
+    "subject": "laneway_house",
+    "operator": ">=",
+    "value": "9.8",
+    "unit": "m",
+    "condition": "",
+    "exception": "the Director of Planning may reduce the minimum site width if the site is at least 7.3 m in width and the Director of Planning considers massing, overlook and impact on neighbourhood privacy and all applicable Council policies and guidelines.",
+    "evidence_text": "11.3.8.3 The minimum site width for a laneway house is 9.8 m, except that the Director of Planning may reduce the minimum site width if:",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0001",
+    "rule_id": "pipeline10_rule_0010",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0010",
+        "rule_object": "site_width",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "site_width"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0010"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "exception_requires_atomic_review",
+      "incomplete_or_continuation_evidence"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0010"
+  },
+  {
+    "source_id": "vancouver_generic_graph_pack_009__page_0009__local_002",
+    "rule_key": "11.3.8.8_floor_area_computation_inclusion_general",
+    "rule_object": "floor_area",
+    "constraint_type": "measurement",
+    "subject": "laneway_house",
+    "operator": "required",
+    "value": "",
+    "unit": "",
+    "condition": "must include specific items as per sections 11.3.8.8(a) to (c)",
+    "exception": "",
+    "evidence_text": "Computation of floor area for a laneway house must include:",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0002",
+    "rule_id": "pipeline10_rule_0014",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0014",
+        "rule_object": "floor_area_computation",
+        "condition": "must include specific items as per sections 11.3.8.8(a) to (c)"
+      }
+    ],
+    "applies_to_objects": [
+      "floor_area_computation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0014"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "incomplete_or_continuation_evidence"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0014",
+    "rule_object_original": "floor_area_computation"
+  },
+  {
+    "source_id": "vancouver_generic_graph_pack_009__page_0009__local_006",
+    "rule_key": "11.3.8.9_floor_area_computation_exclusion_general",
+    "rule_object": "floor_area",
+    "constraint_type": "measurement",
+    "subject": "laneway_house",
+    "operator": "prohibited",
+    "value": "",
+    "unit": "",
+    "condition": "must exclude specific items as per sections 11.3.8.9(a) to (f)",
+    "exception": "",
+    "evidence_text": "Computation of floor area for a laneway house must exclude:",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0002",
+    "rule_id": "pipeline10_rule_0018",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0018",
+        "rule_object": "floor_area_computation",
+        "condition": "must exclude specific items as per sections 11.3.8.9(a) to (f)"
+      }
+    ],
+    "applies_to_objects": [
+      "floor_area_computation"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0018"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "incomplete_or_continuation_evidence"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0018",
+    "rule_object_original": "floor_area_computation"
+  },
+  {
+    "source_id": "vancouver_generic_graph_pack_009__page_0009__local_009",
+    "rule_key": "11.3.8.9c_floor_area_exclusion_entries_porches_verandahs_general",
+    "rule_object": "floor_area",
+    "constraint_type": "measurement",
+    "subject": "entries_porches_verandahs",
+    "operator": "prohibited",
+    "value": "",
+    "unit": "",
+    "condition": "for computation of floor area for a laneway house; if conditions in 11.3.8.9(c)(i)-(iii) are met",
+    "exception": "",
+    "evidence_text": "entries, porches and verandahs, if:",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0002",
+    "rule_id": "pipeline10_rule_0021",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0021",
+        "rule_object": "floor_area_component",
+        "condition": "for computation of floor area for a laneway house; if conditions in 11.3.8.9(c)(i)-(iii) are met"
+      }
+    ],
+    "applies_to_objects": [
+      "floor_area_component"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0021"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "incomplete_or_continuation_evidence"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0021",
+    "rule_object_original": "floor_area_component"
+  },
+  {
+    "source_id": "vancouver_generic_graph_pack_009__page_0009__local_013",
+    "rule_key": "11.3.8.9d_floor_area_exclusion_sloping_roof_floors_general",
+    "rule_object": "floor_area",
+    "constraint_type": "measurement",
+    "subject": "floors_over_open_to_below_space_with_sloping_roof",
+    "operator": "prohibited",
+    "value": "",
+    "unit": "",
+    "condition": "for computation of floor area for a laneway house; if conditions in 11.3.8.9(d)(i)-(ii) are met; where the ceiling is directly attached to the underside of sloping roof rafters, and where the roof joists have a minimum 7:12 pitch and the related ceiling maintains the same pitch as the roof joists",
+    "exception": "",
+    "evidence_text": "areas of floors existing, proposed or as may be extended over open-to-below space located directly below sloping roof rafters or a sloping ceiling where the ceiling is directly attached to the underside of sloping roof rafters, and where the roof joists have a minimum 7:12 pitch and the related ceiling maintains the same pitch as the roof joists, if:",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0002",
+    "rule_id": "pipeline10_rule_0025",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0025",
+        "rule_object": "floor_area_component",
+        "condition": "for computation of floor area for a laneway house; if conditions in 11.3.8.9(d)(i)-(ii) are met; where the ceiling is directly attached to the underside of sloping roof rafters, and where the roof joists have a minimum 7:12 pitch and the related ceiling maintains the same pitch as the roof joists"
+      }
+    ],
+    "applies_to_objects": [
+      "floor_area_component"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0025"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "incomplete_or_continuation_evidence"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0025",
+    "rule_object_original": "floor_area_component"
+  },
+  {
+    "source_id": "vancouver_generic_graph_pack_009__page_0009__local_016",
+    "rule_key": "11.3.8.9e_floor_area_exclusion_undeveloped_floors_general",
+    "rule_object": "floor_area",
+    "constraint_type": "measurement",
+    "subject": "undeveloped_floors",
+    "operator": "prohibited",
+    "value": "",
+    "unit": "",
+    "condition": "for computation of floor area for a laneway house; if conditions in 11.3.8.9(e)(i)-(ii) are met",
+    "exception": "",
+    "evidence_text": "areas of undeveloped floors that are located:",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0002",
+    "rule_id": "pipeline10_rule_0029",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0029",
+        "rule_object": "floor_area_component",
+        "condition": "for computation of floor area for a laneway house; if conditions in 11.3.8.9(e)(i)-(ii) are met"
+      }
+    ],
+    "applies_to_objects": [
+      "floor_area_component"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0029"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "incomplete_or_continuation_evidence"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0029",
+    "rule_object_original": "floor_area_component"
+  },
+  {
+    "source_id": "vancouver_generic_graph_pack_006__page_0008__local_017",
+    "rule_key": "laneway_house_setback_from_side_property_line",
+    "rule_object": "building_setback",
+    "constraint_type": "dimensional_standard",
+    "subject": "laneway house from each side property line",
+    "operator": ">=",
+    "value": "1.2",
+    "unit": "m",
+    "condition": "",
+    "exception": "the Director of Planning may reduce this requirement for sites less than 10.1 m in width",
+    "evidence_text": "(c) 1.2 m from each side property line, except that the Director of Planning may reduce this requirement for sites less than 10.1 m in width.",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0005",
+    "rule_id": "pipeline10_rule_0041",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0041",
+        "rule_object": "setback",
+        "condition": ""
+      }
+    ],
+    "applies_to_objects": [
+      "setback"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0041"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "exception_requires_atomic_review",
+      "operator_direction_conflict"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0041",
+    "rule_object_original": "setback"
+  },
+  {
+    "source_id": "vancouver_generic_graph_pack_014__page_0010__local_002",
+    "rule_key": "laneway_house_child_day_care_facility_combination_permission",
+    "rule_object": "laneway_house_and_child_day_care_facility_combination",
+    "constraint_type": "qualitative",
+    "subject": "laneway_house_and_child_day_care_facility_combination",
+    "operator": "permitted",
+    "value": "",
+    "unit": "",
+    "condition": "only if the following conditions are met",
+    "exception": "",
+    "evidence_text": "A laneway house in combination with a child day care facility is only permitted if:",
+    "warnings": [],
+    "source_stream": "gemini_text_batch",
+    "batch_id": "text_batch_0006",
+    "rule_id": "pipeline10_rule_0042",
+    "applies_to": [
+      {
+        "rule_id": "pipeline10_rule_0042",
+        "rule_object": "laneway_house_and_child_day_care_facility_combination",
+        "condition": "only if the following conditions are met"
+      }
+    ],
+    "applies_to_objects": [
+      "laneway_house_and_child_day_care_facility_combination"
+    ],
+    "scope_count": 1,
+    "scope_mode": "single_scope",
+    "merged_rule_ids": [
+      "pipeline10_rule_0042"
+    ],
+    "merged_rule_count": 1,
+    "dedup_status": "kept",
+    "review_reasons": [
+      "incomplete_or_continuation_evidence"
+    ],
+    "review_required": true,
+    "merged_rule_id": "pipeline5_merged_rule_0042"
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "source_layer": "m4_exhaustive_bylaw_discovery",
+  "discovery_version": "m4_exhaustive_discovery_1",
+  "source_chunk_count": 151,
+  "evidence_pack_count": 125,
+  "page_count": 25,
+  "first_page": 389,
+  "last_page": 477,
+  "packed_page_count": 25,
+  "lane_counts": [
+    {
+      "name": "family_query",
+      "count": 27
+    },
+    {
+      "name": "section_neighbor",
+      "count": 13
+    },
+    {
+      "name": "seed_discovery",
+      "count": 46
+    },
+    {
+      "name": "target_section_expansion",
+      "count": 39
+    }
+  ],
+  "advisory_only": true,
+  "city": "calgary_rcg",
+  "discovery_mode": "m4",
+  "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/calgary_rcg/source.pdf",
+  "pdf_hash": "25d15e8d3a3ed10b90d9c029eff8a337ba899f5f330d64f509e8995874740d48",
+  "config_hash": "6e6e634b8594b38c9395a6bfad510cc29ca10cfe4e80832647b4b39104624f01",
+  "discovery_hash": "174fb5b343e67e34794fa98d8197840a51312a51456c86fdca2e14873bd48bd2",
+  "cache_db": "outputs/m7_cache/calgary_rcg.sqlite",
+  "m4_source_corpus": {
+    "path": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/benchmark/source_corpus/calgary_rcg",
+    "corpus_version": "m4_source_corpus_1",
+    "numeric_clause_count": 54,
+    "rule_like_numeric_clause_count": 53,
+    "selected_rule_like_numeric_coverage": 1.0
+  }
+}

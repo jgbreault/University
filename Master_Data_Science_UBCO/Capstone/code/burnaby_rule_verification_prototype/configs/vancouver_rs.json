@@ -1,0 +1,66 @@
+{
+  "city": "Vancouver",
+  "zone": "RS",
+  "source_document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+  "source_url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+  "target_concept": "laneway-house buildable-area rules for GIS",
+  "known_aliases": [
+    "laneway house",
+    "laneway home",
+    "coach house"
+  ],
+  "_note": "Honest cross-city generalization config: NO hand-fit table-scope patterns and a clean (non-Burnaby) normalization block. Only generic, city-neutral knowledge (rule-family directions + which families GIS cares about). If a rule verifies here it does so on structural proof alone.",
+  "verification": {
+    "structured_table_verification": true,
+    "table_scope_pattern_mode": "deny_ambiguous",
+    "structured_table_scope_patterns": [],
+    "auto_verify_table_fallback_candidates": false,
+    "auto_verify_table_cell_candidates": false,
+    "auto_verify_table_evidence_candidates": false,
+    "verify_text_candidates": true,
+    "require_text_consensus": false,
+    "cross_family_sibling_groups": [
+      [
+        "lot_coverage",
+        "impervious_surface"
+      ]
+    ],
+    "gis_text_rule_contract": [
+      "setback",
+      "building_separation",
+      "lot_area",
+      "height",
+      "storeys",
+      "lot_coverage",
+      "impervious_surface",
+      "dwelling_units",
+      "floor_area"
+    ],
+    "single_source_text_rule_contract": [
+      "height",
+      "setback",
+      "lot_coverage",
+      "building_separation"
+    ],
+    "rule_family_direction": {
+      "setback": "min",
+      "building_separation": "min",
+      "lot_area": "min",
+      "height": "max",
+      "storeys": "max",
+      "lot_coverage": "max",
+      "impervious_surface": "max",
+      "dwelling_units": "max",
+      "floor_area": "max"
+    }
+  },
+  "normalization": {
+    "applies_to_hints": [],
+    "scope_hints": [],
+    "distance_rewrites": [],
+    "range_rewrites": [],
+    "condition_defaults": [],
+    "generic_applies_to_extra_words": [],
+    "non_material_condition_words": []
+  }
+}

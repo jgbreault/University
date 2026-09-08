@@ -1,0 +1,404 @@
+[
+  {
+    "gold_id": "cal_setback_rear_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "rear_yard",
+    "applies_to": "backyard suite",
+    "value": "1.5",
+    "unit": "m",
+    "operator": ">=",
+    "condition": null,
+    "source_page": 395,
+    "required_rule_terms": [
+      "backyard"
+    ],
+    "required_evidence_terms": [
+      "rear property line",
+      "1.5"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.352(1)(a): minimum building setback from a rear property line is 1.5 m for any portion of the building used as a Backyard Suite."
+  },
+  {
+    "gold_id": "cal_separation_001",
+    "rule_object": "building_separation",
+    "constraint_type": "min",
+    "constraint_scope": "building_separation",
+    "applies_to": "backyard suite",
+    "value": "5.0",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "between the closest facade of the main residential building and the closest facade of the Backyard Suite; reducible to 1.5 m with qualifying at-grade amenity space (352(3.1))",
+    "source_page": 396,
+    "required_rule_terms": [
+      "backyard"
+    ],
+    "required_evidence_terms": [
+      "separation",
+      "5.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.352(3). COMPOUND: (3.1) allows reduction to 1.5 m with amenity space — the 5.0 m base bound is the verifiable branch; the reduction is a conditional relaxation."
+  },
+  {
+    "gold_id": "cal_height_001",
+    "rule_object": "height",
+    "constraint_type": "max",
+    "constraint_scope": "building",
+    "applies_to": "backyard suite",
+    "value": "7.5",
+    "unit": "m",
+    "operator": "<=",
+    "condition": null,
+    "source_page": 396,
+    "required_rule_terms": [
+      "backyard"
+    ],
+    "required_evidence_terms": [
+      "height",
+      "7.5"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.352(4): maximum building height for a Backyard Suite is 7.5 m (unless 4.1 edge conditions apply)."
+  },
+  {
+    "gold_id": "cal_height_side_edge_001",
+    "rule_object": "height",
+    "constraint_type": "max",
+    "constraint_scope": "building",
+    "applies_to": "backyard suite",
+    "value": "5.0",
+    "unit": "m",
+    "operator": "<=",
+    "condition": "measured from grade at a side property line shared with a parcel designated with a low density residential district",
+    "source_page": 396,
+    "required_rule_terms": [
+      "backyard"
+    ],
+    "required_evidence_terms": [
+      "side property line",
+      "5.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.352(4.1)(a): conditional edge height; rises at 45 degrees to 7.5 m per (4.1)(c)."
+  },
+  {
+    "gold_id": "cal_floor_area_001",
+    "rule_object": "floor_area",
+    "constraint_type": "max",
+    "constraint_scope": "",
+    "applies_to": "backyard suite",
+    "value": "75.0",
+    "unit": "m2",
+    "operator": "<=",
+    "condition": "excluding any area covered by stairways and internal landings not exceeding 2.5 square metres",
+    "source_page": 396,
+    "required_rule_terms": [
+      "backyard"
+    ],
+    "required_evidence_terms": [
+      "floor area",
+      "75.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.352(5): maximum floor area of a Backyard Suite is 75.0 m2; relaxable by 10% per (6) — the base bound is the verifiable claim."
+  },
+  {
+    "gold_id": "cal_floor_area_secondary_001",
+    "rule_object": "floor_area",
+    "constraint_type": "max",
+    "constraint_scope": "",
+    "applies_to": "secondary suite",
+    "value": "100.0",
+    "unit": "m2",
+    "operator": "<=",
+    "condition": "in the R-C1L/R-C1Ls/R-C1/R-C1s/R-C1N/R-1/R-1s/R-1N districts, or on a parcel with width less than 13.0 m; no maximum when wholly in a basement (351(2.1))",
+    "source_page": 395,
+    "required_rule_terms": [
+      "secondary"
+    ],
+    "required_evidence_terms": [
+      "floor area",
+      "100.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.351(2). COMPOUND district/width condition — a conservative verifier may legitimately hold this in review for its condition complexity."
+  },
+  {
+    "gold_id": "cal_setback_balcony_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "",
+    "applies_to": "backyard suite",
+    "value": "0.6",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "balcony projecting into a required setback area from a property line shared with a street or a lane",
+    "source_page": 397,
+    "required_rule_terms": [
+      "backyard"
+    ],
+    "required_evidence_terms": [
+      "setback",
+      "0.6"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.352(9): a projecting balcony keeps a minimum 0.6 m setback. Hand-checked; surfaced by the pipeline and missing from the first-pass gold."
+  },
+  {
+    "gold_id": "cal_setback_front_deemed_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "front_yard",
+    "applies_to": "Duplex Dwelling, Semi-detached Dwelling or Single Detached Dwelling",
+    "value": "6.0",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "deemed-conforming front setback for the R-C1L or R-C1Ls districts in the Developed Area",
+    "source_page": 398,
+    "required_rule_terms": [
+      "dwelling"
+    ],
+    "required_evidence_terms": [
+      "front property line",
+      "6.0"
+    ],
+    "gis_relevance": "context",
+    "notes": "1P2007 s.358(3)(b)(i). True rule from the deemed-conforming provisions adjacent to the backyard-suite slice; hand-checked."
+  },
+  {
+    "gold_id": "cal_rcg_setback_side_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "side_yard",
+    "applies_to": "R-CG District",
+    "value": "1.2",
+    "unit": "m",
+    "operator": ">=",
+    "condition": null,
+    "source_page": 471,
+    "required_rule_terms": [
+      "side"
+    ],
+    "required_evidence_terms": [
+      "side property line",
+      "1.2"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.539(1): the minimum building setback from any side property line is 1.2 m in the R-CG District (subject to relaxations in (3)-(9)). Authored from source p.471 before re-run."
+  },
+  {
+    "gold_id": "cal_rcg_setback_rear_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "rear_yard",
+    "applies_to": "R-CG District",
+    "value": "7.5",
+    "unit": "m",
+    "operator": ">=",
+    "condition": null,
+    "source_page": 472,
+    "required_rule_terms": [
+      "rear"
+    ],
+    "required_evidence_terms": [
+      "rear property line",
+      "7.5"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.540(1): unless s.540(2) applies, the minimum building setback from a rear property line is 7.5 m. Authored from source p.472."
+  },
+  {
+    "gold_id": "cal_rcg_setback_rear_laned_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "rear_yard",
+    "applies_to": "R-CG District",
+    "value": "1.2",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "on a laned or corner parcel",
+    "source_page": 472,
+    "required_rule_terms": [
+      "rear",
+      "laned"
+    ],
+    "required_evidence_terms": [
+      "rear property line",
+      "1.2",
+      "laned"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.540(2): on a laned or corner parcel the minimum rear setback is 1.2 m (the conditional branch of s.540). Authored from source p.472."
+  },
+  {
+    "gold_id": "cal_rcg_setback_corner_street_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "side_yard",
+    "applies_to": "R-CG District",
+    "value": "0.6",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "corner parcel; side property line shared with a street",
+    "source_page": 471,
+    "required_rule_terms": [
+      "corner"
+    ],
+    "required_evidence_terms": [
+      "side property line",
+      "0.6"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.539(6): for a corner parcel, the minimum side setback shared with a street is 0.6 m. Authored from source p.471."
+  },
+  {
+    "gold_id": "cal_rcg_setback_side_laneless_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "side_yard",
+    "applies_to": "R-CG District",
+    "value": "3.0",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "laneless parcel; one side where no provision is made for a private garage (s.539(2)(b))",
+    "source_page": 471,
+    "required_rule_terms": [
+      "side",
+      "laneless"
+    ],
+    "required_evidence_terms": [
+      "side property line",
+      "3.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.539(2)(b): laneless parcel side setback 3.0 m on one side when no private-garage provision. COMPOUND branch ((a) 1.2 m / (b) 3.0 m); a conservative verifier may legitimately hold this in review."
+  },
+  {
+    "gold_id": "cal_rcg_height_001",
+    "rule_object": "height",
+    "constraint_type": "max",
+    "constraint_scope": "building",
+    "applies_to": "R-CG District",
+    "value": "11.0",
+    "unit": "m",
+    "operator": "<=",
+    "condition": null,
+    "source_page": 472,
+    "required_rule_terms": [
+      "height"
+    ],
+    "required_evidence_terms": [
+      "height",
+      "11.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.541(1): unless (2)-(4) apply, the maximum building height is 11.0 m measured from grade. Authored from source p.472."
+  },
+  {
+    "gold_id": "cal_rcg_lot_coverage_001",
+    "rule_object": "lot_coverage",
+    "constraint_type": "max",
+    "constraint_scope": "parcel_coverage",
+    "applies_to": "R-CG District",
+    "value": "45.0",
+    "unit": "%",
+    "operator": "<=",
+    "condition": "for all other uses (s.534(4) general R-CG parcel-coverage cap, distinct from the s.534(1)/(2) contextual-dwelling coverage)",
+    "source_page": 470,
+    "required_rule_terms": [
+      "coverage"
+    ],
+    "required_evidence_terms": [
+      "parcel coverage",
+      "45.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.534(4): 'For all other uses, the maximum parcel coverage is 45.0 percent.' Authored from source p.470."
+  },
+  {
+    "gold_id": "cal_rcg_setback_garage_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "side_yard",
+    "applies_to": "R-CG District",
+    "value": "0.6",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "on a laned parcel; private garage attached to a main residential building (s.539(8))",
+    "source_page": 472,
+    "required_rule_terms": [
+      "garage"
+    ],
+    "required_evidence_terms": [
+      "side property line",
+      "0.6"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.539(8): laned-parcel side setback for an attached private garage is 0.6 m. Authored from source p.472."
+  },
+  {
+    "gold_id": "cal_rcg_separation_frontrear_001",
+    "rule_object": "building_separation",
+    "constraint_type": "min",
+    "constraint_scope": "building_separation",
+    "applies_to": "R-CG District",
+    "value": "6.5",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "between the main residential buildings on the front portion and the rear portion of the parcel (s.535(2)(c))",
+    "source_page": 470,
+    "required_rule_terms": [
+      "separation"
+    ],
+    "required_evidence_terms": [
+      "separation",
+      "6.5"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.535(2)(c): the minimum separation distance between the main residential buildings on the front portion and the rear portion of the parcel is 6.5 m. Authored from source p.470 (R-CG deliverable rule missing from the first gold pass)."
+  },
+  {
+    "gold_id": "cal_rcg_height_rear_portion_001",
+    "rule_object": "height",
+    "constraint_type": "max",
+    "constraint_scope": "building",
+    "applies_to": "R-CG District",
+    "value": "8.6",
+    "unit": "m",
+    "operator": "<=",
+    "condition": "where not located on a corner parcel; portion of a main residential building between the rear property line and 60% parcel depth (s.541(4))",
+    "source_page": 473,
+    "required_rule_terms": [
+      "building"
+    ],
+    "required_evidence_terms": [
+      "building height",
+      "8.6"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.541(4): where not on a corner parcel, the maximum building height is 8.6 m for the portion of a main residential building between the rear property line and 60% parcel depth (distinct from the s.541(1) general 11.0 m cap). Authored from source p.473."
+  },
+  {
+    "gold_id": "cal_rcg_setback_side_depth_001",
+    "rule_object": "setback",
+    "constraint_type": "min",
+    "constraint_scope": "side_yard",
+    "applies_to": "R-CG District",
+    "value": "3.0",
+    "unit": "m",
+    "operator": ">=",
+    "condition": "side property line shared with another parcel; building portion between the rear property line and 50% parcel depth (s.535(3))",
+    "source_page": 470,
+    "required_rule_terms": [
+      "side"
+    ],
+    "required_evidence_terms": [
+      "side property line",
+      "3.0"
+    ],
+    "gis_relevance": "direct",
+    "notes": "1P2007 s.535(3): the minimum building setback from the side property line shared with another parcel is 3.0 m for the building portion between the rear property line and 50% parcel depth (a building-depth provision stating a distinct side-setback minimum). Authored from source p.470."
+  }
+]

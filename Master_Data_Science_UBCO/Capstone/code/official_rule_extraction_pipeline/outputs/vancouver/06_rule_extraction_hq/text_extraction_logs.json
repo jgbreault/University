@@ -1,0 +1,137 @@
+﻿[
+  {
+    "batch_id": "text_batch_0001",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "vancouver_generic_graph_pack_007"
+    ],
+    "original_pages": [
+      8
+    ],
+    "source_count": 12,
+    "char_count": 4483,
+    "rule_count": 13,
+    "skipped_count": 5,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 41.48718047142029
+  },
+  {
+    "batch_id": "text_batch_0002",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "vancouver_generic_graph_pack_009"
+    ],
+    "original_pages": [
+      9
+    ],
+    "source_count": 18,
+    "char_count": 7123,
+    "rule_count": 19,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 33.885069370269775
+  },
+  {
+    "batch_id": "text_batch_0003",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "vancouver_generic_graph_pack_013"
+    ],
+    "original_pages": [
+      10
+    ],
+    "source_count": 1,
+    "char_count": 447,
+    "rule_count": 0,
+    "skipped_count": 1,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 4.981968402862549
+  },
+  {
+    "batch_id": "text_batch_0004",
+    "lanes": [
+      "extract_now_core_packs"
+    ],
+    "rag_pack_ids": [
+      "vancouver_generic_graph_pack_001"
+    ],
+    "original_pages": [
+      1
+    ],
+    "source_count": 1,
+    "char_count": 1465,
+    "rule_count": 1,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 3.2561545372009277
+  },
+  {
+    "batch_id": "text_batch_0005",
+    "lanes": [
+      "extract_now_core_packs"
+    ],
+    "rag_pack_ids": [
+      "vancouver_generic_graph_pack_006"
+    ],
+    "original_pages": [
+      8
+    ],
+    "source_count": 7,
+    "char_count": 2255,
+    "rule_count": 8,
+    "skipped_count": 2,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 18.24068832397461
+  },
+  {
+    "batch_id": "text_batch_0006",
+    "lanes": [
+      "extract_now_core_packs"
+    ],
+    "rag_pack_ids": [
+      "vancouver_generic_graph_pack_014",
+      "vancouver_generic_graph_pack_022"
+    ],
+    "original_pages": [
+      10,
+      18
+    ],
+    "source_count": 4,
+    "char_count": 1392,
+    "rule_count": 6,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 12.44680142402649
+  },
+  {
+    "batch_id": "text_batch_0007",
+    "lanes": [
+      "extract_separately_use_permission_packs"
+    ],
+    "rag_pack_ids": [
+      "vancouver_generic_graph_pack_011"
+    ],
+    "original_pages": [
+      9
+    ],
+    "source_count": 1,
+    "char_count": 329,
+    "rule_count": 2,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 8.828037738800049
+  }
+]

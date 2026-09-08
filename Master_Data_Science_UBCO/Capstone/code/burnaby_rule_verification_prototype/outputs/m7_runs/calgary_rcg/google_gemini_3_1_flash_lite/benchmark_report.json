@@ -1,0 +1,434 @@
+{
+  "benchmark": "calgary_rcg",
+  "outputs_evaluated": "outputs/m7_runs/calgary_rcg/google_gemini_3_1_flash_lite",
+  "rule_metrics": {
+    "gold_rule_count": 19,
+    "candidate_rule_count": 150,
+    "verified_rule_count": 29,
+    "review_rule_count": 42,
+    "rejected_rule_count": 27,
+    "not_used_rule_count": 52,
+    "candidate_recall": 0.9473684210526315,
+    "raw_candidate_artifact_recall": 0.9473684210526315,
+    "release_candidate_recall": 1.0,
+    "verified_gold_recall": 0.9473684210526315,
+    "verified_or_review_recall": 1.0,
+    "extraction_coverage_recall": 1.0,
+    "verifier_retention_rate": 1.0,
+    "verifier_rejected_gold_rule_ids": [],
+    "not_used_gold_rule_ids": [
+      "cal_rcg_setback_corner_street_001",
+      "cal_rcg_setback_garage_001",
+      "cal_rcg_setback_side_001"
+    ],
+    "unextracted_gold_rule_ids": [],
+    "verified_precision": 1.0,
+    "false_verified_count": 0,
+    "false_verified_rule_ids": [],
+    "verified_source_support_failed_count": 0,
+    "verified_source_support_failures": [],
+    "retrieval_recall": null,
+    "retrieval_recall_applicable": false,
+    "retrieved_gold_rule_ids": [],
+    "missed_candidate_gold_rule_ids": [
+      "cal_rcg_setback_rear_laned_001"
+    ],
+    "missed_verified_gold_rule_ids": [
+      "cal_rcg_setback_side_laneless_001"
+    ],
+    "missed_verified_or_review_gold_rule_ids": [],
+    "top_review_reasons": [
+      {
+        "reason": "text_candidate_requires_review",
+        "count": 112
+      },
+      {
+        "reason": "upstream_extraction_requested_review",
+        "count": 86
+      },
+      {
+        "reason": "extraction_source_fidelity_hold",
+        "count": 74
+      },
+      {
+        "reason": "outside_target_section",
+        "count": 56
+      },
+      {
+        "reason": "rule_object_not_supported",
+        "count": 55
+      },
+      {
+        "reason": "operator_not_supported",
+        "count": 43
+      },
+      {
+        "reason": "applies_to_not_supported",
+        "count": 33
+      },
+      {
+        "reason": "enumerated_branch_condition_missing",
+        "count": 32
+      },
+      {
+        "reason": "constraint_scope_not_supported",
+        "count": 21
+      },
+      {
+        "reason": "rule_object_unit_not_compatible",
+        "count": 16
+      }
+    ],
+    "evidence_quality": {
+      "evidence_unit_count": 150,
+      "candidate_rule_count": 150,
+      "mean_evidence_quality_score": 1.0,
+      "candidate_evidence_match_rate": 1.0,
+      "candidate_value_grounding_rate": 0.927,
+      "candidate_unit_grounding_rate": 0.147,
+      "table_evidence_count": 0,
+      "table_context_completion_rate": 0.0,
+      "top_evidence_quality_issues": []
+    },
+    "proof_metrics": {
+      "proof_trace_completion_rate": 1.0,
+      "supported_claim_count": 977,
+      "refuted_claim_count": 16,
+      "not_enough_info_claim_count": 207,
+      "mean_evidence_strength": 0.701,
+      "high_priority_review_count": 2,
+      "table_proof_count": 0,
+      "table_proof_complete_count": 0,
+      "table_proof_partial_count": 0,
+      "table_proof_refuted_count": 0,
+      "proof_decision_mismatch_count": 0
+    },
+    "matched_candidates": [
+      {
+        "gold_id": "cal_setback_rear_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0003_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_separation_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0018_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_height_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0001_003",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_height_side_edge_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0001_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_floor_area_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0021_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_floor_area_secondary_001",
+        "rule_id": "calgary_rcg_v3clause_m4_pack_0020_005",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_setback_balcony_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0006_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_setback_front_deemed_001",
+        "rule_id": "calgary_rcg_v3clause_m4_pack_0007_003",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0013_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_setback_rear_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0071_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_setback_corner_street_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0070_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_laneless_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0069_002",
+        "score": 12,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_height_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0042_002",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_lot_coverage_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0022_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_setback_garage_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0003_002",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_separation_frontrear_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0027_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_height_rear_portion_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0047_001",
+        "score": 11,
+        "source_page": null
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_depth_001",
+        "rule_id": "calgary_rcg_native_m4_pack_0002_001",
+        "score": 11,
+        "source_page": null
+      }
+    ],
+    "matched_verified": [
+      {
+        "gold_id": "cal_setback_rear_001",
+        "rule_id": "calgary_rcg_006",
+        "score": 11,
+        "source_page": 395
+      },
+      {
+        "gold_id": "cal_separation_001",
+        "rule_id": "calgary_rcg_020",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_height_001",
+        "rule_id": "calgary_rcg_012",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_height_side_edge_001",
+        "rule_id": "calgary_rcg_079",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_floor_area_001",
+        "rule_id": "calgary_rcg_084",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_floor_area_secondary_001",
+        "rule_id": "calgary_rcg_083",
+        "score": 11,
+        "source_page": 395
+      },
+      {
+        "gold_id": "cal_setback_balcony_001",
+        "rule_id": "calgary_rcg_008",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_setback_front_deemed_001",
+        "rule_id": "calgary_rcg_081",
+        "score": 11,
+        "source_page": 398
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_001",
+        "rule_id": "calgary_rcg_013",
+        "score": 11,
+        "source_page": 471
+      },
+      {
+        "gold_id": "cal_rcg_setback_rear_001",
+        "rule_id": "calgary_rcg_074",
+        "score": 11,
+        "source_page": 472
+      },
+      {
+        "gold_id": "cal_rcg_setback_rear_laned_001",
+        "rule_id": "calgary_rcg_069",
+        "score": 12,
+        "source_page": 472
+      },
+      {
+        "gold_id": "cal_rcg_setback_corner_street_001",
+        "rule_id": "calgary_rcg_073",
+        "score": 11,
+        "source_page": 471
+      },
+      {
+        "gold_id": "cal_rcg_height_001",
+        "rule_id": "calgary_rcg_055",
+        "score": 11,
+        "source_page": 472
+      },
+      {
+        "gold_id": "cal_rcg_lot_coverage_001",
+        "rule_id": "calgary_rcg_026",
+        "score": 11,
+        "source_page": 470
+      },
+      {
+        "gold_id": "cal_rcg_setback_garage_001",
+        "rule_id": "calgary_rcg_064",
+        "score": 11,
+        "source_page": 472
+      },
+      {
+        "gold_id": "cal_rcg_separation_frontrear_001",
+        "rule_id": "calgary_rcg_028",
+        "score": 11,
+        "source_page": 470
+      },
+      {
+        "gold_id": "cal_rcg_height_rear_portion_001",
+        "rule_id": "calgary_rcg_056",
+        "score": 11,
+        "source_page": 473
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_depth_001",
+        "rule_id": "calgary_rcg_004",
+        "score": 11,
+        "source_page": 470
+      }
+    ],
+    "matched_review": [
+      {
+        "gold_id": "cal_height_001",
+        "rule_id": "calgary_rcg_003",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_height_side_edge_001",
+        "rule_id": "calgary_rcg_001",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_floor_area_001",
+        "rule_id": "calgary_rcg_022",
+        "score": 11,
+        "source_page": 396
+      },
+      {
+        "gold_id": "cal_setback_balcony_001",
+        "rule_id": "calgary_rcg_007",
+        "score": 11,
+        "source_page": 395
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_001",
+        "rule_id": "calgary_rcg_070",
+        "score": 11,
+        "source_page": 471
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_laneless_001",
+        "rule_id": "calgary_rcg_072",
+        "score": 12,
+        "source_page": 471
+      },
+      {
+        "gold_id": "cal_rcg_height_001",
+        "rule_id": "calgary_rcg_046",
+        "score": 11,
+        "source_page": 472
+      },
+      {
+        "gold_id": "cal_rcg_lot_coverage_001",
+        "rule_id": "calgary_rcg_024",
+        "score": 11,
+        "source_page": 469
+      },
+      {
+        "gold_id": "cal_rcg_setback_garage_001",
+        "rule_id": "calgary_rcg_007",
+        "score": 11,
+        "source_page": 395
+      },
+      {
+        "gold_id": "cal_rcg_setback_side_depth_001",
+        "rule_id": "calgary_rcg_072",
+        "score": 11,
+        "source_page": 471
+      }
+    ],
+    "matched_not_used": [
+      {
+        "gold_id": "cal_rcg_setback_side_001",
+        "rule_id": "calgary_rcg_039",
+        "score": 11,
+        "source_page": 391
+      },
+      {
+        "gold_id": "cal_rcg_setback_corner_street_001",
+        "rule_id": "calgary_rcg_036",
+        "score": 11,
+        "source_page": 391
+      },
+      {
+        "gold_id": "cal_rcg_setback_garage_001",
+        "rule_id": "calgary_rcg_036",
+        "score": 11,
+        "source_page": 391
+      }
+    ]
+  },
+  "proposal_metrics": {
+    "proposal_case_count": 0,
+    "proposal_decision_accuracy": 0.0,
+    "proposal_case_accuracy": 0.0,
+    "false_approval_count": 0,
+    "false_approval_cases": [],
+    "false_rejection_count": 0,
+    "false_rejection_cases": [],
+    "field_expectation_mismatch_count": 0,
+    "field_expectation_mismatch_cases": [],
+    "needs_review_count": 0
+  },
+  "proposal_results": [],
+  "quality_gates": {
+    "passed": true,
+    "gates": {
+      "verified_precision_is_1": true,
+      "false_verified_is_0": true,
+      "false_approval_is_0": true,
+      "retrieval_recall_at_least_0_95": true,
+      "extraction_coverage_recall_at_least_0_95": true,
+      "verified_or_review_recall_at_least_0_90": true,
+      "verified_source_support_failures_is_0": true
+    }
+  }
+}

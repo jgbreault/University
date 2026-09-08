@@ -1,0 +1,461 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Burnaby GIS/Felt Export (rich, verified-only)",
+  "description": "Map-oriented handoff projected from verified rules only. Adds typed value_numeric and a coarse Felt geometry_target string. Pure post-verification projection; never feeds the verifier. additionalProperties:false makes any leaked/typo'd field fail validation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "city",
+    "zone",
+    "source_document",
+    "source_url",
+    "input_mode",
+    "consumer_notes",
+    "map_layer_requirements",
+    "buildable_area_parameters",
+    "constraints",
+    "review_blockers",
+    "not_used_summary",
+    "export_counts"
+  ],
+  "$defs": {
+    "geometry_target": {
+      "enum": [
+        "access_path",
+        "building_footprint",
+        "dwelling_unit",
+        "front_lot_line",
+        "lane",
+        "parcel_polygon",
+        "rear_lot_line",
+        "side_lot_line",
+        "zoning_polygon",
+        null
+      ]
+    },
+    "named_count": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "count"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        }
+      }
+    },
+    "geometry_operator": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "operation",
+        "axis",
+        "direction",
+        "source_fields"
+      ],
+      "properties": {
+        "operation": {
+          "enum": [
+            "area_floor",
+            "clearance",
+            "density_ratio_cap",
+            "extrude_z",
+            "floor_area_cap",
+            "footprint_ratio_cap",
+            "min_separation",
+            "offset_inward",
+            "storey_count_cap",
+            "surface_ratio_cap",
+            "trigger_predicate",
+            "unit_count_cap",
+            "use_permission"
+          ]
+        },
+        "axis": {
+          "enum": [
+            "front_lot_line",
+            "side_lot_line",
+            "rear_lot_line",
+            "lane_lot_line",
+            "vertical",
+            null
+          ]
+        },
+        "direction": {
+          "enum": [
+            "inward",
+            "up",
+            null
+          ]
+        },
+        "source_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "const": "gis_felt_export_v1"
+    },
+    "city": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "zone": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_document": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "input_mode": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "consumer_notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "map_layer_requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "layer_key",
+          "description",
+          "example_team_file"
+        ],
+        "properties": {
+          "layer_key": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "example_team_file": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "buildable_area_parameters": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "parameter_key",
+          "value",
+          "value_numeric",
+          "unit",
+          "operator",
+          "geometry_target",
+          "source_rule_ids",
+          "source_pages",
+          "conditions"
+        ],
+        "properties": {
+          "parameter_key": {
+            "type": "string"
+          },
+          "value": {},
+          "value_numeric": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "operator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "geometry_target": {
+            "$ref": "#/$defs/geometry_target"
+          },
+          "source_rule_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_pages": {
+            "type": "array",
+            "items": {
+              "type": [
+                "integer",
+                "string"
+              ]
+            }
+          },
+          "conditions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "constraint_id",
+          "source_rule_id",
+          "rule_object",
+          "parameter_key",
+          "export_group",
+          "geometry_target",
+          "geometry",
+          "operator",
+          "value",
+          "value_numeric",
+          "unit",
+          "applies_to",
+          "condition",
+          "exception",
+          "gis_relevance",
+          "gis_ready",
+          "source_page",
+          "source_evidence_id",
+          "source_quote",
+          "felt_popup_sentence"
+        ],
+        "properties": {
+          "constraint_id": {
+            "type": "string"
+          },
+          "source_rule_id": {
+            "type": "string"
+          },
+          "rule_object": {
+            "type": "string"
+          },
+          "parameter_key": {
+            "type": "string"
+          },
+          "export_group": {
+            "type": "string"
+          },
+          "geometry_target": {
+            "$ref": "#/$defs/geometry_target"
+          },
+          "geometry": {
+            "$ref": "#/$defs/geometry_operator"
+          },
+          "operator": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "value": {},
+          "value_numeric": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "unit": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "applies_to": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "condition": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "exception": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "gis_relevance": {
+            "type": "string",
+            "enum": [
+              "direct",
+              "context"
+            ]
+          },
+          "gis_ready": {
+            "type": "boolean"
+          },
+          "source_page": {
+            "type": [
+              "integer",
+              "string",
+              "null"
+            ]
+          },
+          "source_evidence_id": {
+            "type": "string"
+          },
+          "source_quote": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "felt_popup_sentence": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "applicability": {
+            "description": "Structured applicability for matrix-column rules: selectors (dwelling_type, unit_range) + qualifiers (lot_area_threshold, overlay). Optional and additive; absent for selector-less rules.",
+            "type": [
+              "object",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "review_blockers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "count",
+        "category_counts",
+        "action_counts"
+      ],
+      "properties": {
+        "count": {
+          "type": "integer"
+        },
+        "category_counts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/named_count"
+          }
+        },
+        "action_counts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/named_count"
+          }
+        },
+        "rule_family_counts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/named_count"
+          }
+        },
+        "example_blockers": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "not_used_summary": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "count",
+        "top_reasons"
+      ],
+      "properties": {
+        "count": {
+          "type": "integer"
+        },
+        "top_reasons": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/named_count"
+          }
+        },
+        "example_rule_ids": {
+          "type": "array",
+          "items": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "export_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "verified_rule_count",
+        "gis_constraint_count",
+        "buildable_area_parameter_count",
+        "review_blocker_rule_count",
+        "not_used_rule_count"
+      ],
+      "properties": {
+        "verified_rule_count": {
+          "type": "integer"
+        },
+        "gis_constraint_count": {
+          "type": "integer"
+        },
+        "buildable_area_parameter_count": {
+          "type": "integer"
+        },
+        "review_blocker_rule_count": {
+          "type": "integer"
+        },
+        "not_used_rule_count": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

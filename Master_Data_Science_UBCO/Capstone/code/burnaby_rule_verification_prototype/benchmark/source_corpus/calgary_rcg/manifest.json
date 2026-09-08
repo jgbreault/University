@@ -1,0 +1,21 @@
+{
+  "corpus_version": "m4_source_corpus_1",
+  "city": "calgary_rcg",
+  "zone": "RCG",
+  "configured_source_document": "Land Use Bylaw 1P2007 — Residential – Grade-Oriented Infill (R-CG) District, sections 525-546 (building setbacks 535-540, building height 541, parcel coverage 533-534, street-facing facade 532), plus the Secondary Suite 351, Backyard Suite 352, and Deemed Conforming Buildings 358 provisions",
+  "configured_source_url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+  "provenance_url": "https://www.calgary.ca/content/dam/www/pda/pd/documents/calgary-land-use-bylaw-1p2007/land-use-bylaw-1p2007.pdf",
+  "fetched_at": "2026-06-11T00:18:49+00:00",
+  "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/calgary_rcg/source.pdf",
+  "pdf_sha256": "25d15e8d3a3ed10b90d9c029eff8a337ba899f5f330d64f509e8995874740d48",
+  "provenance_sha256": "25d15e8d3a3ed10b90d9c029eff8a337ba899f5f330d64f509e8995874740d48",
+  "pdf_bytes": 22469286,
+  "page_count": 1053,
+  "config_hash": "2be90cf6976a49068e11303fb19597092fad6a41b84162ec8eb587a33348950a",
+  "source_chunk_count": 151,
+  "rag_chunk_count": 151,
+  "table_entry_count": 26,
+  "numeric_clause_count": 54,
+  "rule_like_numeric_clause_count": 53,
+  "gold_leakage_guard": "No benchmark gold, expected dispositions, or verified outputs are stored in this source corpus."
+}

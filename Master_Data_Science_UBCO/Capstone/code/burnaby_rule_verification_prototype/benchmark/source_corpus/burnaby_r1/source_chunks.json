@@ -1,0 +1,3803 @@
+[
+  {
+    "chunk_id": "burnaby_r1_101.1_001",
+    "section": "101.1",
+    "page": 1,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.1 Intent This District provides for the use and development of primarily ground-oriented residential dwellings up to a maximum of 6 dwelling units on a lot.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.75,
+      "discovery_confidence": 0.729,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.2_002",
+    "section": "101.2",
+    "page": 1,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.2 Permitted Uses Principal Use Use-Specific Regulations Small-Scale Multi-Unit Housing - Rowhouse Dwellings 101.5.2 Boarding, Lodging, or Rooming House 101.5.3 Group Home - Supportive Housing (Category A) 101.5.4 Child Care Facilities 101.5.6 Accessory Use Use-Specific Regulations Boarding Use (up to 2 boarders) - Home Occupations 6.8, 6.8A Urban Agriculture 6.30 Accessory Buildings, Structures, and Uses 101.5.5, 6.6 (B/L No. 14694-24-11-04)",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [
+        "permission"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 20.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:accessory building",
+        "target_term_hit:rowhouse",
+        "target_term_hit:small-scale multi-unit"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.3_003",
+    "section": "101.3",
+    "page": 1,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.3 Subdivision Regulations Dwelling Type Rowhouse .1 Small-Scale Multi-Unit Minimum Lot Width .2 Interior Lot 5 m, except 6.2 m for end unit lots 10 m Corner Lot - Street 8 m 10 m Corner Lot - Lane 6.2 m 10 m Lot Area .3 Minimum Lot Area - 281 m2 Maximum Lot Area 280 m2 - .1 At the time of registration of the subdivision plan to create two or more rowhouse lots, the registration of a Section 219 Covenant will be required to ensure that all adjoining rowhouse dwellings will be constructed at the same time. .2 Panhandle lots or other irregular lot configurations are not permitted except in accordance with Section 101.6.4 or where constrained by restrictive site conditions as determined by the Approving Officer. .3 Rowhouse lots may exceed 280 m2 subject to Section 101.4 footnote .1. City of Burnaby – Zoning Bylaw Page 1 R1 District",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": true,
+      "measurement_count": 10,
+      "rule_cue_count": 7,
+      "rule_types": [
+        "permission",
+        "dimensional_standard",
+        "cross_reference"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 19.0,
+      "discovery_confidence": 1.0,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:rowhouse",
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.4_004",
+    "section": "101.4",
+    "page": 2,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations Dwelling Type Rowhouse Small-Scale Multi-Unit 5 to 6 Units Permitted Dwelling Units 1 to 3 1 to 2 3 to 4 Frequent Transit (including secondary suites) Units Units Units Network Area Only 4 Units Only: Minimum Lot Area - - 281 m2 281 m2 Maximum Lot Area .1 280 m2 - - - Maximum Lot Coverage Lots < 567 m2: 40% All Buildings 55% 40% 45% Lots > 567 m2: 30% Impervious Surfaces 70% 60% 60% 70% Maximum Height Front Principal Buildings Height sloping roof: 10 m | flat roof: 9.5 m Storeys (basement inclusive) 3 storeys 2.5 storeys 3 storeys Rear Principal Buildings Height sloping roof: 7.5 m | flat roof: 7.0 m Storeys (basement inclusive) 2 storeys Accessory Buildings 4.0 m | 1 storey Minimum Lot Line Setbacks for All Buildings .2 .3 Street Yard 3.0 m front: 4.0 m | flanking: 3.0 m Lane Yard 1.5 m Interior Rear Yard 3.0 m, except 1.5 m for accessory buildings Interior Side Yard 0 m, except 1.2 m",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": true,
+      "measurement_count": 25,
+      "rule_cue_count": 18,
+      "rule_types": [
+        "permission",
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 39.0,
+      "discovery_confidence": 1.0,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:accessory building",
+        "target_term_hit:dwelling unit",
+        "target_term_hit:front principal building",
+        "measurement_signal",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.5_005",
+    "section": "101.5",
+    "page": 4,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5 Use-Specific Regulations",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.5.1_006",
+    "section": "101.5.1",
+    "page": 4,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5.1 All Dwelling Units",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:dwelling unit"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_007",
+    "section": "101(1)",
+    "page": 4,
+    "heading": "",
+    "parent_text": "101.5.1 All Dwelling Units",
+    "child_text": "(1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) The minimum number of dwelling units with at least 3 bedrooms must be provided on a lot as follows: Total Dwelling Units on a Lot 1 to 3 Units 4 to 6 Units Minimum 3+ Bedroom Units:",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.5.1",
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 3,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 10.0,
+      "discovery_confidence": 0.833,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_1.2_008",
+    "section": "1(2)",
+    "page": 4,
+    "heading": "",
+    "parent_text": "101.5.1 All Dwelling Units",
+    "child_text": "(2) At least one dwelling unit on a lot must have the main entrance oriented to an abutting street or, in the case of a through lot with multiple principal buildings and site access from both frontages, at least one dwelling unit per street frontage.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(2) At least one dwelling unit on a lot must have the main entrance oriented to an abutting street or, in the case of a through lot with multiple principal buildings and site access from both frontages, at least one dwelling unit per street frontage.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "list_continuation_closure",
+      "closure_parent_section": "101.5.1",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "general_rule"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 9.5,
+      "discovery_confidence": 0.792,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "target_term_hit:principal building",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "list_continuation_closure"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.5.2_009",
+    "section": "101.5.2",
+    "page": 4,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5.2 Rowhouse Dwellings",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:rowhouse"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_010",
+    "section": "101(1)",
+    "page": 4,
+    "heading": "",
+    "parent_text": "101.5.2 Rowhouse Dwellings",
+    "child_text": "(1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: (a) links the fronting street with the parallel lane, street, or trail network at the rear of the lot; (b) is at least 1.5 m wide and clear to a height of at least 2.5 m; and (c) is subject to a statutory right of way registered in favour of the City.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Contiguous rowhouse lots must provide an illuminated and publicly accessible pedestrian walkway spaced every 100 m or less from a street, lane, or walkway that intersects the fronting street and that: (a) links the fronting street with the parallel lane, street, or trail network at the rear of the lot; (b) is at least 1.5 m wide and clear to a height of at least 2.5 m; and (c) is subject to a statutory right of way registered in favour of the City.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.5.2",
+      "target_alias_hit": true,
+      "measurement_count": 3,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 9.25,
+      "discovery_confidence": 0.771,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:rowhouse",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.5.3_011",
+    "section": "101.5.3",
+    "page": 4,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5.3 Boarding, Lodging, or Rooming Houses",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_012",
+    "section": "101(1)",
+    "page": 4,
+    "heading": "",
+    "parent_text": "101.5.3 Boarding, Lodging, or Rooming Houses",
+    "child_text": "(1) Boarding, lodging or rooming houses are permitted for not more than 5 persons, when situated in a single family dwelling on a lot with an area of not less than 560 m2, subject to the condition that it is included as part of a comprehensive development plan to which the provisions of the Comprehensive Development District apply.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Boarding, lodging or rooming houses are permitted for not more than 5 persons, when situated in a single family dwelling on a lot with an area of not less than 560 m2, subject to the condition that it is included as part of a comprehensive development plan to which the provisions of the Comprehensive Development District apply.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.5.3",
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 0,
+      "rule_types": [
+        "permission"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 7.75,
+      "discovery_confidence": 0.646,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.5.4_013",
+    "section": "101.5.4",
+    "page": 4,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5.4 Supportive Housing",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_014",
+    "section": "101(1)",
+    "page": 4,
+    "heading": "",
+    "parent_text": "101.5.4 Supportive Housing",
+    "child_text": "(1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions: (a) each living unit shall have a minimum floor area of 27 m2; (b) it meets the development regulations under Section 101.4 for small-scale multi-unit lots with 1 to 3 units; and (c) the use shall be included as part of a comprehensive development plan to which the provisions of the Comprehensive Development District apply.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Category A Supportive Housing facilities are permitted on a lot as the only principal use, subject to the following conditions: (a) each living unit shall have a minimum floor area of 27 m2; (b) it meets the development regulations under Section 101.4 for small-scale multi-unit lots with 1 to 3 units; and (c) the use shall be included as part of a comprehensive development plan to which the provisions of the Comprehensive Development District apply.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.5.4",
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 4,
+      "rule_types": [
+        "permission",
+        "dimensional_standard",
+        "cross_reference"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 14.75,
+      "discovery_confidence": 1.0,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.5.5_015",
+    "section": "101.5.5",
+    "page": 4,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5.5 Accessory Buildings, Structures, and Uses",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:accessory building"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_016",
+    "section": "101(1)",
+    "page": 4,
+    "heading": "",
+    "parent_text": "101.5.5 Accessory Buildings, Structures, and Uses",
+    "child_text": "(1) Parking: (a) Parking shall be provided in an attached or detached garage, carport or outdoor parking pad at the rear of the lot when accessible from an abutting lane or street. Where there is no direct access to the rear of the lot or the Director Engineering is satisfied that access to the rear is not feasible because of an extreme grade, parking may be provided elsewhere on the lot. (b) A garage or carport may be constructed below grade, provided that no part of such structure shall extend more than 1.2 m above the surface of the surrounding ground at any point other than the driveway, nor be less than 1.2 m from a lot line. City of Burnaby – Zoning Bylaw Page 4 R1 District",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Parking: (a) Parking shall be provided in an attached or detached garage, carport or outdoor parking pad at the rear of the lot when accessible from an abutting lane or street. Where there is no direct access to the rear of the lot or the Director Engineering is satisfied that access to the rear is not feasible because of an extreme grade, parking may be provided elsewhere on the lot. (b) A garage or carport may be constructed below grade, provided that no part of such structure shall extend more than 1.2 m above the surface of the surrounding ground at any point other than the driveway, nor be less than 1.2 m from a lot line. City of Burnaby – Zoning Bylaw Page 4 R1 District",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.5.5",
+      "target_alias_hit": false,
+      "measurement_count": 2,
+      "rule_cue_count": 6,
+      "rule_types": [
+        "parking"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 11.75,
+      "discovery_confidence": 0.979,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:accessory building",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.2_017",
+    "section": "101(2)",
+    "page": 5,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(2) An accessory structure not being a building, excluding a fence or a retaining wall, located outside of a required yard, shall not exceed 4.6 m in height.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 1,
+      "rule_cue_count": 4,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 6.0,
+      "discovery_confidence": 0.5,
+      "lane": "universal_applicable_rule",
+      "selected_because": [
+        "measurement_signal",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "support",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.5.6_018",
+    "section": "101.5.6",
+    "page": 5,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5.6 Child Care Facilities",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_019",
+    "section": "101(1)",
+    "page": 5,
+    "heading": "",
+    "parent_text": "101.5.6 Child Care Facilities",
+    "child_text": "(1) A child care facility in the R1 District must: (a) be limited to a maximum of 25 children; (b) be located on a corner lot; (c) comply with the development regulations under section 101.4 for 1 to 3 small-scale multi-unit dwelling units on a lot; (d) be located on a lot that does not contain a dwelling unit or any other principal use; and (e) comply with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04)",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) A child care facility in the R1 District must: (a) be limited to a maximum of 25 children; (b) be located on a corner lot; (c) comply with the development regulations under section 101.4 for 1 to 3 small-scale multi-unit dwelling units on a lot; (d) be located on a lot that does not contain a dwelling unit or any other principal use; and (e) comply with all other applicable regulations under this Bylaw. (B/L No. 14694-24-11-04)",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.5.6",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard",
+        "cross_reference"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 14.25,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.6_020",
+    "section": "101.6",
+    "page": 5,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.6 General Regulations",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.6.1_021",
+    "section": "101.6.1",
+    "page": 5,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.6.1 Projections",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_022",
+    "section": "101(1)",
+    "page": 5,
+    "heading": "",
+    "parent_text": "101.6.1 Projections",
+    "child_text": "(1) The following features may project into the required minimum separation between buildings on the same lot: (a) steps and stairs; (b) ornamental features, such as arbors, trellises, fish ponds, flag poles, or similar landscape features; (c) terraces, decks, or other similar surfaces that are 1.0 m or less above grade; (d) balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade up to a maximum of 25% of the width of a required separation; (e) belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m or 25% of the width of a required separation; (f) sunken access areas and window wells as per Section 6.9; (g) outdoor appliances; and (h) eaves up to the lesser of 1.2 m (3.94 ft.) or 25% of the width of a required separation. (B/L No. 14694-24-11-04)",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) The following features may project into the required minimum separation between buildings on the same lot: (a) steps and stairs; (b) ornamental features, such as arbors, trellises, fish ponds, flag poles, or similar landscape features; (c) terraces, decks, or other similar surfaces that are 1.0 m or less above grade; (d) balconies, covered decks, uncovered decks, canopies, sunshades, or other similar features, including supporting structures, that are greater than 1.0 m above grade up to a maximum of 25% of the width of a required separation; (e) belt courses, cornices, gutters, sills, chimneys, bay windows, or other similar features up to the lesser of 0.9 m or 25% of the width of a required separation; (f) sunken access areas and window wells as per Section 6.9; (g) outdoor appliances; and (h) eaves up to the lesser of 1.2 m (3.94 ft.) or 25% of the width of a required separation. (B/L No. 14694-24-11-04)",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.6.1",
+      "target_alias_hit": false,
+      "measurement_count": 4,
+      "rule_cue_count": 10,
+      "rule_types": [
+        "dimensional_standard",
+        "cross_reference"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 7.75,
+      "discovery_confidence": 0.646,
+      "lane": "universal_applicable_rule",
+      "selected_because": [
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "support",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.2_023",
+    "section": "101(2)",
+    "page": 5,
+    "heading": "",
+    "parent_text": "101.6.1 Projections",
+    "child_text": "(2) Permitted projections into required yards are subject to Section 6.12, except that in the R1 District projections into required lane yards are limited to a maximum of 0.8 m to provide adequate fire truck clearance. (B/L No. 14783-25-12-09)",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(2) Permitted projections into required yards are subject to Section 6.12, except that in the R1 District projections into required lane yards are limited to a maximum of 0.8 m to provide adequate fire truck clearance. (B/L No. 14783-25-12-09)",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "list_continuation_closure",
+      "closure_parent_section": "101.6.1",
+      "target_alias_hit": false,
+      "measurement_count": 1,
+      "rule_cue_count": 3,
+      "rule_types": [
+        "permission",
+        "dimensional_standard",
+        "cross_reference"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 6.0,
+      "discovery_confidence": 0.5,
+      "lane": "universal_applicable_rule",
+      "selected_because": [
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "list_continuation_closure"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "support",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.6.2_024",
+    "section": "101.6.2",
+    "page": 5,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.6.2 Outdoor Areas",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_025",
+    "section": "101(1)",
+    "page": 5,
+    "heading": "",
+    "parent_text": "101.6.2 Outdoor Areas",
+    "child_text": "(1) An outdoor amenity space with a minimum width of 2.0 m and area of 10.0 m2 must be provided for each primary dwelling unit for its exclusive use and be accessible from the primary dwelling unit it serves. (B/L No. 14783-25-12-09) City of Burnaby – Zoning Bylaw Page 5 R1 District",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) An outdoor amenity space with a minimum width of 2.0 m and area of 10.0 m2 must be provided for each primary dwelling unit for its exclusive use and be accessible from the primary dwelling unit it serves. (B/L No. 14783-25-12-09) City of Burnaby – Zoning Bylaw Page 5 R1 District",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.6.2",
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 13.25,
+      "discovery_confidence": 1.0,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.6.3_026",
+    "section": "101.6.3",
+    "page": 6,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.6.3 Access and Fire Safety",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_027",
+    "section": "101(1)",
+    "page": 6,
+    "heading": "",
+    "parent_text": "101.6.3 Access and Fire Safety",
+    "child_text": "(1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Dwelling units located more than 45 m from a lot line abutting a street shall contain an automatic sprinkler system.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.6.3",
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "general_rule"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.2_028",
+    "section": "101(2)",
+    "page": 6,
+    "heading": "",
+    "parent_text": "101.6.3 Access and Fire Safety",
+    "child_text": "(2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that: (a) provides direct pedestrian access from the dwelling unit entrance to a lot line abutting a street, or abutting a constructed lane where direct access to a street is not feasible; and (b) is clear of any projections or obstructions to a minimum of 2.5 m in height.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(2) All dwelling units shall have a minimum 1.0 m paved or gravel fire access corridor that: (a) provides direct pedestrian access from the dwelling unit entrance to a lot line abutting a street, or abutting a constructed lane where direct access to a street is not feasible; and (b) is clear of any projections or obstructions to a minimum of 2.5 m in height.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "list_continuation_closure",
+      "closure_parent_section": "101.6.3",
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 4,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 10.75,
+      "discovery_confidence": 0.896,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "list_continuation_closure"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.6.4_029",
+    "section": "101.6.4",
+    "page": 6,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.6.4 Heritage",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_030",
+    "section": "101(1)",
+    "page": 6,
+    "heading": "",
+    "parent_text": "101.6.4 Heritage",
+    "child_text": "(1) Notwithstanding the R1 District regulations otherwise stated in this Bylaw, subject to approval of the Director of Planning and Development and the registration of a Section 219 Covenant to prohibit any works on the lot which would destroy, or irreversibly alter or damage the heritage resource and its heritage character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following: (i) lots with lane access shall have a minimum panhandle width of 1 m that is clear to a height of 2.5 m; and (ii) lots without lane access shall have a minimum panhandle width of 4.5 m that is clear to a height of 2.5 m; (b) maximum lot coverage as set out in Section 101.4 may be increased up to 60% and impervious surface area up to 70%; (c) all original architectural appurtenances, such as chimneys, railings, vents, decorative features, or similar, may be excluded from the maximum permitted height of a principal building; (d) lot line setbacks for street yards may meet a minimum of 2.0 m; (e) the minimum separation between buildings on the same lot as required under Section 101.4 may be reduced; (f) Section 101.5.1 does not apply; and (g) Parking: (i) off-street vehicular parking spaces are not required; (ii) retention and continued use of driveways that do not otherwise conform with the requirements of this Bylaw may be permitted; and (iii) parking may be provided within the required yards, and any existing parking areas on the lot that do not conform with the requirements of this Bylaw may continue to be used. (B/L No. 14783-25-12-09) City of Burnaby – Zoning Bylaw Page 6 R1 District",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Notwithstanding the R1 District regulations otherwise stated in this Bylaw, subject to approval of the Director of Planning and Development and the registration of a Section 219 Covenant to prohibit any works on the lot which would destroy, or irreversibly alter or damage the heritage resource and its heritage character, some or all of the following regulations may apply to lots in the R1 District on the Community Heritage Register: (a) panhandle lots and other irregularly shaped lots may be permitted subject to the following: (i) lots with lane access shall have a minimum panhandle width of 1 m that is clear to a height of 2.5 m; and (ii) lots without lane access shall have a minimum panhandle width of 4.5 m that is clear to a height of 2.5 m; (b) maximum lot coverage as set out in Section 101.4 may be increased up to 60% and impervious surface area up to 70%; (c) all original architectural appurtenances, such as chimneys, railings, vents, decorative features, or similar, may be excluded from the maximum permitted height of a principal building; (d) lot line setbacks for street yards may meet a minimum of 2.0 m; (e) the minimum separation between buildings on the same lot as required under Section 101.4 may be reduced; (f) Section 101.5.1 does not apply; and (g) Parking: (i) off-street vehicular parking spaces are not required; (ii) retention and continued use of driveways that do not otherwise conform with the requirements of this Bylaw may be permitted; and (iii) parking may be provided within the required yards, and any existing parking areas on the lot that do not conform with the requirements of this Bylaw may continue to be used. (B/L No. 14783-25-12-09) City of Burnaby – Zoning Bylaw Page 6 R1 District",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.6.4",
+      "target_alias_hit": true,
+      "measurement_count": 5,
+      "rule_cue_count": 20,
+      "rule_types": [
+        "permission",
+        "dimensional_standard",
+        "parking",
+        "permit_process",
+        "cross_reference"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 15.75,
+      "discovery_confidence": 1.0,
+      "lane": "core_rule",
+      "selected_because": [
+        "target_term_hit:principal building",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.7_031",
+    "section": "101.7",
+    "page": 7,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.7 Measurements and Calculations",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.7.1_032",
+    "section": "101.7.1",
+    "page": 7,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.7.1 Height",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.75,
+      "discovery_confidence": 0.062,
+      "lane": "context_only",
+      "selected_because": [
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_033",
+    "section": "101(1)",
+    "page": 7,
+    "heading": "",
+    "parent_text": "101.7.1 Height",
+    "child_text": "(1) The height of a principal or accessory building shall be measured from the lower of the average front or average rear elevation, as defined by the lower of the average natural grade or finished grade along the exterior of the building facing the respective front or rear lot line, to the midpoint of a sloped roof or the highest point of a flat the roof. The midpoint of a sloped roof is considered to be one half of the vertical distance of a sloped roof structure measured from the top plate of the uppermost storey to the highest point of the roof. (B/L No. 14783-25-12-09) Diagram: Height Measurement (B/L No. 14694-24-11-04)",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) The height of a principal or accessory building shall be measured from the lower of the average front or average rear elevation, as defined by the lower of the average natural grade or finished grade along the exterior of the building facing the respective front or rear lot line, to the midpoint of a sloped roof or the highest point of a flat the roof. The midpoint of a sloped roof is considered to be one half of the vertical distance of a sloped roof structure measured from the top plate of the uppermost storey to the highest point of the roof. (B/L No. 14783-25-12-09) Diagram: Height Measurement (B/L No. 14694-24-11-04)",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.7.1",
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 4,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:accessory building",
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.2_034",
+    "section": "101(2)",
+    "page": 7,
+    "heading": "",
+    "parent_text": "101.7.1 Height",
+    "child_text": "(2) Repealed. (B/L No. 14783-25-12-09)",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(2) Repealed. (B/L No. 14783-25-12-09)",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "list_continuation_closure",
+      "closure_parent_section": "101.7.1",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 1.0,
+      "discovery_confidence": 0.083,
+      "lane": "context_only",
+      "selected_because": [
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "list_continuation_closure"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.3_035",
+    "section": "101(3)",
+    "page": 7,
+    "heading": "",
+    "parent_text": "101.7.1 Height",
+    "child_text": "(3) The height of a detached garage or carport shall be measured from the finished grade at the point used for vehicular access.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(3) The height of a detached garage or carport shall be measured from the finished grade at the point used for vehicular access.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "list_continuation_closure",
+      "closure_parent_section": "101.7.1",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 1.0,
+      "discovery_confidence": 0.083,
+      "lane": "context_only",
+      "selected_because": [
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "list_continuation_closure"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.7.2_036",
+    "section": "101.7.2",
+    "page": 7,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.7.2 Building Separation",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.75,
+      "discovery_confidence": 0.062,
+      "lane": "context_only",
+      "selected_because": [
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_037",
+    "section": "101(1)",
+    "page": 7,
+    "heading": "",
+    "parent_text": "101.7.2 Building Separation",
+    "child_text": "(1) Required separation distances between buildings are measured from the nearest point of each building face.",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Required separation distances between buildings are measured from the nearest point of each building face.",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.7.2",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 1.0,
+      "discovery_confidence": 0.083,
+      "lane": "context_only",
+      "selected_because": [
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.8_038",
+    "section": "101.8",
+    "page": 7,
+    "heading": "",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.8 Additional Regulations",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 0.0,
+      "discovery_confidence": 0.0,
+      "lane": "context_only",
+      "selected_because": [],
+      "discovery_selected": false,
+      "selection_tier": "discarded_low_score",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_101.1_039",
+    "section": "101(1)",
+    "page": 7,
+    "heading": "",
+    "parent_text": "101.8 Additional Regulations",
+    "child_text": "(1) Additional zoning regulations apply, including, but not limited to, those found in: (a) Section 6: Supplementary Regulations (b) Schedule 8: Off-Street Parking (B/L No. 14661-24-06-10) City of Burnaby – Zoning Bylaw Page 7 R1 District",
+    "table_title": "",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "(1) Additional zoning regulations apply, including, but not limited to, those found in: (a) Section 6: Supplementary Regulations (b) Schedule 8: Off-Street Parking (B/L No. 14661-24-06-10) City of Burnaby – Zoning Bylaw Page 7 R1 District",
+    "evidence_type": "clause",
+    "metadata": {
+      "source": "extract_clauses",
+      "closure": "direct_parent_lead_in",
+      "closure_parent_section": "101.8",
+      "target_alias_hit": false,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "parking"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 1.0,
+      "discovery_confidence": 0.083,
+      "lane": "context_only",
+      "selected_because": [
+        "rule_cue_signal",
+        "parent_stem_attached",
+        "direct_parent_lead_in"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "high"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r001",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Small-Scale Multi-Unit Housing",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "-",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Small-Scale Multi-Unit Housing | Use-Specific Regulations: -",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "-"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r002",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Rowhouse Dwellings",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "101.5.2",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Rowhouse Dwellings | Use-Specific Regulations: 101.5.2",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "101.5.2"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 16.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:rowhouse",
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r003",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Boarding, Lodging, or Rooming House",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "101.5.3",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Boarding, Lodging, or Rooming House | Use-Specific Regulations: 101.5.3",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "101.5.3"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r004",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Group Home",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "-",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Group Home | Use-Specific Regulations: -",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "-"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r005",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Supportive Housing (Category A)",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "101.5.4",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Supportive Housing (Category A) | Use-Specific Regulations: 101.5.4",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "101.5.4"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r006",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Child Care Facilities",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "101.5.6",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Child Care Facilities | Use-Specific Regulations: 101.5.6",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "101.5.6"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r007",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Accessory Use",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "Use-Specific Regulations",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Accessory Use | Use-Specific Regulations: Use-Specific Regulations",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "Use-Specific Regulations"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r008",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Boarding Use (up to 2 boarders)",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "-",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Boarding Use (up to 2 boarders) | Use-Specific Regulations: -",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "-"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r009",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Home Occupations",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "6.8, 6.8A",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Home Occupations | Use-Specific Regulations: 6.8, 6.8A",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "6.8, 6.8A"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r010",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Urban Agriculture",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "6.30",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Urban Agriculture | Use-Specific Regulations: 6.30",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "6.30"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_001_r011",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "Accessory Buildings, Structures, and Uses",
+    "column_header": "Use-Specific Regulations",
+    "cell_value": "101.5.5, 6.6",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Accessory Buildings, Structures, and Uses | Use-Specific Regulations: 101.5.5, 6.6",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 1,
+      "cells": [
+        {
+          "column_header": "Use-Specific Regulations",
+          "cell_value": "101.5.5, 6.6"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 16.0,
+      "discovery_confidence": 1.0,
+      "lane": "use_permission",
+      "selected_because": [
+        "target_term_hit:accessory building",
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r001",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Rowhouse .1; Small-Scale Multi-Unit",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Rowhouse .1"
+        },
+        {
+          "column_header": "",
+          "cell_value": "Small-Scale Multi-Unit"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 16.0,
+      "discovery_confidence": 1.0,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:rowhouse",
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r002",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Minimum Lot Width .2",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Minimum Lot Width .2",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Minimum Lot Width .2"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 13.5,
+      "discovery_confidence": 1.0,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r003",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Interior Lot; Dwelling Type: 5 m, except 6.2 m for end unit lot; s; 10 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Interior Lot"
+        },
+        {
+          "column_header": "Dwelling Type",
+          "cell_value": "5 m, except 6.2 m for end unit lot"
+        },
+        {
+          "column_header": "",
+          "cell_value": "s"
+        },
+        {
+          "column_header": "",
+          "cell_value": "10 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 3,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 16.5,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r004",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Corner Lot - Street; Dwelling Type: 8 m; 10 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Corner Lot - Street"
+        },
+        {
+          "column_header": "Dwelling Type",
+          "cell_value": "8 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "10 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 16.5,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r005",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Corner Lot - Lane; Dwelling Type: 6.2 m; 10 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Corner Lot - Lane"
+        },
+        {
+          "column_header": "Dwelling Type",
+          "cell_value": "6.2 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "10 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 16.5,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r006",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Lot Area .3",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Lot Area .3",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Lot Area .3"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 13.5,
+      "discovery_confidence": 1.0,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r007",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Minimum Lot Area; -; 281 m2",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Minimum Lot Area"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        },
+        {
+          "column_header": "",
+          "cell_value": "281 m2"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 18.0,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_002_r008",
+    "section": "",
+    "page": 1,
+    "heading": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1)",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101. SMALL-SCALE MULTI-UNIT HOUSING DISTRICT (R1) | Maximum Lot Area; 280 m2; -",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 2,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Maximum Lot Area"
+        },
+        {
+          "column_header": "",
+          "cell_value": "280 m2"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 18.0,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:small-scale multi-unit housing",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r001",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Rowhouse; Small-Scale Multi-Unit",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Rowhouse"
+        },
+        {
+          "column_header": "",
+          "cell_value": "Small-Scale Multi-Unit"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:rowhouse",
+        "target_term_hit:small-scale multi-unit",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r002",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "Permitted Dwelling Units\n(including secondary suites)",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Permitted Dwelling Units\n(including secondary suites) | 1 to 3\nUnits; 1 to 2\nUnits; 3 to 4\nUnits; 5 to 6 Units",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "1 to 3\nUnits"
+        },
+        {
+          "column_header": "",
+          "cell_value": "1 to 2\nUnits"
+        },
+        {
+          "column_header": "",
+          "cell_value": "3 to 4\nUnits"
+        },
+        {
+          "column_header": "",
+          "cell_value": "5 to 6 Units"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 4,
+      "rule_cue_count": 0,
+      "rule_types": [
+        "permission"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.5,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r003",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Frequent Transit",
+    "text": "101.4 Development Regulations | Frequent Transit",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Frequent Transit"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r004",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Network Area Only",
+    "text": "101.4 Development Regulations | Network Area Only",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Network Area Only"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r005",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "Minimum Lot Area",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Minimum Lot Area | -; -; 4 Units Only; :; 281 m2",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "-"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        },
+        {
+          "column_header": "",
+          "cell_value": "4 Units Only"
+        },
+        {
+          "column_header": "",
+          "cell_value": ":"
+        },
+        {
+          "column_header": "",
+          "cell_value": "281 m2"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 11.5,
+      "discovery_confidence": 0.958,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r006",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "281 m2",
+    "text": "101.4 Development Regulations | 281 m2",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "281 m2"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r007",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Maximum Lot Area .1; Dwelling Type: 280 m2; -; -; -",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Maximum Lot Area .1"
+        },
+        {
+          "column_header": "Dwelling Type",
+          "cell_value": "280 m2"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 10.0,
+      "discovery_confidence": 0.833,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r008",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Maximum Lot Coverage",
+    "text": "101.4 Development Regulations | Maximum Lot Coverage",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Maximum Lot Coverage"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 7.0,
+      "discovery_confidence": 0.583,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r009",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "All Buildings",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | All Buildings | 55%; Lots < 567 m2: 40%; 40%; 45%",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "55%"
+        },
+        {
+          "column_header": "",
+          "cell_value": "Lots < 567 m2: 40%"
+        },
+        {
+          "column_header": "",
+          "cell_value": "40%"
+        },
+        {
+          "column_header": "",
+          "cell_value": "45%"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r010",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Lots > 567 m2: 30%",
+    "text": "101.4 Development Regulations | Lots > 567 m2: 30%",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Lots > 567 m2: 30%"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r011",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Impervious Surfaces; 70%; 60%; 60%; 70%",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Impervious Surfaces"
+        },
+        {
+          "column_header": "",
+          "cell_value": "70%"
+        },
+        {
+          "column_header": "",
+          "cell_value": "60%"
+        },
+        {
+          "column_header": "",
+          "cell_value": "60%"
+        },
+        {
+          "column_header": "",
+          "cell_value": "70%"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r012",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Maximum Height",
+    "text": "101.4 Development Regulations | Maximum Height",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Maximum Height"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 7.0,
+      "discovery_confidence": 0.583,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r013",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Front Principal Buildings",
+    "text": "101.4 Development Regulations | Front Principal Buildings",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Front Principal Buildings"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:front principal building",
+        "target_term_hit:principal building",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r014",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Height; sloping roof: 10 m | flat roof: 9.5 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Height"
+        },
+        {
+          "column_header": "",
+          "cell_value": "sloping roof: 10 m | flat roof: 9.5 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 9.25,
+      "discovery_confidence": 0.771,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r015",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Storeys (basement inclusive); 3 storeys; 2.5 storeys; 3 storeys",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Storeys (basement inclusive)"
+        },
+        {
+          "column_header": "",
+          "cell_value": "3 storeys"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.5 storeys"
+        },
+        {
+          "column_header": "",
+          "cell_value": "3 storeys"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 3,
+      "rule_cue_count": 4,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 11.5,
+      "discovery_confidence": 0.958,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r016",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Rear Principal Buildings",
+    "text": "101.4 Development Regulations | Rear Principal Buildings",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Rear Principal Buildings"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.0,
+      "discovery_confidence": 1.0,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:principal building",
+        "target_term_hit:rear principal building",
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r017",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Height; sloping roof: 7.5 m | flat roof: 7.0 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Height"
+        },
+        {
+          "column_header": "",
+          "cell_value": "sloping roof: 7.5 m | flat roof: 7.0 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 9.25,
+      "discovery_confidence": 0.771,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r018",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Storeys (basement inclusive); 2 storeys",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Storeys (basement inclusive)"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2 storeys"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 10.0,
+      "discovery_confidence": 0.833,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r019",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Accessory Buildings; 4.0 m | 1 storey",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Accessory Buildings"
+        },
+        {
+          "column_header": "",
+          "cell_value": "4.0 m | 1 storey"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 13.25,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:accessory building",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r020",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Minimum Lot Line Setbacks for All Buildings .2 .3",
+    "text": "101.4 Development Regulations | Minimum Lot Line Setbacks for All Buildings .2 .3",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Minimum Lot Line Setbacks for All Buildings .2 .3"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 5.5,
+      "discovery_confidence": 0.458,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r021",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Street Yard; 3.0 m; front: 4.0 m | flanking: 3.0 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Street Yard"
+        },
+        {
+          "column_header": "",
+          "cell_value": "3.0 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "front: 4.0 m | flanking: 3.0 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 3,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r022",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Lane Yard; 1.5 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Lane Yard"
+        },
+        {
+          "column_header": "",
+          "cell_value": "1.5 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r023",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Interior Rear Yard; 3.0 m, except 1.5 m for accessory buildings",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Interior Rear Yard"
+        },
+        {
+          "column_header": "",
+          "cell_value": "3.0 m, except 1.5 m for accessory buildings"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 12.5,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:accessory building",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r024",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "Interior Side Yard",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Interior Side Yard | Interior Side Yard; 0 m, except 1.2 m\nfor end unit lots; 1.2 m; 1.2 m; 1.2 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Interior Side Yard"
+        },
+        {
+          "column_header": "",
+          "cell_value": "0 m, except 1.2 m\nfor end unit lots"
+        },
+        {
+          "column_header": "",
+          "cell_value": "1.2 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "1.2 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "1.2 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 5,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r025",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "Minimum Separation of Buildings on the Same Lot .4 .5",
+    "text": "101.4 Development Regulations | Minimum Separation of Buildings on the Same Lot .4 .5",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Minimum Separation of Buildings on the Same Lot .4 .5"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 2,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 7.0,
+      "discovery_confidence": 0.583,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "rule_cue_signal"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r026",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Between Front Principals; -; 2.4 m; 2.4 m; 2.4 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Between Front Principals"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.4 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.4 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.4 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 3,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r027",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Between Rear Principals; -; 2.4 m; 2.4 m; 2.4 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Between Rear Principals"
+        },
+        {
+          "column_header": "",
+          "cell_value": "-"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.4 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.4 m"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.4 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 3,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r028",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Between Front & Rear Principals; 6.0 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Between Front & Rear Principals"
+        },
+        {
+          "column_header": "",
+          "cell_value": "6.0 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_003_r029",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.4 Development Regulations | Between All Other Buildings; 2.4 m",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 3,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Between All Other Buildings"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2.4 m"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 1,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_004_r001",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "(including secondary suites)",
+    "column_header": "",
+    "cell_value": "(including secondary suites)",
+    "text": "101.4 Development Regulations | (including secondary suites) | (including secondary suites)",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 4,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "(including secondary suites)"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_005_r001",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "Units",
+    "column_header": "",
+    "cell_value": "Units",
+    "text": "101.4 Development Regulations | Units | Units",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 5,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Units"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_006_r001",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "Units",
+    "column_header": "",
+    "cell_value": "Units",
+    "text": "101.4 Development Regulations | Units | Units",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 6,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Units"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_007_r001",
+    "section": "",
+    "page": 2,
+    "heading": "101.4 Development Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.4 Development Regulations",
+    "row_header": "Units",
+    "column_header": "",
+    "cell_value": "Units",
+    "text": "101.4 Development Regulations | Units | Units",
+    "evidence_type": "table_cell",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 7,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Units"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 0,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 4.0,
+      "discovery_confidence": 0.333,
+      "lane": "context_only",
+      "selected_because": [
+        "target_term_hit:target_concept_terms"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "weak_context",
+      "drop_risk": "medium"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_008_r001",
+    "section": "",
+    "page": 4,
+    "heading": "101.5 Use-Specific Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.5 Use-Specific Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5 Use-Specific Regulations | Total Dwelling Units on a Lot: 1 to 3 Units; 4 to 6 Units",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 8,
+      "cells": [
+        {
+          "column_header": "Total Dwelling Units on a Lot",
+          "cell_value": "1 to 3 Units"
+        },
+        {
+          "column_header": "",
+          "cell_value": "4 to 6 Units"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 0,
+      "rule_types": [],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 8.5,
+      "discovery_confidence": 0.708,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "measurement_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  },
+  {
+    "chunk_id": "burnaby_r1_table_008_r002",
+    "section": "",
+    "page": 4,
+    "heading": "101.5 Use-Specific Regulations",
+    "parent_text": "",
+    "child_text": "",
+    "table_title": "101.5 Use-Specific Regulations",
+    "row_header": "",
+    "column_header": "",
+    "cell_value": "",
+    "text": "101.5 Use-Specific Regulations | Minimum 3+ Bedroom Units:; Total Dwelling Units on a Lot: 1 Unit; 2 Units",
+    "evidence_type": "table_row",
+    "metadata": {
+      "source": "pdf_table",
+      "table_index": 8,
+      "cells": [
+        {
+          "column_header": "",
+          "cell_value": "Minimum 3+ Bedroom Units:"
+        },
+        {
+          "column_header": "Total Dwelling Units on a Lot",
+          "cell_value": "1 Unit"
+        },
+        {
+          "column_header": "",
+          "cell_value": "2 Units"
+        }
+      ],
+      "target_alias_hit": true,
+      "measurement_count": 2,
+      "rule_cue_count": 1,
+      "rule_types": [
+        "dimensional_standard"
+      ],
+      "source_layer": "v2_full_bylaw_source",
+      "discovery_score": 13.25,
+      "discovery_confidence": 1.0,
+      "lane": "table_rule",
+      "selected_because": [
+        "target_term_hit:dwelling unit",
+        "target_term_hit:target_concept_terms",
+        "measurement_signal",
+        "rule_cue_signal",
+        "table_row_with_measurement"
+      ],
+      "discovery_selected": true,
+      "selection_tier": "core",
+      "drop_risk": "low"
+    }
+  }
+]

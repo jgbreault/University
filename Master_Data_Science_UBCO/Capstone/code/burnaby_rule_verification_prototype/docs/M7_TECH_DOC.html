@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>M7 Technical Document — Zoning Bylaw Rule Verification</title>
+<style>
+:root{--ink:#1f2328;--soft:#57606a;--line:#d0d7de;--hair:#eaeef2;--subtle:#f6f8fa;--accent:#0969da;
+--verified:#1a7f37;--review:#9a6700;--rejected:#cf222e;}
+*{box-sizing:border-box}
+body{font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+color:var(--ink);background:#fbfcfd;margin:0;line-height:1.65;font-size:16px}
+.wrap{max-width:940px;margin:0 auto;padding:36px 30px 90px;background:#fff;box-shadow:0 1px 3px rgba(31,35,40,.06)}
+.doc-banner{font-size:12px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+h1{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:.2em 0 .15em;padding-bottom:.3em;border-bottom:2px solid var(--hair)}
+h2{font-size:22px;font-weight:750;margin:1.9em 0 .5em;padding-bottom:.25em;border-bottom:1px solid var(--hair);letter-spacing:-.01em;scroll-margin-top:16px}
+h3{font-size:17px;font-weight:700;margin:1.3em 0 .4em}
+p{margin:.7em 0}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+code{font-family:ui-monospace,"SF Mono","Roboto Mono",Menlo,monospace;font-size:13.5px;background:var(--subtle);padding:2px 6px;border-radius:6px;border:1px solid var(--hair)}
+pre{background:var(--subtle);border:1px solid var(--line);border-radius:10px;padding:16px 18px;overflow-x:auto;font-size:13px;line-height:1.55}
+pre code{background:none;border:0;padding:0}
+table{border-collapse:collapse;width:100%;margin:1em 0;font-size:14.5px}
+th,td{border:1px solid var(--line);padding:8px 12px;text-align:left;vertical-align:top}
+th{background:var(--subtle);font-weight:700}tr:nth-child(even) td{background:#fcfdfe}
+blockquote{margin:1.2em 0;padding:12px 18px;border-left:4px solid var(--accent);background:var(--subtle);border-radius:0 8px 8px 0}
+blockquote p{margin:.3em 0}
+figure.diagram{margin:20px 0;text-align:center}
+figure.diagram svg{max-width:100%;height:auto;background:#fff;border:1px solid var(--hair);border-radius:12px;padding:14px}
+hr{border:0;border-top:1px solid var(--hair);margin:2em 0}
+ul,ol{padding-left:1.4em}li{margin:.25em 0}
+strong{font-weight:700}
+.toc{background:var(--subtle);border:1px solid var(--hair);border-radius:12px;padding:14px 20px;margin:18px 0 8px;font-size:14.5px}
+.toc-title{font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--soft);margin-bottom:4px}
+.toc ul{padding-left:1.1em;margin:.3em 0}.toc li{margin:.15em 0}
+@media (max-width:640px){.wrap{padding:22px 16px}body{font-size:15px}}
+</style></head>
+<body><div class="wrap">
+<div class="doc-banner">M7 · Green Metrics Technology · Zoning Bylaw Rule Verification</div>
+<div class="toc"><div class="toc-title">Contents</div><div class="toc">
+<ul>
+<li><a href="#m7-technical-document-zoning-bylaw-rule-verification">M7 Technical Document — Zoning Bylaw Rule Verification</a><ul>
+<li><a href="#1-what-this-is-in-one-paragraph">1. What this is, in one paragraph</a></li>
+<li><a href="#2-the-problem-and-why-it-is-hard">2. The problem, and why it is hard</a></li>
+<li><a href="#3-background-knowledge-quick-primer">3. Background knowledge (quick primer)</a></li>
+<li><a href="#4-the-big-idea-the-thesis">4. The big idea (the thesis)</a></li>
+<li><a href="#5-architecture-the-pipeline">5. Architecture — the pipeline</a></li>
+<li><a href="#6-the-two-extractors">6. The two extractors</a></li>
+<li><a href="#7-the-deterministic-verifier-the-heart-of-the-system">7. The deterministic verifier — the heart of the system</a></li>
+<li><a href="#8-the-safety-contract-what-can-never-break">8. The safety contract (what can never break)</a></li>
+<li><a href="#9-outputs">9. Outputs</a></li>
+<li><a href="#10-how-we-know-it-is-accurate-and-the-most-important-lesson">10. How we know it is accurate (and the most important lesson)</a></li>
+<li><a href="#11-why-it-is-excellent-innovative">11. Why it is excellent / innovative</a></li>
+<li><a href="#12-whats-new-in-m7-generational-changes">12. What's new in M7 (generational changes)</a></li>
+<li><a href="#13-how-to-run-it">13. How to run it</a></li>
+<li><a href="#14-code-structure-the-map">14. Code structure (the map)</a></li>
+<li><a href="#15-honest-limitations-future-work">15. Honest limitations &amp; future work</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<h1 id="m7-technical-document-zoning-bylaw-rule-verification">M7 Technical Document — Zoning Bylaw Rule Verification</h1>
+<p><em>A plain-language + technical guide to how the system turns dense legal bylaw text into
+machine-readable, trustworthy zoning rules — and why it can be trusted.</em></p>
+<hr />
+<h2 id="1-what-this-is-in-one-paragraph">1. What this is, in one paragraph</h2>
+<p>Canadian municipalities publish <strong>zoning bylaws</strong> — long legal PDFs that say things like <em>"the minimum
+building setback from a side property line is 1.2 metres."</em> Planners and GIS teams need those rules as
+clean, structured data (<code>setback ≥ 1.2 m, side</code>) to check permits and draw maps. This project reads a
+bylaw, asks an AI to <strong>propose</strong> candidate rules, and then runs every candidate through a <strong>deterministic
+verifier</strong> that only accepts a rule if its exact value, unit, direction, and scope are literally
+supported by the cited source text. The AI can suggest; <strong>only the verifier decides.</strong> The result is a
+set of <code>verified</code> rules that never contradict the bylaw, plus a dashboard and a grounded chatbot to
+explore them.</p>
+<p><strong>The headline guarantee:</strong> across all three pilot cities (Burnaby R1, Calgary R‑CG, Vancouver RS),
+a ground‑truth audit against the <em>actual bylaw PDFs</em> found <strong>zero false‑verifies</strong> — no verified rule
+contradicts or is absent from its bylaw, and no min/max direction is ever inverted.</p>
+<hr />
+<h2 id="2-the-problem-and-why-it-is-hard">2. The problem, and why it is hard</h2>
+<ul>
+<li><strong>Bylaws are long and messy.</strong> Calgary's is 1,053 pages. Rules hide in prose <em>and</em> in dimensional
+  <strong>tables</strong> (matrices of dwelling‑type × value). A naive reader misses most of them.</li>
+<li><strong>The same number means different things.</strong> "1.2 m" might be a side setback, an easement width, or a
+  fence height. Getting the <em>association</em> wrong publishes a false rule.</li>
+<li><strong>LLMs hallucinate.</strong> Studies in 2025 show AI legal tools still hallucinate <strong>17–33% of citations</strong>
+  even with retrieval. You cannot ship raw LLM output as law.</li>
+<li><strong>The cost of a wrong rule is high.</strong> A bad "verified" setback could mis‑approve a building. So the
+  system's #1 job is <strong>never to verify something the bylaw doesn't say</strong> — even at the cost of leaving
+  some true rules in a human‑review queue.</li>
+</ul>
+<hr />
+<h2 id="3-background-knowledge-quick-primer">3. Background knowledge (quick primer)</h2>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Plain meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>RAG</strong> (retrieval‑augmented generation)</td>
+<td>Find the relevant bylaw passages first, then feed <em>only those</em> to the LLM so it answers from real text, not memory.</td>
+</tr>
+<tr>
+<td><strong>Structured extraction</strong></td>
+<td>Turning a sentence into fields: <code>{rule_object, value, unit, operator, scope}</code>.</td>
+</tr>
+<tr>
+<td><strong>Deterministic verifier</strong></td>
+<td>Plain, auditable code (no AI) that checks each field against the cited text and outputs a yes/no. Same input → same output, always.</td>
+</tr>
+<tr>
+<td><strong>Source‑support gate</strong></td>
+<td>"Is this exact value/unit/word actually in the quoted clause?" If not, reject.</td>
+</tr>
+<tr>
+<td><strong>Matrix / table extraction</strong></td>
+<td>Reading a dimensional table cell‑by‑cell with geometry, so each (row × column) becomes one provable rule.</td>
+</tr>
+<tr>
+<td><strong>Gold</strong></td>
+<td>A small set of hand‑checked correct rules used to measure recall/precision.</td>
+</tr>
+<tr>
+<td><strong>Adversarial cases</strong></td>
+<td>Deliberately poisoned candidates (wrong value, inverted direction, foreign unit) used to prove the verifier blocks them.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-the-big-idea-the-thesis">4. The big idea (the thesis)</h2>
+<blockquote>
+<p><strong>Propose with AI. Decide with deterministic rules. Let nothing else be the authority.</strong></p>
+</blockquote>
+<p>This separation is what makes the system safe <em>and</em> useful:</p>
+<ul>
+<li>The <strong>proposer</strong> (retrieval + matrix parser + LLM) can be creative and is allowed to be wrong — its
+  job is <em>recall</em> (surface every candidate).</li>
+<li>The <strong>verifier</strong> is conservative and is never wrong in the dangerous direction — its job is
+  <em>precision</em> (admit only source‑proven rules).</li>
+</ul>
+<p>Recent literature converges on exactly this recipe for text‑and‑table legal documents: <em>"the LLM
+locates the table, a deterministic parser extracts the cells, minimizing hallucination"</em> and a
+<em>faithfulness/verification layer</em> as the gate. M7 leans all the way into it.</p>
+<hr />
+<h2 id="5-architecture-the-pipeline">5. Architecture — the pipeline</h2>
+<figure class="diagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" font-family="Inter, sans-serif" font-size="13">
+  <style>
+    .box{fill:#fff;stroke:#d0d7de;stroke-width:1.5;rx:10}
+    .lbl{fill:#1f2328;font-weight:700}
+    .sub{fill:#57606a;font-size:11px}
+    .acc{fill:#0969da}
+    .v{fill:#1a7f37}.r{fill:#9a6700}.x{fill:#cf222e}.n{fill:#57606a}
+    .flow{stroke:#0969da;stroke-width:2;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#0969da"/></marker></defs>
+  <!-- source -->
+  <rect class="box" x="10" y="150" width="120" height="60" rx="10"/>
+  <text class="lbl" x="70" y="176" text-anchor="middle">Bylaw PDF</text>
+  <text class="sub" x="70" y="194" text-anchor="middle">page-scoped</text>
+  <!-- discovery -->
+  <rect class="box" x="170" y="150" width="130" height="60" rx="10"/>
+  <text class="lbl" x="235" y="172" text-anchor="middle">Discovery</text>
+  <text class="sub" x="235" y="189" text-anchor="middle">hybrid retrieval</text>
+  <text class="sub" x="235" y="203" text-anchor="middle">+ rule sweep</text>
+  <!-- extraction split -->
+  <rect class="box" x="340" y="95" width="150" height="50" rx="10"/>
+  <text class="lbl" x="415" y="116" text-anchor="middle">Matrix extractor</text>
+  <text class="sub" x="415" y="132" text-anchor="middle">deterministic table cells</text>
+  <rect class="box" x="340" y="215" width="150" height="50" rx="10"/>
+  <text class="lbl" x="415" y="236" text-anchor="middle">LLM extractor</text>
+  <text class="sub" x="415" y="252" text-anchor="middle">prose clauses (gemini-3.1)</text>
+  <!-- verifier -->
+  <rect class="box" x="535" y="150" width="150" height="60" rx="10" fill="#f6f8fa" stroke="#0969da"/>
+  <text class="lbl acc" x="610" y="174" text-anchor="middle">DETERMINISTIC</text>
+  <text class="lbl acc" x="610" y="191" text-anchor="middle">VERIFIER</text>
+  <text class="sub" x="610" y="205" text-anchor="middle">the sole authority</text>
+  <!-- buckets -->
+  <rect class="box" x="730" y="70" width="150" height="34" rx="8"/><circle cx="746" cy="87" r="5" class="v"/><text x="758" y="91" class="lbl">Verified</text>
+  <rect class="box" x="730" y="116" width="150" height="34" rx="8"/><circle cx="746" cy="133" r="5" class="r"/><text x="758" y="137" class="lbl">Review needed</text>
+  <rect class="box" x="730" y="162" width="150" height="34" rx="8"/><circle cx="746" cy="179" r="5" class="x"/><text x="758" y="183" class="lbl">Rejected</text>
+  <rect class="box" x="730" y="208" width="150" height="34" rx="8"/><circle cx="746" cy="225" r="5" class="n"/><text x="758" y="229" class="lbl">Not used</text>
+  <!-- consumers -->
+  <rect class="box" x="730" y="270" width="150" height="62" rx="10" fill="#f6fbf7" stroke="#1a7f37"/>
+  <text class="lbl v" x="805" y="292" text-anchor="middle">GIS contract</text>
+  <text class="sub" x="805" y="308" text-anchor="middle">+ dashboard + chatbot</text>
+  <text class="sub" x="805" y="322" text-anchor="middle">(verified only)</text>
+  <!-- flows -->
+  <path class="flow" d="M130,180 H168"/>
+  <path class="flow" d="M300,175 C320,175 320,120 338,120"/>
+  <path class="flow" d="M300,185 C320,185 320,240 338,240"/>
+  <path class="flow" d="M490,120 C515,120 515,170 533,170"/>
+  <path class="flow" d="M490,240 C515,240 515,190 533,190"/>
+  <path class="flow" d="M685,172 C705,172 710,87 728,87"/>
+  <path class="flow" d="M685,178 C705,178 710,133 728,133"/>
+  <path class="flow" d="M685,182 C705,182 710,179 728,179"/>
+  <path class="flow" d="M685,188 C705,188 710,225 728,225"/>
+  <path class="flow" d="M805,242 V268" stroke="#1a7f37" marker-end="url(#a)"/>
+  <text class="sub" x="805" y="258" text-anchor="middle" fill="#1a7f37">only the green bucket flows on →</text>
+</svg></figure>
+<p><strong>Walkthrough.</strong> The PDF is <strong>page‑scoped</strong> to the target district (e.g. Calgary R‑CG pp. 465–478, not
+the whole 1,053 pages). Discovery retrieves relevant passages and sweeps every numeric clause. Two
+extractors run: a <strong>deterministic matrix parser</strong> (table cells → provable candidates) and an <strong>LLM</strong>
+(prose clauses). All candidates flow into the <strong>verifier</strong>, which sorts them into four buckets. Only
+<strong>verified</strong> rules reach GIS, the dashboard's "GIS Handoff," and feed the map.</p>
+<hr />
+<h2 id="6-the-two-extractors">6. The two extractors</h2>
+<p><strong>(a) Matrix extractor — deterministic, no LLM guessing.</strong> Burnaby's bylaw packs most of its rules into
+one dimensional table (dwelling‑type × dimension). The matrix parser reads the table geometry and emits
+one candidate per cell. <strong>81 of Burnaby's 87 verified rules come from this path</strong> — and because it is
+deterministic, those candidates carry their own table‑cell proof.</p>
+<p><strong>(b) LLM extractor — prose clauses.</strong> For sentences ("the maximum building height is 11.0 metres"), the
+LLM (<code>google/gemini-3.1-flash-lite</code>, chosen by an A/B over the deterministic verifier) proposes
+structured candidates. It is <em>only a proposer</em>; everything it returns must still pass the verifier.</p>
+<pre><code class="language-python"># Each candidate is just structured fields + a citation — never a decision:
+{
+  &quot;rule_object&quot;: &quot;height&quot;, &quot;constraint_type&quot;: &quot;max&quot;, &quot;operator&quot;: &quot;&lt;=&quot;,
+  &quot;value&quot;: &quot;11.0&quot;, &quot;unit&quot;: &quot;m&quot;, &quot;constraint_scope&quot;: &quot;building&quot;,
+  &quot;applies_to&quot;: &quot;R-CG District&quot;,
+  &quot;source&quot;: {&quot;page&quot;: 472, &quot;section&quot;: &quot;541(1)&quot;,
+             &quot;evidence_text&quot;: &quot;the maximum building height is 11.0 metres measured from grade&quot;}
+}
+</code></pre>
+<hr />
+<h2 id="7-the-deterministic-verifier-the-heart-of-the-system">7. The deterministic verifier — the heart of the system</h2>
+<p>Every candidate is checked against its <strong>cited evidence text</strong>. A rule is <code>verified</code> <strong>only if it has no
+blocking support gap.</strong> The gates are plain, auditable functions — not a model.</p>
+<figure class="diagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 250" font-family="Inter, sans-serif" font-size="12.5">
+  <defs><marker id="b" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#57606a"/></marker></defs>
+  <rect x="10" y="100" width="110" height="50" rx="10" fill="#fff" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="65" y="129" text-anchor="middle" fill="#1f2328" font-weight="700">candidate</text>
+  <!-- gates -->
+  <g>
+    <rect x="160" y="20" width="150" height="34" rx="8" fill="#fff" stroke="#d0d7de"/><text x="235" y="42" text-anchor="middle">value in evidence?</text>
+    <rect x="160" y="62" width="150" height="34" rx="8" fill="#fff" stroke="#d0d7de"/><text x="235" y="84" text-anchor="middle">unit compatible?</text>
+    <rect x="160" y="104" width="150" height="34" rx="8" fill="#fff" stroke="#d0d7de"/><text x="235" y="126" text-anchor="middle">operator/direction?</text>
+    <rect x="160" y="146" width="150" height="34" rx="8" fill="#fff" stroke="#d0d7de"/><text x="235" y="168" text-anchor="middle">scope supported?</text>
+    <rect x="160" y="188" width="150" height="34" rx="8" fill="#fff" stroke="#d0d7de"/><text x="235" y="210" text-anchor="middle">shape sane? (not a ratio,</text>
+  </g>
+  <text x="235" y="244" text-anchor="middle" fill="#57606a" font-size="11">range bound, easement, definition…)</text>
+  <!-- decision -->
+  <rect x="360" y="95" width="150" height="60" rx="10" fill="#f6f8fa" stroke="#0969da" stroke-width="1.5"/>
+  <text x="435" y="120" text-anchor="middle" fill="#0969da" font-weight="700">any blocking</text>
+  <text x="435" y="137" text-anchor="middle" fill="#0969da" font-weight="700">gap?</text>
+  <!-- outcomes -->
+  <rect x="560" y="20" width="170" height="34" rx="8" fill="#f6fbf7" stroke="#1a7f37"/><text x="645" y="42" text-anchor="middle" fill="#1a7f37" font-weight="700">none → VERIFIED</text>
+  <rect x="560" y="70" width="170" height="34" rx="8" fill="#fdf7ec" stroke="#9a6700"/><text x="645" y="92" text-anchor="middle" fill="#9a6700">soft gap → REVIEW</text>
+  <rect x="560" y="120" width="170" height="34" rx="8" fill="#fcebec" stroke="#cf222e"/><text x="645" y="142" text-anchor="middle" fill="#cf222e">value/unit wrong → REJECT</text>
+  <rect x="560" y="170" width="170" height="34" rx="8" fill="#f3f4f6" stroke="#57606a"/><text x="645" y="192" text-anchor="middle" fill="#57606a">out of scope → NOT USED</text>
+  <line x1="120" y1="125" x2="158" y2="60" stroke="#57606a" marker-end="url(#b)"/>
+  <line x1="120" y1="125" x2="158" y2="205" stroke="#57606a" marker-end="url(#b)"/>
+  <line x1="310" y1="125" x2="358" y2="125" stroke="#57606a" marker-end="url(#b)"/>
+  <line x1="510" y1="115" x2="558" y2="37" stroke="#57606a" marker-end="url(#b)"/>
+  <line x1="510" y1="125" x2="558" y2="87" stroke="#57606a" marker-end="url(#b)"/>
+  <line x1="510" y1="130" x2="558" y2="137" stroke="#57606a" marker-end="url(#b)"/>
+  <line x1="510" y1="140" x2="558" y2="187" stroke="#57606a" marker-end="url(#b)"/>
+</svg></figure>
+<p>The decision logic is one small, audited function — the only place a bucket is assigned:</p>
+<pre><code class="language-python"># decision_policy.py — the entire safety tiering, in one readable place
+def verification_decision_from_gaps(support_gaps: list[str]) -&gt; str:
+    blocking = set(support_gaps) - ADVISORY_GAPS      # advisory notes never block
+    if not blocking:                       return VERIFIED       # every gate passed
+    if CRITICAL_REJECTION_GAPS &amp; blocking: return REJECTED       # value/unit absent or contradicted
+    if NOT_USED_GAPS &amp; blocking:           return NOT_USED       # out of contract / a definition
+    return REVIEW_NEEDED                                          # a human can repair the rest
+</code></pre>
+<p><strong>Tiering rationale (why it's safe but not brittle):</strong> a <em>value or unit absent from the evidence</em> is a
+<strong>hard reject</strong> — the citation itself is wrong. A <em>scope/wording miss</em> is <strong>review</strong> — the value is real,
+the phrasing just wasn't recognized, and a human or better evidence can repair it. This is why precision
+stays 1.0 while genuine rules are never silently destroyed.</p>
+<hr />
+<h2 id="8-the-safety-contract-what-can-never-break">8. The safety contract (what can <em>never</em> break)</h2>
+<figure class="diagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 120" font-family="Inter, sans-serif" font-size="12.5">
+  <path d="M40,10 L100,10 L100,70 Q100,100 70,108 Q40,100 40,70 Z" fill="#f6fbf7" stroke="#1a7f37" stroke-width="2"/>
+  <text x="70" y="55" text-anchor="middle" fill="#1a7f37" font-weight="700" font-size="22">✓</text>
+  <text x="130" y="28" fill="#1f2328" font-weight="700">false_verified_count = 0</text>
+  <text x="130" y="50" fill="#1f2328" font-weight="700">verified_precision = 1.0</text>
+  <text x="130" y="72" fill="#1f2328" font-weight="700">source_support_failures = 0</text>
+  <text x="130" y="94" fill="#1f2328" font-weight="700">adversarial: ALL BLOCKED  ·  full test suite green</text>
+  <text x="470" y="28" fill="#57606a">— no verified rule contradicts source</text>
+  <text x="470" y="50" fill="#57606a">— every verified rule is gold-consistent</text>
+  <text x="470" y="72" fill="#57606a">— every value is literally in the citation</text>
+  <text x="470" y="94" fill="#57606a">— poisons can never enter `verified`</text>
+</svg></figure>
+<p>These are pinned by automated tests (<code>tests/test_slim_verifier.py</code>, <code>tests/test_adversarial_hardening.py</code>,
+<code>tests/test_m7_safety_gates.py</code>). <strong>No change is allowed to ship that breaks them</strong> — proven this very
+release when a recall‑raising experiment (see §10) was reverted because it nicked precision.</p>
+<hr />
+<h2 id="9-outputs">9. Outputs</h2>
+<ul>
+<li><strong><code>verified_rules.json</code></strong> — the full audited rule set (the raw trail).</li>
+<li><strong><code>gis_rule_contract.json</code></strong> — slim, deduplicated, verified‑only rules for the GIS team (the file they consume).</li>
+<li><strong><code>gis_felt_export.json</code></strong> — map‑ready: each setback carries a geometry (<code>offset_inward</code>, <code>rear_lot_line</code>) and a <code>gis_ready</code> flag.</li>
+<li><strong>Dashboard</strong> ("Civic Console", 4 tabs: Summary · Review Queue · GIS Handoff · Ask the Bylaw) — every
+  count drills down to the exact rules behind it.</li>
+<li><strong>Chatbot</strong> — a grounded, multi‑turn assistant: it retrieves bylaw sections (hybrid BM25 + cross‑encoder
+  rerank), answers with <code>gemini-3.1-flash-lite</code>, and <strong>cites the section</strong> for every claim. It is advisory
+  and can never verify/approve/reject a rule.</li>
+</ul>
+<hr />
+<h2 id="10-how-we-know-it-is-accurate-and-the-most-important-lesson">10. How we know it is accurate (and the most important lesson)</h2>
+<p><strong>Ground‑truth audit (M7).</strong> We did not trust our own gold. We read the <em>actual bylaw PDFs</em> and checked
+every verified rule's value/unit/operator/scope against the real text:</p>
+<table>
+<thead>
+<tr>
+<th>City</th>
+<th>Verified</th>
+<th>Accurate vs PDF</th>
+<th>False‑verifies</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Burnaby R1</td>
+<td>87</td>
+<td>87 / 87</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>Calgary R‑CG</td>
+<td>29</td>
+<td>29 / 29</td>
+<td><strong>0</strong></td>
+</tr>
+<tr>
+<td>Vancouver RS</td>
+<td>10</td>
+<td>10 / 10</td>
+<td><strong>0</strong></td>
+</tr>
+</tbody>
+</table>
+<p>The audit caught one real defect the gold benchmark <em>couldn't</em>: a rule that read Calgary §539(4)'s
+<em>"1.2 metre private maintenance easement"</em> as a 1.2 m side setback (the clause actually grants a <strong>zero</strong>
+setback). The gold missed it because 1.2 m coincides with the real side‑setback value — only reading the
+PDF exposed it. We added a deterministic guard (a setback value glued to "easement" is held) and pinned
+it with a test.</p>
+<p><strong>The lesson (don't relitigate).</strong> We also <em>tried</em> to raise recall by auto‑promoting confident
+single‑source LLM candidates (a "co‑location proof"). It injected real false‑verifies
+(<code>dwelling_units ≤ 1</code> from a "1 to 3 units" range; a separation read from a height clause) and was
+<strong>reverted</strong>. The verifier's conservatism is <em>legitimate safety</em>, not over‑caution. <strong>Recall is raised by
+better extraction, never by a looser verifier.</strong></p>
+<hr />
+<h2 id="11-why-it-is-excellent-innovative">11. Why it is excellent / innovative</h2>
+<ol>
+<li><strong>Propose‑then‑verify with a deterministic sole authority.</strong> Matches the 2025/26 SOTA recipe for
+   text‑and‑table legal extraction, and gives a <em>provable</em> zero‑false‑verify guarantee that pure‑LLM or
+   pure‑RAG systems cannot (those still hallucinate 17–33% of citations).</li>
+<li><strong>Deterministic matrix extraction.</strong> Dimensional tables — where most dwelling rules live and where LLMs
+   mangle columns — become cell‑by‑cell <em>provable</em> candidates (81/87 of Burnaby).</li>
+<li><strong>Honest measurement.</strong> Coverage is reported against a <em>scored legal‑slot denominator</em>, not an inflated
+   raw count; recall is measured against independently authored gold; and we audit against the <strong>real PDFs</strong>.</li>
+<li><strong>Closed leak classes as named, tested gates</strong> — operator‑fill inversion, ratio‑coefficient,
+   range‑lower‑bound, foreign‑unit, definition‑sentence, allowance‑trigger, easement‑width. Each is a
+   one‑line, auditable rule with a regression test.</li>
+<li><strong>Generalizes across cities</strong> (config‑driven targets, token‑robust scope vocab) without overfitting —
+   the same verifier serves Burnaby, Calgary, and Vancouver unchanged.</li>
+</ol>
+<hr />
+<h2 id="12-whats-new-in-m7-generational-changes">12. What's new in M7 (generational changes)</h2>
+<ul>
+<li>Fixed a real bug: the product pipeline ignored <code>provenance.pages</code> (Calgary spanned the whole 1,053‑page
+  bylaw). Now page‑scoped → focused extraction + honest denominator.</li>
+<li>Single, strongest experimented model (<code>gemini-3.1-flash-lite</code>) on the <strong>matrix‑aware</strong> pipeline:
+  <strong>Calgary 16→30 verified (recall 0.84→1.0)</strong>, <strong>Burnaby 84→87 (recall →0.97)</strong>, Vancouver recall 1.0.</li>
+<li>Chatbot upgraded to two‑stage retrieval + <strong>cross‑encoder rerank</strong> (fixes "what's the max height?").</li>
+<li>Full structural rename to the M7 generation (<code>m7_runs</code>, <code>m7_measure</code>), consolidation of dead lanes, and
+  a dashboard "Civic Console" with count drill‑downs.</li>
+<li>New CI safety gate + ground‑truth PDF audit + the easement / range‑bound leak fixes above.</li>
+</ul>
+<hr />
+<h2 id="13-how-to-run-it">13. How to run it</h2>
+<pre><code class="language-bash"># 1. Extract + verify a city through the matrix-aware product pipeline (writes outputs/m7_runs/&lt;city&gt;/&lt;model&gt;/)
+.venv/bin/python scripts/run_m4_bakeoff.py --city calgary_rcg --models google/gemini-3.1-flash-lite
+
+# 2. Measure (scored coverage, benchmark, slot audit) -&gt; outputs/m7_measure/&lt;run-id&gt;/
+.venv/bin/python scripts/run_m7_measure.py --run-id m7_gemini31_final_20260616 --model google/gemini-3.1-flash-lite
+
+# 3. Safety gates
+.venv/bin/python -m pytest -q
+.venv/bin/python benchmark/evaluate_adversarial.py --config configs/calgary_rcg.json --cases benchmark/gold/calgary_rcg_adversarial_cases.json
+
+# 4. Explore (dashboard + grounded chatbot; reads OPENROUTER_API_KEY from .env)
+.venv/bin/python -m streamlit run dashboard/streamlit_app.py --server.port 8501
+</code></pre>
+<hr />
+<h2 id="14-code-structure-the-map">14. Code structure (the map)</h2>
+<pre><code class="language-text">src/burnaby_prototype/
+  verification.py        ← the deterministic verifier (field gates, support checks)
+  decision_policy.py     ← gap → bucket tiering (the ONLY place a decision is made)
+  support_checks.py      ← value/unit/operator/scope &quot;is it in the evidence?&quot; checks
+  v3_discovery.py        ← retrieval + exhaustive rule-signal sweep (proposer)
+  v2_matrix_candidates.py← deterministic table-cell extraction (proposer)
+  native_extraction.py   ← OpenRouter LLM client + reranker (proposer)
+  gis_felt_export.py     ← verified rules → map-ready geometry
+  slim_pipeline.py       ← verified → slim GIS contract (deduplicated)
+  m7_measure.py          ← scored-coverage / benchmark measurement layer
+scripts/                 ← run_m4_bakeoff (extract+verify), run_m7_measure (measure)
+dashboard/streamlit_app.py ← Civic Console + grounded chatbot
+benchmark/               ← gold rules, adversarial cases, evaluators
+docs/M7_FINAL_RELEASE.md ← the M7 release runbook + numbers
+</code></pre>
+<hr />
+<h2 id="15-honest-limitations-future-work">15. Honest limitations &amp; future work</h2>
+<ul>
+<li><strong>Recall is bounded by safety.</strong> Some genuinely‑true rules stay in <code>review</code> (heritage conditionals,
+  exceptions, single‑source prose). That is by design — promoting them risks false‑verifies.</li>
+<li><strong>Scored coverage is still modest</strong> (Calgary 0.16, Vancouver 0.09) because many real district rules
+  aren't yet <em>extracted</em>; the lever is richer extraction, not a looser gate.</li>
+<li><strong>Provenance labels can lag</strong> (a few Calgary rows cite §534 where the clause is §535 — value/page
+  correct). Fix belongs at the extraction section‑attribution step.</li>
+<li><strong>Vancouver</strong> would benefit from a larger authored gold (principal/duplex/triplex sections) — a
+  multi‑week effort deferred past M7.</li>
+</ul>
+<blockquote>
+<p><strong>Bottom line:</strong> the system is a trustworthy <em>proposer‑plus‑deterministic‑verifier</em>. It is honest about
+what it does not know, it never lets a wrong rule into <code>verified</code>, and it gives humans a clean queue for
+the rest. That combination — high recall on the easy rules, zero false‑verifies, and an auditable gate —
+is what makes it ready to hand to a GIS team.</p>
+</blockquote>
+</div></body></html>

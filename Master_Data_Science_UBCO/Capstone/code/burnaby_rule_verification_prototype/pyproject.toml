@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "burnaby-prototype"
+version = "0.1.0"
+description = "Deterministic, evidence-grounded verification layer for municipal zoning rules, with a verified-only GIS/Felt handoff."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Thomas" }]
+keywords = ["zoning", "verification", "gis", "rule-extraction", "capstone"]
+dependencies = [
+    "jsonschema>=4.0",
+    "rank-bm25>=0.2.2",
+]
+
+[project.optional-dependencies]
+dashboard = ["streamlit>=1.35"]
+# Optional pydeck map tab in the dashboard; the dashboard degrades gracefully without it.
+map = ["pydeck>=0.9"]
+semantic = ["sentence-transformers>=2.7"]
+# LLM review-assistant is ADVISORY only and never imported by the verifier.
+llm = ["anthropic>=0.40"]
+# Internal extraction helper (legacy diagnostic path; native M4 is the current
+# product extraction path; never imported by the verify path). docling is a further OPTIONAL
+# upgrade for richer PDF layout — heavy (torch/vision models), install manually
+# with `pip install docling`; pdf_ingest falls back to pdfplumber without it.
+extraction = ["pdfplumber>=0.11", "google-genai>=1.0"]
+dev = ["streamlit>=1.35", "anthropic>=0.40", "sentence-transformers>=2.7", "hypothesis>=6.100"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+burnaby_prototype = ["py.typed"]

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>Building Outlines</title>
+                <onlink>https://gis.burnaby.ca/arcgis/rest/services/OpenData/OpenData4/MapServer/18</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Building Outlines means all parts of a main building (which may including roof overhangs) that rest, directly or indirectly, on the ground, including those portions of the building that are supported by posts, piers, or columns. Building footprint also may includes attached garages, covered carports, bay windows with floor space, lanais, decks, cantilevered decks, spas, and in-ground swimming pools.</abstract>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>Burnaby</themekey>
+                <themekey>Buildings</themekey>
+                <themekey>Outlines</themekey>
+                <themekey>Legal &amp; Lands</themekey>
+            </theme>
+        </keywords>
+        <accconst>None</accconst>
+        <useconst>https://data.burnaby.ca/pages/open-government-licence</useconst>
+    </idinfo>
+    <metainfo>
+        <metd>20200305</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

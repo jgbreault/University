@@ -1,0 +1,172 @@
+[
+  {
+    "case_id": "adv_bundle_cross_source_applies_to",
+    "description": "A value (281) from the Minimum Lot Area table must NOT pick up a wrong 'Rowhouse' applies_to from an unrelated clause on another page. The single-source guard must drop the cross-source clause, leaving the candidate unsupported.",
+    "review_rule": {
+      "rule_id": "adv_bundle_001",
+      "rule_object": "lot_area",
+      "constraint_scope": "lot",
+      "applies_to": "Rowhouse",
+      "operator": ">=",
+      "value": "281",
+      "unit": "m²",
+      "support_gaps": [
+        "applies_to_not_supported"
+      ],
+      "source": {
+        "evidence_id": "adv_P1",
+        "page": 1,
+        "evidence_text": "Minimum Lot Area | Small-Scale Multi-Unit | 281 m²"
+      },
+      "candidate": {
+        "candidate_id": "adv_bundle_001_c",
+        "evidence_id": "adv_P1",
+        "rule_object": "lot_area",
+        "constraint_scope": "lot",
+        "applies_to": "Rowhouse",
+        "operator": ">=",
+        "value": "281",
+        "unit": "m²",
+        "source_stream": "gemini_table_image",
+        "extraction_method": "pipeline5_final_registry"
+      }
+    },
+    "evidence_units": [
+      {
+        "evidence_id": "adv_P1",
+        "page": 1,
+        "evidence_type": "table_cell",
+        "table_title": "Minimum Lot Area",
+        "row_header": "Lot Area",
+        "column_header": "Small-Scale Multi-Unit",
+        "cell_value": "281 m²",
+        "evidence_text": "Minimum Lot Area | Small-Scale Multi-Unit | 281 m²"
+      },
+      {
+        "evidence_id": "adv_P2",
+        "page": 9,
+        "evidence_type": "clause",
+        "table_title": null,
+        "evidence_text": "Rowhouse dwellings are a permitted use in this district."
+      }
+    ],
+    "bundle_evidence_ids": [
+      "adv_P1",
+      "adv_P2"
+    ]
+  },
+  {
+    "case_id": "adv_bundle_cross_table_value",
+    "description": "The 6.0 m value lives in the separation table on a row that does NOT name the candidate's applies_to; the matching 'Front and Rear Principal' label only exists in a different table (Maximum Height). Stitching the two would falsely ground applies_to. The single-source guard must drop the cross-table member, leaving applies_to unsupported.",
+    "review_rule": {
+      "rule_id": "adv_bundle_002",
+      "rule_object": "building_separation",
+      "constraint_scope": "building_separation",
+      "applies_to": "Front and Rear Principal Buildings",
+      "operator": ">=",
+      "value": "6.0",
+      "unit": "m",
+      "support_gaps": [
+        "applies_to_not_supported"
+      ],
+      "source": {
+        "evidence_id": "adv_Q1",
+        "page": 2,
+        "evidence_text": "Minimum Separation Of Buildings | All Other Buildings | 6.0 m"
+      },
+      "candidate": {
+        "candidate_id": "adv_bundle_002_c",
+        "evidence_id": "adv_Q1",
+        "rule_object": "building_separation",
+        "constraint_scope": "building_separation",
+        "applies_to": "Front and Rear Principal Buildings",
+        "operator": ">=",
+        "value": "6.0",
+        "unit": "m",
+        "source_stream": "gemini_table_image",
+        "extraction_method": "pipeline5_final_registry"
+      }
+    },
+    "evidence_units": [
+      {
+        "evidence_id": "adv_Q1",
+        "page": 2,
+        "evidence_type": "table_cell",
+        "table_title": "Minimum Separation Of Buildings",
+        "row_header": "All Other Buildings",
+        "column_header": "",
+        "cell_value": "6.0 m",
+        "evidence_text": "Minimum Separation Of Buildings | All Other Buildings | 6.0 m"
+      },
+      {
+        "evidence_id": "adv_Q2",
+        "page": 3,
+        "evidence_type": "table_cell",
+        "table_title": "Maximum Height",
+        "row_header": "Front and Rear Principal Buildings",
+        "column_header": "",
+        "cell_value": "10 m",
+        "evidence_text": "Maximum Height | Front and Rear Principal Buildings | 10 m"
+      }
+    ],
+    "bundle_evidence_ids": [
+      "adv_Q1",
+      "adv_Q2"
+    ]
+  },
+  {
+    "case_id": "adv_bundle_same_source_operator_stitch",
+    "description": "Two clauses share a provenance key (same page, no section/table). The VALUE member states 'exceeds 3.7 m' (a computation trigger, direction >), while a sibling clause supplies 'must not exceed' wording. Stitching them manufactures support for a flipped <= operator. The value-member operator-grounding guard must drop the bundle. Pinned from the live vancouver_rs_027 leak.",
+    "review_rule": {
+      "rule_id": "adv_bundle_003",
+      "rule_object": "height",
+      "constraint_scope": "floor_above_distance",
+      "applies_to": "laneway house",
+      "operator": "<=",
+      "constraint_type": "exception",
+      "value": "3.7",
+      "unit": "m",
+      "support_gaps": [
+        "operator_not_supported"
+      ],
+      "source": {
+        "evidence_id": "adv_R1",
+        "page": 9,
+        "evidence_text": "(c) where the distance from a floor to the floor above, exceeds 3.7 m, an amount equal to the area of the floor below the excess height."
+      },
+      "candidate": {
+        "candidate_id": "adv_bundle_003_c",
+        "evidence_id": "adv_R1",
+        "rule_object": "height",
+        "constraint_scope": "floor_above_distance",
+        "applies_to": "laneway house",
+        "operator": "<=",
+        "constraint_type": "exception",
+        "value": "3.7",
+        "unit": "m",
+        "source_stream": "gemini_text_block",
+        "extraction_method": "pipeline5_final_registry"
+      }
+    },
+    "evidence_units": [
+      {
+        "evidence_id": "adv_R1",
+        "page": 9,
+        "evidence_type": "clause",
+        "table_title": null,
+        "evidence_text": "(c) where the distance from a floor to the floor above, exceeds 3.7 m, an amount equal to the area of the floor below the excess height of the laneway house."
+      },
+      {
+        "evidence_id": "adv_R2",
+        "page": 9,
+        "evidence_type": "clause",
+        "table_title": null,
+        "evidence_text": "(iii) the ceiling height, excluding roof structure, of the total area being excluded must not exceed the maximum permitted."
+      }
+    ],
+    "bundle_evidence_ids": [
+      "adv_R1",
+      "adv_R2"
+    ]
+  }
+]

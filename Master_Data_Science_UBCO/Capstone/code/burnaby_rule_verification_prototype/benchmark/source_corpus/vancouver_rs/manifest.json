@@ -1,0 +1,21 @@
+{
+  "corpus_version": "m4_source_corpus_1",
+  "city": "vancouver_rs",
+  "zone": "RS",
+  "configured_source_document": "Vancouver Zoning and Development By-law — Section 11.3 (Laneway Houses)",
+  "configured_source_url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+  "provenance_url": "https://bylaws.vancouver.ca/zoning/zoning-by-law-section-11.pdf",
+  "fetched_at": "2026-06-11T20:11:55+00:00",
+  "source_pdf": "/Users/thomas/Desktop/Capstone_prototype/Burnaby_prototype/data/bylaws/vancouver_rs/source.pdf",
+  "pdf_sha256": "80f30e5782fe5a62b1a6a7f768713f93fdea120245739831394d6b14b0555111",
+  "provenance_sha256": "80f30e5782fe5a62b1a6a7f768713f93fdea120245739831394d6b14b0555111",
+  "pdf_bytes": 869241,
+  "page_count": 22,
+  "config_hash": "979abada6fe927169b8744379b2a161d8e44eb076344e814731c8e4f98fe7990",
+  "source_chunk_count": 251,
+  "rag_chunk_count": 251,
+  "table_entry_count": 45,
+  "numeric_clause_count": 40,
+  "rule_like_numeric_clause_count": 38,
+  "gold_leakage_guard": "No benchmark gold, expected dispositions, or verified outputs are stored in this source corpus."
+}

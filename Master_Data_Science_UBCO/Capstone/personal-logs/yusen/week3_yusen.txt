@@ -1,0 +1,39 @@
+## Week 3
+
+**Summary:**
+Focused on the RAG/source-matching direction of the project and clarified that the current goal should not be a dashboard or chatbot yet, but a reliable source-backed rule verification system. Built and reviewed prototypes around max lot coverage, source matching, workbook verification, and the relationship between LLM extraction and verified rule registries.
+
+**Tasks:**
+
+* Built and reviewed a deterministic max lot coverage prototype to separate rule calculation from rule extraction
+* Built a simple source-matching prototype that connects structured rules back to supporting bylaw snippets
+* Built a source verification prototype using the researched rules workbook and available source chunks
+* Reviewed Zihao’s Surrey R1 extraction pipeline and identified how it can fit as a candidate-rule extraction step
+* Wrote and revised blocker report questions about LLM extraction, source matching, and verification architecture
+* Created a broader Codex prompt for a multi-rule, multi-city source verification benchmark across Surrey, Burnaby, and Vancouver
+
+**Time:**
+
+* Max lot coverage prototype and rule engine review: 6 hours
+* Source matching prototype: 8 hours
+* Workbook rule verification prototype: 8 hours
+* Review of Surrey R1 extraction pipeline and team discussion: 6 hours
+* Blocker report writing and revisions: 6 hours
+* Planning next Codex experiment and architecture direction: 6 hours
+
+**Total: 40 hours**
+
+**Challenges:**
+
+* Clarifying the difference between LLM-extracted candidate rules and a verified rule registry
+* Understanding whether RAG/source matching is actually needed or whether scraper + LLM extraction is enough
+* Making sure the system does not treat LLM output as source of truth
+* Dealing with conditional zoning rules where values depend on lot size, building type, zone, exceptions, or table rows
+* Thinking beyond Surrey R1 toward a system that can generalize across Surrey, Burnaby, Vancouver, and more rule types
+
+**Next Steps:**
+
+* Get feedback from Thor/GMT on whether LLM extraction should be treated as candidate-rule generation followed by source-matched verification
+* Test a broader benchmark across multiple cities and multiple rule types, starting with max lot coverage, setbacks, height, density/FAR, permitted use, access, and exceptions
+* Continue developing the verified rule registry structure before moving toward GIS/Felt integration
+EOF

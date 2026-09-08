@@ -1,0 +1,140 @@
+﻿[
+  {
+    "batch_id": "text_batch_0001",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "burnaby_generic_graph_pack_004"
+    ],
+    "original_pages": [
+      1
+    ],
+    "source_count": 1,
+    "char_count": 1083,
+    "rule_count": 7,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 21.734371423721313
+  },
+  {
+    "batch_id": "text_batch_0002",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "burnaby_generic_graph_pack_007"
+    ],
+    "original_pages": [
+      2
+    ],
+    "source_count": 3,
+    "char_count": 4017,
+    "rule_count": 53,
+    "skipped_count": 0,
+    "warnings": [
+      "The table structure in the source text is ambiguous in some places, requiring interpretation of column applicability for 'Impervious Surfaces' and general 'Maximum Lot Coverage' rules. Interpretation was based on visual alignment and explicit mentions of dwelling types.",
+      "Source 'burnaby_generic_graph_pack_007__page_0002__local_003' contains an incomplete sentence for note .3: 'Interior side yard setbacks are not required for rowhouse dwelling units on a lot line between two'."
+    ],
+    "status": "ok",
+    "seconds": 73.68572616577148
+  },
+  {
+    "batch_id": "text_batch_0003",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "burnaby_generic_graph_pack_009"
+    ],
+    "original_pages": [
+      4
+    ],
+    "source_count": 3,
+    "char_count": 2513,
+    "rule_count": 11,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 16.918081283569336
+  },
+  {
+    "batch_id": "text_batch_0004",
+    "lanes": [
+      "district_dimensional_overrides_packs"
+    ],
+    "rag_pack_ids": [
+      "burnaby_generic_graph_pack_011",
+      "burnaby_generic_graph_pack_012"
+    ],
+    "original_pages": [
+      5
+    ],
+    "source_count": 2,
+    "char_count": 1311,
+    "rule_count": 3,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 10.505322694778442
+  },
+  {
+    "batch_id": "text_batch_0005",
+    "lanes": [
+      "extract_now_core_packs"
+    ],
+    "rag_pack_ids": [
+      "burnaby_generic_graph_pack_002",
+      "burnaby_generic_graph_pack_006"
+    ],
+    "original_pages": [
+      1
+    ],
+    "source_count": 2,
+    "char_count": 1205,
+    "rule_count": 2,
+    "skipped_count": 1,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 9.878241062164307
+  },
+  {
+    "batch_id": "text_batch_0006",
+    "lanes": [
+      "extract_separately_use_permission_packs"
+    ],
+    "rag_pack_ids": [
+      "burnaby_generic_graph_pack_008"
+    ],
+    "original_pages": [
+      2
+    ],
+    "source_count": 1,
+    "char_count": 725,
+    "rule_count": 2,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 5.5148024559021
+  },
+  {
+    "batch_id": "text_batch_0007",
+    "lanes": [
+      "universal_applicable_rules_packs"
+    ],
+    "rag_pack_ids": [
+      "burnaby_generic_graph_pack_010"
+    ],
+    "original_pages": [
+      4
+    ],
+    "source_count": 1,
+    "char_count": 1119,
+    "rule_count": 3,
+    "skipped_count": 0,
+    "warnings": [],
+    "status": "ok",
+    "seconds": 11.907374620437622
+  }
+]
